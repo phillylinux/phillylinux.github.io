@@ -1,0 +1,8647 @@
+%!PS-Adobe-2.0
+%%Creator: neato version 1.7.16 (Wed Feb  6 02:14:53 MST 2002)
+%%For: (darxus) Debian User,,,
+%%Title: debian-keyring
+%%Pages: (atend)
+%%BoundingBox: 35 35 1401 1166
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+
+EncodingVector
+  dup 306 /AE
+  dup 301 /Aacute
+  dup 302 /Acircumflex
+  dup 304 /Adieresis
+  dup 300 /Agrave
+  dup 305 /Aring
+  dup 303 /Atilde
+  dup 307 /Ccedilla
+  dup 311 /Eacute
+  dup 312 /Ecircumflex
+  dup 313 /Edieresis
+  dup 310 /Egrave
+  dup 315 /Iacute
+  dup 316 /Icircumflex
+  dup 317 /Idieresis
+  dup 314 /Igrave
+  dup 334 /Udieresis
+  dup 335 /Yacute
+  dup 376 /thorn
+  dup 337 /germandbls
+  dup 341 /aacute
+  dup 342 /acircumflex
+  dup 344 /adieresis
+  dup 346 /ae
+  dup 340 /agrave
+  dup 345 /aring
+  dup 347 /ccedilla
+  dup 351 /eacute
+  dup 352 /ecircumflex
+  dup 353 /edieresis
+  dup 350 /egrave
+  dup 355 /iacute
+  dup 356 /icircumflex
+  dup 357 /idieresis
+  dup 354 /igrave
+  dup 360 /dcroat
+  dup 361 /ntilde
+  dup 363 /oacute
+  dup 364 /ocircumflex
+  dup 366 /odieresis
+  dup 362 /ograve
+  dup 365 /otilde
+  dup 370 /oslash
+  dup 372 /uacute
+  dup 373 /ucircumflex
+  dup 374 /udieresis
+  dup 371 /ugrave
+  dup 375 /yacute
+  dup 377 /ydieresis  
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+	dup 1 exch div /InvScaleFactor exch def
+	dup scale
+} bind def
+
+% styles
+/solid { } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw aligned label in bounding box aligned to current point
+/alignedtext {			% width adj text
+	/text exch def
+	/adj exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			text stringwidth pop adj mul 0 rmoveto
+		} if
+		[] 0 setdash
+		text show
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+1 setmiterlimit
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+setupLatin1
+%%Page: 1 1
+%%PageBoundingBox: 36 36 1401 1166
+%%PageOrientation: Portrait
+gsave
+35 35 1366 1131 boxprim clip newpath
+36 36 translate
+0 0 1 beginpage
+0 0 translate 0 rotate
+[ /CropBox [36 36 1401 1166] /PAGES pdfmark
+0.000 0.000 0.000 graphcolor
+14.00 /Times-Roman set_font
+
+%	69350CFC
+gsave 10 dict begin
+filled
+0.455 0.302 0.491 nodecolor
+445 849 44 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+445 849 44 18 ellipse_path
+stroke
+gsave 10 dict begin
+445 844 moveto 66 -0.5 (Pete Foley) alignedtext
+end grestore
+end grestore
+
+%	67A7B584
+gsave 10 dict begin
+filled
+0.844 0.342 0.943 nodecolor
+709 657 82 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+709 657 82 18 ellipse_path
+stroke
+gsave 10 dict begin
+709 652 moveto 143 -0.5 (Walter C. Mankowski) alignedtext
+end grestore
+end grestore
+
+%	69350CFC -> 67A7B584
+newpath 467 833 moveto
+514 799 624 719 678 679 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 675 678 moveto
+685 674 lineto
+678 682 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF
+gsave 10 dict begin
+filled
+0.783 0.317 0.980 nodecolor
+533 511 64 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+533 511 64 18 ellipse_path
+stroke
+gsave 10 dict begin
+533 506 moveto 106 -0.5 (Michael J. Leone) alignedtext
+end grestore
+end grestore
+
+%	69350CFC -> 5AA5BCDF
+newpath 442 831 moveto
+435 786 423 667 463 580 curveto
+472 561 487 545 501 533 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 498 532 moveto
+508 528 lineto
+501 536 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65
+gsave 10 dict begin
+filled
+0.728 0.258 0.922 nodecolor
+553 580 82 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+553 580 82 18 ellipse_path
+stroke
+gsave 10 dict begin
+553 575 moveto 142 -0.5 (Leonard D. Rosenthol) alignedtext
+end grestore
+end grestore
+
+%	69350CFC -> 80675E65
+newpath 452 831 moveto
+471 784 521 659 543 605 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 540 606 moveto
+546 598 lineto
+544 608 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D9367DD8
+gsave 10 dict begin
+filled
+0.431 0.736 0.649 nodecolor
+532 1110 103 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+532 1110 103 18 ellipse_path
+stroke
+gsave 10 dict begin
+532 1105 moveto 184 -0.5 (George E McNeal Jr \(george\)) alignedtext
+end grestore
+end grestore
+
+%	69350CFC -> D9367DD8
+newpath 450 867 moveto
+456 890 468 932 479 966 curveto
+493 1007 510 1054 521 1083 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 523 1082 moveto
+525 1092 lineto
+519 1084 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879
+gsave 10 dict begin
+filled
+0.833 0.360 1.000 nodecolor
+723 577 36 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+723 577 36 18 ellipse_path
+stroke
+gsave 10 dict begin
+723 572 moveto 50 -0.5 (Darxus) alignedtext
+end grestore
+end grestore
+
+%	69350CFC -> 0E9FF879
+newpath 459 832 moveto
+487 797 554 717 619 657 curveto
+643 635 673 612 694 597 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 691 596 moveto
+701 592 lineto
+694 600 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B
+gsave 10 dict begin
+filled
+0.549 0.290 0.765 nodecolor
+812 799 89 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+812 799 89 18 ellipse_path
+stroke
+gsave 10 dict begin
+812 794 moveto 156 -0.5 (Michael C. Toren \(MCT\)) alignedtext
+end grestore
+end grestore
+
+%	69350CFC -> 52AC566B
+newpath 487 843 moveto
+546 835 655 820 731 810 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 728 808 moveto
+738 809 lineto
+728 813 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	B0701F68
+gsave 10 dict begin
+filled
+0.457 0.589 0.833 nodecolor
+693 131 58 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+693 131 58 18 ellipse_path
+stroke
+gsave 10 dict begin
+693 126 moveto 94 -0.5 (Jesse P. Schultz) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> 67A7B584
+newpath 651 143 moveto
+639 150 629 159 629 172 curveto
+628 211 682 189 701 223 curveto
+749 313 731 350 720 451 curveto
+715 509 683 519 683 577 curveto
+684 596 690 616 697 631 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 699 629 moveto
+700 639 lineto
+694 631 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF
+gsave 10 dict begin
+filled
+0.602 0.215 0.765 nodecolor
+1072 455 47 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1072 455 47 18 ellipse_path
+stroke
+gsave 10 dict begin
+1072 450 moveto 73 -0.5 (Kristin Hill) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> 55FF8CEF
+newpath 743 122 moveto
+802 115 897 114 943 172 curveto
+977 215 934 244 953 295 curveto
+974 351 1020 404 1048 432 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1049 429 moveto
+1054 438 lineto
+1045 433 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	B0701F68 -> 5AA5BCDF
+newpath 661 146 moveto
+633 161 594 187 575 223 curveto
+530 312 529 435 532 486 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 535 483 moveto
+532 493 lineto
+530 483 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A
+gsave 10 dict begin
+filled
+0.718 0.261 0.941 nodecolor
+844 526 76 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+844 526 76 18 ellipse_path
+stroke
+gsave 10 dict begin
+844 521 moveto 131 -0.5 (gabriel rosenkoetter) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> 0CF9091A
+newpath 651 143 moveto
+639 150 629 159 629 172 curveto
+628 201 659 192 683 209 curveto
+691 215 694 215 701 223 curveto
+774 313 820 446 837 501 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 839 498 moveto
+839 508 lineto
+834 499 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296
+gsave 10 dict begin
+filled
+0.485 0.416 0.733 nodecolor
+638 223 57 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+638 223 57 18 ellipse_path
+stroke
+gsave 10 dict begin
+638 218 moveto 93 -0.5 (Jesse P. Schu;tz) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> C0630296
+newpath 656 145 moveto
+645 151 634 160 629 172 curveto
+625 180 625 190 628 199 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 629 195 moveto
+630 205 lineto
+624 196 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	1ADE9739
+gsave 10 dict begin
+filled
+0.439 0.643 0.719 nodecolor
+574 19 131 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+574 19 131 18 ellipse_path
+stroke
+gsave 10 dict begin
+574 14 moveto 241 -0.5 (Kam Salisbury \(Network Alchemist\)) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> 1ADE9739
+newpath 675 114 moveto
+655 95 623 65 600 44 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 598 46 moveto
+593 37 lineto
+602 42 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	B0701F68 -> 80675E65
+newpath 660 146 moveto
+632 161 592 187 575 223 curveto
+532 315 529 353 558 451 curveto
+567 483 603 478 603 511 curveto
+604 528 593 544 582 556 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 584 558 moveto
+575 563 lineto
+580 554 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	225B5E12
+gsave 10 dict begin
+filled
+0.471 0.338 0.604 nodecolor
+938 86 55 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+938 86 55 18 ellipse_path
+stroke
+gsave 10 dict begin
+938 81 moveto 89 -0.5 (Brian P. Mohr) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> 225B5E12
+newpath 743 122 moveto
+783 115 840 104 881 97 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 880 95 moveto
+890 95 lineto
+881 100 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8
+gsave 10 dict begin
+filled
+0.536 0.251 0.686 nodecolor
+639 451 74 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+639 451 74 18 ellipse_path
+stroke
+gsave 10 dict begin
+639 446 moveto 126 -0.5 (Ian Reinhart Geiser) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> 19BC76F8
+newpath 656 145 moveto
+626 159 586 185 575 223 curveto
+554 298 599 387 624 428 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 624 423 moveto
+627 433 lineto
+620 426 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F
+gsave 10 dict begin
+filled
+0.572 0.253 0.765 nodecolor
+1018 295 59 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1018 295 59 18 ellipse_path
+stroke
+gsave 10 dict begin
+1018 290 moveto 96 -0.5 (Danita M. Fries) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> FE4BC82F
+newpath 749 126 moveto
+804 124 887 129 943 172 curveto
+975 197 997 240 1009 268 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1011 267 moveto
+1012 277 lineto
+1006 268 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7
+gsave 10 dict begin
+filled
+0.774 0.284 0.922 nodecolor
+913 651 103 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+913 651 103 18 ellipse_path
+stroke
+gsave 10 dict begin
+913 646 moveto 185 -0.5 (Adam Schaible \(aka kb3edk\)) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> 343BB2A7
+newpath 651 143 moveto
+639 150 629 159 629 172 curveto
+628 201 659 192 683 209 curveto
+691 215 694 216 701 223 curveto
+730 253 917 485 928 526 curveto
+937 559 929 599 921 625 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 924 624 moveto
+919 633 lineto
+919 623 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8DAC6BEA
+gsave 10 dict begin
+filled
+0.870 0.150 0.629 nodecolor
+1124 363 99 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1124 363 99 18 ellipse_path
+stroke
+gsave 10 dict begin
+1124 358 moveto 176 -0.5 (Kevin Mudrick \(darkspur\)) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> 8DAC6BEA
+newpath 751 130 moveto
+804 131 883 139 943 172 curveto
+1015 213 1030 232 1083 295 curveto
+1094 308 1104 324 1111 337 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1113 335 moveto
+1115 345 lineto
+1108 337 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	B0701F68 -> 0E9FF879
+newpath 651 143 moveto
+639 150 629 159 629 172 curveto
+628 211 682 189 701 223 curveto
+760 333 740 490 729 551 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 732 550 moveto
+727 559 lineto
+727 549 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919
+gsave 10 dict begin
+filled
+0.702 0.218 0.863 nodecolor
+920 425 51 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+920 425 51 18 ellipse_path
+stroke
+gsave 10 dict begin
+920 420 moveto 81 -0.5 (Jason Nocks) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> F0A0A919
+newpath 651 143 moveto
+639 150 629 159 629 172 curveto
+628 201 659 192 683 209 curveto
+691 215 693 217 701 223 curveto
+776 286 858 366 898 403 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 898 399 moveto
+903 408 lineto
+894 403 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	64715094
+gsave 10 dict begin
+filled
+0.498 0.198 0.570 nodecolor
+832 44 63 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+832 44 63 18 ellipse_path
+stroke
+gsave 10 dict begin
+832 39 moveto 105 -0.5 (Michael Hunter) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> 64715094
+newpath 719 115 moveto
+742 102 774 81 798 65 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 796 63 moveto
+806 60 lineto
+799 67 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80
+gsave 10 dict begin
+filled
+0.474 0.475 0.762 nodecolor
+786 172 143 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+786 172 143 18 ellipse_path
+stroke
+gsave 10 dict begin
+786 167 moveto 265 -0.5 (Jesse Paul Schultz \(JPSchultz Consulting\)) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> 2682BC80
+newpath 727 146 moveto
+731 148 736 150 740 152 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 738 148 moveto
+746 155 lineto
+736 153 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D72CB41E
+gsave 10 dict begin
+filled
+0.464 0.448 0.673 nodecolor
+1076 169 69 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1076 169 69 18 ellipse_path
+stroke
+gsave 10 dict begin
+1076 164 moveto 116 -0.5 (Christophe Barbe) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> D72CB41E
+newpath 748 136 moveto
+816 143 930 154 1004 162 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1001 159 moveto
+1011 163 lineto
+1001 164 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8060510A
+gsave 10 dict begin
+filled
+0.481 0.241 0.565 nodecolor
+414 290 51 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+414 290 51 18 ellipse_path
+stroke
+gsave 10 dict begin
+414 285 moveto 81 -0.5 (Chris Beggy) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> 8060510A
+newpath 665 147 moveto
+614 176 504 238 448 271 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 451 272 moveto
+441 275 lineto
+448 268 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46
+gsave 10 dict begin
+filled
+0.680 0.145 0.725 nodecolor
+887 324 58 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+887 324 58 18 ellipse_path
+stroke
+gsave 10 dict begin
+887 319 moveto 94 -0.5 (John J Lavin Jr) alignedtext
+end grestore
+end grestore
+
+%	B0701F68 -> 2BA48C46
+newpath 650 143 moveto
+638 150 629 159 629 172 curveto
+629 178 782 266 853 305 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 851 301 moveto
+859 308 lineto
+849 306 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584 -> 69350CFC
+newpath 685 674 moveto
+636 710 526 790 474 828 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 477 829 moveto
+467 833 lineto
+474 825 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584 -> 55FF8CEF
+newpath 739 640 moveto
+807 603 969 513 1039 473 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1035 472 moveto
+1045 470 lineto
+1037 477 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	54065FA3
+gsave 10 dict begin
+filled
+0.477 0.387 0.373 nodecolor
+438 134 116 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+438 134 116 18 ellipse_path
+stroke
+gsave 10 dict begin
+438 129 moveto 210 -0.5 (Charles F. Peters II \(Chuck Peters\)) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 54065FA3
+newpath 696 639 moveto
+676 611 637 557 603 511 curveto
+583 484 574 480 558 451 curveto
+502 349 461 215 445 159 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 443 162 moveto
+443 152 lineto
+448 161 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584 -> 5AA5BCDF
+newpath 696 639 moveto
+683 623 664 598 643 580 curveto
+621 561 593 544 571 531 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 571 534 moveto
+564 527 lineto
+574 530 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584 -> 0CF9091A
+newpath 727 639 moveto
+751 617 794 575 821 549 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 817 549 moveto
+826 544 lineto
+821 553 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	CBAC94EA
+gsave 10 dict begin
+filled
+0.464 0.448 0.673 nodecolor
+1287 488 76 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1287 488 76 18 ellipse_path
+stroke
+gsave 10 dict begin
+1287 483 moveto 131 -0.5 (Michael Bevilacqua) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> CBAC94EA
+newpath 758 643 moveto
+866 612 1121 537 1232 504 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1229 502 moveto
+1239 502 lineto
+1230 507 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	742B67FE
+gsave 10 dict begin
+filled
+0.472 0.384 0.649 nodecolor
+1225 764 64 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1225 764 64 18 ellipse_path
+stroke
+gsave 10 dict begin
+1225 759 moveto 107 -0.5 (Eric Allan Lucas) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 742B67FE
+newpath 769 669 moveto
+868 690 1065 731 1164 751 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1164 748 moveto
+1173 753 lineto
+1163 753 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8477626F
+gsave 10 dict begin
+filled
+0.472 0.384 0.649 nodecolor
+1284 624 52 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1284 624 52 18 ellipse_path
+stroke
+gsave 10 dict begin
+1284 619 moveto 82 -0.5 (Mike Joseph) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 8477626F
+newpath 772 646 moveto
+792 642 814 639 834 637 curveto
+973 621 1138 621 1224 623 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1222 621 moveto
+1232 623 lineto
+1222 626 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584 -> 80675E65
+newpath 676 640 moveto
+653 628 620 613 595 600 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 595 603 moveto
+587 596 lineto
+597 598 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F1AE6BBC
+gsave 10 dict begin
+filled
+0.431 0.736 0.649 nodecolor
+374 964 82 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+374 964 82 18 ellipse_path
+stroke
+gsave 10 dict begin
+374 959 moveto 143 -0.5 (M. Jackson Wilkinson) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> F1AE6BBC
+newpath 690 675 moveto
+632 727 462 882 399 941 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 402 942 moveto
+393 946 lineto
+399 938 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52703839
+gsave 10 dict begin
+filled
+0.434 0.692 0.649 nodecolor
+155 520 54 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+155 520 54 18 ellipse_path
+stroke
+gsave 10 dict begin
+155 515 moveto 86 -0.5 (Mike Phillips) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 52703839
+newpath 654 643 moveto
+548 617 313 560 208 533 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 208 536 moveto
+199 531 lineto
+209 531 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD
+gsave 10 dict begin
+filled
+0.498 0.317 0.669 nodecolor
+1147 655 41 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1147 655 41 18 ellipse_path
+stroke
+gsave 10 dict begin
+1147 650 moveto 61 -0.5 (Bill Jonas) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 116F0CBD
+newpath 784 665 moveto
+822 668 870 671 912 671 curveto
+978 671 1054 665 1101 660 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1097 658 moveto
+1107 659 lineto
+1098 663 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2AB165F9
+gsave 10 dict begin
+filled
+0.431 0.736 0.649 nodecolor
+1071 1028 57 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1071 1028 57 18 ellipse_path
+stroke
+gsave 10 dict begin
+1071 1023 moveto 92 -0.5 (Paul L. Snyder) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 2AB165F9
+newpath 739 674 moveto
+781 698 857 746 910 799 curveto
+976 865 1034 960 1058 1004 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1059 1000 moveto
+1061 1010 lineto
+1054 1002 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584 -> 19BC76F8
+newpath 703 639 moveto
+691 602 663 520 648 477 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 646 479 moveto
+645 469 lineto
+651 477 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584 -> FE4BC82F
+newpath 726 639 moveto
+739 624 756 601 763 577 curveto
+769 555 752 547 760 526 curveto
+801 423 917 349 979 315 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 977 313 moveto
+987 310 lineto
+980 317 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584 -> 343BB2A7
+newpath 791 655 moveto
+795 655 798 655 802 655 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 802 653 moveto
+812 654 lineto
+802 657 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584 -> D9367DD8
+newpath 706 675 moveto
+696 723 668 860 621 966 curveto
+611 989 572 1050 549 1085 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 552 1085 moveto
+544 1092 lineto
+548 1082 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584 -> 8DAC6BEA
+newpath 740 640 moveto
+784 617 864 572 928 526 curveto
+961 502 1052 424 1098 386 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1095 385 moveto
+1104 381 lineto
+1098 389 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7262954A
+gsave 10 dict begin
+filled
+0.440 0.624 0.684 nodecolor
+741 1045 45 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+741 1045 45 18 ellipse_path
+stroke
+gsave 10 dict begin
+741 1040 moveto 68 -0.5 (John Beck) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 7262954A
+newpath 709 675 moveto
+710 702 711 755 714 799 curveto
+720 879 731 973 738 1018 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 740 1017 moveto
+739 1027 lineto
+735 1017 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584 -> 0E9FF879
+newpath 712 639 moveto
+714 629 716 616 718 604 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 715 604 moveto
+720 595 lineto
+720 605 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584 -> 52AC566B
+newpath 722 675 moveto
+741 700 774 747 795 775 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 796 771 moveto
+799 781 lineto
+791 774 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584 -> F0A0A919
+newpath 726 639 moveto
+739 624 756 601 763 577 curveto
+769 555 750 546 760 526 curveto
+783 482 835 455 873 440 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 871 438 moveto
+881 437 lineto
+873 443 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	33E3FE56
+gsave 10 dict begin
+filled
+0.441 0.604 0.649 nodecolor
+550 966 65 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+550 966 65 18 ellipse_path
+stroke
+gsave 10 dict begin
+550 961 moveto 108 -0.5 (David M. Turner) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 33E3FE56
+newpath 700 675 moveto
+673 728 594 879 563 940 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 566 940 moveto
+559 948 lineto
+561 938 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	56C84DC3
+gsave 10 dict begin
+filled
+0.472 0.384 0.649 nodecolor
+1122 831 81 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1122 831 81 18 ellipse_path
+stroke
+gsave 10 dict begin
+1122 826 moveto 140 -0.5 (Elizabeth Krumbach) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 56C84DC3
+newpath 747 673 moveto
+823 705 994 778 1077 812 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1076 809 moveto
+1084 815 lineto
+1074 813 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7994A571
+gsave 10 dict begin
+filled
+0.431 0.736 0.649 nodecolor
+165 363 89 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+165 363 89 18 ellipse_path
+stroke
+gsave 10 dict begin
+165 358 moveto 156 -0.5 (Tony Dominello \(Tony\)) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 7994A571
+newpath 652 644 moveto
+607 633 543 616 489 594 curveto
+364 542 241 435 190 387 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 189 389 moveto
+183 381 lineto
+192 386 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	54DA9506
+gsave 10 dict begin
+filled
+0.431 0.736 0.649 nodecolor
+210 718 111 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+210 718 111 18 ellipse_path
+stroke
+gsave 10 dict begin
+210 713 moveto 201 -0.5 (Joseph B. Welsh \(Work E-Mail\)) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 54DA9506
+newpath 637 666 moveto
+551 677 404 695 308 706 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 309 708 moveto
+299 707 lineto
+309 703 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584 -> 8060510A
+newpath 697 639 moveto
+678 611 639 556 603 511 curveto
+544 436 470 352 435 312 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 435 316 moveto
+430 307 lineto
+439 312 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584 -> 2BA48C46
+newpath 726 639 moveto
+739 624 756 601 763 577 curveto
+769 555 755 548 760 526 curveto
+779 455 833 385 865 348 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 863 347 moveto
+871 341 lineto
+866 350 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C1A6C2DC
+gsave 10 dict begin
+filled
+0.434 0.686 0.728 nodecolor
+860 993 73 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+860 993 73 18 ellipse_path
+stroke
+gsave 10 dict begin
+860 988 moveto 124 -0.5 (Zachary C Whitley) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> C1A6C2DC
+newpath 706 675 moveto
+703 703 699 756 714 799 curveto
+740 871 801 938 836 972 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 835 968 moveto
+841 976 lineto
+832 972 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB7F41B4
+gsave 10 dict begin
+filled
+0.437 0.648 0.649 nodecolor
+664 1002 55 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+664 1002 55 18 ellipse_path
+stroke
+gsave 10 dict begin
+664 997 moveto 89 -0.5 (Brian Epstein) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> DB7F41B4
+newpath 707 675 moveto
+699 731 676 907 667 975 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 670 974 moveto
+666 984 lineto
+665 974 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> B0701F68
+newpath 1054 438 moveto
+1027 411 975 355 953 295 curveto
+934 244 977 215 943 172 curveto
+899 117 810 115 751 121 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 753 123 moveto
+743 122 lineto
+753 118 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 67A7B584
+newpath 1045 470 moveto
+981 506 819 596 745 636 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 749 637 moveto
+739 640 lineto
+746 632 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 5AA5BCDF
+newpath 1027 460 moveto
+933 470 715 492 603 504 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 603 506 moveto
+593 505 lineto
+603 502 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 0CF9091A
+newpath 1035 466 moveto
+999 477 941 495 899 509 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 900 511 moveto
+890 512 lineto
+899 506 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> CBAC94EA
+newpath 1116 462 moveto
+1145 466 1183 472 1216 477 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1213 474 moveto
+1223 478 lineto
+1213 479 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> C0630296
+newpath 1043 441 moveto
+999 419 914 376 842 338 curveto
+782 306 714 267 673 244 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 672 246 moveto
+665 239 lineto
+675 242 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 742B67FE
+newpath 1084 472 moveto
+1108 506 1160 583 1192 655 curveto
+1205 683 1214 716 1219 739 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1221 736 moveto
+1221 746 lineto
+1216 737 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 8477626F
+newpath 1093 472 moveto
+1131 503 1215 569 1257 603 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1256 599 moveto
+1263 607 lineto
+1253 604 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 80675E65
+newpath 1029 462 moveto
+972 472 871 491 785 512 curveto
+724 527 657 547 610 562 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 610 565 moveto
+600 565 lineto
+609 560 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 225B5E12
+newpath 1054 438 moveto
+1027 411 975 355 953 295 curveto
+951 290 943 166 939 111 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 937 114 moveto
+939 104 lineto
+942 114 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 116F0CBD
+newpath 1079 473 moveto
+1092 508 1122 587 1137 629 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1139 627 moveto
+1140 637 lineto
+1134 629 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> FE4BC82F
+newpath 1057 438 moveto
+1043 420 1022 392 1015 363 curveto
+1011 350 1011 335 1013 322 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1010 323 moveto
+1014 313 lineto
+1015 323 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 343BB2A7
+newpath 1058 472 moveto
+1029 507 964 587 932 628 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 936 627 moveto
+928 633 lineto
+932 624 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 8DAC6BEA
+newpath 1082 437 moveto
+1090 423 1101 404 1109 389 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1107 388 moveto
+1114 381 lineto
+1111 391 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 0E9FF879
+newpath 1047 470 moveto
+1014 489 956 521 903 540 curveto
+857 556 803 566 766 572 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 768 574 moveto
+758 573 lineto
+768 569 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 52AC566B
+newpath 1072 473 moveto
+1071 510 1065 594 1026 651 curveto
+984 713 907 756 858 780 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 861 781 moveto
+851 783 lineto
+859 777 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> F0A0A919
+newpath 1030 447 moveto
+1013 444 992 439 974 436 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 973 438 moveto
+964 434 lineto
+974 434 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 56C84DC3
+newpath 1074 473 moveto
+1082 534 1109 737 1119 807 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1121 803 moveto
+1120 813 lineto
+1116 804 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 64715094
+newpath 1054 438 moveto
+1027 411 975 355 953 295 curveto
+934 244 964 223 943 172 curveto
+934 148 885 97 856 67 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 855 70 moveto
+850 61 lineto
+859 66 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 2682BC80
+newpath 1057 438 moveto
+1034 412 990 363 951 324 curveto
+903 277 846 225 813 196 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 812 198 moveto
+806 190 lineto
+815 195 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> D72CB41E
+newpath 1053 439 moveto
+1035 421 1012 393 1015 363 curveto
+1020 321 1068 335 1083 295 curveto
+1096 263 1090 222 1084 195 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1082 197 moveto
+1082 187 lineto
+1087 196 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	55FF8CEF -> 2BA48C46
+newpath 1049 439 moveto
+1016 416 955 372 918 346 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 917 348 moveto
+910 341 lineto
+920 344 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	54065FA3 -> 2BA48C46
+newpath 501 149 moveto
+551 162 623 183 683 209 curveto
+747 237 817 279 857 305 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 855 301 moveto
+862 308 lineto
+852 305 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	B3EA8E22
+gsave 10 dict begin
+filled
+0.500 0.571 0.333 nodecolor
+118 668 117 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+118 668 117 18 ellipse_path
+stroke
+gsave 10 dict begin
+118 663 moveto 212 -0.5 (Chris Fearnley \(Dare to be Naïve\)) alignedtext
+end grestore
+end grestore
+
+%	5AA5BCDF -> 69350CFC
+newpath 508 528 moveto
+492 540 473 558 463 580 curveto
+425 663 434 775 441 825 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 443 821 moveto
+442 831 lineto
+438 822 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> B0701F68
+newpath 532 493 moveto
+529 446 528 316 575 223 curveto
+592 191 625 166 652 151 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 651 149 moveto
+661 146 lineto
+653 153 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 67A7B584
+newpath 564 527 moveto
+587 540 618 559 643 580 curveto
+661 596 678 617 691 633 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 692 630 moveto
+696 639 lineto
+688 633 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 55FF8CEF
+newpath 593 505 moveto
+699 493 917 471 1018 461 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1017 459 moveto
+1027 460 lineto
+1017 464 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 54065FA3
+newpath 528 493 moveto
+513 432 463 235 445 161 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 443 162 moveto
+443 152 lineto
+448 161 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> B3EA8E22
+newpath 495 525 moveto
+420 553 254 616 170 648 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 172 650 moveto
+162 651 lineto
+170 645 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	EB281E23
+gsave 10 dict begin
+filled
+0.415 0.886 0.754 nodecolor
+204 290 67 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+204 290 67 18 ellipse_path
+stroke
+gsave 10 dict begin
+204 285 moveto 112 -0.5 (Alexander Shinn) alignedtext
+end grestore
+end grestore
+
+%	5AA5BCDF -> EB281E23
+newpath 508 494 moveto
+450 455 304 357 238 313 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 236 315 moveto
+229 307 lineto
+239 310 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 0CF9091A
+newpath 596 514 moveto
+644 516 711 520 762 522 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 759 520 moveto
+769 522 lineto
+759 525 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> C0630296
+newpath 540 493 moveto
+558 443 608 306 628 248 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 625 249 moveto
+631 241 lineto
+629 251 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 1ADE9739
+newpath 535 493 moveto
+540 439 554 272 566 134 curveto
+569 103 571 68 572 45 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 569 47 moveto
+573 37 lineto
+574 47 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 80675E65
+newpath 538 529 moveto
+540 537 543 547 546 556 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 547 552 moveto
+548 562 lineto
+542 553 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 225B5E12
+newpath 538 493 moveto
+542 480 548 464 558 451 curveto
+688 285 853 363 943 172 curveto
+952 153 950 130 946 112 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 944 114 moveto
+944 104 lineto
+949 113 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> F1AE6BBC
+newpath 510 528 moveto
+494 541 474 559 463 580 curveto
+394 700 378 872 375 938 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 378 936 moveto
+375 946 lineto
+373 936 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 52703839
+newpath 469 513 moveto
+399 514 288 517 218 519 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 219 522 moveto
+209 519 lineto
+219 517 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0FCC27C6
+gsave 10 dict begin
+filled
+0.447 0.884 0.491 nodecolor
+210 959 45 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+210 959 45 18 ellipse_path
+stroke
+gsave 10 dict begin
+210 954 moveto 68 -0.5 (David Coe) alignedtext
+end grestore
+end grestore
+
+%	5AA5BCDF -> 0FCC27C6
+newpath 513 528 moveto
+499 542 479 561 463 580 curveto
+361 703 261 869 225 933 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 227 934 moveto
+220 941 lineto
+223 931 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 19BC76F8
+newpath 562 495 moveto
+574 488 589 480 602 473 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 600 471 moveto
+610 468 lineto
+603 475 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> FE4BC82F
+newpath 583 500 moveto
+616 492 659 480 696 465 curveto
+806 421 927 351 984 316 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 982 314 moveto
+992 311 lineto
+985 318 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 343BB2A7
+newpath 562 527 moveto
+594 545 647 572 695 591 curveto
+743 609 797 624 840 635 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 840 632 moveto
+849 637 lineto
+839 637 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> D9367DD8
+newpath 507 528 moveto
+490 540 470 558 463 580 curveto
+423 693 494 729 493 849 curveto
+493 901 473 914 479 966 curveto
+484 1011 505 1058 519 1086 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 520 1082 moveto
+522 1092 lineto
+515 1084 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 8DAC6BEA
+newpath 579 498 moveto
+612 489 657 476 696 465 curveto
+778 442 797 431 880 411 curveto
+935 398 998 385 1045 376 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1042 374 moveto
+1052 375 lineto
+1042 379 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 7262954A
+newpath 578 524 moveto
+603 534 633 552 643 580 curveto
+656 614 619 621 619 657 curveto
+619 695 705 941 733 1020 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 735 1017 moveto
+735 1027 lineto
+730 1018 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 0E9FF879
+newpath 573 525 moveto
+607 536 654 553 686 565 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 684 562 moveto
+693 567 lineto
+683 567 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 52AC566B
+newpath 565 527 moveto
+633 560 785 635 799 657 curveto
+822 692 820 744 816 775 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 819 772 moveto
+815 781 lineto
+814 771 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> F0A0A919
+newpath 584 500 moveto
+658 483 796 453 869 436 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 866 434 moveto
+876 435 lineto
+866 439 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 33E3FE56
+newpath 505 528 moveto
+489 540 469 558 463 580 curveto
+443 650 515 868 541 942 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 542 938 moveto
+543 948 lineto
+537 939 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 7994A571
+newpath 496 496 moveto
+429 469 286 412 212 382 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 213 385 moveto
+205 379 lineto
+215 381 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 64715094
+newpath 532 493 moveto
+529 446 528 316 575 223 curveto
+590 194 600 188 629 172 curveto
+672 147 692 165 738 145 curveto
+747 141 749 138 757 131 curveto
+778 111 799 86 814 68 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 811 68 moveto
+819 62 lineto
+815 71 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 2682BC80
+newpath 539 493 moveto
+543 481 550 464 558 451 curveto
+619 348 717 242 762 196 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 759 195 moveto
+768 190 lineto
+763 199 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> D72CB41E
+newpath 537 493 moveto
+541 480 548 463 558 451 curveto
+566 442 571 443 582 437 curveto
+751 342 955 233 1038 189 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1035 188 moveto
+1045 185 lineto
+1038 192 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 54DA9506
+newpath 507 528 moveto
+450 564 312 653 246 694 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 247 697 moveto
+237 700 lineto
+244 692 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> 8060510A
+newpath 523 493 moveto
+502 454 453 362 429 317 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 427 318 moveto
+424 308 lineto
+431 316 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> C1A6C2DC
+newpath 578 524 moveto
+603 534 633 552 643 580 curveto
+656 614 614 622 619 657 curveto
+639 799 774 923 833 972 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 832 968 moveto
+838 976 lineto
+829 972 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5AA5BCDF -> DB7F41B4
+newpath 578 524 moveto
+603 534 633 552 643 580 curveto
+656 614 622 621 619 657 curveto
+608 776 642 919 657 976 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 659 974 moveto
+659 984 lineto
+654 975 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	EB281E23 -> B3EA8E22
+newpath 226 307 moveto
+241 320 259 340 263 363 curveto
+284 475 188 594 142 644 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 145 645 moveto
+136 650 lineto
+141 641 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	EB281E23 -> 5AA5BCDF
+newpath 229 307 moveto
+288 347 438 447 502 490 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 501 486 moveto
+508 494 lineto
+498 491 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	EB281E23 -> 0E9FF879
+newpath 234 306 moveto
+299 341 454 424 583 497 curveto
+621 518 666 543 693 560 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 691 556 moveto
+699 563 lineto
+689 561 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	EB281E23 -> 52AC566B
+newpath 219 308 moveto
+265 364 408 533 463 580 curveto
+566 666 705 744 773 779 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 771 775 moveto
+779 782 lineto
+769 780 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 69350CFC
+newpath 821 543 moveto
+803 557 776 576 751 591 curveto
+694 624 671 617 619 657 curveto
+554 707 493 785 463 824 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 465 826 moveto
+457 832 lineto
+461 823 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> B0701F68
+newpath 839 508 moveto
+824 458 777 317 701 223 curveto
+694 215 691 215 683 209 curveto
+659 192 628 201 629 172 curveto
+629 161 636 153 645 147 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 641 146 moveto
+651 143 lineto
+644 151 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 67A7B584
+newpath 826 544 moveto
+802 566 759 608 732 634 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 736 634 moveto
+727 639 lineto
+732 630 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 55FF8CEF
+newpath 890 512 moveto
+930 500 988 482 1027 469 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1025 467 moveto
+1035 466 lineto
+1027 472 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 54065FA3
+newpath 826 508 moveto
+761 445 539 231 463 158 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 462 161 moveto
+457 152 lineto
+466 157 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 5AA5BCDF
+newpath 770 522 moveto
+721 520 656 517 606 514 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 606 517 moveto
+596 514 lineto
+606 512 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> CBAC94EA
+newpath 916 520 moveto
+996 513 1125 502 1208 495 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1205 493 moveto
+1215 494 lineto
+1205 498 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> C0630296
+newpath 832 508 moveto
+797 456 696 309 655 249 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 653 251 moveto
+650 241 lineto
+657 248 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 1ADE9739
+newpath 839 508 moveto
+824 458 777 317 701 223 curveto
+676 192 653 203 629 172 curveto
+599 133 584 76 578 44 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 576 47 moveto
+577 37 lineto
+581 47 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 742B67FE
+newpath 871 543 moveto
+939 586 1118 697 1192 743 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1192 740 moveto
+1199 747 lineto
+1189 744 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 8477626F
+newpath 900 538 moveto
+985 557 1149 594 1233 612 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1231 609 moveto
+1240 614 lineto
+1230 614 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 80675E65
+newpath 784 537 moveto
+737 546 672 558 623 567 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 626 569 moveto
+616 568 lineto
+626 564 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 225B5E12
+newpath 845 508 moveto
+846 487 851 452 864 425 curveto
+890 372 932 380 951 324 curveto
+958 304 946 169 941 111 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 939 114 moveto
+940 104 lineto
+944 114 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 116F0CBD
+newpath 881 542 moveto
+939 567 1051 615 1109 639 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1109 636 moveto
+1117 642 lineto
+1107 641 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 19BC76F8
+newpath 803 511 moveto
+769 499 723 482 687 469 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 688 472 moveto
+680 466 lineto
+690 468 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> FE4BC82F
+newpath 876 510 moveto
+906 492 951 463 976 425 curveto
+998 394 1009 350 1014 322 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1011 323 moveto
+1015 313 lineto
+1016 323 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 343BB2A7
+newpath 854 544 moveto
+866 565 886 601 899 625 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 901 623 moveto
+903 633 lineto
+896 625 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 8DAC6BEA
+newpath 873 509 moveto
+924 479 1030 418 1086 384 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1084 382 moveto
+1094 380 lineto
+1086 387 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 7262954A
+newpath 836 544 moveto
+826 568 808 612 800 651 curveto
+799 654 800 654 799 657 curveto
+777 727 730 727 714 799 curveto
+697 879 721 977 733 1021 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 734 1017 moveto
+735 1027 lineto
+729 1018 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 0E9FF879
+newpath 807 542 moveto
+792 549 774 556 759 562 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 761 564 moveto
+751 565 lineto
+759 559 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 52AC566B
+newpath 835 544 moveto
+823 568 805 611 800 651 curveto
+798 662 805 734 809 773 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 811 771 moveto
+810 781 lineto
+806 771 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> F0A0A919
+newpath 858 508 moveto
+869 492 888 468 902 450 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 899 450 moveto
+907 443 lineto
+903 453 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 33E3FE56
+newpath 836 544 moveto
+826 568 808 612 800 651 curveto
+799 654 800 654 799 657 curveto
+773 723 627 884 571 944 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 575 944 moveto
+566 949 lineto
+571 940 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 56C84DC3
+newpath 877 542 moveto
+916 563 983 602 1026 651 curveto
+1069 699 1099 769 1113 806 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1114 803 moveto
+1116 813 lineto
+1110 805 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 64715094
+newpath 845 508 moveto
+846 487 851 452 864 425 curveto
+890 372 932 380 951 324 curveto
+956 308 950 188 943 172 curveto
+934 148 885 97 856 67 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 855 70 moveto
+850 61 lineto
+859 66 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 2682BC80
+newpath 841 508 moveto
+831 450 802 268 790 199 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 788 200 moveto
+789 190 lineto
+793 200 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> D72CB41E
+newpath 845 508 moveto
+846 487 851 452 864 425 curveto
+890 372 928 379 951 324 curveto
+956 312 948 307 953 295 curveto
+973 251 1016 213 1045 191 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1042 190 moveto
+1051 186 lineto
+1045 194 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 8060510A
+newpath 816 509 moveto
+791 494 753 471 720 451 curveto
+710 445 708 443 697 437 curveto
+610 388 505 336 451 309 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 451 312 moveto
+444 305 lineto
+454 308 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 2BA48C46
+newpath 847 508 moveto
+851 488 858 454 864 425 curveto
+869 399 876 370 881 350 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 878 351 moveto
+883 342 lineto
+883 352 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> C1A6C2DC
+newpath 831 544 moveto
+816 568 794 612 800 651 curveto
+812 732 894 719 910 799 curveto
+922 860 892 931 874 968 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 877 968 moveto
+870 975 lineto
+873 965 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> DB7F41B4
+newpath 836 544 moveto
+826 568 808 612 800 651 curveto
+799 654 800 654 799 657 curveto
+777 727 742 731 714 799 curveto
+689 860 674 937 668 976 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 671 974 moveto
+667 984 lineto
+666 974 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	CBAC94EA -> 67A7B584
+newpath 1239 502 moveto
+1132 533 878 608 765 641 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 768 643 moveto
+758 643 lineto
+767 638 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	CBAC94EA -> 55FF8CEF
+newpath 1223 478 moveto
+1192 474 1155 467 1126 463 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1126 465 moveto
+1116 462 lineto
+1126 461 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	CBAC94EA -> 0CF9091A
+newpath 1215 494 moveto
+1135 501 1006 512 923 519 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 926 521 moveto
+916 520 lineto
+926 516 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	CBAC94EA -> 742B67FE
+newpath 1276 506 moveto
+1262 531 1237 579 1227 624 curveto
+1219 663 1221 709 1222 737 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1224 736 moveto
+1223 746 lineto
+1219 736 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	CBAC94EA -> 8477626F
+newpath 1287 506 moveto
+1286 529 1285 571 1284 598 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1287 596 moveto
+1284 606 lineto
+1282 596 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	CBAC94EA -> 116F0CBD
+newpath 1272 506 moveto
+1247 536 1195 597 1167 631 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1169 632 moveto
+1161 638 lineto
+1166 629 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	CBAC94EA -> FE4BC82F
+newpath 1283 470 moveto
+1277 443 1263 393 1233 363 curveto
+1195 324 1133 307 1086 300 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1086 302 moveto
+1076 299 lineto
+1086 298 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	CBAC94EA -> 343BB2A7
+newpath 1250 504 moveto
+1181 534 1033 599 958 631 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 961 632 moveto
+951 634 lineto
+959 628 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	CBAC94EA -> 8DAC6BEA
+newpath 1264 471 moveto
+1236 449 1185 410 1154 386 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1154 389 moveto
+1147 381 lineto
+1157 385 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	CBAC94EA -> 0E9FF879
+newpath 1224 498 moveto
+1108 516 865 555 767 571 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 768 573 moveto
+758 572 lineto
+768 568 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	CBAC94EA -> 52AC566B
+newpath 1261 505 moveto
+1181 557 937 717 846 777 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 848 779 moveto
+838 782 lineto
+845 775 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	CBAC94EA -> F0A0A919
+newpath 1242 473 moveto
+1199 460 1132 442 1072 435 curveto
+1042 432 1009 430 980 428 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 981 431 moveto
+971 427 lineto
+981 426 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	CBAC94EA -> 56C84DC3
+newpath 1278 506 moveto
+1251 562 1167 737 1135 804 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1137 805 moveto
+1131 813 lineto
+1133 803 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	CBAC94EA -> 2BA48C46
+newpath 1249 472 moveto
+1174 441 1007 373 929 341 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 930 344 moveto
+922 338 lineto
+932 340 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> B0701F68
+newpath 630 205 moveto
+626 195 624 182 629 172 curveto
+633 162 641 154 650 148 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 646 147 moveto
+656 145 lineto
+648 152 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> 67A7B584
+newpath 649 241 moveto
+671 278 718 368 720 451 curveto
+722 509 683 519 683 577 curveto
+684 596 690 616 697 631 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 699 629 moveto
+700 639 lineto
+694 631 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> 55FF8CEF
+newpath 665 239 moveto
+704 261 778 304 842 338 curveto
+911 374 991 415 1037 438 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1035 434 moveto
+1043 441 lineto
+1033 439 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> 5AA5BCDF
+newpath 631 241 moveto
+613 291 563 428 543 486 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 546 485 moveto
+540 493 lineto
+542 483 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> 0CF9091A
+newpath 650 241 moveto
+684 292 785 440 827 500 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 829 498 moveto
+832 508 lineto
+825 501 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> 1ADE9739
+newpath 632 205 moveto
+621 169 596 88 583 45 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 581 47 moveto
+580 37 lineto
+586 45 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> 80675E65
+newpath 625 241 moveto
+599 278 545 369 558 451 curveto
+563 484 603 478 603 511 curveto
+604 528 593 544 582 556 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 584 558 moveto
+575 563 lineto
+580 554 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> 225B5E12
+newpath 629 205 moveto
+625 195 623 182 629 172 curveto
+640 153 655 163 676 158 curveto
+703 151 710 152 738 145 curveto
+790 132 850 115 891 102 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 889 100 moveto
+899 99 lineto
+891 105 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> 19BC76F8
+newpath 638 241 moveto
+638 282 639 381 639 427 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 642 423 moveto
+639 433 lineto
+637 423 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> FE4BC82F
+newpath 687 232 moveto
+758 246 886 270 961 284 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 958 281 moveto
+968 285 lineto
+958 286 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> 343BB2A7
+newpath 644 241 moveto
+663 299 724 477 760 526 curveto
+792 570 843 607 877 629 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 877 626 moveto
+884 634 lineto
+874 630 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> 8DAC6BEA
+newpath 680 235 moveto
+766 259 962 316 1062 345 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1062 342 moveto
+1071 348 lineto
+1061 347 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> 0E9FF879
+newpath 647 241 moveto
+665 279 705 370 720 451 curveto
+727 485 726 525 725 551 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 728 549 moveto
+725 559 lineto
+723 549 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> F0A0A919
+newpath 661 240 moveto
+712 276 834 363 890 404 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 890 401 moveto
+897 409 lineto
+887 405 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> 64715094
+newpath 629 205 moveto
+625 195 623 182 629 172 curveto
+634 164 733 147 738 145 curveto
+773 130 801 94 817 70 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 815 69 moveto
+822 62 lineto
+819 72 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> 2682BC80
+newpath 677 210 moveto
+693 204 712 197 731 191 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 727 190 moveto
+737 189 lineto
+728 195 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> D72CB41E
+newpath 691 216 moveto
+770 206 918 188 1006 178 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1004 176 moveto
+1014 177 lineto
+1004 181 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> 8060510A
+newpath 596 235 moveto
+559 247 501 264 461 276 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 463 278 moveto
+453 278 lineto
+462 273 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C0630296 -> 2BA48C46
+newpath 673 237 moveto
+719 255 797 287 845 307 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 844 304 moveto
+852 310 lineto
+842 308 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	1ADE9739 -> 67A7B584
+newpath 573 37 moveto
+567 114 545 411 558 451 curveto
+568 483 583 484 603 511 curveto
+635 554 671 604 692 633 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 693 629 moveto
+696 639 lineto
+688 632 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	1ADE9739 -> 5AA5BCDF
+newpath 573 37 moveto
+571 60 569 100 566 134 curveto
+555 266 541 424 536 485 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 539 483 moveto
+535 493 lineto
+534 483 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	1ADE9739 -> 0CF9091A
+newpath 577 37 moveto
+582 68 597 130 629 172 curveto
+653 203 676 192 701 223 curveto
+774 313 820 446 837 501 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 839 498 moveto
+839 508 lineto
+834 499 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	1ADE9739 -> C0630296
+newpath 580 37 moveto
+591 73 616 154 629 197 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 631 195 moveto
+632 205 lineto
+626 197 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	1ADE9739 -> 225B5E12
+newpath 651 34 moveto
+691 41 739 50 783 58 curveto
+817 65 854 71 884 76 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 881 73 moveto
+890 77 lineto
+880 78 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	1ADE9739 -> 19BC76F8
+newpath 573 37 moveto
+570 73 566 155 575 223 curveto
+586 298 614 383 629 425 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 631 423 moveto
+632 433 lineto
+626 425 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	1ADE9739 -> FE4BC82F
+newpath 644 34 moveto
+724 54 855 97 943 172 curveto
+974 199 996 241 1008 268 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1010 267 moveto
+1011 277 lineto
+1005 268 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	1ADE9739 -> F0A0A919
+newpath 577 37 moveto
+582 68 597 130 629 172 curveto
+646 195 659 192 683 209 curveto
+769 272 858 361 899 402 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 900 399 moveto
+904 408 lineto
+896 402 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	1ADE9739 -> 64715094
+newpath 681 29 moveto
+710 32 740 35 766 37 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 763 34 moveto
+772 38 lineto
+762 39 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	1ADE9739 -> 8060510A
+newpath 576 37 moveto
+579 60 580 102 566 134 curveto
+540 192 482 242 445 269 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 448 270 moveto
+438 274 lineto
+445 266 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	1ADE9739 -> 2BA48C46
+newpath 577 37 moveto
+582 68 595 131 629 172 curveto
+637 182 785 266 853 305 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 851 301 moveto
+859 308 lineto
+849 306 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	742B67FE -> 67A7B584
+newpath 1173 753 moveto
+1080 734 883 693 778 671 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 778 674 moveto
+769 669 lineto
+779 669 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	742B67FE -> 55FF8CEF
+newpath 1221 746 moveto
+1216 724 1206 686 1192 655 curveto
+1162 588 1115 516 1089 479 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1088 482 moveto
+1084 472 lineto
+1092 479 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	742B67FE -> 0CF9091A
+newpath 1199 747 moveto
+1131 704 952 594 878 547 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 878 550 moveto
+871 543 lineto
+881 546 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	742B67FE -> CBAC94EA
+newpath 1223 746 moveto
+1221 719 1218 667 1227 624 curveto
+1236 584 1257 541 1271 514 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1269 513 moveto
+1276 506 lineto
+1273 516 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	742B67FE -> 8477626F
+newpath 1233 746 moveto
+1243 722 1261 679 1273 651 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1271 650 moveto
+1277 642 lineto
+1275 652 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	742B67FE -> 116F0CBD
+newpath 1212 746 moveto
+1199 728 1179 699 1164 679 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1163 682 moveto
+1159 672 lineto
+1167 679 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	742B67FE -> FE4BC82F
+newpath 1220 746 moveto
+1214 724 1203 687 1192 655 curveto
+1163 566 1175 534 1124 455 curveto
+1089 402 1041 421 1015 363 curveto
+1009 350 1010 335 1011 322 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1008 322 moveto
+1013 313 lineto
+1013 323 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	742B67FE -> 343BB2A7
+newpath 1185 750 moveto
+1131 730 1029 693 966 670 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 966 673 moveto
+958 667 lineto
+968 668 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	742B67FE -> 8DAC6BEA
+newpath 1220 746 moveto
+1204 682 1149 463 1131 387 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1130 391 moveto
+1129 381 lineto
+1135 390 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	742B67FE -> 0E9FF879
+newpath 1198 748 moveto
+1160 725 1089 683 1026 651 curveto
+940 608 828 589 766 581 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 768 584 moveto
+758 580 lineto
+768 579 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	742B67FE -> 52AC566B
+newpath 1164 769 moveto
+1094 775 981 784 901 791 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 904 793 moveto
+894 792 lineto
+904 788 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	742B67FE -> F0A0A919
+newpath 1204 747 moveto
+1181 728 1145 698 1115 669 curveto
+1040 596 967 495 936 449 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 935 453 moveto
+932 443 lineto
+940 450 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	742B67FE -> 56C84DC3
+newpath 1200 781 moveto
+1187 789 1170 800 1156 809 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1158 811 moveto
+1148 814 lineto
+1155 807 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	742B67FE -> 2BA48C46
+newpath 1204 747 moveto
+1181 728 1145 698 1115 669 curveto
+1025 583 1048 527 976 425 curveto
+956 396 929 367 910 347 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 909 350 moveto
+904 341 lineto
+913 346 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8477626F -> 67A7B584
+newpath 1232 623 moveto
+1148 621 977 620 834 637 curveto
+817 639 799 641 782 644 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 782 646 moveto
+772 646 lineto
+781 642 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8477626F -> 55FF8CEF
+newpath 1263 607 moveto
+1225 576 1141 510 1098 476 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1098 479 moveto
+1092 471 lineto
+1101 475 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8477626F -> 0CF9091A
+newpath 1240 614 moveto
+1162 597 998 560 908 540 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 909 543 moveto
+900 538 lineto
+910 538 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8477626F -> CBAC94EA
+newpath 1284 606 moveto
+1285 583 1286 541 1287 514 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1285 516 moveto
+1287 506 lineto
+1290 516 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8477626F -> 742B67FE
+newpath 1276 642 moveto
+1266 666 1248 709 1236 737 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1238 738 moveto
+1232 746 lineto
+1234 736 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8477626F -> 116F0CBD
+newpath 1240 634 moveto
+1225 637 1208 641 1193 645 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1194 647 moveto
+1184 647 lineto
+1193 642 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8477626F -> FE4BC82F
+newpath 1269 607 moveto
+1240 573 1172 498 1109 441 curveto
+1068 405 1037 412 1015 363 curveto
+1009 350 1010 335 1011 322 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1008 322 moveto
+1013 313 lineto
+1013 323 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8477626F -> 343BB2A7
+newpath 1233 628 moveto
+1178 632 1088 638 1018 643 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1018 645 moveto
+1008 644 lineto
+1018 641 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8477626F -> 8DAC6BEA
+newpath 1273 606 moveto
+1245 560 1171 440 1139 388 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1138 391 moveto
+1135 381 lineto
+1142 388 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8477626F -> 0E9FF879
+newpath 1233 620 moveto
+1124 610 871 589 768 581 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 769 584 moveto
+759 580 lineto
+769 579 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8477626F -> 52AC566B
+newpath 1252 638 moveto
+1231 648 1204 660 1179 669 curveto
+1070 712 940 756 868 781 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 868 784 moveto
+858 784 lineto
+867 779 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8477626F -> F0A0A919
+newpath 1256 609 moveto
+1190 573 1026 483 954 443 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 956 447 moveto
+948 440 lineto
+958 442 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8477626F -> 56C84DC3
+newpath 1265 641 moveto
+1238 666 1188 715 1155 764 curveto
+1146 776 1138 792 1133 805 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1136 805 moveto
+1129 813 lineto
+1131 803 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8477626F -> 2BA48C46
+newpath 1255 609 moveto
+1208 583 1110 527 1035 469 curveto
+1028 463 1027 461 1020 455 curveto
+981 417 936 373 909 346 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 909 350 moveto
+904 341 lineto
+913 346 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 69350CFC
+newpath 546 598 moveto
+528 645 477 770 455 824 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 458 823 moveto
+452 831 lineto
+454 821 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> B0701F68
+newpath 575 563 moveto
+589 550 604 531 603 511 curveto
+603 478 567 483 558 451 curveto
+529 353 532 315 575 223 curveto
+590 191 624 166 651 151 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 650 149 moveto
+660 146 lineto
+652 153 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 67A7B584
+newpath 586 597 moveto
+610 609 644 626 670 638 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 668 634 moveto
+675 641 lineto
+665 638 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 55FF8CEF
+newpath 600 565 moveto
+647 550 720 528 785 512 curveto
+867 492 963 474 1021 463 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1019 461 moveto
+1029 462 lineto
+1019 466 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 54065FA3
+newpath 517 564 moveto
+497 552 474 535 463 511 curveto
+421 422 478 388 470 290 curveto
+466 245 454 193 446 162 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 443 162 moveto
+443 152 lineto
+448 161 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> B3EA8E22
+newpath 493 592 moveto
+415 608 281 634 197 652 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 199 654 moveto
+189 654 lineto
+198 649 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 5AA5BCDF
+newpath 548 562 moveto
+546 555 543 546 541 538 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 539 539 moveto
+538 529 lineto
+544 538 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 0CF9091A
+newpath 616 568 moveto
+663 559 729 547 777 538 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 774 536 moveto
+784 537 lineto
+774 541 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> C0630296
+newpath 575 563 moveto
+589 550 604 531 603 511 curveto
+603 478 563 484 558 451 curveto
+546 374 592 290 619 249 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 617 248 moveto
+625 241 lineto
+621 250 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 225B5E12
+newpath 579 563 moveto
+613 540 674 496 720 451 curveto
+724 448 942 177 943 172 curveto
+949 153 948 130 945 112 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 943 114 moveto
+943 104 lineto
+948 113 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> F1AE6BBC
+newpath 540 598 moveto
+509 640 435 748 397 849 curveto
+385 879 379 915 377 939 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 380 936 moveto
+376 946 lineto
+375 936 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 52703839
+newpath 485 570 moveto
+409 559 286 540 214 529 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 214 531 moveto
+204 528 lineto
+214 527 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 19BC76F8
+newpath 567 562 moveto
+578 548 592 529 603 511 curveto
+611 500 618 487 625 477 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 622 477 moveto
+629 469 lineto
+627 479 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 343BB2A7
+newpath 614 592 moveto
+676 604 772 623 839 636 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 836 633 moveto
+845 637 lineto
+835 638 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> D9367DD8
+newpath 549 598 moveto
+533 669 476 928 479 966 curveto
+482 1011 504 1058 518 1086 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 519 1082 moveto
+521 1092 lineto
+514 1084 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 8DAC6BEA
+newpath 600 565 moveto
+677 541 832 491 960 439 curveto
+1002 422 1050 399 1083 383 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1080 382 moveto
+1090 380 lineto
+1082 386 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 7262954A
+newpath 560 598 moveto
+585 656 662 845 724 1002 curveto
+726 1008 729 1015 732 1021 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 733 1017 moveto
+734 1027 lineto
+728 1018 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 0E9FF879
+newpath 635 579 moveto
+650 579 665 578 678 578 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 677 576 moveto
+687 578 lineto
+677 581 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 52AC566B
+newpath 567 598 moveto
+579 614 599 638 619 657 curveto
+672 705 740 753 780 779 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 778 775 moveto
+785 782 lineto
+775 779 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> F0A0A919
+newpath 591 564 moveto
+661 534 810 471 881 442 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 877 441 moveto
+887 439 lineto
+879 446 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 33E3FE56
+newpath 553 598 moveto
+552 660 551 864 550 938 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 553 938 moveto
+550 948 lineto
+548 938 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 7994A571
+newpath 523 563 moveto
+453 524 279 426 202 384 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 202 387 moveto
+195 380 lineto
+205 383 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 64715094
+newpath 575 563 moveto
+589 550 604 531 603 511 curveto
+603 478 567 483 558 451 curveto
+529 353 532 315 575 223 curveto
+589 193 600 188 629 172 curveto
+672 147 692 165 738 145 curveto
+747 141 749 138 757 131 curveto
+778 111 799 86 814 68 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 811 68 moveto
+819 62 lineto
+815 71 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 2682BC80
+newpath 586 564 moveto
+625 543 687 503 720 451 curveto
+773 369 783 248 786 197 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 784 200 moveto
+786 190 lineto
+789 200 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> D72CB41E
+newpath 579 563 moveto
+613 540 674 496 720 451 curveto
+772 400 771 374 823 324 curveto
+887 263 980 214 1034 188 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1031 187 moveto
+1041 185 lineto
+1033 191 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 54DA9506
+newpath 514 596 moveto
+452 621 330 669 261 697 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 262 699 moveto
+252 701 lineto
+260 695 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 8060510A
+newpath 521 563 moveto
+501 551 477 533 463 511 curveto
+424 449 416 361 414 317 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 412 318 moveto
+414 308 lineto
+417 318 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 2BA48C46
+newpath 576 563 moveto
+635 517 795 395 859 345 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 855 344 moveto
+865 341 lineto
+858 349 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> C1A6C2DC
+newpath 566 598 moveto
+593 635 659 725 714 799 curveto
+760 860 813 931 841 968 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 842 966 moveto
+847 975 lineto
+839 969 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> DB7F41B4
+newpath 558 598 moveto
+575 665 637 900 657 977 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 659 974 moveto
+659 984 lineto
+654 975 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	225B5E12 -> B0701F68
+newpath 890 95 moveto
+851 102 794 113 752 120 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 753 122 moveto
+743 122 lineto
+752 117 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	225B5E12 -> 55FF8CEF
+newpath 939 104 moveto
+942 154 951 290 953 295 curveto
+974 351 1020 404 1048 432 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1049 429 moveto
+1054 438 lineto
+1045 433 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	225B5E12 -> 5AA5BCDF
+newpath 944 104 moveto
+949 122 954 150 943 172 curveto
+853 363 688 285 558 451 curveto
+550 461 545 473 541 484 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 544 484 moveto
+538 493 lineto
+539 483 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	225B5E12 -> C0630296
+newpath 899 99 moveto
+859 112 794 131 738 145 curveto
+710 152 703 151 676 158 curveto
+655 163 640 153 629 172 curveto
+624 180 625 190 627 199 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 628 195 moveto
+629 205 lineto
+623 196 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	225B5E12 -> 80675E65
+newpath 943 104 moveto
+947 122 950 150 943 172 curveto
+942 177 724 448 720 451 curveto
+677 493 621 534 586 558 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 589 559 moveto
+579 563 lineto
+586 555 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	225B5E12 -> 343BB2A7
+newpath 939 104 moveto
+942 148 948 258 953 295 curveto
+960 353 979 366 976 425 curveto
+972 500 942 583 924 625 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 927 625 moveto
+921 633 lineto
+922 623 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	225B5E12 -> 8DAC6BEA
+newpath 951 104 moveto
+976 139 1036 223 1083 295 curveto
+1092 309 1101 325 1109 337 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1111 335 moveto
+1113 345 lineto
+1106 337 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	225B5E12 -> 0E9FF879
+newpath 943 104 moveto
+947 122 950 150 943 172 curveto
+918 254 866 249 823 324 curveto
+778 403 744 506 730 553 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 734 550 moveto
+728 559 lineto
+729 549 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	225B5E12 -> F0A0A919
+newpath 940 104 moveto
+944 152 956 281 951 324 curveto
+947 351 938 379 931 400 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 934 399 moveto
+928 407 lineto
+930 397 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	225B5E12 -> 64715094
+newpath 903 72 moveto
+895 69 887 66 878 62 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 878 65 moveto
+869 59 lineto
+879 60 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	225B5E12 -> 2682BC80
+newpath 910 102 moveto
+887 116 853 135 826 149 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 827 151 moveto
+817 154 lineto
+825 147 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	225B5E12 -> D72CB41E
+newpath 965 102 moveto
+987 115 1017 134 1041 147 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1042 145 moveto
+1049 152 lineto
+1039 149 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F1AE6BBC -> 67A7B584
+newpath 393 946 moveto
+451 894 621 739 684 680 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 681 679 moveto
+690 675 lineto
+684 683 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F1AE6BBC -> 5AA5BCDF
+newpath 375 946 moveto
+377 888 391 706 463 580 curveto
+472 562 489 546 503 534 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 501 533 moveto
+510 528 lineto
+504 536 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F1AE6BBC -> 80675E65
+newpath 376 946 moveto
+378 923 384 882 397 849 curveto
+433 752 502 650 536 604 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 532 605 moveto
+540 598 lineto
+537 608 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F1AE6BBC -> 343BB2A7
+newpath 403 947 moveto
+495 894 778 730 877 671 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 873 670 moveto
+883 668 lineto
+875 675 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F1AE6BBC -> 0E9FF879
+newpath 393 946 moveto
+414 926 449 892 479 863 curveto
+486 857 488 856 493 849 curveto
+558 770 549 732 619 657 curveto
+641 633 670 611 693 596 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 690 595 moveto
+700 591 lineto
+693 599 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F1AE6BBC -> DB7F41B4
+newpath 445 973 moveto
+494 980 560 988 607 994 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 604 991 moveto
+613 995 lineto
+603 996 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52703839 -> 67A7B584
+newpath 198 531 moveto
+296 556 535 614 647 642 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 645 639 moveto
+654 644 lineto
+644 644 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52703839 -> 5AA5BCDF
+newpath 209 519 moveto
+275 517 386 514 459 512 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 459 510 moveto
+469 512 lineto
+459 515 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52703839 -> 80675E65
+newpath 205 527 moveto
+273 538 397 557 478 569 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 475 566 moveto
+485 570 lineto
+475 571 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52703839 -> 0E9FF879
+newpath 207 525 moveto
+293 533 468 551 617 566 curveto
+639 569 662 571 682 572 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 679 569 moveto
+688 573 lineto
+678 574 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52703839 -> 7994A571
+newpath 156 502 moveto
+158 474 161 420 164 388 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 162 391 moveto
+164 381 lineto
+167 391 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52703839 -> 54DA9506
+newpath 175 537 moveto
+203 563 249 614 247 668 curveto
+247 677 243 685 238 692 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 240 694 moveto
+232 700 lineto
+236 691 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52703839 -> 8060510A
+newpath 174 503 moveto
+220 463 336 360 388 313 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 386 312 moveto
+395 307 lineto
+389 315 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> 67A7B584
+newpath 1107 659 moveto
+1061 664 981 671 912 671 curveto
+873 671 828 668 792 666 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 794 669 moveto
+784 665 lineto
+794 664 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> 55FF8CEF
+newpath 1140 637 moveto
+1127 602 1097 523 1082 481 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1080 483 moveto
+1079 473 lineto
+1085 481 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> 0CF9091A
+newpath 1117 642 moveto
+1064 620 953 572 889 546 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 889 549 moveto
+881 542 lineto
+891 544 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> CBAC94EA
+newpath 1161 638 moveto
+1186 609 1238 547 1266 513 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1264 512 moveto
+1272 506 lineto
+1267 515 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> 742B67FE
+newpath 1160 673 moveto
+1172 691 1193 719 1207 739 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1208 736 moveto
+1212 746 lineto
+1204 739 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> 8477626F
+newpath 1184 647 moveto
+1199 643 1217 639 1234 635 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1231 633 moveto
+1241 634 lineto
+1231 638 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> 2AB165F9
+newpath 1129 672 moveto
+1101 701 1046 764 1033 831 curveto
+1021 893 1044 966 1060 1003 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1061 1000 moveto
+1063 1010 lineto
+1057 1002 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> 19BC76F8
+newpath 1111 646 moveto
+1045 630 900 591 785 540 curveto
+773 535 771 532 760 526 curveto
+731 508 698 488 674 473 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 673 475 moveto
+666 468 lineto
+676 471 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> FE4BC82F
+newpath 1132 638 moveto
+1104 605 1044 530 1020 455 curveto
+1006 409 1010 352 1014 320 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1011 323 moveto
+1015 313 lineto
+1016 323 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> 343BB2A7
+newpath 1106 654 moveto
+1084 654 1055 653 1027 653 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1026 656 moveto
+1016 653 lineto
+1026 651 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> 8DAC6BEA
+newpath 1146 637 moveto
+1142 587 1131 447 1126 389 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1124 391 moveto
+1125 381 lineto
+1129 391 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> 0E9FF879
+newpath 1109 648 moveto
+1029 633 846 600 764 584 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 767 587 moveto
+757 583 lineto
+767 582 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> 52AC566B
+newpath 1118 668 moveto
+1059 693 926 750 856 780 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 860 781 moveto
+850 783 lineto
+858 776 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> F0A0A919
+newpath 1131 638 moveto
+1091 598 989 495 943 448 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 942 451 moveto
+937 442 lineto
+946 447 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> 56C84DC3
+newpath 1144 673 moveto
+1139 705 1130 770 1126 806 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1129 803 moveto
+1125 813 lineto
+1124 803 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> D72CB41E
+newpath 1132 638 moveto
+1104 605 1044 530 1020 455 curveto
+1008 416 1000 401 1015 363 curveto
+1030 323 1068 335 1083 295 curveto
+1096 263 1090 222 1084 195 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1082 197 moveto
+1082 187 lineto
+1087 196 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	116F0CBD -> 2BA48C46
+newpath 1135 638 moveto
+1107 599 1038 502 976 425 curveto
+954 398 927 369 909 348 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 908 351 moveto
+903 342 lineto
+912 347 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2AB165F9 -> 67A7B584
+newpath 1061 1010 moveto
+1039 969 979 868 910 799 curveto
+861 750 791 704 748 679 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 747 681 moveto
+739 674 lineto
+749 677 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2AB165F9 -> 116F0CBD
+newpath 1063 1010 moveto
+1048 976 1020 897 1033 831 curveto
+1045 768 1094 709 1123 678 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1120 677 moveto
+1129 672 lineto
+1124 681 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2AB165F9 -> 343BB2A7
+newpath 1063 1010 moveto
+1038 949 955 752 925 678 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 923 679 moveto
+921 669 lineto
+927 677 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2AB165F9 -> 0E9FF879
+newpath 1059 1010 moveto
+1024 956 910 785 799 657 curveto
+781 637 760 615 745 599 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 744 602 moveto
+739 593 lineto
+748 598 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2AB165F9 -> 52AC566B
+newpath 1052 1011 moveto
+1006 971 891 870 839 823 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 838 825 moveto
+832 817 lineto
+841 822 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2AB165F9 -> F0A0A919
+newpath 1067 1010 moveto
+1058 976 1041 898 1033 831 curveto
+1024 752 1045 729 1026 651 curveto
+1007 574 962 492 936 451 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 934 453 moveto
+931 443 lineto
+938 450 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0FCC27C6 -> B3EA8E22
+newpath 194 942 moveto
+160 905 85 811 88 718 curveto
+88 709 92 701 96 694 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 94 693 moveto
+101 686 lineto
+98 696 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> 69350CFC
+newpath 643 469 moveto
+648 494 655 542 643 580 curveto
+610 686 515 785 470 827 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 473 828 moveto
+464 833 lineto
+469 824 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> 67A7B584
+newpath 645 469 moveto
+657 506 685 588 700 631 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 702 629 moveto
+703 639 lineto
+697 631 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> 5AA5BCDF
+newpath 610 468 moveto
+598 475 583 482 569 490 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 571 492 moveto
+561 495 lineto
+568 488 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> 0CF9091A
+newpath 680 466 moveto
+714 478 760 495 795 508 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 794 505 moveto
+802 511 lineto
+792 509 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> C0630296
+newpath 639 433 moveto
+639 393 638 298 638 250 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 636 251 moveto
+638 241 lineto
+641 251 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> 1ADE9739
+newpath 632 433 moveto
+618 395 587 303 575 223 curveto
+567 160 570 84 572 45 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 569 47 moveto
+573 37 lineto
+574 47 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> 80675E65
+newpath 629 469 moveto
+622 481 613 497 603 511 curveto
+594 526 582 542 572 555 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 575 555 moveto
+567 562 lineto
+571 552 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> 225B5E12
+newpath 663 434 moveto
+729 384 915 242 943 172 curveto
+951 153 949 130 946 112 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 944 114 moveto
+944 104 lineto
+949 113 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> FE4BC82F
+newpath 681 436 moveto
+739 415 844 377 932 338 curveto
+948 331 965 322 980 315 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 978 313 moveto
+988 311 lineto
+980 318 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> 343BB2A7
+newpath 663 468 moveto
+712 504 826 588 882 628 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 882 625 moveto
+889 633 lineto
+879 629 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> 7262954A
+newpath 641 469 moveto
+645 494 649 541 643 580 curveto
+638 616 619 621 619 657 curveto
+619 695 705 941 733 1020 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 735 1017 moveto
+735 1027 lineto
+730 1018 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> 0E9FF879
+newpath 651 469 moveto
+665 491 690 528 706 552 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 708 550 moveto
+711 560 lineto
+704 553 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> 33E3FE56
+newpath 641 469 moveto
+645 494 649 541 643 580 curveto
+638 616 628 622 619 657 curveto
+590 761 565 888 554 941 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 557 938 moveto
+553 948 lineto
+552 938 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> 64715094
+newpath 627 433 moveto
+603 395 553 301 575 223 curveto
+584 191 600 188 629 172 curveto
+672 147 692 165 738 145 curveto
+747 141 749 138 757 131 curveto
+778 111 799 86 814 68 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 811 68 moveto
+819 62 lineto
+815 71 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> 2682BC80
+newpath 648 433 moveto
+674 385 743 253 772 197 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 769 197 moveto
+776 190 lineto
+773 200 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> 8060510A
+newpath 615 434 moveto
+573 403 488 343 443 310 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 444 314 moveto
+437 306 lineto
+447 309 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> 2BA48C46
+newpath 671 435 moveto
+717 411 802 368 850 342 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 847 341 moveto
+857 339 lineto
+849 345 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	19BC76F8 -> DB7F41B4
+newpath 641 469 moveto
+645 494 649 541 643 580 curveto
+638 616 622 621 619 657 curveto
+608 776 642 919 657 976 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 659 974 moveto
+659 984 lineto
+654 975 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 67A7B584
+newpath 987 310 moveto
+928 342 803 418 760 526 curveto
+752 547 769 555 763 577 curveto
+757 598 743 618 731 632 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 734 632 moveto
+726 639 lineto
+730 629 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 55FF8CEF
+newpath 1014 313 moveto
+1012 327 1010 347 1015 363 curveto
+1021 389 1038 414 1052 431 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1053 428 moveto
+1057 438 lineto
+1049 431 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 5AA5BCDF
+newpath 992 311 moveto
+938 344 811 419 696 465 curveto
+661 479 622 490 590 498 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 593 500 moveto
+583 500 lineto
+592 495 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 0CF9091A
+newpath 1015 313 moveto
+1011 340 1000 390 976 425 curveto
+953 460 912 488 882 506 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 886 507 moveto
+876 510 lineto
+883 502 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> CBAC94EA
+newpath 1076 299 moveto
+1124 305 1192 321 1233 363 curveto
+1260 390 1274 433 1281 461 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1283 460 moveto
+1283 470 lineto
+1278 461 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> C0630296
+newpath 968 285 moveto
+896 272 768 248 694 233 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 697 236 moveto
+687 232 lineto
+697 231 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 1ADE9739
+newpath 1011 277 moveto
+1001 250 977 202 943 172 curveto
+858 99 732 57 651 36 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 653 39 moveto
+644 34 lineto
+654 34 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 742B67FE
+newpath 1013 313 moveto
+1010 327 1008 347 1015 363 curveto
+1041 421 1089 402 1124 455 curveto
+1175 534 1163 566 1192 655 curveto
+1202 684 1212 716 1218 739 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1220 736 moveto
+1220 746 lineto
+1215 737 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 8477626F
+newpath 1013 313 moveto
+1010 327 1008 347 1015 363 curveto
+1037 412 1068 405 1109 441 curveto
+1169 495 1234 566 1265 602 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1265 598 moveto
+1269 607 lineto
+1261 601 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 225B5E12
+newpath 1011 277 moveto
+997 240 965 155 948 113 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 946 114 moveto
+945 104 lineto
+951 113 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 116F0CBD
+newpath 1015 313 moveto
+1011 344 1005 406 1020 455 curveto
+1043 527 1099 598 1128 633 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1128 629 moveto
+1132 638 lineto
+1124 632 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 19BC76F8
+newpath 988 311 moveto
+972 319 951 330 932 338 curveto
+848 375 748 412 689 433 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 691 435 moveto
+681 436 lineto
+689 430 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 343BB2A7
+newpath 1013 313 moveto
+995 371 941 555 921 624 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 924 624 moveto
+918 633 lineto
+919 623 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 8DAC6BEA
+newpath 1043 311 moveto
+1057 319 1075 331 1089 340 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1090 338 moveto
+1097 345 lineto
+1087 342 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 0E9FF879
+newpath 996 312 moveto
+949 348 838 437 760 526 curveto
+753 534 746 544 739 553 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 742 553 moveto
+734 560 lineto
+738 550 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 52AC566B
+newpath 1013 313 moveto
+1006 338 992 386 976 425 curveto
+958 471 957 486 928 526 curveto
+881 591 827 576 800 651 curveto
+798 657 805 732 809 773 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 811 771 moveto
+810 781 lineto
+806 771 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> F0A0A919
+newpath 1005 313 moveto
+987 335 956 376 937 402 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 941 401 moveto
+933 407 lineto
+937 398 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 56C84DC3
+newpath 1017 313 moveto
+1015 343 1012 404 1020 455 curveto
+1042 590 1092 745 1113 805 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1115 803 moveto
+1116 813 lineto
+1110 805 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 64715094
+newpath 1008 277 moveto
+995 252 969 208 943 172 curveto
+916 134 880 94 856 69 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 854 70 moveto
+849 61 lineto
+857 67 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 2682BC80
+newpath 988 279 moveto
+946 257 871 218 825 193 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 827 197 moveto
+819 190 lineto
+829 192 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 8060510A
+newpath 959 295 moveto
+844 293 592 291 475 290 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 475 293 moveto
+465 290 lineto
+475 288 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	FE4BC82F -> 2BA48C46
+newpath 970 306 moveto
+962 307 953 309 945 312 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 945 314 moveto
+935 314 lineto
+944 310 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 69350CFC
+newpath 874 668 moveto
+786 705 571 795 484 833 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 486 835 moveto
+476 836 lineto
+484 830 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> B0701F68
+newpath 919 633 moveto
+927 608 938 563 928 526 curveto
+917 485 730 253 701 223 curveto
+694 216 691 215 683 209 curveto
+659 192 628 201 629 172 curveto
+629 161 636 153 645 147 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 641 146 moveto
+651 143 lineto
+644 151 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 67A7B584
+newpath 811 654 moveto
+807 654 804 654 800 654 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 800 657 moveto
+790 654 lineto
+800 652 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 55FF8CEF
+newpath 928 633 moveto
+957 597 1022 517 1054 477 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1050 478 moveto
+1058 472 lineto
+1054 481 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 5AA5BCDF
+newpath 849 637 moveto
+805 626 746 610 695 591 curveto
+650 573 601 549 569 531 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 569 534 moveto
+562 527 lineto
+572 530 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 0CF9091A
+newpath 903 633 moveto
+891 611 872 576 858 552 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 856 554 moveto
+854 544 lineto
+861 552 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> CBAC94EA
+newpath 952 634 moveto
+1022 604 1171 539 1244 507 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1241 506 moveto
+1251 504 lineto
+1243 510 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> C0630296
+newpath 884 634 moveto
+850 612 794 573 760 526 curveto
+726 479 668 315 647 249 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 645 251 moveto
+644 241 lineto
+650 249 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 742B67FE
+newpath 958 667 moveto
+1016 689 1117 726 1177 747 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1177 744 moveto
+1185 750 lineto
+1175 749 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 8477626F
+newpath 1009 644 moveto
+1077 639 1167 633 1225 629 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1223 627 moveto
+1233 628 lineto
+1223 632 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 80675E65
+newpath 844 637 moveto
+781 625 687 607 623 594 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 623 597 moveto
+614 592 lineto
+624 592 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 225B5E12
+newpath 921 633 moveto
+937 595 972 505 976 425 curveto
+979 366 960 353 953 295 curveto
+948 260 943 162 940 114 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 938 114 moveto
+939 104 lineto
+942 114 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> F1AE6BBC
+newpath 883 668 moveto
+792 721 514 883 412 942 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 413 944 moveto
+403 947 lineto
+411 940 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 116F0CBD
+newpath 1016 653 moveto
+1044 654 1074 654 1097 654 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1096 652 moveto
+1106 654 lineto
+1096 657 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 2AB165F9
+newpath 921 669 moveto
+946 731 1032 934 1061 1004 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1062 1000 moveto
+1063 1010 lineto
+1057 1001 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 19BC76F8
+newpath 889 633 moveto
+839 597 725 514 670 473 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 670 476 moveto
+663 468 lineto
+673 472 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> FE4BC82F
+newpath 918 633 moveto
+936 575 990 391 1010 322 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1007 322 moveto
+1013 313 lineto
+1012 323 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 8DAC6BEA
+newpath 920 633 moveto
+936 597 974 514 1020 455 curveto
+1026 448 1029 447 1036 441 curveto
+1056 422 1080 402 1098 387 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1095 386 moveto
+1104 381 lineto
+1099 390 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 7262954A
+newpath 916 669 moveto
+920 698 924 754 910 799 curveto
+902 824 802 963 759 1020 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 761 1021 moveto
+754 1028 lineto
+757 1018 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 0E9FF879
+newpath 871 635 moveto
+839 622 793 605 762 592 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 760 594 moveto
+752 588 lineto
+762 589 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 52AC566B
+newpath 901 669 moveto
+883 696 849 745 829 775 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 833 774 moveto
+825 781 lineto
+828 771 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> F0A0A919
+newpath 916 633 moveto
+920 609 927 564 928 526 curveto
+929 500 926 471 924 451 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 922 453 moveto
+923 443 lineto
+927 453 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 33E3FE56
+newpath 887 669 moveto
+847 695 773 748 714 799 curveto
+660 846 602 908 572 941 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 574 942 moveto
+566 948 lineto
+571 939 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 56C84DC3
+newpath 934 669 moveto
+972 701 1054 772 1096 808 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1096 805 moveto
+1102 813 lineto
+1093 809 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 64715094
+newpath 921 633 moveto
+937 595 972 505 976 425 curveto
+979 366 961 353 953 295 curveto
+946 241 964 223 943 172 curveto
+934 148 885 97 856 67 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 855 70 moveto
+850 61 lineto
+859 66 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 2682BC80
+newpath 919 633 moveto
+926 608 936 564 928 526 curveto
+916 474 888 472 864 425 curveto
+842 382 838 370 823 324 curveto
+810 282 798 230 792 200 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 790 200 moveto
+790 190 lineto
+794 199 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> D72CB41E
+newpath 917 633 moveto
+926 586 957 456 1015 363 curveto
+1038 327 1068 335 1083 295 curveto
+1096 263 1090 222 1084 195 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1082 197 moveto
+1082 187 lineto
+1087 196 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> 2BA48C46
+newpath 919 633 moveto
+926 608 936 564 928 526 curveto
+916 474 873 477 864 425 curveto
+860 399 868 370 876 349 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 873 350 moveto
+879 342 lineto
+877 352 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> C1A6C2DC
+newpath 914 669 moveto
+915 697 916 753 910 799 curveto
+902 861 880 931 868 968 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 871 966 moveto
+866 975 lineto
+866 965 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	343BB2A7 -> DB7F41B4
+newpath 877 668 moveto
+832 691 755 737 714 799 curveto
+678 854 667 934 665 976 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 668 974 moveto
+665 984 lineto
+663 974 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D9367DD8 -> 69350CFC
+newpath 525 1092 moveto
+514 1065 494 1012 479 966 curveto
+469 935 458 898 452 874 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 450 877 moveto
+450 867 lineto
+455 876 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D9367DD8 -> 67A7B584
+newpath 544 1092 moveto
+566 1059 610 991 621 966 curveto
+666 865 693 735 705 682 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 702 685 moveto
+706 675 lineto
+707 685 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D9367DD8 -> 5AA5BCDF
+newpath 522 1092 moveto
+508 1065 484 1014 479 966 curveto
+473 914 493 901 493 849 curveto
+494 729 423 693 463 580 curveto
+469 561 485 545 500 533 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 497 532 moveto
+507 528 lineto
+500 536 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D9367DD8 -> 80675E65
+newpath 521 1092 moveto
+507 1065 482 1014 479 966 curveto
+476 929 530 684 547 605 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 544 607 moveto
+549 598 lineto
+549 608 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D9367DD8 -> 0E9FF879
+newpath 544 1092 moveto
+567 1056 617 980 621 966 curveto
+659 834 559 780 619 657 curveto
+633 627 663 606 688 593 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 686 591 moveto
+696 589 lineto
+688 596 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D9367DD8 -> 52AC566B
+newpath 542 1092 moveto
+555 1070 579 1031 604 1002 curveto
+663 930 744 857 786 822 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 782 822 moveto
+791 817 lineto
+786 826 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8DAC6BEA -> 67A7B584
+newpath 1104 381 moveto
+1061 417 963 501 928 526 curveto
+867 570 791 613 746 637 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 750 638 moveto
+740 640 lineto
+748 633 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8DAC6BEA -> 55FF8CEF
+newpath 1114 381 moveto
+1106 395 1095 414 1087 429 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1089 430 moveto
+1082 437 lineto
+1085 427 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8DAC6BEA -> 5AA5BCDF
+newpath 1052 375 moveto
+1004 384 938 397 880 411 curveto
+797 431 778 442 696 465 curveto
+660 475 618 487 586 496 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 589 498 moveto
+579 498 lineto
+588 493 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8DAC6BEA -> 0CF9091A
+newpath 1094 380 moveto
+1042 411 936 472 880 505 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 883 506 moveto
+873 509 lineto
+880 502 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8DAC6BEA -> 742B67FE
+newpath 1129 381 moveto
+1145 446 1201 666 1218 740 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1219 736 moveto
+1220 746 lineto
+1214 737 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8DAC6BEA -> 8477626F
+newpath 1135 381 moveto
+1163 427 1237 548 1269 599 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1270 596 moveto
+1273 606 lineto
+1266 599 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8DAC6BEA -> 116F0CBD
+newpath 1125 381 moveto
+1129 432 1140 571 1145 629 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1147 627 moveto
+1146 637 lineto
+1142 627 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8DAC6BEA -> FE4BC82F
+newpath 1097 346 moveto
+1083 337 1066 326 1051 316 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1050 318 moveto
+1043 311 lineto
+1053 314 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8DAC6BEA -> 343BB2A7
+newpath 1104 381 moveto
+1086 397 1059 420 1036 441 curveto
+1029 447 1026 448 1020 455 curveto
+977 510 941 586 923 625 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 926 625 moveto
+920 633 lineto
+921 623 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8DAC6BEA -> 0E9FF879
+newpath 1089 380 moveto
+1055 396 1004 420 960 439 curveto
+883 473 861 475 785 512 curveto
+774 518 770 518 760 526 curveto
+752 534 744 543 738 552 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 740 553 moveto
+733 560 lineto
+736 550 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8DAC6BEA -> 52AC566B
+newpath 1126 381 moveto
+1128 400 1130 430 1124 455 curveto
+1101 550 1090 578 1026 651 curveto
+976 709 900 755 853 779 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 857 780 moveto
+847 782 lineto
+855 775 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8DAC6BEA -> F0A0A919
+newpath 1073 378 moveto
+1040 388 997 401 966 411 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 969 413 moveto
+959 413 lineto
+968 408 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8DAC6BEA -> 56C84DC3
+newpath 1125 381 moveto
+1125 400 1125 429 1124 455 curveto
+1119 544 1102 566 1102 655 curveto
+1102 709 1112 772 1118 806 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1120 803 moveto
+1119 813 lineto
+1115 803 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8DAC6BEA -> 2BA48C46
+newpath 1050 351 moveto
+1018 346 980 339 949 334 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 948 336 moveto
+939 332 lineto
+949 332 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7262954A -> 69350CFC
+newpath 736 1027 moveto
+734 1019 730 1010 724 1002 curveto
+719 994 715 994 707 988 curveto
+631 938 533 890 482 866 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 483 869 moveto
+475 863 lineto
+485 865 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7262954A -> 67A7B584
+newpath 739 1027 moveto
+733 986 720 885 714 799 curveto
+711 759 710 713 709 684 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 707 685 moveto
+709 675 lineto
+712 685 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7262954A -> 5AA5BCDF
+newpath 735 1027 moveto
+710 956 619 696 619 657 curveto
+619 621 656 614 643 580 curveto
+634 555 609 538 586 528 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 586 531 moveto
+578 524 lineto
+588 526 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7262954A -> 0CF9091A
+newpath 735 1027 moveto
+723 986 696 883 714 799 curveto
+730 727 777 727 799 657 curveto
+800 654 799 654 800 651 curveto
+807 616 823 577 833 552 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 830 552 moveto
+836 544 lineto
+835 554 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7262954A -> 80675E65
+newpath 734 1027 moveto
+731 1019 727 1010 724 1002 curveto
+665 852 592 673 564 606 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 562 608 moveto
+560 598 lineto
+567 606 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7262954A -> 19BC76F8
+newpath 735 1027 moveto
+710 956 619 696 619 657 curveto
+619 621 638 616 643 580 curveto
+648 545 646 503 642 477 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 640 479 moveto
+641 469 lineto
+645 479 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7262954A -> 343BB2A7
+newpath 754 1028 moveto
+792 976 902 825 910 799 curveto
+923 759 921 709 917 678 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 915 679 moveto
+916 669 lineto
+920 679 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7262954A -> 0E9FF879
+newpath 735 1027 moveto
+723 986 696 883 714 799 curveto
+730 727 807 730 799 657 curveto
+796 630 774 609 754 595 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 754 598 moveto
+747 590 lineto
+757 594 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7262954A -> 33E3FE56
+newpath 699 1039 moveto
+675 1035 646 1027 621 1016 curveto
+606 1009 590 998 577 989 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 576 991 moveto
+570 983 lineto
+579 988 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7262954A -> C1A6C2DC
+newpath 772 1032 moveto
+786 1026 803 1018 818 1012 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 814 1011 moveto
+824 1009 lineto
+816 1016 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 69350CFC
+newpath 701 592 moveto
+680 607 646 632 619 657 curveto
+558 713 496 786 465 824 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 467 826 moveto
+459 832 lineto
+463 823 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 67A7B584
+newpath 720 595 moveto
+718 606 716 621 713 633 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 716 630 moveto
+712 639 lineto
+711 629 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 55FF8CEF
+newpath 758 573 moveto
+795 567 854 557 903 540 curveto
+952 522 1006 493 1040 474 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1037 473 moveto
+1047 470 lineto
+1040 477 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 54065FA3
+newpath 698 564 moveto
+662 544 597 503 558 451 curveto
+488 356 454 216 442 159 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 440 162 moveto
+441 152 lineto
+445 162 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 5AA5BCDF
+newpath 693 567 moveto
+663 557 616 540 580 528 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 581 531 moveto
+573 525 lineto
+583 527 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> EB281E23
+newpath 699 563 moveto
+672 547 624 520 583 497 curveto
+460 427 313 348 243 311 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 242 313 moveto
+234 306 lineto
+244 309 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 0CF9091A
+newpath 751 565 moveto
+765 559 783 551 800 544 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 796 543 moveto
+806 542 lineto
+797 548 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> CBAC94EA
+newpath 757 572 moveto
+848 557 1094 519 1216 499 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1213 497 moveto
+1223 498 lineto
+1213 502 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> C0630296
+newpath 725 559 moveto
+726 534 728 489 720 451 curveto
+706 375 670 291 651 249 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 649 251 moveto
+647 241 lineto
+654 249 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 742B67FE
+newpath 758 580 moveto
+817 587 936 606 1026 651 curveto
+1086 682 1154 721 1193 745 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1191 741 moveto
+1198 748 lineto
+1188 745 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 8477626F
+newpath 759 580 moveto
+853 588 1111 609 1226 619 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1223 616 moveto
+1233 620 lineto
+1223 621 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 80675E65
+newpath 687 578 moveto
+674 578 658 579 642 579 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 645 582 moveto
+635 579 lineto
+645 577 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> F1AE6BBC
+newpath 700 591 moveto
+677 606 643 630 619 657 curveto
+549 732 558 770 493 849 curveto
+488 856 486 857 479 863 curveto
+452 889 421 919 400 940 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 402 941 moveto
+393 946 lineto
+399 938 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 52703839
+newpath 688 573 moveto
+667 571 641 569 617 566 curveto
+472 551 303 534 215 526 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 217 529 moveto
+207 525 lineto
+217 524 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 116F0CBD
+newpath 757 583 moveto
+833 598 1016 631 1101 647 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1099 644 moveto
+1109 648 lineto
+1099 649 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 2AB165F9
+newpath 739 593 moveto
+755 609 779 634 799 657 curveto
+905 779 1014 941 1054 1002 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1056 1000 moveto
+1059 1010 lineto
+1052 1003 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 19BC76F8
+newpath 711 560 moveto
+697 538 672 501 656 477 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 654 479 moveto
+651 469 lineto
+658 476 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> FE4BC82F
+newpath 734 560 moveto
+741 550 751 537 760 526 curveto
+835 441 939 356 989 317 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 986 316 moveto
+996 312 lineto
+989 320 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 343BB2A7
+newpath 751 588 moveto
+781 600 827 617 863 632 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 862 629 moveto
+870 635 lineto
+860 633 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> D9367DD8
+newpath 696 589 moveto
+670 601 634 624 619 657 curveto
+559 780 659 834 621 966 curveto
+617 979 573 1046 549 1084 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 551 1085 moveto
+544 1092 lineto
+547 1082 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 8DAC6BEA
+newpath 733 560 moveto
+740 549 749 536 760 526 curveto
+770 518 774 518 785 512 curveto
+861 475 883 473 960 439 curveto
+1001 421 1048 399 1082 383 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1079 382 moveto
+1089 380 lineto
+1081 386 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 7262954A
+newpath 747 590 moveto
+768 604 796 627 799 657 curveto
+807 730 730 727 714 799 curveto
+697 879 721 977 733 1021 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 734 1017 moveto
+735 1027 lineto
+729 1018 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 52AC566B
+newpath 744 592 moveto
+762 606 787 630 799 657 curveto
+815 694 816 742 815 772 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 818 771 moveto
+814 781 lineto
+813 771 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> F0A0A919
+newpath 733 560 moveto
+740 549 750 536 760 526 curveto
+797 491 849 461 883 444 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 880 443 moveto
+890 440 lineto
+883 447 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 33E3FE56
+newpath 697 590 moveto
+673 603 638 627 619 657 curveto
+560 750 551 884 550 941 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 553 938 moveto
+550 948 lineto
+548 938 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 56C84DC3
+newpath 738 594 moveto
+753 610 777 634 800 651 curveto
+894 721 1017 782 1080 812 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1078 808 moveto
+1086 815 lineto
+1076 813 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 7994A571
+newpath 701 563 moveto
+674 545 627 516 583 497 curveto
+462 444 312 401 229 379 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 231 382 moveto
+222 377 lineto
+232 377 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 64715094
+newpath 728 559 moveto
+741 516 776 407 823 324 curveto
+866 249 945 258 943 172 curveto
+943 159 889 101 856 68 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 854 70 moveto
+849 61 lineto
+858 66 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> D72CB41E
+newpath 735 560 moveto
+742 550 751 537 760 526 curveto
+780 502 938 352 951 324 curveto
+956 312 948 307 953 295 curveto
+973 251 1016 213 1045 191 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1042 190 moveto
+1051 186 lineto
+1045 194 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 54DA9506
+newpath 691 586 moveto
+609 608 388 669 276 699 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 276 702 moveto
+266 702 lineto
+275 697 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 8060510A
+newpath 701 563 moveto
+669 540 606 496 558 451 curveto
+509 406 459 347 433 314 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 432 317 moveto
+428 307 lineto
+436 314 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 2BA48C46
+newpath 734 560 moveto
+763 515 838 399 871 349 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 868 349 moveto
+875 342 lineto
+872 352 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> C1A6C2DC
+newpath 740 593 moveto
+784 635 900 748 910 799 curveto
+923 860 893 931 874 968 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 877 968 moveto
+870 975 lineto
+873 965 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> DB7F41B4
+newpath 695 589 moveto
+669 601 633 624 619 657 curveto
+573 769 627 917 652 976 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 654 974 moveto
+655 984 lineto
+649 976 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 69350CFC
+newpath 738 809 moveto
+666 820 558 834 495 842 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 497 844 moveto
+487 843 lineto
+497 839 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 67A7B584
+newpath 799 781 moveto
+781 757 749 712 728 684 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 725 685 moveto
+722 675 lineto
+730 682 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 55FF8CEF
+newpath 851 783 moveto
+900 760 982 716 1026 651 curveto
+1062 598 1070 521 1072 481 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1070 483 moveto
+1072 473 lineto
+1075 483 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> B3EA8E22
+newpath 747 787 moveto
+620 762 339 710 200 684 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 201 687 moveto
+192 682 lineto
+202 682 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 5AA5BCDF
+newpath 815 781 moveto
+820 752 824 695 799 657 curveto
+786 636 646 567 575 532 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 573 534 moveto
+565 527 lineto
+575 529 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> EB281E23
+newpath 779 782 moveto
+714 749 569 669 463 580 curveto
+410 535 278 379 226 316 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 224 317 moveto
+219 308 lineto
+227 314 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 0CF9091A
+newpath 810 781 moveto
+806 744 798 663 800 651 curveto
+805 615 820 577 831 552 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 828 552 moveto
+835 544 lineto
+833 554 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> CBAC94EA
+newpath 839 782 moveto
+920 729 1163 569 1253 510 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1251 508 moveto
+1261 505 lineto
+1254 512 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 742B67FE
+newpath 894 792 moveto
+970 785 1082 776 1154 770 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1154 768 moveto
+1164 769 lineto
+1154 772 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 8477626F
+newpath 858 784 moveto
+928 760 1065 714 1179 669 curveto
+1201 661 1224 651 1244 642 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1242 640 moveto
+1252 638 lineto
+1244 645 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 80675E65
+newpath 785 782 moveto
+746 757 674 707 619 657 curveto
+602 640 584 620 572 604 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 571 607 moveto
+567 598 lineto
+575 604 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 116F0CBD
+newpath 850 783 moveto
+915 755 1044 699 1108 672 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1107 670 moveto
+1117 668 lineto
+1109 674 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 2AB165F9
+newpath 832 817 moveto
+879 857 993 959 1045 1005 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1046 1003 moveto
+1052 1011 lineto
+1043 1006 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 0FCC27C6
+newpath 758 813 moveto
+642 845 367 918 258 946 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 258 949 moveto
+248 949 lineto
+257 944 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> FE4BC82F
+newpath 810 781 moveto
+806 743 798 657 800 651 curveto
+827 576 881 591 928 526 curveto
+957 486 958 471 976 425 curveto
+990 390 1003 348 1011 321 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1008 322 moveto
+1013 313 lineto
+1013 323 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 343BB2A7
+newpath 824 781 moveto
+843 755 876 704 897 675 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 893 676 moveto
+901 669 lineto
+898 679 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> D9367DD8
+newpath 791 817 moveto
+752 850 666 927 604 1002 curveto
+582 1028 560 1062 546 1085 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 549 1085 moveto
+542 1092 lineto
+545 1082 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 8DAC6BEA
+newpath 847 782 moveto
+893 759 974 712 1026 651 curveto
+1090 578 1101 550 1124 455 curveto
+1129 433 1128 408 1127 389 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1125 391 moveto
+1126 381 lineto
+1130 391 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 0E9FF879
+newpath 814 781 moveto
+816 753 817 698 799 657 curveto
+788 633 768 612 750 597 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 750 600 moveto
+744 592 lineto
+753 596 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> F0A0A919
+newpath 810 781 moveto
+806 743 798 657 800 651 curveto
+827 576 900 600 928 526 curveto
+937 502 933 472 928 451 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 926 453 moveto
+926 443 lineto
+931 452 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 56C84DC3
+newpath 891 807 moveto
+937 812 996 818 1042 822 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1039 819 moveto
+1048 823 lineto
+1038 824 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 2BA48C46
+newpath 811 781 moveto
+810 754 807 701 799 657 curveto
+788 597 752 586 760 526 curveto
+771 451 830 381 864 346 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 860 346 moveto
+869 341 lineto
+864 350 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> B0701F68
+newpath 903 408 moveto
+866 373 779 289 701 223 curveto
+693 217 691 215 683 209 curveto
+659 192 628 201 629 172 curveto
+629 161 636 153 645 147 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 641 146 moveto
+651 143 lineto
+644 151 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 67A7B584
+newpath 881 437 moveto
+842 451 785 479 760 526 curveto
+750 546 769 555 763 577 curveto
+757 598 743 618 731 632 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 734 632 moveto
+726 639 lineto
+730 629 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 55FF8CEF
+newpath 965 434 moveto
+984 438 1005 442 1024 446 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1021 443 moveto
+1030 447 lineto
+1020 448 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 54065FA3
+newpath 892 410 moveto
+835 378 702 304 593 237 curveto
+550 210 501 178 470 156 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 471 160 moveto
+464 152 lineto
+474 155 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 5AA5BCDF
+newpath 877 435 moveto
+807 451 669 481 590 498 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 593 500 moveto
+583 500 lineto
+592 495 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 0CF9091A
+newpath 907 443 moveto
+895 459 877 483 863 501 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 866 501 moveto
+858 508 lineto
+862 498 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> CBAC94EA
+newpath 971 427 moveto
+1001 429 1039 432 1072 435 curveto
+1128 442 1190 458 1233 470 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1233 467 moveto
+1242 473 lineto
+1232 472 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> C0630296
+newpath 897 409 moveto
+846 373 725 286 669 245 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 668 247 moveto
+661 240 lineto
+671 243 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 1ADE9739
+newpath 904 408 moveto
+866 369 773 275 683 209 curveto
+659 192 646 195 629 172 curveto
+599 133 584 76 578 44 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 576 47 moveto
+577 37 lineto
+581 47 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 742B67FE
+newpath 932 443 moveto
+960 485 1036 593 1115 669 curveto
+1143 696 1176 724 1199 743 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1198 739 moveto
+1204 747 lineto
+1195 743 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 8477626F
+newpath 948 440 moveto
+1014 476 1178 566 1250 606 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1248 602 moveto
+1256 609 lineto
+1246 607 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 80675E65
+newpath 887 439 moveto
+821 467 672 530 598 561 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 601 562 moveto
+591 564 lineto
+599 558 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 225B5E12
+newpath 928 407 moveto
+936 387 947 354 951 324 curveto
+956 284 946 169 941 115 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 938 114 moveto
+940 104 lineto
+943 114 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 116F0CBD
+newpath 937 442 moveto
+978 483 1079 586 1125 632 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1126 629 moveto
+1131 638 lineto
+1122 633 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 2AB165F9
+newpath 931 443 moveto
+955 480 1006 568 1026 651 curveto
+1045 729 1024 752 1033 831 curveto
+1040 894 1056 966 1065 1003 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1067 1000 moveto
+1067 1010 lineto
+1062 1001 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 19BC76F8
+newpath 870 430 moveto
+827 434 765 439 715 444 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 718 446 moveto
+708 445 lineto
+718 441 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> FE4BC82F
+newpath 933 407 moveto
+951 385 982 344 1001 318 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 997 319 moveto
+1005 313 lineto
+1001 322 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 343BB2A7
+newpath 923 443 moveto
+925 463 929 497 928 526 curveto
+927 560 921 600 917 625 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 920 623 moveto
+916 633 lineto
+915 623 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 8DAC6BEA
+newpath 959 413 moveto
+989 404 1032 391 1066 380 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1063 378 moveto
+1073 378 lineto
+1064 383 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 0E9FF879
+newpath 890 440 moveto
+856 457 800 489 760 526 curveto
+752 534 745 543 738 552 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 740 553 moveto
+733 560 lineto
+736 550 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 52AC566B
+newpath 926 443 moveto
+932 464 938 499 928 526 curveto
+900 600 827 576 800 651 curveto
+798 657 805 732 809 773 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 811 771 moveto
+810 781 lineto
+806 771 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 56C84DC3
+newpath 929 443 moveto
+961 508 1072 731 1110 807 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1111 803 moveto
+1113 813 lineto
+1106 805 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 64715094
+newpath 928 407 moveto
+936 387 947 354 951 324 curveto
+955 291 956 204 943 172 curveto
+934 148 885 97 856 67 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 855 70 moveto
+850 61 lineto
+859 66 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 2682BC80
+newpath 898 408 moveto
+876 390 842 358 823 324 curveto
+801 284 792 232 788 200 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 786 200 moveto
+787 190 lineto
+790 200 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> D72CB41E
+newpath 927 407 moveto
+934 387 945 354 951 324 curveto
+953 311 948 307 953 295 curveto
+973 251 1016 213 1045 191 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1042 190 moveto
+1051 186 lineto
+1045 194 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 8060510A
+newpath 879 414 moveto
+787 390 564 330 464 303 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 464 306 moveto
+455 301 lineto
+465 301 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F0A0A919 -> 2BA48C46
+newpath 914 407 moveto
+909 392 902 368 896 351 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 894 352 moveto
+893 342 lineto
+899 351 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	33E3FE56 -> 69350CFC
+newpath 534 948 moveto
+516 928 487 895 466 873 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 465 875 moveto
+460 866 lineto
+468 872 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	33E3FE56 -> 67A7B584
+newpath 559 948 moveto
+586 895 665 744 696 683 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 693 683 moveto
+700 675 lineto
+698 685 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	33E3FE56 -> 5AA5BCDF
+newpath 543 948 moveto
+520 881 442 652 463 580 curveto
+468 561 484 545 498 534 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 496 533 moveto
+505 528 lineto
+499 536 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	33E3FE56 -> 0CF9091A
+newpath 566 949 moveto
+618 894 772 725 799 657 curveto
+800 654 799 654 800 651 curveto
+807 616 823 577 833 552 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 830 552 moveto
+836 544 lineto
+835 554 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	33E3FE56 -> 80675E65
+newpath 550 948 moveto
+551 886 552 682 553 608 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 551 608 moveto
+553 598 lineto
+556 608 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	33E3FE56 -> 19BC76F8
+newpath 553 948 moveto
+563 900 589 766 619 657 curveto
+628 622 638 616 643 580 curveto
+648 545 646 503 642 477 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 640 479 moveto
+641 469 lineto
+645 479 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	33E3FE56 -> 343BB2A7
+newpath 566 948 moveto
+594 917 656 849 714 799 curveto
+770 750 840 700 881 673 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 877 672 moveto
+887 669 lineto
+880 677 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	33E3FE56 -> 7262954A
+newpath 570 983 moveto
+584 994 603 1008 621 1016 curveto
+644 1026 670 1034 693 1038 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 690 1035 moveto
+699 1039 lineto
+689 1040 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	33E3FE56 -> C1A6C2DC
+newpath 612 971 moveto
+662 976 731 981 784 986 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 781 983 moveto
+791 987 lineto
+781 988 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	56C84DC3 -> 67A7B584
+newpath 1084 815 moveto
+1008 783 837 710 754 676 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 755 679 moveto
+747 673 lineto
+757 675 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	56C84DC3 -> 55FF8CEF
+newpath 1120 813 moveto
+1112 753 1086 556 1075 482 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1073 483 moveto
+1074 473 lineto
+1078 483 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	56C84DC3 -> 0CF9091A
+newpath 1116 813 moveto
+1103 779 1072 702 1026 651 curveto
+986 605 925 568 885 546 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 885 549 moveto
+877 542 lineto
+887 544 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	56C84DC3 -> CBAC94EA
+newpath 1131 813 moveto
+1158 757 1242 582 1274 515 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1272 514 moveto
+1278 506 lineto
+1276 516 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	56C84DC3 -> 742B67FE
+newpath 1148 814 moveto
+1162 805 1180 794 1195 784 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1190 784 moveto
+1200 781 lineto
+1193 788 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	56C84DC3 -> 8477626F
+newpath 1129 813 moveto
+1135 799 1144 779 1155 764 curveto
+1186 718 1231 673 1259 646 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1256 645 moveto
+1265 641 lineto
+1259 649 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	56C84DC3 -> 116F0CBD
+newpath 1125 813 moveto
+1130 781 1139 716 1143 680 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1140 683 moveto
+1144 673 lineto
+1145 683 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	56C84DC3 -> FE4BC82F
+newpath 1116 813 moveto
+1097 759 1043 596 1020 455 curveto
+1013 409 1015 355 1016 323 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1014 323 moveto
+1017 313 lineto
+1018 323 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	56C84DC3 -> 343BB2A7
+newpath 1102 813 moveto
+1064 781 982 710 940 674 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 940 677 moveto
+934 669 lineto
+943 673 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	56C84DC3 -> 8DAC6BEA
+newpath 1119 813 moveto
+1113 781 1102 713 1102 655 curveto
+1102 566 1119 544 1124 455 curveto
+1125 433 1125 408 1125 389 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1123 391 moveto
+1125 381 lineto
+1128 391 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	56C84DC3 -> 0E9FF879
+newpath 1086 815 moveto
+1024 786 897 723 800 651 curveto
+780 636 759 616 744 600 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 743 603 moveto
+738 594 lineto
+747 599 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	56C84DC3 -> 52AC566B
+newpath 1049 823 moveto
+1005 818 948 813 902 808 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 902 810 moveto
+892 807 lineto
+902 806 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	56C84DC3 -> F0A0A919
+newpath 1113 813 moveto
+1081 748 972 531 934 453 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 931 453 moveto
+929 443 lineto
+936 451 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	56C84DC3 -> 2BA48C46
+newpath 1118 813 moveto
+1105 754 1058 563 976 425 curveto
+959 395 932 366 912 347 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 911 350 moveto
+906 341 lineto
+915 346 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7994A571 -> 67A7B584
+newpath 183 381 moveto
+230 425 358 540 489 594 curveto
+541 615 601 631 646 642 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 643 638 moveto
+652 644 lineto
+642 643 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7994A571 -> 5AA5BCDF
+newpath 205 379 moveto
+275 407 418 464 490 493 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 488 489 moveto
+496 496 lineto
+486 494 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7994A571 -> 80675E65
+newpath 195 380 moveto
+266 419 440 517 516 559 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 516 556 moveto
+523 563 lineto
+513 560 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7994A571 -> 52703839
+newpath 164 381 moveto
+162 409 159 463 156 495 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 159 492 moveto
+156 502 lineto
+154 492 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7994A571 -> 0E9FF879
+newpath 222 377 moveto
+303 398 458 442 583 497 curveto
+624 515 668 541 695 559 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 694 555 moveto
+701 563 lineto
+691 560 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7994A571 -> 8060510A
+newpath 216 348 moveto
+260 335 323 317 366 305 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 365 303 moveto
+375 302 lineto
+366 308 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	64715094 -> B0701F68
+newpath 806 61 moveto
+784 75 751 94 727 110 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 729 112 moveto
+719 115 lineto
+726 108 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	64715094 -> 55FF8CEF
+newpath 850 61 moveto
+878 90 933 146 943 172 curveto
+964 223 934 244 953 295 curveto
+974 351 1020 404 1048 432 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1049 429 moveto
+1054 438 lineto
+1045 433 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	64715094 -> 5AA5BCDF
+newpath 819 62 moveto
+804 80 780 109 757 131 curveto
+749 138 747 141 738 145 curveto
+692 165 672 147 629 172 curveto
+600 188 590 194 575 223 curveto
+530 312 529 435 532 486 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 535 483 moveto
+532 493 lineto
+530 483 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	64715094 -> C0630296
+newpath 822 62 moveto
+807 86 777 128 738 145 curveto
+692 165 655 129 629 172 curveto
+624 180 625 190 627 199 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 628 195 moveto
+629 205 lineto
+623 196 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	64715094 -> 80675E65
+newpath 819 62 moveto
+804 80 780 109 757 131 curveto
+749 138 747 141 738 145 curveto
+692 165 672 147 629 172 curveto
+600 188 589 193 575 223 curveto
+532 315 529 353 558 451 curveto
+567 483 603 478 603 511 curveto
+604 528 593 544 582 556 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 584 558 moveto
+575 563 lineto
+580 554 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	64715094 -> 225B5E12
+newpath 869 59 moveto
+878 62 888 66 897 70 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 894 66 moveto
+903 72 lineto
+893 71 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	64715094 -> 343BB2A7
+newpath 850 61 moveto
+878 90 933 146 943 172 curveto
+964 223 946 241 953 295 curveto
+961 353 979 366 976 425 curveto
+972 500 942 583 924 625 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 927 625 moveto
+921 633 lineto
+922 623 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	64715094 -> 8DAC6BEA
+newpath 851 62 moveto
+902 110 1043 245 1083 295 curveto
+1094 308 1103 324 1111 337 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1113 335 moveto
+1115 345 lineto
+1108 337 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	64715094 -> 0E9FF879
+newpath 849 61 moveto
+881 93 943 158 943 172 curveto
+945 258 866 249 823 324 curveto
+778 403 744 506 730 553 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 734 550 moveto
+728 559 lineto
+729 549 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	64715094 -> F0A0A919
+newpath 850 61 moveto
+878 90 933 146 943 172 curveto
+956 204 955 291 951 324 curveto
+947 351 938 379 931 400 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 934 399 moveto
+928 407 lineto
+930 397 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	64715094 -> 2682BC80
+newpath 826 62 moveto
+818 84 804 121 796 146 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 799 146 moveto
+793 154 lineto
+794 144 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	64715094 -> D72CB41E
+newpath 848 61 moveto
+860 74 877 90 895 100 curveto
+935 123 985 141 1021 154 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1020 151 moveto
+1029 156 lineto
+1019 156 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> B0701F68
+newpath 747 155 moveto
+743 153 739 152 736 150 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 735 152 moveto
+727 146 lineto
+737 148 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> 67A7B584
+newpath 782 190 moveto
+772 235 746 353 720 451 curveto
+706 507 683 519 683 577 curveto
+684 596 690 616 697 631 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 699 629 moveto
+700 639 lineto
+694 631 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> 55FF8CEF
+newpath 806 190 moveto
+838 218 900 274 951 324 curveto
+987 360 1028 406 1052 433 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1052 429 moveto
+1057 438 lineto
+1048 433 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> 5AA5BCDF
+newpath 768 190 moveto
+726 232 622 343 558 451 curveto
+552 461 546 474 542 485 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 545 485 moveto
+539 493 lineto
+540 483 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> 0CF9091A
+newpath 789 190 moveto
+799 248 828 430 840 499 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 842 498 moveto
+841 508 lineto
+837 498 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> C0630296
+newpath 737 189 moveto
+721 195 702 201 686 207 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 687 209 moveto
+677 210 lineto
+686 204 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> 1ADE9739
+newpath 775 154 moveto
+770 146 763 138 757 131 curveto
+718 91 662 59 622 40 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 622 43 moveto
+614 36 lineto
+624 38 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> 80675E65
+newpath 786 190 moveto
+784 237 775 365 720 451 curveto
+689 500 633 538 594 560 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 596 562 moveto
+586 564 lineto
+594 557 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> 225B5E12
+newpath 817 154 moveto
+842 141 876 121 902 107 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 900 105 moveto
+910 102 lineto
+903 109 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> 19BC76F8
+newpath 776 190 moveto
+751 239 682 371 653 426 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 656 426 moveto
+649 433 lineto
+652 423 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> FE4BC82F
+newpath 819 190 moveto
+862 213 938 252 982 276 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 980 272 moveto
+988 279 lineto
+978 277 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> 343BB2A7
+newpath 790 190 moveto
+795 219 808 277 823 324 curveto
+838 370 842 382 864 425 curveto
+888 472 916 474 928 526 curveto
+935 560 928 599 921 625 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 924 624 moveto
+919 633 lineto
+919 623 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> 8DAC6BEA
+newpath 806 190 moveto
+839 219 906 274 972 309 curveto
+1001 325 1034 337 1063 346 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1060 342 moveto
+1069 348 lineto
+1059 347 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> 0E9FF879
+newpath 783 190 moveto
+773 255 738 478 727 553 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 730 550 moveto
+726 559 lineto
+725 549 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> F0A0A919
+newpath 787 190 moveto
+790 220 799 280 823 324 curveto
+840 355 869 384 891 402 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 892 400 moveto
+898 408 lineto
+889 403 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> 64715094
+newpath 792 154 moveto
+800 132 814 95 822 70 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 819 70 moveto
+825 62 lineto
+824 72 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> D72CB41E
+newpath 929 171 moveto
+953 171 976 170 998 170 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 997 168 moveto
+1007 170 lineto
+997 173 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> 8060510A
+newpath 692 186 moveto
+661 191 625 199 594 209 curveto
+542 225 484 253 449 271 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 452 272 moveto
+442 275 lineto
+449 268 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2682BC80 -> 2BA48C46
+newpath 798 190 moveto
+817 217 851 269 871 300 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 872 296 moveto
+875 306 lineto
+867 299 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D72CB41E -> B0701F68
+newpath 1011 163 moveto
+940 156 828 145 758 138 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 758 140 moveto
+748 137 lineto
+758 136 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D72CB41E -> 55FF8CEF
+newpath 1082 187 moveto
+1088 213 1097 259 1083 295 curveto
+1068 335 1020 321 1015 363 curveto
+1012 390 1030 415 1047 433 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1048 430 moveto
+1053 439 lineto
+1044 434 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D72CB41E -> 5AA5BCDF
+newpath 1045 185 moveto
+968 226 756 339 582 437 curveto
+571 443 566 442 558 451 curveto
+550 460 544 473 540 484 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 543 484 moveto
+537 493 lineto
+538 483 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D72CB41E -> 0CF9091A
+newpath 1051 186 moveto
+1022 208 974 248 953 295 curveto
+948 307 956 312 951 324 curveto
+928 379 890 372 864 425 curveto
+853 449 847 479 846 500 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 849 498 moveto
+845 508 lineto
+844 498 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D72CB41E -> C0630296
+newpath 1013 177 moveto
+930 188 781 206 698 215 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 701 217 moveto
+691 216 lineto
+701 212 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D72CB41E -> 80675E65
+newpath 1041 185 moveto
+989 209 890 260 823 324 curveto
+771 374 772 400 720 451 curveto
+677 493 621 534 586 558 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 589 559 moveto
+579 563 lineto
+586 555 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D72CB41E -> 225B5E12
+newpath 1048 152 moveto
+1026 139 996 120 973 107 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 972 109 moveto
+965 102 lineto
+975 105 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D72CB41E -> 116F0CBD
+newpath 1082 187 moveto
+1088 213 1097 259 1083 295 curveto
+1068 335 1030 323 1015 363 curveto
+1000 401 1008 416 1020 455 curveto
+1043 527 1099 598 1128 633 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1128 629 moveto
+1132 638 lineto
+1124 632 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D72CB41E -> 343BB2A7
+newpath 1082 187 moveto
+1088 213 1097 259 1083 295 curveto
+1068 335 1038 327 1015 363 curveto
+960 452 929 575 918 626 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 921 623 moveto
+917 633 lineto
+916 623 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D72CB41E -> 8DAC6BEA
+newpath 1081 187 moveto
+1088 222 1107 297 1117 337 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1119 335 moveto
+1119 345 lineto
+1114 336 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D72CB41E -> 0E9FF879
+newpath 1051 186 moveto
+1022 208 974 248 953 295 curveto
+948 307 956 312 951 324 curveto
+938 352 780 502 760 526 curveto
+753 534 746 544 740 552 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 742 553 moveto
+735 560 lineto
+738 550 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D72CB41E -> F0A0A919
+newpath 1051 186 moveto
+1022 208 974 248 953 295 curveto
+948 307 953 311 951 324 curveto
+946 351 936 379 930 400 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 933 399 moveto
+927 407 lineto
+929 397 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D72CB41E -> 64715094
+newpath 1029 156 moveto
+992 144 938 125 895 100 curveto
+880 92 866 79 854 68 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 853 70 moveto
+848 61 lineto
+856 67 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D72CB41E -> 2682BC80
+newpath 1007 170 moveto
+985 170 961 171 936 171 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 939 174 moveto
+929 171 lineto
+939 169 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	54DA9506 -> 67A7B584
+newpath 299 707 moveto
+392 696 539 678 629 667 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 627 665 moveto
+637 666 lineto
+627 670 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	54DA9506 -> 5AA5BCDF
+newpath 237 701 moveto
+297 663 438 572 501 532 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 497 531 moveto
+507 528 lineto
+500 536 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	54DA9506 -> 80675E65
+newpath 252 701 moveto
+316 675 440 625 507 598 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 503 597 moveto
+513 596 lineto
+504 602 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	54DA9506 -> 52703839
+newpath 232 700 moveto
+239 691 247 680 247 668 curveto
+249 618 209 570 181 543 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 180 546 moveto
+175 537 lineto
+184 542 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	54DA9506 -> 0E9FF879
+newpath 267 702 moveto
+372 674 593 613 683 588 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 681 586 moveto
+691 586 lineto
+682 591 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	54DA9506 -> 8060510A
+newpath 225 700 moveto
+232 691 241 679 247 668 curveto
+320 542 382 379 405 316 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 402 316 moveto
+408 308 lineto
+407 318 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8060510A -> 67A7B584
+newpath 430 307 moveto
+463 344 541 433 603 511 curveto
+637 553 673 604 693 633 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 694 629 moveto
+697 639 lineto
+689 632 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8060510A -> 54065FA3
+newpath 417 272 moveto
+421 245 429 194 434 162 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 432 162 moveto
+435 152 lineto
+436 162 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8060510A -> 5AA5BCDF
+newpath 424 308 moveto
+445 347 496 443 520 487 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 521 483 moveto
+523 493 lineto
+516 485 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8060510A -> 0CF9091A
+newpath 444 305 moveto
+495 331 606 386 697 437 curveto
+708 443 710 445 720 451 curveto
+750 469 783 489 808 504 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 809 502 moveto
+816 509 lineto
+806 506 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8060510A -> 80675E65
+newpath 414 308 moveto
+415 348 421 445 463 511 curveto
+475 530 495 546 513 558 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 514 556 moveto
+521 563 lineto
+511 560 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8060510A -> 52703839
+newpath 395 307 moveto
+349 347 233 450 181 497 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 183 498 moveto
+174 503 lineto
+180 495 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8060510A -> 0E9FF879
+newpath 428 307 moveto
+452 338 506 403 558 451 curveto
+603 493 661 534 694 558 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 694 555 moveto
+701 563 lineto
+691 559 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8060510A -> F0A0A919
+newpath 455 301 moveto
+547 325 770 385 870 412 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 870 409 moveto
+879 414 lineto
+869 414 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8060510A -> 7994A571
+newpath 375 302 moveto
+335 313 272 331 226 345 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 226 348 moveto
+216 348 lineto
+225 343 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8060510A -> 54DA9506
+newpath 408 308 moveto
+388 364 323 536 247 668 curveto
+243 676 236 685 231 693 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 233 694 moveto
+225 700 lineto
+230 691 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8060510A -> 2BA48C46
+newpath 464 294 moveto
+550 300 726 312 821 319 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 820 316 moveto
+830 320 lineto
+820 321 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> B0701F68
+newpath 859 308 moveto
+792 271 629 178 629 172 curveto
+629 161 635 153 644 147 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 640 146 moveto
+650 143 lineto
+643 151 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 67A7B584
+newpath 871 341 moveto
+841 375 780 450 760 526 curveto
+755 548 769 555 763 577 curveto
+757 598 743 618 731 632 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 734 632 moveto
+726 639 lineto
+730 629 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 54065FA3
+newpath 862 308 moveto
+824 283 750 238 683 209 curveto
+626 184 557 164 508 151 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 510 154 moveto
+501 149 lineto
+511 149 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 5AA5BCDF
+newpath 870 341 moveto
+838 372 768 435 696 465 curveto
+662 479 623 490 591 498 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 594 500 moveto
+584 500 lineto
+593 495 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 0CF9091A
+newpath 883 342 moveto
+878 362 870 396 864 425 curveto
+859 451 853 480 849 500 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 852 499 moveto
+847 508 lineto
+847 498 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> CBAC94EA
+newpath 922 338 moveto
+995 368 1162 436 1242 469 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1241 466 moveto
+1249 472 lineto
+1239 470 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 1ADE9739
+newpath 859 308 moveto
+794 271 637 182 629 172 curveto
+597 134 584 76 578 44 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 576 47 moveto
+577 37 lineto
+581 47 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 742B67FE
+newpath 904 341 moveto
+923 361 954 393 976 425 curveto
+1048 527 1025 583 1115 669 curveto
+1143 696 1176 724 1199 743 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1198 739 moveto
+1204 747 lineto
+1195 743 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 8477626F
+newpath 904 341 moveto
+930 367 978 414 1020 455 curveto
+1027 461 1028 463 1035 469 curveto
+1107 524 1199 578 1248 605 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1248 602 moveto
+1255 609 lineto
+1245 606 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 80675E65
+newpath 865 341 moveto
+807 386 647 508 582 558 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 586 559 moveto
+576 562 lineto
+583 554 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 116F0CBD
+newpath 903 342 moveto
+921 362 951 395 976 425 curveto
+1035 499 1101 590 1131 632 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1132 628 moveto
+1135 638 lineto
+1127 631 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 19BC76F8
+newpath 857 340 moveto
+811 363 727 406 678 432 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 681 433 moveto
+671 435 lineto
+679 429 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> FE4BC82F
+newpath 934 314 moveto
+944 312 954 309 964 307 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 960 305 moveto
+970 306 lineto
+961 310 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 343BB2A7
+newpath 879 342 moveto
+870 362 859 396 864 425 curveto
+873 477 916 474 928 526 curveto
+935 560 928 599 921 625 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 924 624 moveto
+919 633 lineto
+919 623 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 8DAC6BEA
+newpath 938 332 moveto
+969 338 1008 344 1044 350 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1041 347 moveto
+1051 351 lineto
+1041 352 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 0E9FF879
+newpath 875 342 moveto
+846 386 771 503 738 553 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 741 553 moveto
+734 560 lineto
+737 550 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> F0A0A919
+newpath 893 342 moveto
+898 357 905 381 911 398 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 913 397 moveto
+914 407 lineto
+908 398 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 56C84DC3
+newpath 906 341 moveto
+926 360 957 392 976 425 curveto
+1054 557 1101 737 1116 804 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1118 803 moveto
+1118 813 lineto
+1113 804 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 64715094
+newpath 900 306 moveto
+920 279 952 223 943 172 curveto
+939 147 889 97 858 67 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 857 69 moveto
+851 61 lineto
+860 66 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BA48C46 -> 2682BC80
+newpath 875 306 moveto
+857 279 823 227 802 196 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 801 200 moveto
+798 190 lineto
+806 197 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C1A6C2DC -> 69350CFC
+newpath 818 978 moveto
+737 951 565 891 486 863 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 488 866 moveto
+479 861 lineto
+489 861 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C1A6C2DC -> 67A7B584
+newpath 841 976 moveto
+807 944 741 874 714 799 curveto
+701 760 702 714 705 684 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 702 685 moveto
+706 675 lineto
+707 685 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C1A6C2DC -> 5AA5BCDF
+newpath 838 976 moveto
+782 931 640 803 619 657 curveto
+614 622 656 614 643 580 curveto
+634 555 609 538 586 528 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 586 531 moveto
+578 524 lineto
+588 526 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C1A6C2DC -> 0CF9091A
+newpath 870 975 moveto
+888 941 923 864 910 799 curveto
+894 719 812 732 800 651 curveto
+795 616 812 577 826 552 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 824 551 moveto
+831 544 lineto
+828 554 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C1A6C2DC -> 80675E65
+newpath 847 975 moveto
+821 941 763 864 714 799 curveto
+663 730 602 647 572 606 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 570 608 moveto
+566 598 lineto
+574 605 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C1A6C2DC -> 19BC76F8
+newpath 838 976 moveto
+782 931 640 803 619 657 curveto
+614 622 638 616 643 580 curveto
+648 545 646 503 642 477 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 640 479 moveto
+641 469 lineto
+645 479 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C1A6C2DC -> 343BB2A7
+newpath 866 975 moveto
+877 941 901 865 910 799 curveto
+915 758 915 708 914 678 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 912 679 moveto
+914 669 lineto
+917 679 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C1A6C2DC -> 7262954A
+newpath 824 1009 moveto
+810 1015 795 1022 781 1028 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 782 1030 moveto
+772 1032 lineto
+780 1026 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C1A6C2DC -> 0E9FF879
+newpath 870 975 moveto
+889 941 924 864 910 799 curveto
+900 750 794 645 746 599 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 745 602 moveto
+740 593 lineto
+749 598 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C1A6C2DC -> 33E3FE56
+newpath 791 987 moveto
+739 982 670 977 619 972 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 622 975 moveto
+612 971 lineto
+622 970 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB7F41B4 -> 67A7B584
+newpath 666 984 moveto
+674 928 697 752 706 684 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 703 685 moveto
+707 675 lineto
+708 685 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB7F41B4 -> 5AA5BCDF
+newpath 659 984 moveto
+645 932 608 782 619 657 curveto
+622 621 656 614 643 580 curveto
+634 555 609 538 586 528 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 586 531 moveto
+578 524 lineto
+588 526 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB7F41B4 -> 0CF9091A
+newpath 667 984 moveto
+672 948 687 864 714 799 curveto
+742 731 777 727 799 657 curveto
+800 654 799 654 800 651 curveto
+807 616 823 577 833 552 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 830 552 moveto
+836 544 lineto
+835 554 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB7F41B4 -> 80675E65
+newpath 659 984 moveto
+642 917 580 682 560 605 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 558 608 moveto
+558 598 lineto
+563 607 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB7F41B4 -> F1AE6BBC
+newpath 613 995 moveto
+568 989 503 981 452 974 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 455 977 moveto
+445 973 lineto
+455 972 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB7F41B4 -> 19BC76F8
+newpath 659 984 moveto
+645 932 608 782 619 657 curveto
+622 621 638 616 643 580 curveto
+648 545 646 503 642 477 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 640 479 moveto
+641 469 lineto
+645 479 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB7F41B4 -> 343BB2A7
+newpath 665 984 moveto
+666 946 675 858 714 799 curveto
+753 740 825 695 871 671 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 867 670 moveto
+877 668 lineto
+869 675 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB7F41B4 -> 0E9FF879
+newpath 655 984 moveto
+632 931 571 774 619 657 curveto
+632 627 662 606 687 593 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 685 591 moveto
+695 589 lineto
+687 596 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+endpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+end
+restore
+%%EOF

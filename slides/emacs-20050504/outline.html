@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Advanced Emacs Features</title>
+<link rel="stylesheet" type="text/css" href="talk.css" />
+</head>
+<body>
+<div class="top-box">
+  <div class="top-left-box">
+    <p><a href="narrow.html">Prev</a></p>
+  </div>
+  <div class="top-center-box">
+    <p>Advanced Emacs Features</p>
+  </div>
+  <div class="top-right-box">
+    <p><a href="outline2.html">Next</a></p>
+  </div>
+</div>
+
+<h1>Outline Mode</h1>
+
+<p>Is pretty boring.</p>
+
+<h1>Outline Minor Mode</h1>
+
+<p>Is pretty darned useful for programmers.</p>
+
+<p>You get to see a whole lot more of your program at once.</p>
+
+<p>But first, we have to do something about the interface.</p>
+<p>The default prefix key sequence is <tt>C-c @</tt>, and all of the
+command keys are control sequences.  So you wind up typing things like
+<tt>C-c @ C-n</tt></p>
+<p>And all of the vi users in the office will laugh at you.</p>
+<p>So let's change that:</p>
+<pre>
+; Outline-minor-mode key map
+(define-prefix-command 'cm-map nil "Outline-")
+; HIDE
+(define-key cm-map "q" 'hide-sublevels)    ; Hide everything but the top-level headings
+(define-key cm-map "t" 'hide-body)         ; Hide everything but headings (all body lines)
+(define-key cm-map "o" 'hide-other)        ; Hide other branches
+(define-key cm-map "c" 'hide-entry)        ; Hide this entry's body
+(define-key cm-map "l" 'hide-leaves)       ; Hide body lines in this entry and sub-entries
+(define-key cm-map "d" 'hide-subtree)      ; Hide everything in this entry and sub-entries
+; SHOW
+(define-key cm-map "a" 'show-all)          ; Show (expand) everything
+(define-key cm-map "e" 'show-entry)        ; Show this heading's body
+(define-key cm-map "i" 'show-children)     ; Show this heading's immediate child sub-headings
+(define-key cm-map "k" 'show-branches)     ; Show all sub-headings under this heading
+(define-key cm-map "s" 'show-subtree)      ; Show (expand) everything in this heading & below
+; MOVE
+(define-key cm-map "u" 'outline-up-heading)                ; Up
+(define-key cm-map "n" 'outline-next-visible-heading)      ; Next
+(define-key cm-map "p" 'outline-previous-visible-heading)  ; Previous
+(define-key cm-map "f" 'outline-forward-same-level)        ; Forward - same level
+(define-key cm-map "b" 'outline-backward-same-level)       ; Backward - same level
+(global-set-key "\M-o" cm-map)
+</pre>
+
+<hr class="bottom" />
+</body>
+</html>

@@ -1,0 +1,23 @@
+Existing participants:
+
+9/20/00 PADS:
+
+sig        5AA5BCDF 2000-09-21  Michael J. Leone <userdude@yahoo.com>
+sig        80675E65 2000-09-22  Leonard D. Rosenthol <leonardr@lazerware.com>
+sig        52AC566B 2000-09-21  Michael C. Toren (MCT) <michael@toren.net>
+
+
+10/4/00 PLUG:
+
+sig        D9367DD8 2000-10-03  George E McNeal Jr (george) <gmcneal@op.net>
+sig        0E9FF879 2000-10-05  Darxus <Darxus@ChaosReigns.com>
+sig        52AC566B 2000-10-05  Michael C. Toren (MCT) <michael@toren.net>
+sig        80675E65 2000-10-05  Leonard D. Rosenthol <leonardr@lazerware.com>
+sig        5AA5BCDF 2000-10-05  Michael J. Leone <userdude@yahoo.com>
+
+12/6/00 PLUG:
+
+sig        0E9FF879 2000-12-07  Darxus <Darxus@ChaosReigns.com>
+sig        5AA5BCDF 2000-12-09  Michael J. Leone <userdude@yahoo.com>
+sig        80675E65 2000-12-11  Leonard D. Rosenthol <leonardr@lazerware.com>
+

@@ -1,0 +1,4 @@
+neato -Tps -Gsplines=true -Gsep=.1 *.dot > phillylinux.ps
+convert phillylinux.ps phillylinux.jpg
+convert -geometry 320x240 phillylinux.ps phillylinux.320.jpg
+

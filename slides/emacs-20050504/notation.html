@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Advanced Emacs Features</title>
+<link rel="stylesheet" type="text/css" href="talk.css" />
+</head>
+<body>
+<div class="top-box">
+  <div class="top-left-box">
+    <p><a href="intro.html">Prev</a></p>
+  </div>
+  <div class="top-center-box">
+    <p>Advanced Emacs Features</p>
+  </div>
+  <div class="top-right-box">
+    <p><a href="ediff.html">Next</a></p>
+  </div>
+</div>
+
+<h1>Notation (review)</h1>
+
+<h2>Keys</h2>
+<ul>
+  <li>Control keys: <tt>C-u</tt></li>
+  <li>Meta keys: <tt>M-w</tt>  (use Alt or Esc key)</li>
+  <li>Commands: <tt>M-x</tt> <i>command-name</i></li>
+  <li>Other keys: <tt>RET</tt></li>
+</ul>
+
+<h2>Configuration</h2>
+<ul>
+  <li><tt>.emacs</tt> (in home directory)</li>
+</ul>
+
+<h2>Key binding</h2>
+<ul>
+  <li>During an editing session: <tt>M-x global-set-key</tt></li>
+  <li>From within <tt>.emacs</tt> file: <tt>(global-set-key [(meta control l)] 'some-command)</tt></li>
+</ul>
+
+<div class="fyi">
+<b>For further information:</b>
+<ul>
+  <li><a href="http://www.gnu.org/software/emacs/manual/html_node/Keys.html">Keys</a></li>
+  <li><a href="http://www.gnu.org/software/emacs/manual/html_node/Rebinding.html">Rebinding keys interactively</a></li>
+  <li><a href="http://www.gnu.org/software/emacs/manual/html_node/Init-Rebinding.html">Rebinding keys in <tt>.emacs</tt></a></li>
+</div>
+
+<hr class="bottom" />
+</body>
+</html>

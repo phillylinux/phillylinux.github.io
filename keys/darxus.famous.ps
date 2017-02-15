@@ -1,0 +1,2472 @@
+%!PS-Adobe-2.0
+%%Creator: neato version 1.7.16 (Wed Feb  6 02:14:53 MST 2002)
+%%For: (darxus) Debian User,,,
+%%Title: debian-keyring
+%%Pages: (atend)
+%%BoundingBox: 35 35 3319 3005
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+
+EncodingVector
+  dup 306 /AE
+  dup 301 /Aacute
+  dup 302 /Acircumflex
+  dup 304 /Adieresis
+  dup 300 /Agrave
+  dup 305 /Aring
+  dup 303 /Atilde
+  dup 307 /Ccedilla
+  dup 311 /Eacute
+  dup 312 /Ecircumflex
+  dup 313 /Edieresis
+  dup 310 /Egrave
+  dup 315 /Iacute
+  dup 316 /Icircumflex
+  dup 317 /Idieresis
+  dup 314 /Igrave
+  dup 334 /Udieresis
+  dup 335 /Yacute
+  dup 376 /thorn
+  dup 337 /germandbls
+  dup 341 /aacute
+  dup 342 /acircumflex
+  dup 344 /adieresis
+  dup 346 /ae
+  dup 340 /agrave
+  dup 345 /aring
+  dup 347 /ccedilla
+  dup 351 /eacute
+  dup 352 /ecircumflex
+  dup 353 /edieresis
+  dup 350 /egrave
+  dup 355 /iacute
+  dup 356 /icircumflex
+  dup 357 /idieresis
+  dup 354 /igrave
+  dup 360 /dcroat
+  dup 361 /ntilde
+  dup 363 /oacute
+  dup 364 /ocircumflex
+  dup 366 /odieresis
+  dup 362 /ograve
+  dup 365 /otilde
+  dup 370 /oslash
+  dup 372 /uacute
+  dup 373 /ucircumflex
+  dup 374 /udieresis
+  dup 371 /ugrave
+  dup 375 /yacute
+  dup 377 /ydieresis  
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+	dup 1 exch div /InvScaleFactor exch def
+	dup scale
+} bind def
+
+% styles
+/solid { } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw aligned label in bounding box aligned to current point
+/alignedtext {			% width adj text
+	/text exch def
+	/adj exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			text stringwidth pop adj mul 0 rmoveto
+		} if
+		[] 0 setdash
+		text show
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+1 setmiterlimit
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+%%Page: 1 1
+%%PageBoundingBox: 36 36 3319 3005
+%%PageOrientation: Portrait
+gsave
+35 35 3284 2970 boxprim clip newpath
+36 36 translate
+0 0 1 beginpage
+0 0 translate 0 rotate
+[ /CropBox [36 36 3319 3005] /PAGES pdfmark
+0.000 0.000 0.000 graphcolor
+14.00 /Times-Roman set_font
+
+%	09AC0A6A
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+2082 906 50 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+2082 906 50 18 ellipse_path
+stroke
+gsave 10 dict begin
+2082 901 moveto 79 -0.5 (L. Sassaman) alignedtext
+end grestore
+end grestore
+
+%	4AAF00E5
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+2199 601 60 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+2199 601 60 18 ellipse_path
+stroke
+gsave 10 dict begin
+2199 596 moveto 98 -0.5 (Dave Del Torto) alignedtext
+end grestore
+end grestore
+
+%	09AC0A6A -> 4AAF00E5
+newpath 2089 888 moveto
+2109 835 2166 687 2189 627 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2186 627 moveto
+2192 619 lineto
+2191 629 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	375AD924
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+2576 1465 70 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+2576 1465 70 18 ellipse_path
+stroke
+gsave 10 dict begin
+2576 1460 moveto 118 -0.5 ([User id not found]) alignedtext
+end grestore
+end grestore
+
+%	09AC0A6A -> 375AD924
+newpath 2097 923 moveto
+2170 1005 2474 1349 2555 1442 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2555 1438 moveto
+2560 1447 lineto
+2551 1442 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8421F11C
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+0.000 1.000 1.000 nodecolor
+1522 521 65 18 ellipse_path
+fill
+0.000 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1522 516 moveto 108 -0.5 (Eric S. Raymond) alignedtext
+end grestore
+end grestore
+
+%	09AC0A6A -> 8421F11C
+newpath 2059 890 moveto
+1971 829 1658 614 1555 544 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1553 546 moveto
+1546 538 lineto
+1556 541 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D3A42C61
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+2109 490 62 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+2109 490 62 18 ellipse_path
+stroke
+gsave 10 dict begin
+2109 485 moveto 103 -0.5 (Paco Monserrat) alignedtext
+end grestore
+end grestore
+
+%	09AC0A6A -> D3A42C61
+newpath 2083 888 moveto
+2087 822 2102 591 2108 515 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2106 518 moveto
+2108 508 lineto
+2111 518 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5B0358A2
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+0.000 1.000 1.000 nodecolor
+1541 819 56 18 ellipse_path
+fill
+0.000 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1541 814 moveto 91 -0.5 (Werner Koch) alignedtext
+end grestore
+end grestore
+
+%	09AC0A6A -> 5B0358A2
+newpath 2036 899 moveto
+1939 883 1710 846 1601 829 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1600 831 moveto
+1591 827 lineto
+1601 827 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	93674C40
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+0.000 1.000 1.000 nodecolor
+656 910 64 18 ellipse_path
+fill
+0.000 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+656 905 moveto 106 -0.5 (Theodore Y. Ts'o) alignedtext
+end grestore
+end grestore
+
+%	2FA3BC2D
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+0.000 1.000 1.000 nodecolor
+1202 1119 77 18 ellipse_path
+fill
+0.000 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1202 1114 moveto 132 -0.5 (Wichert Akkerman) alignedtext
+end grestore
+end grestore
+
+%	93674C40 -> 2FA3BC2D
+newpath 694 924 moveto
+767 952 930 1014 1068 1067 curveto
+1097 1078 1129 1090 1154 1100 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1154 1097 moveto
+1162 1103 lineto
+1152 1102 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB41B387
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+979 904 67 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+979 904 67 18 ellipse_path
+stroke
+gsave 10 dict begin
+979 899 moveto 113 -0.5 (Bradley M. Kuhn) alignedtext
+end grestore
+end grestore
+
+%	93674C40 -> DB41B387
+newpath 720 909 moveto
+773 908 849 906 904 905 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 902 903 moveto
+912 905 lineto
+902 908 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	66FBC18C
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+1022 1081 59 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1022 1081 59 18 ellipse_path
+stroke
+gsave 10 dict begin
+1022 1076 moveto 96 -0.5 (M. Drew Streib) alignedtext
+end grestore
+end grestore
+
+%	93674C40 -> 66FBC18C
+newpath 689 925 moveto
+757 957 911 1030 983 1063 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 981 1059 moveto
+989 1066 lineto
+979 1064 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BCBC621
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+0.000 1.000 1.000 nodecolor
+515 663 76 18 ellipse_path
+fill
+0.000 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+515 658 moveto 130 -0.5 (H. Peter Anvin \(hpa\)) alignedtext
+end grestore
+end grestore
+
+%	93674C40 -> 2BCBC621
+newpath 646 892 moveto
+621 848 557 737 529 687 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 528 691 moveto
+525 681 lineto
+533 688 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	E5D36C49
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+2718 679 53 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+2718 679 53 18 ellipse_path
+stroke
+gsave 10 dict begin
+2718 674 moveto 84 -0.5 (Kevin Houle) alignedtext
+end grestore
+end grestore
+
+%	20B19259
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+0.000 1.000 1.000 nodecolor
+3180 369 101 18 ellipse_path
+fill
+0.000 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3180 364 moveto 180 -0.5 (CERT Coordination Center) alignedtext
+end grestore
+end grestore
+
+%	E5D36C49 -> 20B19259
+newpath 2742 663 moveto
+2819 612 3057 451 3146 391 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 3144 389 moveto
+3154 386 lineto
+3147 393 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	E5D36C49 -> D3A42C61
+newpath 2679 667 moveto
+2572 634 2277 542 2159 505 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2161 508 moveto
+2152 503 lineto
+2162 503 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5D288605
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+2582 1285 114 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+2582 1285 114 18 ellipse_path
+stroke
+gsave 10 dict begin
+2582 1280 moveto 206 -0.5 (Jeffrey James Bryan Carpenter) alignedtext
+end grestore
+end grestore
+
+%	E5D36C49 -> 5D288605
+newpath 2714 697 moveto
+2695 783 2611 1155 2588 1258 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2591 1258 moveto
+2586 1267 lineto
+2586 1257 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	123EC631
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+1876 1662 47 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1876 1662 47 18 ellipse_path
+stroke
+gsave 10 dict begin
+1876 1657 moveto 73 -0.5 (Jim Dennis) alignedtext
+end grestore
+end grestore
+
+%	330C4A75
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+1561 1938 128 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1561 1938 128 18 ellipse_path
+stroke
+gsave 10 dict begin
+1561 1933 moveto 234 -0.5 (Martin F. Krafft \(AERAsec GmbH\)) alignedtext
+end grestore
+end grestore
+
+%	123EC631 -> 330C4A75
+newpath 1857 1679 moveto
+1803 1727 1649 1862 1587 1915 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1591 1915 moveto
+1582 1920 lineto
+1587 1911 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	123EC631 -> 5D288605
+newpath 1904 1647 moveto
+2013 1589 2413 1376 2542 1306 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2539 1305 moveto
+2549 1302 lineto
+2542 1309 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	67A7B584
+gsave 10 dict begin
+filled
+0.667 1.000 1.000 nodecolor
+0.667 1.000 1.000 nodecolor
+1065 2490 82 18 ellipse_path
+fill
+0.667 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1065 2485 moveto 143 -0.5 (Walter C. Mankowski) alignedtext
+end grestore
+end grestore
+
+%	1E4CD1E8
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+624 2129 51 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+624 2129 51 18 ellipse_path
+stroke
+gsave 10 dict begin
+624 2124 moveto 81 -0.5 (Eric J. Roode) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 1E4CD1E8
+newpath 1044 2473 moveto
+971 2413 733 2218 651 2152 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 650 2154 moveto
+644 2146 lineto
+653 2151 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A
+gsave 10 dict begin
+filled
+0.667 1.000 1.000 nodecolor
+0.667 1.000 1.000 nodecolor
+1455 2463 76 18 ellipse_path
+fill
+0.667 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1455 2458 moveto 131 -0.5 (gabriel rosenkoetter) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 0CF9091A
+newpath 1143 2485 moveto
+1210 2480 1305 2474 1373 2469 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1372 2467 moveto
+1382 2468 lineto
+1372 2472 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65
+gsave 10 dict begin
+filled
+0.667 1.000 1.000 nodecolor
+0.667 1.000 1.000 nodecolor
+1668 2682 82 18 ellipse_path
+fill
+0.667 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1668 2677 moveto 142 -0.5 (Leonard D. Rosenthol) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 80675E65
+newpath 1112 2505 moveto
+1222 2540 1498 2627 1614 2665 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1612 2662 moveto
+1621 2667 lineto
+1611 2667 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879
+gsave 10 dict begin
+filled
+0.667 1.000 1.000 nodecolor
+0.667 1.000 1.000 nodecolor
+1363 2949 36 18 ellipse_path
+fill
+0.667 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1363 2944 moveto 50 -0.5 (Darxus) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 0E9FF879
+newpath 1066 2508 moveto
+1068 2546 1077 2635 1112 2699 curveto
+1169 2802 1281 2892 1334 2929 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1334 2926 moveto
+1341 2934 lineto
+1331 2930 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B
+gsave 10 dict begin
+filled
+0.667 1.000 1.000 nodecolor
+0.667 1.000 1.000 nodecolor
+1210 2699 89 18 ellipse_path
+fill
+0.667 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1210 2694 moveto 156 -0.5 (Michael C. Toren \(MCT\)) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 52AC566B
+newpath 1077 2508 moveto
+1103 2545 1164 2633 1193 2675 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1194 2671 moveto
+1197 2681 lineto
+1189 2674 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	33E3FE56
+gsave 10 dict begin
+filled
+0.667 1.000 1.000 nodecolor
+0.667 1.000 1.000 nodecolor
+975 2683 65 18 ellipse_path
+fill
+0.667 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+975 2678 moveto 108 -0.5 (David M. Turner) alignedtext
+end grestore
+end grestore
+
+%	67A7B584 -> 33E3FE56
+newpath 1057 2508 moveto
+1040 2543 1005 2617 987 2657 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 990 2657 moveto
+983 2665 lineto
+985 2655 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	466B4289
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+0.000 1.000 1.000 nodecolor
+1009 572 110 18 ellipse_path
+fill
+0.000 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1009 567 moveto 199 -0.5 (Theodore Ts'o [SIGNATURE]) alignedtext
+end grestore
+end grestore
+
+%	466B4289 -> 93674C40
+newpath 990 590 moveto
+931 647 746 824 680 888 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 683 889 moveto
+674 893 lineto
+680 885 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	466B4289 -> 2FA3BC2D
+newpath 1015 590 moveto
+1044 671 1159 998 1193 1093 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1195 1091 moveto
+1196 1101 lineto
+1190 1093 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	466B4289 -> DB41B387
+newpath 1007 590 moveto
+1002 645 987 812 982 878 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 985 876 moveto
+981 886 lineto
+980 876 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	4D0C4EE1
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+1718 524 65 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1718 524 65 18 ellipse_path
+stroke
+gsave 10 dict begin
+1718 519 moveto 109 -0.5 (Jeffrey I. Schiller) alignedtext
+end grestore
+end grestore
+
+%	466B4289 -> 4D0C4EE1
+newpath 1114 566 moveto
+1217 560 1381 551 1522 541 curveto
+1564 537 1611 534 1648 531 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1646 529 moveto
+1656 530 lineto
+1646 534 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	466B4289 -> 66FBC18C
+newpath 1013 590 moveto
+1025 640 1055 783 1053 904 curveto
+1052 959 1037 1022 1029 1056 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1032 1054 moveto
+1027 1063 lineto
+1027 1053 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	466B4289 -> 2BCBC621
+newpath 936 585 moveto
+841 603 676 633 583 650 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 585 652 moveto
+575 652 lineto
+584 647 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	1E4CD1E8 -> 67A7B584
+newpath 644 2146 moveto
+716 2204 953 2399 1037 2466 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1038 2464 moveto
+1044 2472 lineto
+1035 2467 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	007F7B38
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+693 1498 60 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+693 1498 60 18 ellipse_path
+stroke
+gsave 10 dict begin
+693 1493 moveto 99 -0.5 (Jack M Twilley) alignedtext
+end grestore
+end grestore
+
+%	1E4CD1E8 -> 007F7B38
+newpath 626 2111 moveto
+636 2022 678 1632 690 1525 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 687 1526 moveto
+691 1516 lineto
+692 1526 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	1E4CD1E8 -> 33E3FE56
+newpath 635 2147 moveto
+687 2228 901 2567 961 2660 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 961 2655 moveto
+964 2665 lineto
+957 2658 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	38D916D5
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+2418 19 59 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+2418 19 59 18 ellipse_path
+stroke
+gsave 10 dict begin
+2418 14 moveto 97 -0.5 (Marshall Clow) alignedtext
+end grestore
+end grestore
+
+%	007F7B38 -> 1E4CD1E8
+newpath 691 1516 moveto
+681 1605 639 1995 627 2102 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 630 2101 moveto
+626 2111 lineto
+625 2101 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	007F7B38 -> DB41B387
+newpath 702 1480 moveto
+743 1395 917 1032 966 931 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 964 930 moveto
+970 922 lineto
+968 932 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	007F7B38 -> 66FBC18C
+newpath 707 1480 moveto
+759 1414 943 1181 1003 1106 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1000 1106 moveto
+1008 1099 lineto
+1004 1109 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2FA3BC2D -> 466B4289
+newpath 1196 1101 moveto
+1167 1020 1052 693 1018 598 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1016 600 moveto
+1015 590 lineto
+1021 598 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2FA3BC2D -> 66FBC18C
+newpath 1145 1107 moveto
+1124 1103 1100 1098 1080 1093 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1080 1096 moveto
+1071 1091 lineto
+1081 1091 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2FA3BC2D -> 5B0358A2
+newpath 1222 1102 moveto
+1280 1051 1451 898 1516 841 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1513 840 moveto
+1522 836 lineto
+1516 844 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	68FD549F
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+1217 693 74 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1217 693 74 18 ellipse_path
+stroke
+gsave 10 dict begin
+1217 688 moveto 126 -0.5 (Martin Michlmayr) alignedtext
+end grestore
+end grestore
+
+%	68FD549F -> DB41B387
+newpath 1197 711 moveto
+1154 748 1053 838 1005 881 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1008 882 moveto
+999 887 lineto
+1004 878 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	AB9B66FD
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+1474 1333 60 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1474 1333 60 18 ellipse_path
+stroke
+gsave 10 dict begin
+1474 1328 moveto 98 -0.5 (Thomas Lange) alignedtext
+end grestore
+end grestore
+
+%	68FD549F -> AB9B66FD
+newpath 1224 711 moveto
+1260 801 1423 1207 1465 1309 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1466 1305 moveto
+1467 1315 lineto
+1461 1306 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	4AAF00E5 -> 38D916D5
+newpath 2206 583 moveto
+2238 500 2371 146 2408 45 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2405 45 moveto
+2411 37 lineto
+2410 47 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C7A966DD
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+0.000 1.000 1.000 nodecolor
+2157 1107 86 18 ellipse_path
+fill
+0.000 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2157 1102 moveto 151 -0.5 (Philip R. Zimmermann) alignedtext
+end grestore
+end grestore
+
+%	4AAF00E5 -> C7A966DD
+newpath 2198 619 moveto
+2191 695 2167 992 2159 1081 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2162 1079 moveto
+2158 1089 lineto
+2157 1079 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	4AAF00E5 -> 4D0C4EE1
+newpath 2146 592 moveto
+2057 577 1879 550 1783 534 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1784 537 moveto
+1774 533 lineto
+1784 532 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0B3EF042
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+2593 2569 74 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+2593 2569 74 18 ellipse_path
+stroke
+gsave 10 dict begin
+2593 2564 moveto 127 -0.5 (Vinnie Moscaritolo) alignedtext
+end grestore
+end grestore
+
+%	148C6F43
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+0.000 1.000 1.000 nodecolor
+3057 2839 27 18 ellipse_path
+fill
+0.000 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3057 2834 moveto 32 -0.5 (Woz) alignedtext
+end grestore
+end grestore
+
+%	0B3EF042 -> 148C6F43
+newpath 2622 2586 moveto
+2705 2635 2947 2775 3030 2823 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 3030 2820 moveto
+3037 2827 lineto
+3027 2824 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2C54C8FA
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+2669 2088 62 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+2669 2088 62 18 ellipse_path
+stroke
+gsave 10 dict begin
+2669 2083 moveto 103 -0.5 (Leland Wallace) alignedtext
+end grestore
+end grestore
+
+%	0B3EF042 -> 2C54C8FA
+newpath 2596 2551 moveto
+2608 2477 2651 2199 2665 2113 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2662 2116 moveto
+2666 2106 lineto
+2667 2116 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	330C4A75 -> 0CF9091A
+newpath 1557 1956 moveto
+1541 2035 1479 2345 1461 2437 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1464 2436 moveto
+1459 2445 lineto
+1459 2435 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	449FA3AB
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+0.000 1.000 1.000 nodecolor
+61 393 60 18 ellipse_path
+fill
+0.000 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+61 388 moveto 99 -0.5 (Linus Torvalds) alignedtext
+end grestore
+end grestore
+
+%	449FA3AB -> 2BCBC621
+newpath 88 409 moveto
+166 456 391 589 479 641 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 480 639 moveto
+487 646 lineto
+477 643 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	57548DCD
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+0.000 1.000 1.000 nodecolor
+1465 95 92 18 ellipse_path
+fill
+0.000 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1465 90 moveto 163 -0.5 (Werner Koch \(gnupg sig\)) alignedtext
+end grestore
+end grestore
+
+%	57548DCD -> 5B0358A2
+newpath 1462 113 moveto
+1454 173 1430 364 1451 521 curveto
+1464 625 1510 744 1530 794 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1531 791 moveto
+1533 801 lineto
+1527 793 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C7A966DD -> 4AAF00E5
+newpath 2158 1089 moveto
+2165 1013 2189 716 2197 627 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2194 629 moveto
+2198 619 lineto
+2199 629 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	C7A966DD -> 4D0C4EE1
+newpath 2143 1089 moveto
+2080 1005 1813 650 1737 550 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1735 552 moveto
+1731 542 lineto
+1739 549 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0525419B
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+0.000 1.000 1.000 nodecolor
+2086 1663 139 18 ellipse_path
+fill
+0.000 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2086 1658 moveto 257 -0.5 (Pretty Good Privacy, Inc. Corporate Key) alignedtext
+end grestore
+end grestore
+
+%	C7A966DD -> 0525419B
+newpath 2155 1125 moveto
+2144 1207 2102 1540 2089 1637 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2092 1635 moveto
+2088 1645 lineto
+2087 1635 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB41B387 -> 93674C40
+newpath 912 905 moveto
+858 906 782 908 727 909 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 730 912 moveto
+720 909 lineto
+730 907 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB41B387 -> 466B4289
+newpath 981 886 moveto
+986 831 1001 664 1006 598 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1003 600 moveto
+1007 590 lineto
+1008 600 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB41B387 -> 007F7B38
+newpath 970 922 moveto
+929 1007 755 1370 706 1471 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 708 1472 moveto
+702 1480 lineto
+704 1470 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB41B387 -> 68FD549F
+newpath 998 887 moveto
+1041 849 1142 759 1191 716 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1188 715 moveto
+1197 710 lineto
+1192 719 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8F8F4B28
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+521 1204 54 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+521 1204 54 18 ellipse_path
+stroke
+gsave 10 dict begin
+521 1199 moveto 86 -0.5 (Fen Labalme) alignedtext
+end grestore
+end grestore
+
+%	DB41B387 -> 8F8F4B28
+newpath 953 921 moveto
+875 972 640 1126 553 1183 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 556 1184 moveto
+546 1188 lineto
+553 1180 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB41B387 -> 66FBC18C
+newpath 983 922 moveto
+990 954 1007 1019 1016 1056 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1018 1053 moveto
+1018 1063 lineto
+1013 1054 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB41B387 -> 8421F11C
+newpath 1006 887 moveto
+1061 853 1192 769 1298 693 curveto
+1371 641 1453 576 1495 542 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1491 541 moveto
+1501 538 lineto
+1494 546 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	DB41B387 -> 5B0358A2
+newpath 1038 895 moveto
+1146 878 1376 843 1484 828 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1480 826 moveto
+1490 827 lineto
+1481 831 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 67A7B584
+newpath 1382 2468 moveto
+1317 2473 1222 2479 1153 2484 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1153 2486 moveto
+1143 2485 lineto
+1153 2482 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 330C4A75
+newpath 1459 2445 moveto
+1475 2367 1537 2056 1555 1964 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1552 1965 moveto
+1557 1956 lineto
+1557 1966 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 80675E65
+newpath 1472 2481 moveto
+1510 2520 1602 2614 1645 2658 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1646 2655 moveto
+1651 2664 lineto
+1642 2659 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 0E9FF879
+newpath 1452 2481 moveto
+1437 2555 1384 2838 1367 2924 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1370 2921 moveto
+1366 2931 lineto
+1365 2921 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 52AC566B
+newpath 1437 2481 moveto
+1394 2523 1284 2627 1235 2675 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1238 2676 moveto
+1229 2681 lineto
+1234 2672 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0CF9091A -> 33E3FE56
+newpath 1420 2479 moveto
+1334 2519 1111 2621 1017 2664 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1019 2666 moveto
+1009 2668 lineto
+1017 2661 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	4D0C4EE1 -> 466B4289
+newpath 1656 530 moveto
+1618 533 1567 537 1522 541 curveto
+1385 551 1227 559 1123 565 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1124 567 moveto
+1114 566 lineto
+1124 562 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	4D0C4EE1 -> C7A966DD
+newpath 1731 542 moveto
+1795 626 2067 987 2140 1084 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2140 1080 moveto
+2144 1089 lineto
+2136 1083 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 67A7B584
+newpath 1621 2667 moveto
+1511 2632 1235 2545 1119 2507 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1121 2510 moveto
+1112 2505 lineto
+1122 2505 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 0CF9091A
+newpath 1651 2664 moveto
+1613 2625 1521 2531 1478 2487 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1477 2490 moveto
+1472 2481 lineto
+1481 2486 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 0E9FF879
+newpath 1648 2700 moveto
+1594 2747 1449 2874 1389 2926 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1390 2928 moveto
+1381 2933 lineto
+1387 2925 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 52AC566B
+newpath 1587 2685 moveto
+1508 2688 1388 2693 1305 2696 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1308 2699 moveto
+1298 2696 lineto
+1308 2694 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	80675E65 -> 33E3FE56
+newpath 1586 2681 moveto
+1494 2680 1342 2678 1211 2679 curveto
+1157 2680 1096 2681 1050 2682 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1050 2685 moveto
+1040 2682 lineto
+1050 2680 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8F8F4B28 -> 007F7B38
+newpath 532 1222 moveto
+561 1273 644 1414 678 1472 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 680 1470 moveto
+682 1480 lineto
+675 1472 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8F8F4B28 -> DB41B387
+newpath 546 1188 moveto
+623 1138 858 984 945 926 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 943 924 moveto
+953 921 lineto
+946 928 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8F8F4B28 -> 66FBC18C
+newpath 565 1193 moveto
+655 1171 866 1119 967 1094 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 966 1092 moveto
+976 1092 lineto
+967 1097 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	66FBC18C -> 466B4289
+newpath 1027 1063 moveto
+1035 1031 1052 963 1053 904 curveto
+1055 788 1028 653 1015 597 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1013 600 moveto
+1013 590 lineto
+1018 599 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	66FBC18C -> 007F7B38
+newpath 1008 1099 moveto
+956 1165 772 1398 712 1473 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 715 1473 moveto
+707 1480 lineto
+711 1470 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	66FBC18C -> 2FA3BC2D
+newpath 1071 1091 moveto
+1092 1096 1116 1101 1138 1106 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1135 1103 moveto
+1144 1107 lineto
+1134 1108 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	66FBC18C -> DB41B387
+newpath 1018 1063 moveto
+1011 1031 994 966 985 929 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 983 932 moveto
+983 922 lineto
+988 931 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	66FBC18C -> 8F8F4B28
+newpath 976 1092 moveto
+883 1115 672 1167 574 1191 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 575 1193 moveto
+565 1193 lineto
+574 1188 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	517D0F0E
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+0.000 1.000 1.000 nodecolor
+716 438 143 18 ellipse_path
+fill
+0.000 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+716 433 moveto 264 -0.5 (Linux Kernel Archives Verification Key) alignedtext
+end grestore
+end grestore
+
+%	66FBC18C -> 517D0F0E
+newpath 1008 1063 moveto
+985 1032 937 965 905 904 curveto
+821 744 750 539 725 465 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 723 466 moveto
+722 456 lineto
+728 465 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8C0962D5
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+1735 1091 177 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1735 1091 177 18 ellipse_path
+stroke
+gsave 10 dict begin
+1735 1086 moveto 333 -0.5 (Stanton McCandlish \(POP acct. for file attachments\)) alignedtext
+end grestore
+end grestore
+
+%	66FBC18C -> 8C0962D5
+newpath 1081 1082 moveto
+1184 1083 1398 1086 1553 1088 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1549 1086 moveto
+1559 1088 lineto
+1549 1091 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	66FBC18C -> 2BCBC621
+newpath 1001 1064 moveto
+922 999 637 763 544 687 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 542 688 moveto
+536 680 lineto
+545 685 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	66FBC18C -> 5B0358A2
+newpath 1053 1066 moveto
+1142 1020 1403 888 1502 838 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1501 836 moveto
+1511 834 lineto
+1503 840 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0FCC27C6
+gsave 10 dict begin
+filled
+0.667 1.000 1.000 nodecolor
+0.667 1.000 1.000 nodecolor
+911 2105 45 18 ellipse_path
+fill
+0.667 1.000 1.000 nodecolor
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+911 2100 moveto 68 -0.5 (David Coe) alignedtext
+end grestore
+end grestore
+
+%	788A3F4C
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+1160 1582 42 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+1160 1582 42 18 ellipse_path
+stroke
+gsave 10 dict begin
+1160 1577 moveto 63 -0.5 (Joey Hess) alignedtext
+end grestore
+end grestore
+
+%	0FCC27C6 -> 788A3F4C
+newpath 919 2087 moveto
+957 2009 1104 1699 1148 1608 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1145 1608 moveto
+1152 1600 lineto
+1150 1610 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	148C6F43 -> 0B3EF042
+newpath 3036 2827 moveto
+2964 2785 2723 2645 2630 2591 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2629 2593 moveto
+2622 2586 lineto
+2632 2589 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8421F11C -> 09AC0A6A
+newpath 1546 538 moveto
+1637 601 1955 819 2053 886 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2052 882 moveto
+2059 890 lineto
+2049 887 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8421F11C -> 68FD549F
+newpath 1493 537 moveto
+1438 569 1316 637 1255 671 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1257 673 moveto
+1247 676 lineto
+1254 669 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D3A42C61 -> 09AC0A6A
+newpath 2108 508 moveto
+2104 574 2089 805 2083 881 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2086 878 moveto
+2083 888 lineto
+2081 878 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D3A42C61 -> E5D36C49
+newpath 2152 503 moveto
+2263 537 2558 629 2672 665 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2670 662 moveto
+2679 667 lineto
+2669 667 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	D3A42C61 -> 5B0358A2
+newpath 2081 506 moveto
+1986 562 1677 741 1574 800 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1578 801 moveto
+1568 803 lineto
+1576 796 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8C0962D5 -> 09AC0A6A
+newpath 1768 1073 moveto
+1834 1038 1981 960 2048 924 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2044 923 moveto
+2054 921 lineto
+2046 928 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8C0962D5 -> 4AAF00E5
+newpath 1752 1073 moveto
+1823 998 2094 712 2176 625 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2174 623 moveto
+2183 618 lineto
+2178 627 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8C0962D5 -> C7A966DD
+newpath 1901 1097 moveto
+1957 1099 2017 1102 2065 1104 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2062 1102 moveto
+2072 1104 lineto
+2062 1107 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8C0962D5 -> 4D0C4EE1
+newpath 1734 1073 moveto
+1732 991 1722 648 1719 550 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1717 552 moveto
+1719 542 lineto
+1722 552 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8C0962D5 -> 66FBC18C
+newpath 1559 1089 moveto
+1408 1087 1198 1083 1091 1082 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1091 1085 moveto
+1081 1082 lineto
+1091 1080 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	8C0962D5 -> 0525419B
+newpath 1746 1109 moveto
+1798 1192 2013 1545 2072 1640 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2072 1635 moveto
+2075 1645 lineto
+2068 1638 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BCBC621 -> 93674C40
+newpath 525 681 moveto
+550 725 614 836 642 886 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 643 882 moveto
+646 892 lineto
+638 885 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BCBC621 -> 449FA3AB
+newpath 487 646 moveto
+407 598 183 465 96 414 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 95 416 moveto
+88 409 lineto
+98 412 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2BCBC621 -> 517D0F0E
+newpath 531 645 moveto
+566 605 654 507 695 462 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 692 462 moveto
+700 456 lineto
+696 465 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5D288605 -> E5D36C49
+newpath 2586 1267 moveto
+2605 1181 2689 809 2712 706 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2709 706 moveto
+2714 697 lineto
+2714 707 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F6F83318
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+2159 2306 52 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+2159 2306 52 18 ellipse_path
+stroke
+gsave 10 dict begin
+2159 2301 moveto 83 -0.5 (Jason Bobier) alignedtext
+end grestore
+end grestore
+
+%	0525419B -> F6F83318
+newpath 2088 1681 moveto
+2099 1772 2144 2178 2156 2282 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2158 2278 moveto
+2157 2288 lineto
+2153 2279 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	788A3F4C -> 123EC631
+newpath 1201 1587 moveto
+1324 1601 1685 1640 1823 1656 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1821 1653 moveto
+1831 1657 lineto
+1821 1658 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	788A3F4C -> 2FA3BC2D
+newpath 1162 1564 moveto
+1168 1492 1192 1227 1199 1144 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1196 1147 moveto
+1200 1137 lineto
+1201 1147 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	788A3F4C -> 66FBC18C
+newpath 1155 1564 moveto
+1134 1488 1053 1195 1029 1107 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1027 1109 moveto
+1027 1099 lineto
+1032 1108 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	788A3F4C -> 0FCC27C6
+newpath 1152 1600 moveto
+1114 1678 967 1988 923 2079 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 926 2079 moveto
+919 2087 lineto
+921 2077 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7DAF500C
+gsave 10 dict begin
+filled
+0.000 0.000 0.827 nodecolor
+3178 2340 55 18 ellipse_path
+fill
+0.000 0.000 0.000 nodecolor
+3178 2340 55 18 ellipse_path
+stroke
+gsave 10 dict begin
+3178 2335 moveto 88 -0.5 (Alex Fielding) alignedtext
+end grestore
+end grestore
+
+%	7DAF500C -> 148C6F43
+newpath 3174 2358 moveto
+3156 2434 3084 2725 3063 2813 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 3066 2812 moveto
+3061 2821 lineto
+3061 2811 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	7DAF500C -> 2C54C8FA
+newpath 3147 2325 moveto
+3060 2281 2808 2157 2710 2108 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2709 2110 moveto
+2701 2104 lineto
+2711 2106 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 67A7B584
+newpath 1341 2934 moveto
+1292 2900 1172 2807 1112 2699 curveto
+1079 2639 1069 2558 1066 2516 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1064 2518 moveto
+1066 2508 lineto
+1069 2518 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 0CF9091A
+newpath 1366 2931 moveto
+1381 2857 1434 2574 1451 2488 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1448 2491 moveto
+1452 2481 lineto
+1453 2491 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 80675E65
+newpath 1381 2933 moveto
+1433 2887 1583 2757 1643 2705 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1639 2705 moveto
+1648 2700 lineto
+1643 2709 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 52AC566B
+newpath 1352 2931 moveto
+1325 2888 1256 2774 1225 2724 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1224 2727 moveto
+1221 2717 lineto
+1228 2724 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	0E9FF879 -> 33E3FE56
+newpath 1342 2934 moveto
+1277 2890 1082 2757 1007 2705 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1007 2708 moveto
+1000 2700 lineto
+1010 2704 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 67A7B584
+newpath 1197 2681 moveto
+1172 2644 1113 2559 1083 2517 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1080 2518 moveto
+1077 2508 lineto
+1085 2515 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 0CF9091A
+newpath 1228 2681 moveto
+1272 2639 1381 2534 1430 2487 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1428 2486 moveto
+1437 2481 lineto
+1431 2489 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 80675E65
+newpath 1298 2696 moveto
+1380 2693 1499 2688 1580 2685 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1577 2683 moveto
+1587 2685 lineto
+1577 2688 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 0FCC27C6
+newpath 1207 2681 moveto
+1201 2644 1185 2557 1155 2490 curveto
+1091 2344 977 2189 931 2130 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 929 2132 moveto
+925 2122 lineto
+933 2129 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	52AC566B -> 0E9FF879
+newpath 1221 2717 moveto
+1248 2761 1317 2875 1348 2925 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1349 2921 moveto
+1352 2931 lineto
+1344 2924 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	AB9B66FD -> 2FA3BC2D
+newpath 1452 1316 moveto
+1404 1278 1287 1186 1231 1143 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1230 1145 moveto
+1224 1137 lineto
+1233 1142 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	AB9B66FD -> 68FD549F
+newpath 1467 1315 moveto
+1431 1226 1271 828 1228 720 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1226 721 moveto
+1224 711 lineto
+1230 719 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	AB9B66FD -> 330C4A75
+newpath 1477 1351 moveto
+1489 1437 1543 1808 1557 1911 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1559 1910 moveto
+1558 1920 lineto
+1554 1910 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	33E3FE56 -> 67A7B584
+newpath 983 2665 moveto
+1000 2630 1035 2556 1053 2516 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1050 2516 moveto
+1057 2508 lineto
+1055 2518 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	33E3FE56 -> 1E4CD1E8
+newpath 964 2665 moveto
+913 2583 701 2251 640 2155 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 638 2157 moveto
+635 2147 lineto
+642 2154 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	33E3FE56 -> 0CF9091A
+newpath 1009 2668 moveto
+1093 2628 1317 2526 1412 2483 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1410 2481 moveto
+1420 2479 lineto
+1412 2486 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	33E3FE56 -> 80675E65
+newpath 1040 2682 moveto
+1087 2681 1153 2680 1211 2679 curveto
+1338 2678 1485 2680 1578 2681 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1576 2679 moveto
+1586 2681 lineto
+1576 2684 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5B0358A2 -> 09AC0A6A
+newpath 1591 827 moveto
+1694 844 1927 881 2030 898 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2027 895 moveto
+2036 899 lineto
+2026 900 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5B0358A2 -> 2FA3BC2D
+newpath 1522 836 moveto
+1464 886 1293 1039 1228 1096 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1231 1097 moveto
+1222 1101 lineto
+1228 1093 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5B0358A2 -> 57548DCD
+newpath 1533 801 moveto
+1514 755 1465 630 1451 521 curveto
+1431 371 1452 190 1461 122 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1458 123 moveto
+1462 113 lineto
+1463 123 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5B0358A2 -> DB41B387
+newpath 1490 827 moveto
+1388 843 1157 878 1045 894 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1048 896 moveto
+1038 895 lineto
+1048 891 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5B0358A2 -> 66FBC18C
+newpath 1511 834 moveto
+1422 879 1161 1011 1062 1062 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1063 1064 moveto
+1053 1066 lineto
+1061 1060 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5B0358A2 -> D3A42C61
+newpath 1568 803 moveto
+1662 748 1971 569 2075 509 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2071 508 moveto
+2081 506 lineto
+2073 513 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	5B0358A2 -> AB9B66FD
+newpath 1539 837 moveto
+1529 914 1489 1216 1477 1307 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1480 1305 moveto
+1476 1315 lineto
+1475 1305 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F6F83318 -> 0B3EF042
+newpath 2185 2322 moveto
+2259 2367 2473 2496 2558 2548 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2558 2545 moveto
+2565 2552 lineto
+2555 2549 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F6F83318 -> 80675E65
+newpath 2137 2323 moveto
+2058 2382 1790 2589 1699 2659 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 1701 2661 moveto
+1691 2665 lineto
+1698 2657 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	F6F83318 -> 2C54C8FA
+newpath 2192 2292 moveto
+2281 2254 2525 2149 2625 2107 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2624 2105 moveto
+2634 2103 lineto
+2626 2109 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2C54C8FA -> 0B3EF042
+newpath 2666 2106 moveto
+2654 2180 2611 2458 2597 2544 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2600 2541 moveto
+2596 2551 lineto
+2595 2541 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+
+%	2C54C8FA -> 375AD924
+newpath 2666 2070 moveto
+2653 1982 2596 1598 2580 1492 curveto
+stroke
+0.000 0.000 0.000 edgecolor
+newpath 2578 1493 moveto
+2579 1483 lineto
+2583 1493 lineto
+closepath
+fill
+0.000 0.000 0.000 edgecolor
+endpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+end
+restore
+%%EOF

@@ -1,0 +1,41 @@
+There are currently 11 keys in the keyring.
+
+Looking at the undirected graph of keys there are:
+1 cluster(s) of size 11
+
+Key: 1024D/0E9FF879 Darxus <Darxus@ChaosReigns.com>
+                trusted by:   9; average trustpathlength  1.1111
+                can trust :  11; average trustpathlength  1.3636
+Key: 1024D/69350CFC Pete Foley <lynchman@speakeasy.org>
+                trusted by:   9; average trustpathlength  1.2222
+                can trust :  11; average trustpathlength  1.5455
+Key: 1024D/67A7B584 Walter C. Mankowski <waltman@netaxs.com>
+                trusted by:   9; average trustpathlength  1.2222
+                can trust :  11; average trustpathlength  1.5455
+Key: 1024D/E4642C01 Bill Jonas <bj@linuxforce.net>
+                trusted by:   9; average trustpathlength  1.5556
+                can trust :  11; average trustpathlength  1.3636
+Key: 1024D/80675E65 Leonard D. Rosenthol <leonardr@lazerware.com>
+                trusted by:   9; average trustpathlength  1.1111
+                can trust :  11; average trustpathlength  1.1818
+Key: 1024D/5AA5BCDF Michael J. Leone <userdude@yahoo.com>
+                trusted by:   9; average trustpathlength  1.0000
+                can trust :  11; average trustpathlength  1.0000
+Key: 1024D/EB281E23 Alexander M. Shinn (f00f) <ashinn1@umbc.edu>
+                trusted by:   9; average trustpathlength  1.5556
+                can trust :  11; average trustpathlength  1.8182
+Key: 1024D/B3EA8E22 Chris Fearnley (Dare to be Naïve) <Chris@CJFearnley.com>
+                trusted by:  11; average trustpathlength  1.3636
+                can trust :   1; average trustpathlength  1.0000
+Key: 1024D/D9367DD8 George E McNeal Jr (george) <gmcneal@op.net>
+                trusted by:   9; average trustpathlength  1.2222
+                can trust :  11; average trustpathlength  1.5455
+Key: 1024D/52AC566B Michael C. Toren (MCT) <michael@toren.net>
+                trusted by:   9; average trustpathlength  1.0000
+                can trust :  11; average trustpathlength  1.0909
+Key: 1024D/0FCC27C6 David L. Coe <david.coe@someotherplace.org>
+                trusted by:  10; average trustpathlength  2.2000
+                can trust :   2; average trustpathlength  1.0000
+
+On average every key trusts/can be trusted by 9.27 other keys.
+The average trustpathlengths for 'trusted by' and 'can trust' are 1.3240 and 1.3140.

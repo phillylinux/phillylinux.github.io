@@ -1,0 +1,33 @@
+#!/usr/bin/perl
+
+$datfile = "pics.dat";
+$index = "index.html";
+
+open (DATFILE, "<$datfile") or die "can't read from $datfile $!\n";
+
+$linenum=0;
+while (<DATFILE>)
+{
+  $line[$linenum++]=$_;
+}
+
+open (INDEX, ">$index") or die "can't write to all.html $!\n";
+
+print INDEX "<table>\n";
+
+$numlines=scalar(@line);
+print STDERR "$numlines lines.\n";
+
+print "line";
+for $linenum (0 .. $numlines-1)
+{
+  print " $linenum";
+  ($file,$info) = split(/	/, $line[$linenum]);
+  #print "$file\n$info\n";
+  open ($file, ">>$file.html") or die "can't write to $file.html $!\n";
+  print $file "<img src=\"$file.jpg\"><br>$info";
+  print INDEX "<tr><td valign=\"top\"><a href=\"$file.html\">$file.jpg</a><td>$info\n</tr>";
+}
+
+print INDEX "</table>";
+print "\n";

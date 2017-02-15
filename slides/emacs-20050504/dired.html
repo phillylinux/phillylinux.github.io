@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Advanced Emacs Features</title>
+<link rel="stylesheet" type="text/css" href="talk.css" />
+</head>
+<body>
+<div class="top-box">
+  <div class="top-left-box">
+    <p><a href="calendar.html">Prev</a></p>
+  </div>
+  <div class="top-center-box">
+    <p>Advanced Emacs Features</p>
+  </div>
+  <div class="top-right-box">
+    <p><a href="the-end.html">Next</a></p>
+  </div>
+</div>
+
+<h1>Dired - directory manipulation</h1>
+
+<table class="chart">
+<tr><th colspan="2">Basic navigation</td></tr>
+
+<tr><td><tt>M-x dired</tt></td>            <td>Start directory-edit mode</td></tr>
+<tr><td><tt>^</tt></td>                    <td>Move to parent directory</td></tr>
+<tr><td><tt>s</tt></td>                    <td>Toggle sort order</td></tr>
+<tr><td><tt>i</tt></td>                    <td>Insert subdirectory listing</td></tr>
+<tr><td><tt>M-C-n</tt></td>                <td>Move to next directory listing</td></tr>
+<tr><td><tt>M-C-p</tt></td>                <td>Move to previous directory listing</td></tr>
+<tr><td><tt>$</tt></td>                    <td>Hide or show directory listing</td></tr>
+<tr><td><tt>C-u k</tt></td>                <td>Remove this subdirectory listing</td></tr>
+
+<tr><th colspan="2">Simple operations</td></tr>
+<tr><td><tt>d</tt></td>                    <td>Flag a file for deletion</td></tr>
+<tr><td><tt>u</tt></td>                    <td>Un-flag for deletion</td></tr>
+<tr><td><tt>~</tt></td>                    <td>Flag backup files for deletion</td></tr>
+<tr><td><tt>% d</tt></td>                  <td>Flag files for deletion by regexp</td></tr>
+<tr><td><tt>x</tt></td>                    <td>Delete all flagged files</td></tr>
+<tr><td><tt>+</tt></td>                    <td>Create a directory</td></tr>
+
+<tr><td><tt>v</tt></td>                    <td>View (read-only) file at point</td></tr>
+<tr><td><tt>e</tt></td>                    <td>Edit file at point</td></tr>
+
+<tr><th colspan="2">Asterisk-marking</td></tr>
+<tr><td><tt>* m</tt></td>                    <td>Mark file with asterisk</td></tr>
+<tr><td><tt>* u</tt></td>                    <td>Unmark file</td></tr>
+<tr><td><tt>* *</tt></td>                    <td>Mark executable files</td></tr>
+<tr><td><tt>C-u * *</tt></td>                <td>Unmark executable files</td></tr>
+<tr><td><tt>* @</tt></td>                    <td>Mark symlinks</td></tr>
+<tr><td><tt>C-u * @</tt></td>                <td>Unmark symlinks</td></tr>
+<tr><td><tt>* /</tt></td>                    <td>Mark directories</td></tr>
+<tr><td><tt>C-u * /</tt></td>                <td>Unmark directories</td></tr>
+<tr><td><tt>* !</tt></td>                    <td>Remove all asterisk marks</td></tr>
+
+<tr><td><tt>% m</tt></td>                    <td>Asterisk-mark files whose name matches regexp</td></tr>
+<tr><td><tt>% g</tt></td>                    <td>Asterisk-mark files whose <i>content</i> matches regexp (a la grep)</td></tr>
+
+<tr><th colspan="2">Operations on asterisk-marked files</td></tr>
+
+<tr><td><tt>* t</tt></td>                    <td>Toggle marks</td></tr>
+<tr><td><tt>* C-n</tt></td>                  <td>Move to next asterisk-marked file</td></tr>
+<tr><td><tt>* C-p</tt></td>                  <td>Move to previous asterisk-marked file</td></tr>
+<tr><td><tt>* c</tt></td>                    <td>Change all <i>X</i> marks to <i>Y</i> marks</td></tr>
+
+<tr><td><tt>% u</tt></td>                    <td>Uppercase filename</td></tr>
+<tr><td><tt>% l</tt></td>                    <td>Lowercase filename</td></tr>
+
+<tr><td><tt>C</tt></td>                    <td>Copy</td></tr>
+<tr><td><tt>D</tt></td>                    <td>Delete</td></tr>
+<tr><td><tt>R</tt></td>                    <td>Rename</td></tr>
+<tr><td><tt>M</tt></td>                    <td>Chmod</td></tr>
+<tr><td><tt>G</tt></td>                    <td>Chgrp</td></tr>
+<tr><td><tt>O</tt></td>                    <td>Chown</td></tr>
+<tr><td><tt>P</tt></td>                    <td>Print</td></tr>
+<tr><td><tt>Z</tt></td>                    <td>Compress</td></tr>
+<tr><td><tt>X</tt></td>                    <td>Execute shell command on file(s)</td></tr>
+</table>
+
+<div class="fyi">
+<b>For further information:</b>
+<ul>
+  <li><a href="http://www.gnu.org/software/emacs/manual/html_node/Dired.html#Dired">General <tt>dired</tt> info</a></li>
+  <li><a href="http://www.gnu.org/software/emacs/manual/html_node/Dired-Deletion.html">Deleting files</a></li>
+  <li><a href="http://www.gnu.org/software/emacs/manual/html_node/Flagging-Many-Files.html">Flagging files for deletion</a></li>
+  <li><a href="http://www.gnu.org/software/emacs/manual/html_node/Transforming-File-Names.html">Renaming files</a></li>
+  <li><a href="http://www.gnu.org/software/emacs/manual/html_node/Marks-vs-Flags.html">Asterisk-marking files</a></li>
+  <li><a href="http://www.emacswiki.org/cgi-bin/wiki/DiredMode">Advanced <tt>dired</tt> tricks and tips</a></li>
+</div>
+
+
+<hr class="bottom" />
+</body>
+</html>

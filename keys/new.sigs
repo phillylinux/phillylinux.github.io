@@ -1,0 +1,551 @@
+./new.gpg
+---------
+pub  1024D/0E9FF879 2000-09-05 Darxus <Darxus@ChaosReigns.com>
+sig        0E9FF879 2000-09-05  Darxus <Darxus@ChaosReigns.com>
+sig        FE3821D9 2000-09-11  [User id not found]
+sig        D31DE851 2000-09-11  [User id not found]
+sig        69350CFC 2000-10-05  [User id not found]
+sig        EB281E23 2000-09-21  [User id not found]
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        D9367DD8 2000-10-05  [User id not found]
+sig        5AA5BCDF 2000-09-21  [User id not found]
+sig        80675E65 2000-09-22  [User id not found]
+sig        E4642C01 2000-09-28  [User id not found]
+sig        140BF9C1 2000-11-22  [User id not found]
+sig        70210CAA 2000-11-30  [User id not found]
+sig        8060510A 2000-12-08  [User id not found]
+sig        7994A571 2000-12-09  [User id not found]
+sig        0C3F6A8E 2000-12-11  [User id not found]
+sig        7EC535F3 2000-12-17  [User id not found]
+sig        116F0CBD 2000-12-17  Bill Jonas <bill@billjonas.com>
+sig        52703839 2001-01-04  [User id not found]
+sig        E57369CC 2001-06-07  [User id not found]
+sig        54DA9506 2001-01-08  [User id not found]
+sig        0E9FF879 2000-10-09  Darxus <Darxus@ChaosReigns.com>
+sig        DB7F41B4 2001-07-12  [User id not found]
+sig        F1AE6BBC 2001-06-19  [User id not found]
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        0E6FC266 2000-09-09  [User id not found]
+sig        5D8EB927 2001-07-18  [User id not found]
+sig        19BC76F8 2001-08-02  [User id not found]
+sig        C1A6C2DC 2001-08-02  [User id not found]
+sig        7262954A 2001-08-02  [User id not found]
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        52AC566B 2001-02-16  Michael C. Toren (MCT) <mct@toren.net>
+sig        2AB165F9 2002-02-23  [User id not found]
+sig        55FF8CEF 2001-12-09  Kristin Hill <pinkee@cavegirl.org>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        56C84DC3 2002-04-17  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2001-06-08  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        FE4BC82F 2002-04-19  Danita M. Fries <nita@digitalsylph.com>
+sub  1024g/2EEAB976 2000-09-05
+sig        0E9FF879 2000-09-05  Darxus <Darxus@ChaosReigns.com>
+sig        0E9FF879 2000-10-09  Darxus <Darxus@ChaosReigns.com>
+
+pub  1024D/52AC566B 2000-02-10 Michael C. Toren (MCT) <mct@toren.net>
+sig        52AC566B 2001-06-07  Michael C. Toren (MCT) <mct@toren.net>
+sig        E57369CC 2001-06-07  [User id not found]
+sig        8DAC6BEA 2001-06-08  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        52AC566B 2001-06-17  Michael C. Toren (MCT) <mct@toren.net>
+sig        67A7B584 2002-02-22  Walter C. Mankowski <waltman@pobox.com>
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  [User id not found]
+sig        F0A0A919 2002-02-24  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-03-07  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-17  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        55FF8CEF 2001-12-09  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-18  Danita M. Fries <nita@digitalsylph.com>
+uid                            Michael C. Toren (MCT) <michael@toren.net>
+sig        52AC566B 2000-02-10  Michael C. Toren (MCT) <mct@toren.net>
+sig        8EF833D5 2000-07-19  [User id not found]
+sig        E4642C01 2000-07-20  [User id not found]
+sig        9F2FAA83 2000-07-21  [User id not found]
+sig        D31DE851 2000-09-21  [User id not found]
+sig        0E9FF879 2000-09-21  Darxus <Darxus@ChaosReigns.com>
+sig        EB281E23 2000-09-21  [User id not found]
+sig        5AA5BCDF 2000-09-21  [User id not found]
+sig        80675E65 2000-09-22  [User id not found]
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        69350CFC 2000-10-05  [User id not found]
+sig        D9367DD8 2000-10-05  [User id not found]
+sig        E57369CC 2001-06-07  [User id not found]
+sig        8DAC6BEA 2001-06-08  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        C9269C8B 2001-07-11  [User id not found]
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  [User id not found]
+sig        F0A0A919 2002-02-24  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-03-07  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-17  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        55FF8CEF 2001-12-09  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-18  Danita M. Fries <nita@digitalsylph.com>
+uid                            Michael C. Toren (MCT) <mct@netaxs.com>
+sig        52AC566B 2000-07-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        E4642C01 2000-07-20  [User id not found]
+sig        9F2FAA83 2000-07-21  [User id not found]
+sig        8EF833D5 2000-07-21  [User id not found]
+sig        5AA5BCDF 2000-08-19  [User id not found]
+sig        D31DE851 2000-09-21  [User id not found]
+sig        0E9FF879 2000-09-21  Darxus <Darxus@ChaosReigns.com>
+sig        EB281E23 2000-09-21  [User id not found]
+sig        80675E65 2000-09-22  [User id not found]
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        69350CFC 2000-10-05  [User id not found]
+sig        E57369CC 2001-06-07  [User id not found]
+sig        8DAC6BEA 2001-06-08  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        C9269C8B 2001-07-11  [User id not found]
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  [User id not found]
+sig        F0A0A919 2002-02-24  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-03-07  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-17  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        55FF8CEF 2001-12-09  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-18  Danita M. Fries <nita@digitalsylph.com>
+uid                            Michael C. Toren (MCT) <mct@netisland.net>
+sig        52AC566B 2000-07-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        E4642C01 2000-07-20  [User id not found]
+sig        9F2FAA83 2000-07-21  [User id not found]
+sig        8EF833D5 2000-07-21  [User id not found]
+sig        D31DE851 2000-09-21  [User id not found]
+sig        0E9FF879 2000-09-21  Darxus <Darxus@ChaosReigns.com>
+sig        EB281E23 2000-09-21  [User id not found]
+sig        5AA5BCDF 2000-09-21  [User id not found]
+sig        80675E65 2000-09-22  [User id not found]
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        69350CFC 2000-10-05  [User id not found]
+sig        E57369CC 2001-06-07  [User id not found]
+sig        8DAC6BEA 2001-06-08  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        C9269C8B 2001-07-11  [User id not found]
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  [User id not found]
+sig        F0A0A919 2002-02-24  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-03-07  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-17  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        55FF8CEF 2001-12-09  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-18  Danita M. Fries <nita@digitalsylph.com>
+sub  2048g/5818771B 2000-02-10
+sig        52AC566B 2000-02-10  Michael C. Toren (MCT) <mct@toren.net>
+
+pub  1024D/67A7B584 1999-10-20 Walter C. Mankowski <waltman@pobox.com>
+sig        67A7B584 2001-07-05  Walter C. Mankowski <waltman@pobox.com>
+sig        F1AE6BBC 2001-07-12  [User id not found]
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        19BC76F8 2001-08-02  [User id not found]
+sig        C1A6C2DC 2001-08-02  [User id not found]
+sig        7262954A 2001-08-02  [User id not found]
+sig        33E3FE56 2001-07-18  [User id not found]
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        1E4CD1E8 2001-11-21  [User id not found]
+sig        52AC566B 2002-02-22  Michael C. Toren (MCT) <mct@toren.net>
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  [User id not found]
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-19  Danita M. Fries <nita@digitalsylph.com>
+uid                            Walter C. Mankowski <waltman@netaxs.com>
+sig        67A7B584 1999-10-20  Walter C. Mankowski <waltman@pobox.com>
+sig        0E9FF879 2000-10-05  Darxus <Darxus@ChaosReigns.com>
+sig        52AC566B 2000-10-05  Michael C. Toren (MCT) <mct@toren.net>
+sig        69350CFC 2000-10-05  [User id not found]
+sig        80675E65 2000-10-05  [User id not found]
+sig        D9367DD8 2000-10-05  [User id not found]
+sig        5AA5BCDF 2000-10-05  [User id not found]
+sig        5AA5BCDF 2000-10-07  [User id not found]
+sig        8060510A 2001-01-04  [User id not found]
+sig        52703839 2001-01-04  [User id not found]
+sig        7994A571 2001-01-05  [User id not found]
+sig        E57369CC 2001-06-07  [User id not found]
+sig        8DAC6BEA 2001-06-08  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        54DA9506 2001-01-08  [User id not found]
+sig        DB7F41B4 2001-07-12  [User id not found]
+sig        F1AE6BBC 2001-07-12  [User id not found]
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        19BC76F8 2001-08-02  [User id not found]
+sig        C1A6C2DC 2001-08-02  [User id not found]
+sig        7262954A 2001-08-02  [User id not found]
+sig        33E3FE56 2001-07-18  [User id not found]
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        1E4CD1E8 2001-11-20  [User id not found]
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  [User id not found]
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-19  Danita M. Fries <nita@digitalsylph.com>
+uid                            [revoked] Walter C. Mankowski <walt@myxa.com>
+sig        67A7B584 2001-07-05  Walter C. Mankowski <waltman@pobox.com>
+sig        F1AE6BBC 2001-07-12  [User id not found]
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        19BC76F8 2001-08-02  [User id not found]
+sig        C1A6C2DC 2001-08-02  [User id not found]
+sig        7262954A 2001-08-02  [User id not found]
+sig        33E3FE56 2001-07-18  [User id not found]
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        1E4CD1E8 2001-11-21  [User id not found]
+sig        52AC566B 2002-02-22  Michael C. Toren (MCT) <mct@toren.net>
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  [User id not found]
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+rev        67A7B584 2002-04-17  Walter C. Mankowski <waltman@pobox.com>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-19  Danita M. Fries <nita@digitalsylph.com>
+sub  1024g/DAF38732 1999-10-20
+sig        67A7B584 1999-10-20  Walter C. Mankowski <waltman@pobox.com>
+
+pub  1024D/116F0CBD 2000-12-17 Bill Jonas <bill@billjonas.com>
+sig        116F0CBD 2000-12-17  Bill Jonas <bill@billjonas.com>
+sig        E4642C01 2000-12-17  [User id not found]
+sig        0E9FF879 2000-12-17  Darxus <Darxus@ChaosReigns.com>
+sig        67A7B584 2002-02-22  Walter C. Mankowski <waltman@pobox.com>
+sig        52AC566B 2002-02-22  Michael C. Toren (MCT) <mct@toren.net>
+sig        2AB165F9 2002-02-23  [User id not found]
+sig        343BB2A7 2002-03-07  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-17  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2001-12-09  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-19  Danita M. Fries <nita@digitalsylph.com>
+sub  2048g/40FCFB52 2000-12-17
+sig        116F0CBD 2000-12-17  Bill Jonas <bill@billjonas.com>
+
+pub  1024D/8DAC6BEA 2001-02-04 Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        8DAC6BEA 2001-02-04  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        0E9FF879 2001-06-07  Darxus <Darxus@ChaosReigns.com>
+sig        52AC566B 2001-06-07  Michael C. Toren (MCT) <mct@toren.net>
+sig        E57369CC 2001-06-07  [User id not found]
+sig        67A7B584 2001-06-08  Walter C. Mankowski <waltman@pobox.com>
+sig        5AA5BCDF 2001-06-13  [User id not found]
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-11  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  2048g/1628A2E1 2001-02-04
+sig        8DAC6BEA 2001-02-04  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+
+pub  1024D/343BB2A7 2001-07-11 Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        343BB2A7 2001-07-11  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        0E9FF879 2001-07-12  Darxus <Darxus@ChaosReigns.com>
+sig        DB7F41B4 2001-07-12  [User id not found]
+sig        F1AE6BBC 2001-07-12  [User id not found]
+sig        67A7B584 2001-07-13  Walter C. Mankowski <waltman@pobox.com>
+sig        5AA5BCDF 2001-07-14  [User id not found]
+sig        80675E65 2001-08-01  [User id not found]
+sig        33E3FE56 2001-08-02  [User id not found]
+sig        19BC76F8 2001-08-02  [User id not found]
+sig        C1A6C2DC 2001-08-02  [User id not found]
+sig        7262954A 2001-08-02  [User id not found]
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        52AC566B 2002-02-22  Michael C. Toren (MCT) <mct@toren.net>
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  [User id not found]
+sig        F0A0A919 2002-02-24  Jason Nocks <jason@nocks.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sub  1024g/17B81CE3 2001-07-11 [expires: 2003-07-11]
+sig        343BB2A7 2001-07-11  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+
+pub  1024D/0CF9091A 2001-07-23 gabriel rosenkoetter <gr@eclipsed.net>
+sig        0CF9091A 2001-07-23  gabriel rosenkoetter <gr@eclipsed.net>
+sig        0E9FF879 2001-08-02  Darxus <Darxus@ChaosReigns.com>
+sig        33E3FE56 2001-08-02  [User id not found]
+sig        19BC76F8 2001-08-02  [User id not found]
+sig        C1A6C2DC 2001-08-02  [User id not found]
+sig        7262954A 2001-08-02  [User id not found]
+sig        67A7B584 2001-08-03  Walter C. Mankowski <waltman@pobox.com>
+sig        5AA5BCDF 2001-08-04  [User id not found]
+sig        80675E65 2001-08-08  [User id not found]
+sig        343BB2A7 2001-08-14  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        0CF9091A 2001-09-07  gabriel rosenkoetter <gr@eclipsed.net>
+sig        5D7E0EFC 2001-09-12  [User id not found]
+sig        330C4A75 2001-09-15  [User id not found]
+sig        DB7F41B4 2002-01-10  [User id not found]
+sig        D72CB41E 2002-01-22  [User id not found]
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        5DE04A21 2002-03-28  [User id not found]
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+uid                            gabriel rosenkoetter <rosenkoetter@pobox.com>
+sig        0CF9091A 2001-09-05  gabriel rosenkoetter <gr@eclipsed.net>
+sig        5D7E0EFC 2001-09-12  [User id not found]
+sig        330C4A75 2001-09-15  [User id not found]
+sig        5AA5BCDF 2001-12-04  [User id not found]
+sig        DB7F41B4 2002-01-10  [User id not found]
+sig        67A7B584 2002-01-10  Walter C. Mankowski <waltman@pobox.com>
+sig        19BC76F8 2002-01-14  [User id not found]
+sig        D72CB41E 2002-01-22  [User id not found]
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        5DE04A21 2002-03-28  [User id not found]
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+uid                            gabriel rosenkoetter <gr@cs.swarthmore.edu>
+sig        0CF9091A 2001-09-07  gabriel rosenkoetter <gr@eclipsed.net>
+sig        5D7E0EFC 2001-09-12  [User id not found]
+sig        330C4A75 2001-09-15  [User id not found]
+sig        5AA5BCDF 2001-12-04  [User id not found]
+sig        DB7F41B4 2002-01-10  [User id not found]
+sig        67A7B584 2002-01-10  Walter C. Mankowski <waltman@pobox.com>
+sig        19BC76F8 2002-01-14  [User id not found]
+sig        D72CB41E 2002-01-22  [User id not found]
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        5DE04A21 2002-03-28  [User id not found]
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sub  1024g/E2AD2F4B 2001-07-23
+sig        0CF9091A 2001-07-23  gabriel rosenkoetter <gr@eclipsed.net>
+
+pub  1024D/55FF8CEF 2001-12-07 Kristin Hill <pinkee@cavegirl.org>
+sig        55FF8CEF 2001-12-07  Kristin Hill <pinkee@cavegirl.org>
+sig        0E9FF879 2002-02-23  Darxus <Darxus@ChaosReigns.com>
+sig        5AA5BCDF 2002-01-04  [User id not found]
+sig        116F0CBD 2002-03-20  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        FE4BC82F 2002-04-19  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  1024g/CD3FB7B1 2001-12-07
+sig        55FF8CEF 2001-12-07  Kristin Hill <pinkee@cavegirl.org>
+
+pub  1024D/F0A0A919 2002-02-20 Jason Nocks <jason@nocks.com>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        52AC566B 2002-02-22  Michael C. Toren (MCT) <mct@toren.net>
+sig        0E9FF879 2002-02-22  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  [User id not found]
+sig        67A7B584 2002-02-23  Walter C. Mankowski <waltman@pobox.com>
+sig        343BB2A7 2002-03-07  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sub  1024g/ABACEDA6 2002-02-20
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+
+pub  1024D/2BA48C46 2002-03-29 John J Lavin Jr <jlavin@ccil.org>
+sig        2BA48C46 2002-03-29  John J Lavin Jr <jlavin@ccil.org>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  1024g/4B96499A 2002-03-29
+sig        2BA48C46 2002-03-29  John J Lavin Jr <jlavin@ccil.org>
+
+pub  1024D/CBAC94EA 2002-04-16 Michael Bevilacqua <michael@clockbot.net>
+sig        CBAC94EA 2002-04-16  Michael Bevilacqua <michael@clockbot.net>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-16  Elizabeth Krumbach <lyz@princessleia.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+uid                            Michael Bevilacqua (Time) <time@clockbot.net>
+sig        CBAC94EA 2002-04-16  Michael Bevilacqua <michael@clockbot.net>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-16  Elizabeth Krumbach <lyz@princessleia.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  2048g/390749B3 2002-04-16 [expires: 2003-04-16]
+sig        CBAC94EA 2002-04-16  Michael Bevilacqua <michael@clockbot.net>
+
+pub  1024D/742B67FE 2001-04-17 Eric Allan Lucas <eric@lucii.org>
+sig        742B67FE 2001-04-17  Eric Allan Lucas <eric@lucii.org>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  2048g/0579C20D 2001-04-17
+sig        742B67FE 2001-04-17  Eric Allan Lucas <eric@lucii.org>
+
+pub  1024D/FE4BC82F 2002-04-18 Danita M. Fries <nita@digitalsylph.com>
+sig        FE4BC82F 2002-04-18  Danita M. Fries <nita@digitalsylph.com>
+sig        52AC566B 2002-04-18  Michael C. Toren (MCT) <mct@toren.net>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  2048g/5DBD06D0 2002-04-18
+sig        FE4BC82F 2002-04-18  Danita M. Fries <nita@digitalsylph.com>
+
+pub  1024D/8477626F 2002-04-18 Mike Joseph <mjoseph@netaxs.com>
+sig        8477626F 2002-04-18  Mike Joseph <mjoseph@netaxs.com>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+uid                            Mike Joseph <mj@doze.net>
+sig        8477626F 2002-04-18  Mike Joseph <mjoseph@netaxs.com>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  2048g/DEDD5F0B 2002-04-18
+sig        8477626F 2002-04-18  Mike Joseph <mjoseph@netaxs.com>
+
+pub  1024D/56C84DC3 2002-04-16 Elizabeth Krumbach <lyz@princessleia.com>
+sig        56C84DC3 2002-04-16  Elizabeth Krumbach <lyz@princessleia.com>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        CBAC94EA 2002-04-16  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-20  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  2048g/117DBDC6 2002-04-16 [expires: 2003-04-16]
+sig        56C84DC3 2002-04-16  Elizabeth Krumbach <lyz@princessleia.com>
+

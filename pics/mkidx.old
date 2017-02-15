@@ -1,0 +1,6 @@
+echo "<head><body>"
+for file in `ls -1 *.jpg`
+ do echo "<br><a href="${file}">${file}</a>"
+done
+echo "</head></body>"
+

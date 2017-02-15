@@ -1,0 +1,110 @@
+Bizgres Overview Outline
+
+1) Description of Bizgres and Its Goals
+
+	a) Greenplum sponsored and community sponsored project
+
+	b) Primary mission is to make PostgreSQL the world's most robust open
+	   source database for Business Intelligence
+
+	c) Build a complete database system for business intelligence
+	   exclusively from free software
+
+2) Community Description
+
+	a) The Bizgres community is defined as those who not only consume, but
+	   also produce for the good of the other community members
+
+	b) Open for general participation
+
+	c) Led by a meritocracy
+
+	d) The community follows a set of more granular project objectives
+	   which will evolve over time
+
+3) Community Composition
+
+	a) Developers on 4 continents (North America, South America, Europe,
+	   Asia) including:
+
+		i) Recognized, top developers from Postgres community (Josh
+		   Berkus, Simon Riggs)
+
+		ii) Companies heavily invested in business intelligence (Sun,
+		    Greenplum, Jaspersoft, Kinetic Networks, others)
+
+		iii) Individual contributors looking for opportunities to
+		     contribute to achieving the goals of the community
+
+4) Community Functions
+
+	a) Contribute and maintain code or documentation
+
+	b) Contribute interaction design and usability testing
+
+	c) Report bugs
+
+	d) Test software
+
+	e) Advocate Bizgres, PostgreSQL, and open source in general
+
+	f) Participate in mailing lists
+
+	g) Experiment with the technology 
+
+	h) Help others in the community
+
+5) Leadership
+
+	a) Led by the community itself
+
+	b) Not controlled by Greenplum or any other corporate entity
+
+	c) Minimal unnecessary process or bureaucracy
+
+	d) The developers that make up the project will create a process for
+	   organizing project decision making
+
+6) Target users and uses
+
+	a) Mainstream businesses
+
+	b) Primarily for departmental applications
+
+	c) Can also be used for smaller enterprise deployments
+
+	d) Organizations looking for a solid, capable alternative to Oracle,
+	   Sybase, Informix, and Microsoft proprietary databases
+
+7) Greenplum's involvement
+
+	a) Create, manage and participate in forums
+
+	b) Provide resources to supply a portion of the development work
+
+	c) Will offer commercial support for DeepGreen PostgreSQL which is
+	   based on Bizgres packages
+
+8) DeepGreen MPP
+
+	a) Greenplum's commercial, enterprise-class product (DeepGreen MPP)
+	   includes Bizgres packages, along with Greenplum intellectual
+	   property, the PostgreSQL core, and additional open source packages
+
+	b) MPP version is essentially (as the name suggests) a massively
+	   parallel version designed for maximum performance and scalability
+
+	c) Runs on commodity servers and delivers unprecedented
+	   price/performance
+
+9) Migration Path from Bizgres/DeepGreen PostgreSQL to DeepGreen MPP
+
+	a) DeepGreen PostgreSQL is intended primarily for departmental database
+	   applications scaling to around 300 GB of data
+
+	b) DeepGreen MPP is a natural choice for scaling beyond that
+
+	c) Scales to multiple terabytes with extremely fast query speed and
+	   general performance
+
+	d) Enterprise class reliability and features

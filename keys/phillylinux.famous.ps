@@ -1,0 +1,2539 @@
+%!PS-Adobe-2.0
+%%Creator: neato version gviz1.5 (06-14-99)
+%%For: (darxus) ,,,
+%%Title: debian-keyring
+%%Pages: (atend)
+%%BoundingBox: 36 36 3160 2675
+%%EndComments
+%%BeginProlog
+save
+/DotDict 200 dict def
+DotDict begin
+
+%%BeginResource: procset
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+	dup 1 exch div /InvScaleFactor exch def
+	dup scale
+} bind def
+
+% styles
+/solid { } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw aligned label in bounding box aligned to current point
+% alignfactor tells what fraction to place on the left.
+% -.5 is centered.
+/alignedtext {			% text labelwidth fontsz alignfactor
+	/alignfactor exch def
+	/fontsz exch def
+	/width exch def
+	/text exch def
+	gsave
+		% even if node or edge is dashed, don't paint text with dashes
+		[] 0 setdash
+		currentpoint newpath moveto
+		text stringwidth pop
+		alignfactor mul fontsz -.3 mul rmoveto
+		text show
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+% /arrowlength 10 def
+% /arrowwidth 5 def
+%%EndSetup
+%%Page: 1 1
+%%PageBoundingBox: 36 36 3160 2675
+gsave
+35 35 3125 2640 boxprim clip newpath
+36 36 translate
+0 0 1 beginpage
+0 0 translate 0 rotate
+0.000 0.000 0.000 graphcolor
+14.00 /Times-Roman set_font
+
+%	54DA9506
+gsave 10 dict begin
+filled
+0.270216962524655 0.288888888888889 0.5625 nodecolor
+1626 547 101 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1626 548 moveto (Joseph B. Welsh \(Work E-Mail\)) 181 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	0E9FF879
+gsave 10 dict begin
+filled
+0.816399672872468 0.232954545454545 0.866666666666667 nodecolor
+1912 430 30 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1912 431 moveto (Darxus) 40 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	54DA9506 -> 0E9FF879
+newpath 1652 529 moveto
+1668 520 1688 508 1707 499 curveto
+1764 473 1834 451 1876 439 curveto
+stroke
+newpath 1874 437 moveto
+1884 437 lineto
+1875 442 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52703839
+gsave 10 dict begin
+filled
+0.208472686733556 0.17037037037037 0.5625 nodecolor
+1815 677 48 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1815 678 moveto (Mike Phillips) 76 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	54DA9506 -> 52703839
+newpath 1651 565 moveto
+1686 588 1747 631 1784 656 curveto
+stroke
+newpath 1785 654 moveto
+1792 661 lineto
+1782 658 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	8060510A
+gsave 10 dict begin
+filled
+0.208472686733556 0.17037037037037 0.5625 nodecolor
+2079 763 45 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2079 764 moveto (Chris Beggy) 70 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	54DA9506 -> 8060510A
+newpath 1662 564 moveto
+1745 604 1957 705 2043 745 curveto
+stroke
+newpath 2043 742 moveto
+2050 749 lineto
+2040 746 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	67A7B584
+gsave 10 dict begin
+filled
+0.890222222222222 0.390625 0.923076923076923 nodecolor
+2027 563 72 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2027 564 moveto (Walter C. Mankowski) 123 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	54DA9506 -> 67A7B584
+newpath 1725 551 moveto
+1793 554 1883 558 1947 560 curveto
+stroke
+newpath 1946 558 moveto
+1956 560 lineto
+1946 563 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	80675E65
+gsave 10 dict begin
+filled
+0.873091941782038 0.195625 0.769230769230769 nodecolor
+1887 843 72 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1887 844 moveto (Leonard D. Rosenthol) 123 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	54DA9506 -> 80675E65
+newpath 1642 565 moveto
+1688 616 1817 763 1867 820 curveto
+stroke
+newpath 1867 816 moveto
+1871 825 lineto
+1863 819 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5AA5BCDF
+gsave 10 dict begin
+filled
+0.833333333333333 0.350961538461539 1 nodecolor
+2038 435 58 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2038 436 moveto (Michael J. Leone) 96 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	54DA9506 -> 5AA5BCDF
+newpath 1710 537 moveto
+1719 536 1729 534 1738 533 curveto
+1834 518 1940 477 1997 453 curveto
+stroke
+newpath 1995 451 moveto
+2005 450 lineto
+1997 456 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	0E9FF879 -> 54DA9506
+newpath 1884 437 moveto
+1844 448 1768 471 1707 499 curveto
+1691 507 1674 516 1660 524 curveto
+stroke
+newpath 1662 526 moveto
+1652 529 lineto
+1659 522 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	69350CFC
+gsave 10 dict begin
+filled
+0.270216962524655 0.288888888888889 0.5625 nodecolor
+1738 513 40 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1738 514 moveto (Pete Foley) 59 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	0E9FF879 -> 69350CFC
+newpath 1888 441 moveto
+1858 455 1807 480 1773 497 curveto
+stroke
+newpath 1776 498 moveto
+1766 500 lineto
+1774 494 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	0E9FF879 -> 52703839
+newpath 1905 448 moveto
+1888 491 1844 602 1825 652 curveto
+stroke
+newpath 1828 651 moveto
+1822 659 lineto
+1824 649 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	0E9FF879 -> 8060510A
+newpath 1915 448 moveto
+1920 474 1931 524 1948 563 curveto
+1978 631 2030 702 2059 739 curveto
+stroke
+newpath 2060 737 moveto
+2065 746 lineto
+2057 740 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	0E9FF879 -> 67A7B584
+newpath 1926 446 moveto
+1946 469 1983 513 2007 540 curveto
+stroke
+newpath 2007 536 moveto
+2012 545 lineto
+2003 540 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	E57369CC
+gsave 10 dict begin
+filled
+0.296037296037296 0.407407407407407 0.5625 nodecolor
+1867 82 66 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1867 83 moveto (Michael Bevilacqua) 112 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	0E9FF879 -> E57369CC
+newpath 1911 412 moveto
+1911 390 1909 352 1905 320 curveto
+1897 243 1880 153 1873 109 curveto
+stroke
+newpath 1871 110 moveto
+1871 100 lineto
+1876 109 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	0E9FF879 -> 80675E65
+newpath 1911 448 moveto
+1907 514 1893 743 1888 819 curveto
+stroke
+newpath 1891 815 moveto
+1888 825 lineto
+1886 815 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	0E9FF879 -> 80675E65
+newpath 1911 448 moveto
+1907 514 1893 743 1888 819 curveto
+stroke
+newpath 1891 815 moveto
+1888 825 lineto
+1886 815 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	0E9FF879 -> 5AA5BCDF
+newpath 1942 431 moveto
+1951 432 1962 432 1973 433 curveto
+stroke
+newpath 1970 431 moveto
+1980 433 lineto
+1970 436 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	7994A571
+gsave 10 dict begin
+filled
+0.270216962524655 0.288888888888889 0.5625 nodecolor
+2263 756 78 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2263 757 moveto (Tony Dominello \(Tony\)) 135 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	0E9FF879 -> 7994A571
+newpath 1935 442 moveto
+1975 462 2054 507 2106 563 curveto
+2133 592 2126 608 2150 640 curveto
+2177 675 2214 712 2238 734 curveto
+stroke
+newpath 2237 730 moveto
+2243 738 lineto
+2234 734 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	EB281E23
+gsave 10 dict begin
+filled
+0.344855967078189 0.692307692307692 0.75 nodecolor
+1978 23 61 22 ellipse_path
+stroke
+1978 23 57 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1978 24 moveto (Alexander Shinn) 94 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	0E9FF879 -> EB281E23
+newpath 1915 412 moveto
+1926 348 1961 130 1973 52 curveto
+stroke
+newpath 1970 55 moveto
+1974 45 lineto
+1975 55 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	D9367DD8
+gsave 10 dict begin
+filled
+0.270216962524655 0.288888888888889 0.5625 nodecolor
+2252 640 93 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2252 641 moveto (George E McNeal Jr \(george\)) 165 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	0E9FF879 -> D9367DD8
+newpath 1933 443 moveto
+1990 478 2147 575 2218 619 curveto
+stroke
+newpath 2217 615 moveto
+2224 623 lineto
+2214 620 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	8DAC6BEA
+gsave 10 dict begin
+filled
+0.226107226107226 0.407407407407407 0.45 nodecolor
+2190 111 84 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2190 112 moveto (Kevin Mudrick \(darkspur\)) 147 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	0E9FF879 -> 8DAC6BEA
+newpath 1926 414 moveto
+1973 362 2116 195 2170 134 curveto
+stroke
+newpath 2166 134 moveto
+2175 129 lineto
+2170 138 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52AC566B
+gsave 10 dict begin
+filled
+0.896825396825397 0.0972222222222222 0.692307692307692 nodecolor
+2141 381 81 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2141 382 moveto (Michael C. Toren \(MCT\)) 142 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	0E9FF879 -> 52AC566B
+newpath 1941 424 moveto
+1974 417 2032 404 2077 395 curveto
+stroke
+newpath 2073 393 moveto
+2083 394 lineto
+2074 398 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	69350CFC -> 0E9FF879
+newpath 1766 500 moveto
+1798 484 1849 460 1881 444 curveto
+stroke
+newpath 1878 443 moveto
+1888 441 lineto
+1880 447 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	69350CFC -> 67A7B584
+newpath 1775 519 moveto
+1822 528 1902 542 1960 552 curveto
+stroke
+newpath 1958 549 moveto
+1968 553 lineto
+1958 554 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	69350CFC -> 80675E65
+newpath 1738 531 moveto
+1738 562 1741 627 1762 677 curveto
+1786 734 1834 789 1863 819 curveto
+stroke
+newpath 1864 816 moveto
+1869 825 lineto
+1860 820 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	69350CFC -> 5AA5BCDF
+newpath 1773 504 moveto
+1826 491 1924 464 1985 449 curveto
+stroke
+newpath 1983 447 moveto
+1993 447 lineto
+1984 452 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	69350CFC -> D9367DD8
+newpath 1772 523 moveto
+1817 536 1900 559 1971 577 curveto
+2042 595 2124 613 2181 625 curveto
+stroke
+newpath 2180 622 moveto
+2189 627 lineto
+2179 627 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	69350CFC -> 52AC566B
+newpath 1770 502 moveto
+1809 489 1877 466 1935 444 curveto
+1961 434 1967 430 1993 421 curveto
+2020 412 2051 403 2077 396 curveto
+stroke
+newpath 2076 394 moveto
+2086 394 lineto
+2077 399 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52703839 -> 54DA9506
+newpath 1792 661 moveto
+1758 638 1697 596 1659 569 curveto
+stroke
+newpath 1658 571 moveto
+1651 564 lineto
+1661 567 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52703839 -> 0E9FF879
+newpath 1822 659 moveto
+1840 616 1882 509 1901 458 curveto
+stroke
+newpath 1899 456 moveto
+1905 448 lineto
+1904 458 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52703839 -> 8060510A
+newpath 1851 689 moveto
+1900 704 1986 732 2037 749 curveto
+stroke
+newpath 2035 746 moveto
+2044 751 lineto
+2034 751 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52703839 -> 67A7B584
+newpath 1843 662 moveto
+1879 642 1945 606 1988 584 curveto
+stroke
+newpath 1987 582 moveto
+1997 579 lineto
+1989 586 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52703839 -> 80675E65
+newpath 1823 695 moveto
+1836 725 1862 784 1876 818 curveto
+stroke
+newpath 1877 815 moveto
+1879 825 lineto
+1873 817 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52703839 -> 5AA5BCDF
+newpath 1831 660 moveto
+1869 618 1971 507 2016 458 curveto
+stroke
+newpath 2013 457 moveto
+2022 452 lineto
+2017 461 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52703839 -> 7994A571
+newpath 1859 685 moveto
+1937 699 2099 727 2193 744 curveto
+stroke
+newpath 2191 741 moveto
+2201 745 lineto
+2191 746 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	8060510A -> 54DA9506
+newpath 2050 749 moveto
+1972 712 1761 611 1670 568 curveto
+stroke
+newpath 1670 571 moveto
+1662 564 lineto
+1672 566 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	8060510A -> 0E9FF879
+newpath 2065 746 moveto
+2038 712 1980 636 1948 563 curveto
+1933 528 1922 484 1917 456 curveto
+stroke
+newpath 1915 458 moveto
+1915 448 lineto
+1920 457 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	8060510A -> 52703839
+newpath 2044 752 moveto
+1996 736 1910 708 1858 691 curveto
+stroke
+newpath 1860 694 moveto
+1851 689 lineto
+1861 689 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	8060510A -> 67A7B584
+newpath 2074 745 moveto
+2065 710 2044 631 2034 589 curveto
+stroke
+newpath 2032 591 moveto
+2032 581 lineto
+2037 590 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	8060510A -> 80675E65
+newpath 2048 776 moveto
+2016 789 1967 810 1931 824 curveto
+stroke
+newpath 1934 825 moveto
+1924 827 lineto
+1932 821 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	8060510A -> 5AA5BCDF
+newpath 2085 745 moveto
+2096 710 2118 630 2106 563 curveto
+2100 524 2076 485 2058 461 curveto
+stroke
+newpath 2056 463 moveto
+2052 453 lineto
+2060 460 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	8060510A -> 7994A571
+newpath 2124 761 moveto
+2140 760 2160 760 2179 759 curveto
+stroke
+newpath 2176 757 moveto
+2186 759 lineto
+2176 762 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	67A7B584 -> 54DA9506
+newpath 1956 560 moveto
+1895 558 1804 554 1735 551 curveto
+stroke
+newpath 1735 554 moveto
+1725 551 lineto
+1735 549 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	67A7B584 -> 0E9FF879
+newpath 2012 545 moveto
+1991 522 1955 480 1933 454 curveto
+stroke
+newpath 1931 455 moveto
+1926 446 lineto
+1934 452 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	67A7B584 -> 69350CFC
+newpath 1967 553 moveto
+1913 543 1832 529 1782 520 curveto
+stroke
+newpath 1785 523 moveto
+1775 519 lineto
+1785 518 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	67A7B584 -> 52703839
+newpath 1997 579 moveto
+1959 600 1892 636 1851 658 curveto
+stroke
+newpath 1853 660 moveto
+1843 662 lineto
+1851 655 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	67A7B584 -> 8060510A
+newpath 2032 581 moveto
+2041 616 2062 695 2072 737 curveto
+stroke
+newpath 2074 735 moveto
+2074 745 lineto
+2069 736 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	67A7B584 -> E57369CC
+newpath 2019 545 moveto
+2008 520 1988 475 1974 435 curveto
+1931 314 1890 167 1874 108 curveto
+stroke
+newpath 1872 110 moveto
+1872 100 lineto
+1877 109 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	67A7B584 -> 80675E65
+newpath 2018 581 moveto
+1994 630 1927 762 1900 818 curveto
+stroke
+newpath 1903 818 moveto
+1896 825 lineto
+1899 815 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	67A7B584 -> 5AA5BCDF
+newpath 2029 545 moveto
+2031 524 2034 486 2036 461 curveto
+stroke
+newpath 2033 463 moveto
+2037 453 lineto
+2038 463 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	67A7B584 -> 7994A571
+newpath 2048 580 moveto
+2091 615 2187 695 2235 733 curveto
+stroke
+newpath 2235 730 moveto
+2241 738 lineto
+2232 734 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	67A7B584 -> D9367DD8
+newpath 2070 578 moveto
+2106 590 2158 608 2198 621 curveto
+stroke
+newpath 2198 618 moveto
+2206 624 lineto
+2196 623 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	67A7B584 -> 8DAC6BEA
+newpath 2047 545 moveto
+2071 522 2107 480 2102 435 curveto
+2098 403 2056 413 2052 381 curveto
+2039 281 2123 179 2165 135 curveto
+stroke
+newpath 2162 134 moveto
+2171 129 lineto
+2166 138 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	67A7B584 -> 52AC566B
+newpath 2038 545 moveto
+2059 512 2102 444 2125 407 curveto
+stroke
+newpath 2123 406 moveto
+2130 399 lineto
+2127 409 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	E57369CC -> 0E9FF879
+newpath 1871 100 moveto
+1878 140 1896 238 1905 320 curveto
+1909 349 1911 382 1911 404 curveto
+stroke
+newpath 1914 402 moveto
+1911 412 lineto
+1909 402 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	E57369CC -> 67A7B584
+newpath 1872 100 moveto
+1886 153 1929 308 1974 435 curveto
+1987 471 2004 511 2015 537 curveto
+stroke
+newpath 2017 535 moveto
+2019 545 lineto
+2012 537 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	E57369CC -> 5AA5BCDF
+newpath 1876 100 moveto
+1904 159 1994 346 2026 411 curveto
+stroke
+newpath 2027 407 moveto
+2029 417 lineto
+2022 409 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	E57369CC -> 8DAC6BEA
+newpath 1930 88 moveto
+1980 92 2049 98 2104 103 curveto
+stroke
+newpath 2102 100 moveto
+2112 104 lineto
+2102 105 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	E57369CC -> 52AC566B
+newpath 1883 100 moveto
+1931 151 2068 301 2120 358 curveto
+stroke
+newpath 2120 354 moveto
+2125 363 lineto
+2116 358 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	80675E65 -> 54DA9506
+newpath 1871 825 moveto
+1827 775 1700 632 1649 573 curveto
+stroke
+newpath 1647 574 moveto
+1642 565 lineto
+1650 571 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	80675E65 -> 0E9FF879
+newpath 1888 825 moveto
+1892 759 1906 530 1911 454 curveto
+stroke
+newpath 1909 458 moveto
+1911 448 lineto
+1914 458 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	80675E65 -> 0E9FF879
+newpath 1888 825 moveto
+1892 759 1906 530 1911 454 curveto
+stroke
+newpath 1909 458 moveto
+1911 448 lineto
+1914 458 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	80675E65 -> 69350CFC
+newpath 1869 825 moveto
+1841 797 1788 738 1762 677 curveto
+1743 632 1739 575 1738 541 curveto
+stroke
+newpath 1736 541 moveto
+1738 531 lineto
+1741 541 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	80675E65 -> 52703839
+newpath 1879 825 moveto
+1866 795 1840 736 1826 702 curveto
+stroke
+newpath 1825 705 moveto
+1823 695 lineto
+1829 703 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	80675E65 -> 8060510A
+newpath 1924 827 moveto
+1958 813 2007 793 2041 779 curveto
+stroke
+newpath 2038 778 moveto
+2048 776 lineto
+2040 782 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	80675E65 -> 67A7B584
+newpath 1896 825 moveto
+1920 776 1987 644 2014 588 curveto
+stroke
+newpath 2011 588 moveto
+2018 581 lineto
+2015 591 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	80675E65 -> 5AA5BCDF
+newpath 1888 825 moveto
+1893 779 1907 656 1948 563 curveto
+1965 524 1995 485 2016 461 curveto
+stroke
+newpath 2014 460 moveto
+2022 453 lineto
+2018 463 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	80675E65 -> 7994A571
+newpath 1940 831 moveto
+2009 815 2129 788 2201 771 curveto
+stroke
+newpath 2198 769 moveto
+2208 769 lineto
+2199 774 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	B3EA8E22
+gsave 10 dict begin
+filled
+0 1 0.384615384615385 nodecolor
+1792 320 103 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1792 321 moveto (Chris Fearnley \(Dare to be Naïve\)) 186 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	80675E65 -> B3EA8E22
+newpath 1886 825 moveto
+1883 794 1877 730 1868 677 curveto
+1848 552 1812 404 1799 346 curveto
+stroke
+newpath 1797 348 moveto
+1797 338 lineto
+1802 347 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	80675E65 -> D9367DD8
+newpath 1914 826 moveto
+1945 807 1998 775 2044 749 curveto
+2101 717 2167 683 2210 661 curveto
+stroke
+newpath 2209 659 moveto
+2219 657 lineto
+2211 663 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	80675E65 -> 52AC566B
+newpath 1906 825 moveto
+1949 784 2055 676 2106 563 curveto
+2129 511 2137 443 2140 406 curveto
+stroke
+newpath 2138 409 moveto
+2140 399 lineto
+2143 409 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	28E3EB7C
+gsave 10 dict begin
+solid
+2150 1147 49 18 ellipse_path
+stroke
+gsave 10 dict begin
+2150 1148 moveto (Avi Drissman) 78 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	80675E65 -> 28E3EB7C
+newpath 1902 861 moveto
+1947 913 2081 1067 2131 1125 curveto
+stroke
+newpath 2131 1121 moveto
+2135 1130 lineto
+2127 1124 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	F6F83318
+gsave 10 dict begin
+solid
+1742 1230 46 18 ellipse_path
+stroke
+gsave 10 dict begin
+1742 1231 moveto (Jason Bobier) 72 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	80675E65 -> F6F83318
+newpath 1880 861 moveto
+1857 924 1778 1134 1751 1206 curveto
+stroke
+newpath 1755 1203 moveto
+1749 1212 lineto
+1750 1202 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	DC60654E
+gsave 10 dict begin
+solid
+1972 1242 44 18 ellipse_path
+stroke
+gsave 10 dict begin
+1972 1243 moveto (Miro Jurisic) 68 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	80675E65 -> DC60654E
+newpath 1891 861 moveto
+1905 925 1951 1144 1967 1218 curveto
+stroke
+newpath 1969 1214 moveto
+1968 1224 lineto
+1964 1215 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5AA5BCDF -> 54DA9506
+newpath 2005 450 moveto
+1950 473 1838 517 1738 533 curveto
+1732 534 1726 535 1720 536 curveto
+stroke
+newpath 1720 538 moveto
+1710 537 lineto
+1720 534 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5AA5BCDF -> 0E9FF879
+newpath 1980 433 moveto
+1970 432 1961 432 1952 432 curveto
+stroke
+newpath 1952 434 moveto
+1942 431 lineto
+1952 430 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5AA5BCDF -> 69350CFC
+newpath 1993 447 moveto
+1936 461 1837 488 1781 502 curveto
+stroke
+newpath 1783 504 moveto
+1773 504 lineto
+1782 499 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5AA5BCDF -> 52703839
+newpath 2022 452 moveto
+1983 495 1882 605 1837 654 curveto
+stroke
+newpath 1840 655 moveto
+1831 660 lineto
+1836 651 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5AA5BCDF -> 8060510A
+newpath 2052 453 moveto
+2070 476 2099 520 2106 563 curveto
+2117 626 2099 699 2087 737 curveto
+stroke
+newpath 2090 736 moveto
+2085 745 lineto
+2085 735 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5AA5BCDF -> 67A7B584
+newpath 2036 453 moveto
+2034 474 2031 512 2029 537 curveto
+stroke
+newpath 2032 535 moveto
+2028 545 lineto
+2027 535 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5AA5BCDF -> E57369CC
+newpath 2029 417 moveto
+2001 359 1913 177 1880 109 curveto
+stroke
+newpath 1878 110 moveto
+1876 100 lineto
+1882 108 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5AA5BCDF -> 80675E65
+newpath 2022 453 moveto
+2002 476 1967 520 1948 563 curveto
+1909 652 1894 768 1889 818 curveto
+stroke
+newpath 1892 815 moveto
+1888 825 lineto
+1887 815 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5AA5BCDF -> 7994A571
+newpath 2048 453 moveto
+2074 501 2144 631 2150 640 curveto
+2177 676 2214 712 2238 734 curveto
+stroke
+newpath 2238 730 moveto
+2243 739 lineto
+2234 734 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5AA5BCDF -> B3EA8E22
+newpath 2006 420 moveto
+1962 400 1883 363 1835 340 curveto
+stroke
+newpath 1836 343 moveto
+1828 337 lineto
+1838 339 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5AA5BCDF -> EB281E23
+newpath 2035 417 moveto
+2026 352 1994 132 1982 52 curveto
+stroke
+newpath 1980 55 moveto
+1981 45 lineto
+1985 55 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5AA5BCDF -> D9367DD8
+newpath 2056 452 moveto
+2094 488 2184 575 2227 616 curveto
+stroke
+newpath 2228 613 moveto
+2233 622 lineto
+2224 617 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	0FCC27C6
+gsave 10 dict begin
+filled
+0.265621110281304 0.762962962962963 0.28125 nodecolor
+2386 221 44 22 ellipse_path
+stroke
+2386 221 40 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2386 222 moveto (David Coe) 60 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	5AA5BCDF -> 0FCC27C6
+newpath 2089 426 moveto
+2122 420 2166 409 2204 395 curveto
+2277 367 2337 293 2366 251 curveto
+stroke
+newpath 2364 249 moveto
+2372 242 lineto
+2369 252 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5AA5BCDF -> 8DAC6BEA
+newpath 2042 417 moveto
+2044 406 2048 393 2052 381 curveto
+2088 286 2148 181 2175 135 curveto
+stroke
+newpath 2171 136 moveto
+2179 129 lineto
+2176 139 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5AA5BCDF -> 52AC566B
+newpath 2068 419 moveto
+2078 414 2090 407 2100 402 curveto
+stroke
+newpath 2099 400 moveto
+2109 398 lineto
+2101 404 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	7994A571 -> 0E9FF879
+newpath 2243 738 moveto
+2219 717 2179 678 2150 640 curveto
+2126 608 2133 592 2106 563 curveto
+2057 511 1985 468 1944 446 curveto
+stroke
+newpath 1943 448 moveto
+1935 442 lineto
+1945 444 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	7994A571 -> 52703839
+newpath 2201 745 moveto
+2112 729 1949 701 1866 686 curveto
+stroke
+newpath 1869 689 moveto
+1859 685 lineto
+1869 684 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	7994A571 -> 8060510A
+newpath 2186 759 moveto
+2168 760 2150 761 2133 761 curveto
+stroke
+newpath 2134 764 moveto
+2124 761 lineto
+2134 759 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	7994A571 -> 67A7B584
+newpath 2242 739 moveto
+2199 704 2102 624 2054 585 curveto
+stroke
+newpath 2054 588 moveto
+2048 580 lineto
+2057 584 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	7994A571 -> 80675E65
+newpath 2208 769 moveto
+2139 785 2022 812 1950 829 curveto
+stroke
+newpath 1950 831 moveto
+1940 831 lineto
+1949 827 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	7994A571 -> 5AA5BCDF
+newpath 2243 739 moveto
+2219 717 2179 679 2150 640 curveto
+2144 631 2080 512 2052 460 curveto
+stroke
+newpath 2051 463 moveto
+2048 453 lineto
+2055 460 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	EB281E23 -> 0E9FF879
+newpath 1974 45 moveto
+1963 115 1928 333 1916 406 curveto
+stroke
+newpath 1919 403 moveto
+1915 412 lineto
+1914 402 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	EB281E23 -> 5AA5BCDF
+newpath 1981 45 moveto
+1992 116 2024 336 2034 411 curveto
+stroke
+newpath 2036 407 moveto
+2035 417 lineto
+2031 408 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	EB281E23 -> B3EA8E22
+newpath 1964 45 moveto
+1931 99 1844 237 1808 295 curveto
+stroke
+newpath 1811 295 moveto
+1803 302 lineto
+1807 292 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	EB281E23 -> 52AC566B
+newpath 1988 45 moveto
+2016 109 2100 292 2130 357 curveto
+stroke
+newpath 2131 353 moveto
+2133 363 lineto
+2126 355 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	D9367DD8 -> 0E9FF879
+newpath 2224 623 moveto
+2161 584 2007 488 1941 448 curveto
+stroke
+newpath 1940 450 moveto
+1933 443 lineto
+1943 446 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	D9367DD8 -> 69350CFC
+newpath 2189 627 moveto
+2132 615 2045 596 1971 577 curveto
+1905 560 1828 539 1781 526 curveto
+stroke
+newpath 1781 529 moveto
+1772 523 lineto
+1782 524 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	D9367DD8 -> 67A7B584
+newpath 2206 624 moveto
+2169 612 2116 594 2078 581 curveto
+stroke
+newpath 2078 584 moveto
+2070 578 lineto
+2080 579 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	D9367DD8 -> 80675E65
+newpath 2219 657 moveto
+2177 678 2105 715 2044 749 curveto
+2001 773 1952 803 1920 822 curveto
+stroke
+newpath 1924 823 moveto
+1914 826 lineto
+1921 818 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	D9367DD8 -> 5AA5BCDF
+newpath 2233 622 moveto
+2194 585 2104 499 2062 458 curveto
+stroke
+newpath 2061 461 moveto
+2056 452 lineto
+2065 457 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	D9367DD8 -> 52AC566B
+newpath 2244 622 moveto
+2225 576 2174 458 2152 406 curveto
+stroke
+newpath 2151 409 moveto
+2149 399 lineto
+2155 407 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	0FCC27C6 -> B3EA8E22
+newpath 2344 228 moveto
+2247 244 2003 284 1874 307 curveto
+stroke
+newpath 1876 309 moveto
+1866 308 lineto
+1876 304 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	8DAC6BEA -> 67A7B584
+newpath 2171 129 moveto
+2131 170 2038 276 2052 381 curveto
+2056 413 2098 403 2102 435 curveto
+2107 477 2076 516 2052 540 curveto
+stroke
+newpath 2056 540 moveto
+2047 545 lineto
+2052 536 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	8DAC6BEA -> E57369CC
+newpath 2112 104 moveto
+2060 99 1992 93 1941 89 curveto
+stroke
+newpath 1940 91 moveto
+1930 88 lineto
+1940 86 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	8DAC6BEA -> 5AA5BCDF
+newpath 2179 129 moveto
+2154 171 2090 282 2052 381 curveto
+2049 391 2045 401 2043 411 curveto
+stroke
+newpath 2046 408 moveto
+2042 417 lineto
+2041 407 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	8DAC6BEA -> 52AC566B
+newpath 2187 129 moveto
+2178 177 2155 302 2145 356 curveto
+stroke
+newpath 2148 353 moveto
+2144 363 lineto
+2143 353 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52AC566B -> 69350CFC
+newpath 2086 394 moveto
+2058 401 2023 411 1993 421 curveto
+1967 430 1961 434 1935 444 curveto
+1881 465 1818 486 1778 499 curveto
+stroke
+newpath 1780 501 moveto
+1770 502 lineto
+1778 496 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52AC566B -> 67A7B584
+newpath 2130 399 moveto
+2109 432 2066 500 2043 537 curveto
+stroke
+newpath 2045 538 moveto
+2038 545 lineto
+2041 535 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52AC566B -> E57369CC
+newpath 2125 363 moveto
+2078 312 1945 167 1890 108 curveto
+stroke
+newpath 1888 109 moveto
+1883 100 lineto
+1891 106 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52AC566B -> 80675E65
+newpath 2140 399 moveto
+2138 433 2131 507 2106 563 curveto
+2057 671 1958 774 1912 819 curveto
+stroke
+newpath 1915 820 moveto
+1906 825 lineto
+1911 816 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52AC566B -> 5AA5BCDF
+newpath 2109 398 moveto
+2099 403 2087 410 2077 415 curveto
+stroke
+newpath 2078 417 moveto
+2068 420 lineto
+2076 413 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52AC566B -> B3EA8E22
+newpath 2077 370 moveto
+2020 359 1936 345 1874 334 curveto
+stroke
+newpath 1875 337 moveto
+1865 333 lineto
+1875 332 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52AC566B -> EB281E23
+newpath 2133 363 moveto
+2106 306 2025 127 1992 54 curveto
+stroke
+newpath 1990 55 moveto
+1988 45 lineto
+1994 53 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52AC566B -> D9367DD8
+newpath 2149 399 moveto
+2168 445 2219 563 2241 615 curveto
+stroke
+newpath 2242 612 moveto
+2244 622 lineto
+2238 614 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52AC566B -> 0FCC27C6
+newpath 2167 364 moveto
+2212 335 2303 276 2352 243 curveto
+stroke
+newpath 2349 242 moveto
+2359 239 lineto
+2352 246 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	52AC566B -> 8DAC6BEA
+newpath 2144 363 moveto
+2153 315 2176 190 2186 136 curveto
+stroke
+newpath 2183 139 moveto
+2187 129 lineto
+2188 139 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	148C6F43
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+916 967 53 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+916 968 moveto (Steve Wozniak) 84 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	0B3EF042
+gsave 10 dict begin
+solid
+1398 1342 65 18 ellipse_path
+stroke
+gsave 10 dict begin
+1398 1343 moveto (Vinnie Moscaritolo) 109 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	148C6F43 -> 0B3EF042
+newpath 951 981 moveto
+1034 1015 1248 1115 1367 1263 curveto
+1380 1278 1387 1300 1392 1316 curveto
+stroke
+newpath 1394 1314 moveto
+1394 1324 lineto
+1389 1315 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	2FA3BC2D
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+940 2619 64 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+940 2620 moveto (Wichert Akkerman) 107 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	5B0358A2
+gsave 10 dict begin
+solid
+861 2214 48 18 ellipse_path
+stroke
+gsave 10 dict begin
+861 2215 moveto (Werner Koch) 75 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	2FA3BC2D -> 5B0358A2
+newpath 936 2601 moveto
+924 2537 882 2320 867 2242 curveto
+stroke
+newpath 865 2242 moveto
+865 2232 lineto
+869 2241 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	C7A966DD
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+799 1255 75 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+799 1256 moveto (Philip R. Zimmermann) 129 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	0525419B
+gsave 10 dict begin
+solid
+1231 1263 124 18 ellipse_path
+stroke
+gsave 10 dict begin
+1231 1264 moveto (Pretty Good Privacy, Inc. Corporate Key) 228 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	C7A966DD -> 0525419B
+newpath 874 1256 moveto
+936 1258 1026 1259 1101 1261 curveto
+stroke
+newpath 1098 1259 moveto
+1108 1261 lineto
+1098 1264 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	4AAF00E5
+gsave 10 dict begin
+solid
+1161 1397 82 18 ellipse_path
+stroke
+gsave 10 dict begin
+1161 1398 moveto (<postmaster@LSD.com>) 143 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	C7A966DD -> 4AAF00E5
+newpath 838 1270 moveto
+905 1296 1043 1351 1115 1379 curveto
+stroke
+newpath 1112 1375 moveto
+1121 1381 lineto
+1111 1380 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	517D0F0E
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+2766 2183 123 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+2766 2184 moveto (Linux Kernel Archives Verification Key) 226 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	20B19259
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+88 1372 87 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+88 1373 moveto (CERT Coordination Center) 153 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	57548DCD
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+504 2387 82 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+504 2388 moveto (Werner Koch \(gnupg sig\)) 143 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	57548DCD -> 5B0358A2
+newpath 538 2371 moveto
+606 2338 757 2265 825 2231 curveto
+stroke
+newpath 821 2230 moveto
+831 2228 lineto
+823 2235 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	8421F11C
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+1269 2228 58 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+1269 2229 moveto (Eric S. Raymond) 96 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	09AC0A6A
+gsave 10 dict begin
+solid
+1065 1862 45 18 ellipse_path
+stroke
+gsave 10 dict begin
+1065 1863 moveto (L. Sassaman) 70 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	8421F11C -> 09AC0A6A
+newpath 1259 2210 moveto
+1225 2150 1117 1954 1078 1886 curveto
+stroke
+newpath 1077 1890 moveto
+1075 1880 lineto
+1082 1888 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	449FA3AB
+gsave 10 dict begin
+filled
+0.000 1.000 1.000 nodecolor
+3069 1830 53 18 ellipse_path
+gsave 0 setgray stroke grestore fill
+gsave 10 dict begin
+0.000 0.000 0.000 nodecolor
+3069 1831 moveto (Linus Torvalds) 85 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	2BCBC621
+gsave 10 dict begin
+solid
+2665 1796 69 18 ellipse_path
+stroke
+gsave 10 dict begin
+2665 1797 moveto (H. Peter Anvin \(hpa\)) 117 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	449FA3AB -> 2BCBC621
+newpath 3017 1826 moveto
+2948 1819 2823 1809 2742 1802 curveto
+stroke
+newpath 2741 1804 moveto
+2731 1801 lineto
+2741 1799 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	2C54C8FA
+gsave 10 dict begin
+solid
+1594 1555 54 18 ellipse_path
+stroke
+gsave 10 dict begin
+1594 1556 moveto (Leland Wallace) 87 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	2C54C8FA -> 0B3EF042
+newpath 1578 1538 moveto
+1543 1500 1459 1409 1419 1366 curveto
+stroke
+newpath 1418 1369 moveto
+1414 1360 lineto
+1422 1366 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	2C54C8FA -> F6F83318
+newpath 1602 1537 moveto
+1627 1483 1701 1320 1730 1256 curveto
+stroke
+newpath 1727 1256 moveto
+1734 1248 lineto
+1732 1258 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	9E22EA50
+gsave 10 dict begin
+solid
+1668 1103 41 18 ellipse_path
+stroke
+gsave 10 dict begin
+1668 1104 moveto (tim holmes) 62 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	2C54C8FA -> 9E22EA50
+newpath 1597 1537 moveto
+1609 1466 1650 1210 1664 1128 curveto
+stroke
+newpath 1661 1131 moveto
+1665 1121 lineto
+1666 1131 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	28C029AF
+gsave 10 dict begin
+solid
+1174 1649 54 18 ellipse_path
+stroke
+gsave 10 dict begin
+1174 1650 moveto (Dave Del Torto) 87 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	2C54C8FA -> 28C029AF
+newpath 1549 1565 moveto
+1471 1582 1310 1619 1226 1637 curveto
+stroke
+newpath 1229 1639 moveto
+1219 1639 lineto
+1228 1634 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	28E3EB7C -> 80675E65
+newpath 2135 1130 moveto
+2091 1078 1961 929 1909 869 curveto
+stroke
+newpath 1907 870 moveto
+1902 861 lineto
+1910 867 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	2D8B0ADE
+gsave 10 dict begin
+solid
+2545 1295 77 18 ellipse_path
+stroke
+gsave 10 dict begin
+2545 1296 moveto (William Allen Simpson) 133 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	28E3EB7C -> 2D8B0ADE
+newpath 2184 1160 moveto
+2255 1186 2416 1246 2497 1277 curveto
+stroke
+newpath 2496 1274 moveto
+2504 1280 lineto
+2494 1278 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	28E3EB7C -> DC60654E
+newpath 2122 1162 moveto
+2090 1179 2039 1206 2006 1224 curveto
+stroke
+newpath 2009 1225 moveto
+1999 1228 lineto
+2006 1221 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	0B3EF042 -> 148C6F43
+newpath 1394 1324 moveto
+1390 1307 1382 1281 1367 1263 curveto
+1252 1119 1047 1021 959 984 curveto
+stroke
+newpath 959 987 moveto
+951 981 lineto
+961 982 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	0B3EF042 -> 2C54C8FA
+newpath 1414 1360 moveto
+1449 1398 1533 1489 1573 1532 curveto
+stroke
+newpath 1574 1529 moveto
+1578 1538 lineto
+1570 1532 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	38D916D5
+gsave 10 dict begin
+solid
+1537 1077 52 18 ellipse_path
+stroke
+gsave 10 dict begin
+1537 1078 moveto (Marshall Clow) 83 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	0B3EF042 -> 38D916D5
+newpath 1408 1324 moveto
+1432 1277 1496 1155 1524 1102 curveto
+stroke
+newpath 1521 1102 moveto
+1528 1095 lineto
+1525 1105 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	0B3EF042 -> F6F83318
+newpath 1440 1328 moveto
+1506 1307 1631 1266 1698 1244 curveto
+stroke
+newpath 1697 1242 moveto
+1707 1241 lineto
+1698 1247 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	0B3EF042 -> 28C029AF
+newpath 1385 1360 moveto
+1347 1412 1236 1563 1193 1623 curveto
+stroke
+newpath 1195 1625 moveto
+1187 1631 lineto
+1191 1622 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	38D916D5 -> 80675E65
+newpath 1561 1061 moveto
+1622 1019 1786 911 1855 864 curveto
+stroke
+newpath 1851 863 moveto
+1861 860 lineto
+1854 868 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	38D916D5 -> DC60654E
+newpath 1570 1091 moveto
+1590 1099 1614 1109 1636 1117 curveto
+1741 1158 1866 1204 1930 1227 curveto
+stroke
+newpath 1930 1224 moveto
+1939 1230 lineto
+1929 1229 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	F6F83318 -> 80675E65
+newpath 1749 1212 moveto
+1772 1150 1849 945 1876 871 curveto
+stroke
+newpath 1874 869 moveto
+1880 861 lineto
+1879 871 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	F6F83318 -> 2C54C8FA
+newpath 1734 1248 moveto
+1709 1302 1635 1465 1606 1529 curveto
+stroke
+newpath 1609 1529 moveto
+1602 1537 lineto
+1604 1527 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	F6F83318 -> 28E3EB7C
+newpath 1783 1222 moveto
+1858 1206 2018 1174 2100 1157 curveto
+stroke
+newpath 2097 1155 moveto
+2107 1156 lineto
+2097 1160 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	F6F83318 -> 0B3EF042
+newpath 1706 1242 moveto
+1646 1261 1521 1302 1450 1325 curveto
+stroke
+newpath 1450 1328 moveto
+1440 1328 lineto
+1449 1323 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	F6F83318 -> 38D916D5
+newpath 1720 1214 moveto
+1684 1187 1609 1131 1567 1099 curveto
+stroke
+newpath 1566 1101 moveto
+1559 1093 lineto
+1569 1097 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	F6F83318 -> 9E22EA50
+newpath 1732 1212 moveto
+1719 1190 1697 1153 1683 1129 curveto
+stroke
+newpath 1681 1131 moveto
+1678 1121 lineto
+1685 1128 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	F6F83318 -> DC60654E
+newpath 1788 1232 moveto
+1826 1234 1880 1237 1920 1240 curveto
+stroke
+newpath 1918 1238 moveto
+1928 1240 lineto
+1918 1243 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	2D8B0ADE -> 28E3EB7C
+newpath 2504 1280 moveto
+2428 1252 2267 1191 2192 1162 curveto
+stroke
+newpath 2194 1165 moveto
+2185 1160 lineto
+2195 1160 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	93674C40
+gsave 10 dict begin
+solid
+2330 1539 60 18 ellipse_path
+stroke
+gsave 10 dict begin
+2330 1540 moveto (Theodore Y. Ts'o) 99 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	2D8B0ADE -> 93674C40
+newpath 2529 1313 moveto
+2492 1356 2394 1466 2352 1515 curveto
+stroke
+newpath 2355 1516 moveto
+2346 1521 lineto
+2351 1512 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	0525419B -> F6F83318
+newpath 1344 1256 moveto
+1452 1249 1608 1239 1689 1233 curveto
+stroke
+newpath 1686 1231 moveto
+1696 1233 lineto
+1686 1236 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	0525419B -> 28C029AF
+newpath 1236 1281 moveto
+1243 1307 1254 1355 1251 1397 curveto
+1245 1482 1207 1577 1187 1622 curveto
+stroke
+newpath 1189 1623 moveto
+1183 1631 lineto
+1185 1621 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	51DBA39C
+gsave 10 dict begin
+solid
+1191 1017 72 18 ellipse_path
+stroke
+gsave 10 dict begin
+1191 1018 moveto (Noah Dibner Salzman) 124 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	0525419B -> 51DBA39C
+newpath 1228 1245 moveto
+1221 1201 1203 1091 1195 1042 curveto
+stroke
+newpath 1193 1045 moveto
+1194 1035 lineto
+1198 1045 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	31C2F3B9
+gsave 10 dict begin
+solid
+468 1448 66 18 ellipse_path
+stroke
+gsave 10 dict begin
+468 1449 moveto (Charles Earl Fender) 111 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	31C2F3B9 -> C7A966DD
+newpath 496 1432 moveto
+556 1396 699 1313 764 1275 curveto
+stroke
+newpath 760 1274 moveto
+770 1272 lineto
+762 1279 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	31C2F3B9 -> 20B19259
+newpath 415 1437 moveto
+347 1423 232 1400 158 1385 curveto
+stroke
+newpath 161 1388 moveto
+151 1384 lineto
+161 1383 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5804F465
+gsave 10 dict begin
+solid
+733 1733 84 18 ellipse_path
+stroke
+gsave 10 dict begin
+733 1734 moveto (Bruce Adrian Watermeyer) 147 14.00 -0.50 alignedtext
+end grestore
+end grestore
+
+%	31C2F3B9 -> 5804F465
+newpath 485 1466 moveto
+532 1515 661 1655 712 1710 curveto
+stroke
+newpath 712 1706 moveto
+716 1715 lineto
+708 1709 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	9E22EA50 -> 80675E65
+newpath 1682 1086 moveto
+1720 1041 1822 920 1866 868 curveto
+stroke
+newpath 1864 867 moveto
+1872 861 lineto
+1867 870 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	9E22EA50 -> 2C54C8FA
+newpath 1665 1121 moveto
+1653 1192 1612 1448 1598 1530 curveto
+stroke
+newpath 1601 1527 moveto
+1597 1537 lineto
+1596 1527 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	9E22EA50 -> 0B3EF042
+newpath 1649 1119 moveto
+1602 1160 1479 1270 1424 1319 curveto
+stroke
+newpath 1426 1320 moveto
+1417 1325 lineto
+1423 1317 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	9E22EA50 -> 38D916D5
+newpath 1630 1096 moveto
+1618 1094 1605 1091 1592 1088 curveto
+stroke
+newpath 1591 1090 moveto
+1582 1086 lineto
+1592 1086 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	9E22EA50 -> F6F83318
+newpath 1678 1121 moveto
+1692 1143 1713 1180 1727 1204 curveto
+stroke
+newpath 1729 1202 moveto
+1732 1212 lineto
+1725 1205 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	9E22EA50 -> DC60654E
+newpath 1697 1116 moveto
+1751 1142 1873 1197 1934 1224 curveto
+stroke
+newpath 1934 1221 moveto
+1942 1228 lineto
+1932 1226 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	9E22EA50 -> 51DBA39C
+newpath 1627 1102 moveto
+1601 1101 1567 1100 1537 1097 curveto
+1432 1086 1312 1054 1244 1034 curveto
+stroke
+newpath 1244 1037 moveto
+1235 1031 lineto
+1245 1032 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	28C029AF -> 0B3EF042
+newpath 1187 1631 moveto
+1225 1579 1335 1428 1379 1368 curveto
+stroke
+newpath 1377 1367 moveto
+1385 1360 lineto
+1381 1370 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	28C029AF -> 09AC0A6A
+newpath 1165 1667 moveto
+1146 1704 1102 1791 1079 1835 curveto
+stroke
+newpath 1081 1836 moveto
+1074 1844 lineto
+1077 1834 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	28C029AF -> 5804F465
+newpath 1127 1658 moveto
+1049 1673 895 1702 804 1719 curveto
+stroke
+newpath 806 1721 moveto
+796 1721 lineto
+805 1716 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	DC60654E -> 80675E65
+newpath 1968 1224 moveto
+1955 1161 1909 948 1893 871 curveto
+stroke
+newpath 1891 871 moveto
+1891 861 lineto
+1895 870 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	DC60654E -> 28E3EB7C
+newpath 1999 1228 moveto
+2030 1211 2082 1184 2115 1166 curveto
+stroke
+newpath 2112 1165 moveto
+2122 1162 lineto
+2115 1169 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	DC60654E -> 38D916D5
+newpath 1939 1230 moveto
+1878 1208 1746 1160 1636 1117 curveto
+1617 1110 1597 1102 1579 1094 curveto
+stroke
+newpath 1579 1097 moveto
+1570 1091 lineto
+1580 1092 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	DC60654E -> 9E22EA50
+newpath 1943 1229 moveto
+1887 1203 1765 1148 1705 1120 curveto
+stroke
+newpath 1705 1123 moveto
+1697 1116 lineto
+1707 1118 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	93674C40 -> DC60654E
+newpath 2309 1522 moveto
+2248 1471 2065 1319 1998 1263 curveto
+stroke
+newpath 1998 1266 moveto
+1992 1258 lineto
+2001 1262 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	93674C40 -> 2BCBC621
+newpath 2352 1556 moveto
+2411 1601 2571 1724 2637 1775 curveto
+stroke
+newpath 2636 1771 moveto
+2643 1779 lineto
+2633 1776 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	09AC0A6A -> 8421F11C
+newpath 1075 1880 moveto
+1109 1940 1217 2136 1256 2204 curveto
+stroke
+newpath 1257 2200 moveto
+1259 2210 lineto
+1252 2202 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	09AC0A6A -> 4AAF00E5
+newpath 1069 1844 moveto
+1084 1772 1139 1506 1156 1422 curveto
+stroke
+newpath 1153 1425 moveto
+1157 1415 lineto
+1158 1425 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	09AC0A6A -> 5804F465
+newpath 1033 1849 moveto
+975 1827 853 1779 783 1753 curveto
+stroke
+newpath 782 1755 moveto
+774 1749 lineto
+784 1751 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	09AC0A6A -> 5B0358A2
+newpath 1055 1880 moveto
+1021 1939 913 2125 874 2190 curveto
+stroke
+newpath 878 2188 moveto
+871 2196 lineto
+873 2186 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	2BCBC621 -> 517D0F0E
+newpath 2670 1814 moveto
+2686 1877 2741 2087 2759 2159 curveto
+stroke
+newpath 2760 2155 moveto
+2761 2165 lineto
+2755 2156 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	2BCBC621 -> 449FA3AB
+newpath 2731 1802 moveto
+2809 1808 2936 1818 3010 1825 curveto
+stroke
+newpath 3007 1822 moveto
+3017 1826 lineto
+3007 1827 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	2BCBC621 -> 93674C40
+newpath 2643 1779 moveto
+2585 1735 2428 1614 2361 1563 curveto
+stroke
+newpath 2358 1564 moveto
+2352 1556 lineto
+2361 1560 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	4AAF00E5 -> C7A966DD
+newpath 1121 1381 moveto
+1054 1355 921 1303 849 1274 curveto
+stroke
+newpath 847 1276 moveto
+839 1270 lineto
+849 1271 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	4AAF00E5 -> 38D916D5
+newpath 1192 1380 moveto
+1234 1357 1310 1312 1367 1263 curveto
+1428 1212 1488 1139 1518 1102 curveto
+stroke
+newpath 1516 1101 moveto
+1524 1095 lineto
+1519 1104 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	4AAF00E5 -> 51DBA39C
+newpath 1146 1379 moveto
+1127 1355 1096 1308 1095 1263 curveto
+1091 1178 1143 1087 1172 1044 curveto
+stroke
+newpath 1170 1042 moveto
+1178 1035 lineto
+1175 1045 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5804F465 -> 31C2F3B9
+newpath 716 1715 moveto
+670 1666 543 1529 491 1472 curveto
+stroke
+newpath 489 1474 moveto
+484 1465 lineto
+493 1470 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5804F465 -> 09AC0A6A
+newpath 774 1749 moveto
+837 1774 959 1822 1023 1846 curveto
+stroke
+newpath 1023 1843 moveto
+1032 1849 lineto
+1022 1848 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5B0358A2 -> 2FA3BC2D
+newpath 865 2232 moveto
+878 2297 920 2520 935 2595 curveto
+stroke
+newpath 937 2591 moveto
+936 2601 lineto
+932 2592 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5B0358A2 -> 57548DCD
+newpath 831 2228 moveto
+768 2259 617 2332 544 2368 curveto
+stroke
+newpath 548 2369 moveto
+538 2371 lineto
+546 2364 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	5B0358A2 -> 09AC0A6A
+newpath 871 2196 moveto
+904 2138 1010 1957 1050 1889 curveto
+stroke
+newpath 1048 1888 moveto
+1055 1880 lineto
+1052 1890 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+
+%	51DBA39C -> 9E22EA50
+newpath 1235 1031 moveto
+1301 1051 1427 1086 1537 1097 curveto
+1564 1100 1594 1101 1618 1102 curveto
+stroke
+newpath 1617 1100 moveto
+1627 1102 lineto
+1617 1105 lineto
+closepath
+gsave 0 setgray stroke grestore fill
+endpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+end
+restore
+%%EOF

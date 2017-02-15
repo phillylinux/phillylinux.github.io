@@ -1,0 +1,651 @@
+<HTML><HEAD><TITLE>GPG Keysigning Party HOWTO</TITLE>
+<BODY BGCOLOR=#FFFFFF>
+
+<HR>
+<H1>GnuPG Keysigning Party HOWTO</H1>
+
+<H2><A HREF="http://www.metanet.org/people/vab/">V. Alex Brennen</A> (<A HREF="mailto:vab@metanet.org">vab@metanet.org</A>)</H2>v1.01, 03 October 2000
+
+<P><HR>
+<EM>This document describes the protocol and methods for holding
+and participating in a PGP Key Signing party using the GNU PGP
+implementation, GnuPG.  It gives an explanation of key signing
+protocol, answers frequently asked questions and explains how
+to go about generating your own keys as well as signing other's
+keys.</EM>
+<HR>
+
+<H2><A HREF="#toc1">1. Overview Of The Party</A></H3>
+<UL>
+<LI><A HREF="#ss1.1">1.1 What exactly is a key signing party?</A>
+<LI><A HREF="#ss1.2">1.2 What is key signing?</A>
+<LI><A HREF="#ss1.3">1.3 What is a web of trust?</A>
+<LI><A HREF="#ss1.4">1.4 Can you give me an example of the application of key signatures?</A>
+<LI><A HREF="#ss1.5">1.5 Why should I hold my own key signing parties?</A>
+</UL>
+<H2><A HREF="#toc2">2. Organizing The Party</A></H3>
+<UL>
+<LI><A HREF="#ss2.1">2.1 Role of the Coordinator</A>
+<LI><A HREF="#ss2.2">2.2 How should the party be structured?</A>
+<LI><A HREF="#ss2.3">2.3 Announcing the party</A>
+<LI><A HREF="#ss2.4">2.4 Generating the key lists</A>
+</UL>
+<H2><A HREF="#toc3">3. Participating In The Party</A></H3>
+<UL>
+<LI><A HREF="#ss3.1">3.1 Participant's Role Summarized</A>
+<LI><A HREF="#ss3.2">3.2 What To Bring To The Party</A>
+<LI><A HREF="#ss3.3">3.3 What Not To Bring</A>
+<LI><A HREF="#ss3.4">3.4 Why You Should Not Bring A Computer</A>
+<LI><A HREF="#ss3.5">3.5 Generating your Key Pair</A>
+<LI><A HREF="#ss3.6">3.6 Signing Others' Keys</A>
+</UL>
+<H2><A HREF="#toc4">4. Relevant Information and Sources for More Information</A></H2>
+<UL>
+<LI><A HREF="#ss4.1">4.1 List of public key servers</A>
+<LI><A HREF="#ss4.2">4.2 Links to related documents</A>
+<LI><A HREF="#ss4.3">4.3 Related web sites</A>
+</UL>
+<H2><A HREF="#toc5">5. About this Document</A></H2>
+<UL>
+<LI><A HREF="#ss5.1">5.1 Versions</A>
+<LI><A HREF="#ss5.2">5.2 Contributors</A>
+</UL>
+<HR>
+
+<H2><A NAME="toc1">1. Overview of the Party</A></H3>
+<B><A NAME="ss1.1">1.1 What exactly is a key signing party?</A></B>
+
+<P>A key signing party is a get-together of people who use the PGP
+encryption system with the purpose of allowing those people to
+sign each others keys.  Key signing parties serve to extend the web
+of trust to a great degree.  Key signing parties also serve as
+great opportunities to discuss the political and social issues
+surrounding strong cryptography, individual liberties, individual
+sovereignty and even implementing encryption technologies or perhaps
+future work on free encryption software.
+
+<BR>
+
+<P><B><A NAME="ss1.2">1.2 What is key signing?</A></B>
+
+<P>Key signing is act of digitally signing a public
+key.  You can digitally sign your own public key, or
+another entity's public key. Key signing is done to verify
+that a given public key really does belong to the entity that
+appears to own the key.  In a sense, key signatures validate a
+public keys. This is the way in which key signing builds the
+web of trust.
+
+<P><B><A NAME="ss1.3">1.3 What is a web of trust?</A></B>
+
+<P>A web of trust is a term used to describe the trust
+relationships between a group of keys.  A key signature
+is a link, or strand if you will, in the web of trust.
+The web of trust can be thought of as the sum of all the
+links between all key holding parties. Links can be
+bidirectional or only 1 way.  The ideal web of trust is
+one in which everyone is connected bidirectionally to
+everyone else.  In effect, everyone trusts that every key
+does in fact belong to its owner. The web of trust can be
+thought of as the sum of all the links between all key
+holding parties.
+
+<P><B><A NAME="ss1.4">1.4 Can you give me an example of the application of key signatures?</A></B>
+
+<P>As an example, let's say that Alice and Bob generate PGP
+Keys with GPG and hold a PGP key signing party. At the party
+Alice and Bob go verify each others' key information and later
+sign each others' keys.  GPG by default automatically signs the
+public key of every pair it generates with the associated
+private key.  So, Alice and Bob both now have at least two
+signatures validating that their keys belong to them.  Alice's
+key was signed by Alice herself and Bob and Bob's key was signed
+by Bob himself and Alice.  In the future Alice and Bob meet Cathy.
+Cathy generates a key pair and tells Alice and Bob that she will
+send them her key.  Alice doesn't like Cathy and doesn't want Bob
+to exchange encrypted communications with her. Both Alice and Cathy
+generate GPG keys which they claim belong to Cathy.  They both send
+them to Bob.  Both keys have one signature, the signature of the
+associated private key.  Bob does not know which key is really
+Cathy's.   Cathy hears that Bob got two keys, and suspects Alice.
+She decides to forge an email to Bob from Alice telling him that
+Alice has generated new keys and enclosing the public key.  However,
+Bob knows for sure this is a trick because even though Bob now has
+two keys for Alice, one of the keys has been signed by multiple
+people (himself and Alice) verifying that it does indeed belong
+to Alice, while the other key - Cathy's fake key - only has its
+own signature.
+
+<P>The above example is very simplified and things can get a lot
+more complicated than that.  You can read through the PGP FAQs
+or a good book on PKI for more information and a more detailed
+explanation.  The above example does clearly explain the basics
+of key signing and its value.  Cathy was not able to introduce
+a fake key pair because of the web of trust interconnections
+between Bob and Alice.  Signatures and webs of trust do not
+guarantee trustable keys.  For example, when Bob and Alice
+first met Cathy, lets say that a friend of Cathy's Donald had
+been with Cathy.  Donald could have generated fake key pairs for
+Alice and Bob, signed them with his key and signed both pairs
+of keys with the other pairs resulting in three signatures on
+each key and send them to Cathy.  Cathy would be facing a
+series of bad keys and signatures.  How could key signing help
+Cathy resist such an attack?  Well, let's say that all the
+people involved where exchanging keys through a key server.
+If Cathy searched the key server for Alice and Bob's keys,
+she'd find two sets for both Alice and Bob.  If Alice and Bob
+collected twenty key signatures at the keysigning party, it's
+obvious that Cathy can better trust the public keys signed
+twenty times than the ones signed only three times.  Cathy
+should know something's up from the existence of the extra
+public keys - so she can look for closely at the generation
+dates and the trust web behind the public keys.  The twenty
+keys from the party signatures should all be signed twenty
+or more times and have widely varying generation times, most
+likely all the keys which signed Alice and Bob's keys where
+also signed by other keys.  That would not be the case if
+Donald had generated twenty faked key pairs and generated a
+faked web of trust.
+
+
+<P><B><A NAME="ss1.5">1.5 Why should I hold my own key signing parties?</A></B>
+
+<P>There are three primary reasons to hold as many key signing parties
+as you possibly can.
+
+<P>First, and perhaps most importantly, you should hold as many key signing
+parties as possible in order to expand the web of trust.  The more deep and
+tightly inter-linked the web of trust is, the more difficult it is to
+defeat.
+
+<P>Second, key signing parties help others get integrated into the security
+culture and encourage them to gain an understanding of PGP and related strong
+cryptography technologies.  In order to get the benefits of strong cryptography,
+people must use strong cryptography, and use it properly.
+
+<P>Finally, key signing parties help build communities.  They help
+techies get together to get to know each other, network, and discuss
+important issues like civil liberties, cryptorights, and internet
+regulation. Discussion is important because discussion is not only the first
+step as also the step before action.  At the time I'm authoring this document
+there are not very many complex webs of trust in the world.  If you work
+to build a web of trust in your local area, it is very likely that the
+first participants in that web will be the leaders and policy setters of
+the internet community in your area.  They are the individuals who can
+choose to build secure strong cryptographic technology and protocols into
+the local infrastructure if they so choose.  The integration of such
+technology and protocols could make issues like the FBI's carnivore
+system technologically infeasible and therefore moot.
+
+<HR>
+
+<H2><A NAME="toc2">2. Organizing The Party</A></H2>
+
+<P><B><A NAME="ss2.1">2.1 Role of the Coordinator</A></B>
+
+<P>It's not very difficult to organize and coordinate a key
+signing party.  However, aside from the regular tasks of inviting people,
+picking a location and setting a time, the Coordinator does
+have some other key signing specific responsibilities.  Those
+usually include providing a key list for each participant and
+determining the structure of the party.
+
+<P><B><A NAME="ss2.2">2.2 How should the party be structured?</A></B>
+
+<P>There are two primary ways that a PGP key signing party can be
+structured -- in a centralized way or in a decentralized way.  The best
+approach to the key signing can be determined by the number of people
+that will be attending and the atmosphere of the location where you're
+holding your party.  The basic requirements of the party are that the
+participants are able to verify each others' keys and that the the
+participants are able to verify each others' identities.  Given that
+those basic requirements are met, the coordinator can come up with some
+variation of the two types.
+
+<P>A centralized party would be a more organized affair which would
+work well with small to medium numbers of people.  The participants
+would send their key information to the coordinator who would compile
+it into a list.  Each participant, upon arriving at the party, would
+be given a copy of the key list.  Each participant would then be called
+on by the coordinator.  The participant then checks their key fingerprint
+against the fingerprint on the sheet that the coordinator gave them.  If
+the participant is sure that their key is the same as the key on the
+sheet then the participant reads their fingerprint aloud so that the other
+party participants can make sure they also have the correct matching fingerprint.
+If they do in fact have the correct matching fingerprint, they check it off on their
+sheet.  This is necessary to make sure that the coordinator has not made a
+mistake in the generation of the sheet or has not slipped a sheet in with
+a faked key to one or more of the participants.  After everyone has checked
+off the participant's key, the coordinator then calls on the next participant,
+and so on.  After all of the keys have been verified, the participants and
+coordinator are asked to form a long single file line while holding their
+IDs in front of them.  The person at the head of the line walks down the line
+and checks each person's ID.  If their ID is correct and the person walking
+down the line has a check next to the individual in the line's key verifying
+that they had said it was their key at the beginning of the party, he places
+a second check mark on his list.  Once a key has two check marks it can be signed.
+
+<P>A decentralized party would basically be every man for himself.  Participants
+are expected to mingle informally and find other participants who's keys
+they have not signed yet.  Upon meeting they verify their keys on
+each other's lists and validate each other's ID.  Decentralized parties
+allow many more people to be easily include but also have the down side
+of making it easy for some participants not to validate each other's
+keys for future signing.  At a decentralized party, it is important for
+the coordinator to encourage everyone to make sure that they do meet
+with everyone else for key validation.  While a list of keys and finger
+prints does not necessary need to be produced for a decentralized party,
+it is still good practice.
+
+<P>Centralized parties are great for key signing parties at conferences
+during lunch, informal quiet meetings at some one's home or a restaurant
+etc.  Decentralized key signing parties are much more practical for
+parties that will include a very large number of people, take place
+in a bar or other noisy area, or parties including particularly rowdy
+and difficult to control geeks.
+
+<P><B><A NAME="ss2.3">2.3 Announcing the party</A></B>
+
+<P>The larger the party the better.  You can announce your party to
+your local LUG email list, other computer related lists you're on
+in the area, even place an ad in the news paper or issue a press
+release.
+
+<P>If you're just starting to build the web of trust in your
+area, it's a good idea to try and get other active PGP users
+involved because they are the ones who are most likely to
+hold key signing parties of their own in the future.  Good ways
+find such people are to talk with others who've sent email to lists
+you're on with PGP signatures, or by searching the keyserver
+networks for keys with email addresses specific to your local
+area.  For example, email addresses that end in the domains of
+university or large company which are located in your area often
+yield very high numbers of interested parties.
+
+<P><B><A NAME="ss2.4">2.4 Generating the key lists</A></B>
+
+<P>If you're going to use a party structure that calls for
+the participants to have lists of the keys of everyone
+attending the party, the coordinator needs to generate such
+a list a list.  This list should be compiled in a format
+similar to this:
+
+<TABLE BORDER=1><TR><TD>Key ID</TD><TD>Key Owner</td><TD>Key Fingerprint</TD><TD>Key Size</TD><TD>Key Type</TD><TD>Key Info Matches?</TD><TD>Owner ID Matches?</TD></TR>
+<TR><TD>992A4B3F</TD><TD>V. Alex Brennen  &#60; vab@cryptnet.net &#62; </TD><TD>0EC8 B0E3 052D FC4C 208F 76EB FA92 0973 992A 4B3F</TD><TD>1024</TD><TD>DSA</TD><TD>&nbsp;</TD><TD>&nbsp;</TD></TR>
+</TABLE>
+
+<P>A copy of this list should then be printed out for each of
+the people who will be attending the key signing party.  The
+coordinator can print the copies of the list himself, or he
+can email the list or place it on the web for the attendees
+to print.
+
+<HR>
+<H2><A NAME="toc3">3. Participating In The Party</A></H2>
+
+
+<B><A NAME="ss3.1">3.1 The Participant's Role Summarized</A></B>
+<OL>
+<LI>Generate A Key Pair
+<LI>Send Public Key To Designated Keyserver
+<LI>Send Public Key Info To Coordinator
+<LI>Show Up At The Party
+<LI>Verify Your Key Info At The Party
+<LI>Verify Everyone Else's Key Info
+<LI>Sign All The Verified Keys
+</OL>
+
+<B><A NAME="ss3.2">3.2 What Participants Should Bring to the Party</A></B>
+<OL>
+<LI>Themselves - you cannot participate virtually
+<LI>Two forms of positive picture ID - a driver's license and passport are good
+<LI>Key ID, Key Type, Hex Fingerprint and Key Size info
+<LI>A Pen/Pencil
+</OL>
+<B><A NAME="ss3.3">3.3 What Participants Should Not Bring to the Party</A></B>
+<OL>
+<LI>A Computer
+</OL>
+
+<B><A NAME="ss3.4">3.4 Why You should not bring a computer to the party</A></B>
+
+<P>You should not bring a computer to the party because
+binary replacement or system modifications are very
+easy ways to compromise PGP systems.
+
+<P>If someone where to bring a portable computer and
+everyone used that computer to sign the other keys at
+the party, no one would know if the machine had been
+running a key stroke logging utility, a modified version
+of GPG or a specially modified keyboard, any of which
+could be used to capture the secret keys of those who
+used the computer.
+
+<P>The use of a computer at the party would also leave
+you open to more simple attacks like shoulder-surfing,
+or more complex attacks like infection with virii that
+modify your GPG binaries to leak future secret keys
+discretely.
+
+<BR>
+<BR><B><A NAME="ss3.5">3.5 How to generate your Key pair</A></B>
+
+<P>1)  Go to www.gnupg.org and download the latest version of gnupg: gnupg-x.x.x.tar.gz
+<P>2)  Check the MD5 checksums:
+
+<BR>
+<P><CODE>
+[vab@firster vab]$ md5sum gnupg-x.x.x.tar.gz
+</CODE>
+
+<P>3)  Extract the archive, configure, compile and install it:
+
+<BR>
+<P><CODE>
+[vab@firster vab]$ tar xvzf gnupg-x.x.x.tar.gz
+<BR>[vab@firster vab]$ cd gnupg-x.x.x
+<BR>[vab@firster gnupg-x.x.x]$ ./configure
+<BR>[vab@firster gnupg-x.x.x]$ make
+<BR>[vab@firster gnupg-x.x.x]$ su
+<BR>[vab@firster gnupg-x.x.x]$ make install
+<BR>[vab@firster gnupg-x.x.x]$ exit
+<BR>[vab@firster gnupg-x.x.x]$ cd
+</CODE>
+
+<P>4)  Get a floppy to store your keys on and format it.
+
+<BR>
+<P><CODE>
+[vab@firster vab]$ /sbin/mkfs.ext2 /dev/fd0
+</CODE>
+
+<P>4a) Mount the floppy and make a directory on it owned by you
+    for your keys:
+
+<BR>
+<P><CODE>
+[vab@firster vab]$ mount /mnt/floppy
+<BR>[vab@firster vab]$ mkdir /mnt/floppy/.gnupg
+<BR>[vab@firster vab]$ chown vab:vab /mnt/floppy/.gnupg
+</CODE>
+
+<P>4b) Make a symlink from your home dir to the floppy
+
+<BR>
+<P><CODE>
+[vab@firster vab]$ ln -s /mnt/floppy/.gnupg .gnupg
+</CODE>
+
+<P>5)  Generate your gnupg keys
+
+<BR>
+<P><CODE>
+[vab@firster vab]$ gpg --gen-key
+</CODE>
+
+<P>5a) Select the key types you want - The default is good.
+
+<BR>
+<P><CODE>
+Please select what kind of key you want:
+<BR>   (1) DSA and ElGamal (default)
+<BR>   (2) DSA (sign only)
+<BR>   (4) ElGamal (sign and encrypt)
+<BR>Your selection? &#60;return&#62;
+</CODE>
+
+<P>5b) Select your key size:  2048&#60;return&#62;
+<BR>
+<P><CODE>
+DSA keypair will have 1024 bits.
+<BR>About to generate a new ELG-E keypair.
+<BR>             minimum keysize is  768 bits
+<BR>              default keysize is 1024 bits
+<BR>    highest suggested keysize is 2048 bits
+<BR>What keysize do you want? (1024) 2048&#60;return&#62;
+<BR>Do you really need such a large keysize? yes&#60;return&#62;
+</CODE>
+
+<P>5c) Set the lifetime of this key:  3 years is good
+
+<BR>
+<P><CODE>Requested keysize is 2048 bits
+<BR>Please specify how long the key should be valid.
+<BR>         0 = key does not expire
+<BR>      &#60;n&#62;  = key expires in n days
+<BR>      &#60;n&#62;w = key expires in n weeks
+<BR>      &#60;n&#62;m = key expires in n months
+<BR>      &#60;n&#62;y = key expires in n years
+<BR>Key is valid for? (0) 3y&#60;return&#62;
+<BR>Key expires at Sun Sep 21 16:17:15 2003 EDT
+<BR>Is this correct (y/n)? y&#60;return&#62;
+</CODE>
+
+<P>5d) Enter your name and email address(es)...
+
+<BR>
+<P><CODE>
+Real name: Demo User&#60;return&#62;
+<BR>Email address: demo@nonexistant.nowhere&#60;return&#62;
+<BR>Comment:
+<BR>You selected this USER-ID:
+<BR>    "Demo User &#60;demo@nonexistant.nowhere&#62;"
+<BR>
+<BR>Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit?  O&#60;return&#62;
+</CODE>
+
+<P>5e) Choose a pass phrase.  You need to pick a good one.  It should be
+    long and very difficult to guess.  It should be something you won't
+    forget.  If you forget your pass phrase, you cannot recover your key.
+
+<P>5f)  Move the mouse and hit some keys maybe update locate in the
+     background or run a big find.  GPG is reading from /dev/random
+     to get some randomness for your key generation. /dev/random is
+     populated in part by interrupts.
+
+<P>6)  Modify your key if you want.  For example if you have multiple email
+    addresses and you want to list them as valid on your key:
+
+<BR>
+<P><CODE>
+[vab@firster vab]$ gpg --list-secret-keys
+<BR>
+<BR>/home/vab/.gnupg/secring.gpg
+<BR>----------------------------
+<BR>sec  1024D/C01BAFC3 2000-09-21 Demo User &#60;demo@noexistant.nowhere&#62;
+<BR>ssb  2048g/7A4087F3 2000-09-21
+<BR>[vab@firster vab]$ gpg --edit-key C01BAFC3
+<BR>Command> help
+<BR>Command> adduid
+<BR>[...]
+<BR>Command> save
+</CODE>
+
+<P>7) Send your key to the keyserver:
+<BR>
+<P><CODE>
+[vab@firster vab]$ gpg --keyserver &#60;keyserver&#62; --send-key &#60;Your_Key_ID&#62;
+</CODE>
+
+<P>You should see a success message like this:
+<BR>
+<P><CODE>
+gpg: success sending to `keyserver.cryptnet.net' (status=200)
+</CODE>
+
+<P>8)  Email your info to the Coordinator telling
+    him that you're coming to the key signing party.
+
+<BR>
+<P><CODE>
+[vab@firster vab]$ gpg --fingerprint  &#60;Your_Key_ID&#62; | mail coordinator@hostname.domain -s \
+"My Key info for the party"
+</CODE>
+
+<P>9)  Umount the floppy and eject it:
+
+<BR>
+<P><CODE>
+[vab@firster vab]$ umount /mnt/floppy
+</CODE>
+
+<P>Note:  You can carry the floppy around with you for additional security,
+or you can just leave it in a safe, locked desk drawer etc.  You DO NOT
+want to have your .gnupg directory containing your keys in a location
+accessible over the internet.
+
+<P>10) Show up at the party.
+<BR><BR>
+
+<BR><B><A NAME="ss3.5">3.5 How To Sign Keys</A></B>
+
+<P>Step 1:   Get a copy of the key
+
+<BR>
+<P><CODE>
+[vab@firster vab]$ gpg --keyserver &#60;keyserver&#62; --recv-keys  &#60;Key_ID&#62;
+</CODE>
+
+<P>GPG will download the key from the keyserver into your public key
+ring.  If you get a read error, it means the keyserver is overloaded.
+Please, try again in a few seconds.
+
+<P>Step 2:  Fingerprint and Verify the key
+
+<BR>
+<P><CODE>
+[vab@firster vab]$ gpg --fingerprint &#60;Key_ID&#62;
+</CODE>
+
+<P>GPG will print out the fingerprint of the Key with &#60;Key_ID &#62; (the key
+you just downloaded).  Check the fingerprint against the checklist
+that you where given at the party.  Note: Don't check the fingerprint
+on your checklist against the fingerprint on the web page as the server
+may not send you the same key it displays on the web page.
+
+<P>Step 3:  Sign the key
+
+<BR>
+<P><CODE>
+[vab@firster vab]$ gpg --sign-key &#60;Key_ID&#62;
+</CODE>
+
+<P>If you have multiple private keys, you can specify which of your private
+keys to sign the other persons public key with like this:
+
+<BR>
+<P><CODE>
+[vab@firster vab]$ gpg --default-key &#60;Key_to_use&#62; --sign-key &#60;Key_ID&#62;
+</CODE>
+
+<P>If you have trouble dealing with RSA keys, you're probably using an old
+version of gnupg.  The current version of gnupg is version 1.0.3, versions
+older that 1.0.3 do not include RSA support.  1.0.3 was released a few
+days ago.  Note:  You may have to uninstall an older version if your
+distribution installed it with package management software (ex: RH6.2).
+You can check the version you're executing like this:
+
+<BR>
+<P><CODE>
+[vab@firster vab]$ gpg --version
+</CODE>
+
+<P>Step 4:  Upload the signed key or sent it to the owner
+
+<P>It's important to note here that some people would consider
+it rude to upload their public key to a server.  This is because
+some people believe that keeping their public key secret adds an
+extra degree of security to their encrypted communications.  This
+is true, because a keyserver could be broken or compromised
+and return the incorrect public key when queried.  It is also
+true because the public key of a key pair is needed to carry out
+certain types of attacks against the public key cryptosystems
+which pgp uses. While many people expect, with reasonably large
+keysizes, that these attacks are so extremely unlikely to be
+successful that is does not matter if the public key is broadcast,
+keeping the public key secret does in fact strengthen the key pair.
+
+<P>I don't recommend that you keep your public key secret as it
+will discourage others from using PGP in their communications
+with you.  To address the issue of the possibility of a
+compromised or broken keyserver returning an invalid key
+you can take steps to protect yourself from having messages
+sent to you encrypted with invalid keys, such as publishing
+your key's fingerprint in your .signature file or on your web
+page.  To address the concern about the attacking of your
+key pair though your publicly available public key, I would
+say that if you are very concerned about the strength of your
+keypair or truly paranoid about the secrecy of your communications,
+you could generate additional keypairs for each communication
+and exchange the public keys of those keypairs though encrypted
+communications with the individual you'll be communicating with.
+
+
+<P>You can send the signed key back to the keyserver like this:
+
+<BR>
+<P><CODE>
+[vab@firster vab]$ gpg --keyserver &#60;keyserver&#62; --send-key &#60;Key_ID&#62;
+</CODE>
+
+<P>You should see a success message like this:
+<BR>
+<P><CODE>
+gpg: success sending to `keyserver.cryptnet.net' (status=200)
+</CODE>
+
+<HR>
+<H2><A NAME="toc4">4. Relevant Information and Sources for More Information</A></H2>
+
+<P><B><A NAME="ss4.1">4.1 List of public key servers</A></B>
+<OL>
+<LI><A HREF="http://keyserver.cryptnet.net/">keyserver.cryptnet.net</A>
+<LI><A HREF="http://www.keyserver.net/">www.keyserver.net Network</A>
+<OL>
+<LI><A HREF="http://search.keyserver.net/">search.keyserver.net</A>
+<LI><A HREF="http://seattle.keyserver.net/">seattle.keyserver.net</A>
+<LI><A HREF="http://germany.keyserver.net/">germany.keyserver.net</A>
+<LI><A HREF="http://belgium.keyserver.net/">belgium.keyserver.net</A>
+<LI><A HREF="http://finland.keyserver.net/">finland.keyserver.net</A>
+<LI><A HREF="http://thailand.keyserver.net/">thailand.keyserver.net</A>
+</OL>
+<LI><A HREF="http://pgp.ai.mit.edu/">pgp.ai.mit.edu</A>
+<LI><A HREF="http://pgp.uni-mainz.de/">pgp.uni-mainz.de</A>
+</OL>
+
+<P><B><A NAME="ss4.2">4.2 Links to related documents</A></B>
+<P><A HREF="http://www.gnupg.org/faq.html">GnuPG FAQ</A>
+<P><A HREF="http://www.gnupg.org/gph/en/manual.html">GnuPG Handbook</A>
+<P><A HREF="http://www.dewinter.com/gnupg_howto/english/GPGMiniHowto.html">GnuPG Mini Howto (English)</A>
+<P><A HREF="http://www.uk.pgp.net/pgpnet/pgp-faq/">comp.security.pgp FAQ</A>
+
+<P><B><A NAME="ss4.3">4.3 Related web sites</A></B>
+<P><A HREF="http://www.gnupg.org/">GnuPG Home Page</A>
+<P><A HREF="http://www.pgpi.org/">International PGP Home Page</A>
+
+<HR>
+
+<H2><A NAME="toc5">5. About this Document</A></H2>
+
+<P>Copyright (c)  V. Alex Brennen.
+<P>Permission is granted to copy, distribute and/or modify this document
+under the terms of the <A HREF="http://www.fsf.org/copyleft/fdl.html">GNU Free Documentation License, Version 1.1</A>
+or any later version published by the Free Software Foundation.
+
+<P>This document lives at <A HREF="http://www.cryptnet.net/fdp/crypto/gpg-party.html">http://www.cryptnet.net/fdp/crypto/gpg-party.html</A>
+
+<P><B><A NAME="ss5.1">5.1 Versions</A></B>
+<P>Version 1.00, 2000.10.01 Initial Release
+<P>Version 1.01, 2000.10.03 Format/Writing changes, Private public keys info
+<P>This document is currently only available in English.  If you
+know of a translation or would like to translate it to another
+language please let me know so that I can distribute or link
+to the translated versions.
+
+<P><B><A NAME="ss5.2">5.2 Contributors</A></B>
+<P><A HREF="http://www.e-techservices.com/">John Sheehy</A> (Technical Suggestions)
+<P>Peter Palfrader (Technical Suggestions)
+<P>Jeremy Scofield (Writing Style/Format Suggestions)
+<P>
+<HR>
+</BODY></HTML>

@@ -1,0 +1,4308 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 8 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'FormXob.a5db95d9d563126e58d04a21799f0694': class PDFImageXObject 
+4 0 obj
+<< /BitsPerComponent 8
+ /ColorSpace /DeviceRGB
+ /Filter [ /ASCII85Decode
+ /DCTDecode ]
+ /Height 165
+ /Length 27645
+ /Subtype /Image
+ /Type /XObject
+ /Width 401 >>
+stream
+s4IA0!"_al8O`[\!W`9l!([(is6]js6"FnCAH66@!!!!"s5<rY7<iNY!!#_f!%IsK!!iQ+!=f)2!!!!.!!!!GS=9KZ!!!!;!!!!Uz7S-N$9Q+Q^+A,I#!!#Ig8H;Zh+95(8DZFDMDZCm[8cVZf7fWMhs6Te;:hXchDf]T1E$-qh0E=(!8PK<Sz!"]-$!!!!"!!*'j!!!!"!!3,Y4Ci,IFDs8o05bh`@:X:cAM.J2D(g-BE%`pu0J<Dg5Bq-U@r#Xt+C\npBl6'Xn%6=Y+DG@L,$-Wr0MQLRAS>dKH?*RqH;7FLH>@"NA0O6%%154B3d>L\D.Rft+F%a>DK@j`4X+<FDdm9=DK@jUATV?6+s;+kG\qDACHWk-A8bpg+BV?7+@C'fAKWf^1+k=6@k]es+>kr-1GpmG1Gp^+1,(CA0/,=<1,:F93'&cK3\`B4+<VdL+<VdN4q.i*4E=tE3`8@8+F%a>DK@jZA7dtKBQS?83\N.1GBYZ`1G3TdB.ku"3B8`H1+tC</TPB6/TZ2TFCBDGDK@$H4q.i*#s<6=Ai`=kF(96)E-,f4DBNt1Aia@0Dfp.b+sJ.SD/=*23d>L\4X+Q]FDs8o05bh`@:X:cAM.J2D(g-BE%`pu0J=UmG\q87F#nP_E(<K:B0@GPFEDI_0/%3a/n&:/@V%0%Df%.P@;mkS/heqk055990-WRh$4."F4Et^^3^[q!@<?F.<,Z\k5!`^t@V$ZRCi"68FE1f3DfQsf;`$TiG\qC\6ZQaHFDl2!Df9GU%13CJ#s<HLE&p@,ART[l6t(1K4u+fG3@upF/M]4`0ebXF1HI3H/MK%C0JGUBG\qC\6ZQaHFCdjKFCdWF$4."F4Et^^3`Kd8D.7BkBl%iS%13CJ#mi_7A7dkgCihiM$4."F#mi_7A7dl=BcqG,Aiam>EcYekH#R=X,#VunDfp)1AKj;I$4."F#mgo#G\qCi8Sr*$GA1T0BKe1/2EWX;D/`!:D.bnRBk2=!4q.i*#mgnE#s<HLE(<K:B0'^;BkM+$4u"`N4>1qrE(<K:B0'^;BkM+$4q.i*#mgnE#s<HLE(<K:B0'XCEc#6,5"\X?7m&GLD/`!:D.bnADfT]'F?U-@#mgnE#mi_=D/`!:D.bnDD..'g4tep20/Ps\;,_768lB:f6:#6Q5uU'98O5X10/l`oF&b_DG%=*'H=9<(G=b1sF\P.f1f8%):-gBa5s[e&5s[h'5uU'85s[e*5n+/e;*mi?5s[e&;*dN%.nNH:7;P@h0f`*2CH4m`<Hpu!5t+++5s\4D7<ic\D)amO5s[eG=#D[ACe@5qBgPs(<c;V;3&EoeB0f-!$:-s\5tt3B6!78aH=KAu<)RO05s[e&5uUca6qKpE;c5;@5s[e&5s[e&5s[e&5s[e&5s\=V=$],@5s[e&5qmR=8QA,DB0egL5n+/e5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s\CO1I?@t5s[e&<^B#;5s]f+$<fr#H<GGX5s\XN5s[e'F(@()G@X!*5s]*K5s[e&<EX0\G@X!*5s]-\5s[e&<F]iY>$#?&5s]0s5s[e&<E_+j>$#?&5s]4/5n+/e5s\LRChR!RB0egLCI(6P5s\LS7ko-i5s[e&Cf*Ja5sfd!7knd_5s[e&F&>4h5sn4SDH:RW5s[e&0R#fK5sn.QD/=$!G<nM($:-[L5s[e&CLTh8FCA$45s[/:5s[e&<FT$1BOc6P5sdk]5s[e&CLfq9C10Co5sdt*5s[e&9k/!;;c.a)5sdt`5s[eL9j08L;[j(2G<nM]7!Cp_6"`npCf42/G<nM]7!Cp_6"`o&7ohHW5s[e&5sdtK1I<s/D/=)u85X"m7nmqo6q&t/<+fiB7ohET7oh<S6SVFI$<^G*E`lL:CIpriG%+Q?BOYjp5s\"=Ch#4p5s[e&5s[e&5t,Zd;c5;@B2_f26r%Jc2,7mhFA6I+GX4V]5s[e&5s[e&5s[e&;[j(D0hOu6BgPEi<D>5C<,46aBeXg+C.1ES5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[dG$:-sD5s[e&5s[e&5s[tR>$#E(5s[e&5s[e)H<!g.6:!n'5s\CX9ijf#@7`aN5s[e&5s[e&5s[e&5s[e&5s[e'=]\XBB0egL5n+/e5s[eG2G$2#6u"GB5s[nS7VGt,BgG$N5s[e&5sf:&;*dKi1fZh-6>Bq17VlL)5s[e&5s[e&6W7V`5s\=\5s[eYF#e#>=AET?$:-sD5s[e&5s[h@8lAY`B44>/0OmLhG"a]&1LtbgE*?=;F]gJ45s[e&5s[e&5s[e&5s[h@8lAY`B44>/0OmLhG"a]&1LtbgE"*.X=&!g?11rm=5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e?7ojq=G<nM($:-sD5s[e&F]2:@6qKdLGY_:A1/(Y=F\Pe$79WbrBOk1h0M+`+85X(fC18rCG%=]HB4E_aBN[)jB1u5jH<"`k6U="(5s[e&5n+/e5s[e&5s]Wl<E;LZ6s4b1<*:tM<(V4,;aNoV='B9J=*QDj7S63KBgQQD13dtQ=@m.81I>bX10%s\;aPe1CLfdu5s[e&5s[dG$:-sD5s[e&5s[e&5s[e&5s[e&5s\"=Ch#4p5s[e&5s[e&5tja?Cg([VH!49,C0FP&=(,021LX?BDFm8lG%,;dE+DITG%,/PE"*.`BgPEi<D>5C<,46aBeXg+C.1ES5s[e&5s[e&5s[e&6[2O5='BEMD,td^10%sfD/=$!12M):GsXo.1,WiU=Aj*I1,NWP=#=P!$<'r*6r%Jc2,7mhFA6I+GX4V]5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e&5s[e'11=6b1I4;m5s[e&<,bYj5t4='F[8>^:^mb$5s[mt@s:4*6;:->5u(p-B0egL5t5!Y<c;V:5s[e&5se:5<`q^g5s[e&7Up$f1,3TJ=A;(I5s[e&5s[e&;*dK65s[e&5s[dG$:-sD5s[e&5s[e&5s[e0:dIB55s]B`E*@NQ5s[e&5uB@/<Co\U0k5*(5s[e&5s[e&76s4*5s[e:5so9N:dIEF5t=d<AO/[X5n+/o5s]TY6qK[>G<n/R76s4;;*moA76!S65sea@7PmD6G=$467kd5=B0nC?89[@4;+!i>8TR155sn[=8oI"5G=-.395?h6B1$qR$:.?q6$>O^6:"=K6$[ZB;*drW5r*XPB0f<n5rNpTG<o&.5q@.J6:"IY6:=[><'aDt6:c;hCdD!@6;;)]1dP(t6;gZM9gMfO64F9';+>1a=(=R+B1=UA=Ed)EG=P=m>"M%tB1HW$@;A2N;+EK0@mr_0;+OSNA8=Lg;+PXlAk><>B1YKWB6Q^45tPTQBj!esG=aV#$:/Gr6W82$<C(FT6X"\+GX64c6YJbY:I/r46Z6U1F$XhL6[)C$9L3c#6Sq)&E^=kK6pX+59L3o+6qL6MF?t4c6rA/':dHgS6k'K,B23_<1GhL6B2;Sp2G$;WB2:EO3+G?1G>Mp<.sFB3;,KhM6;9m?5uD_j6utdq5uL`M7nlE^;,So28U!U?B2`_89Naf/5u^em$:7NW76!S4.md)e7S#gFE^E`D7T3/b=[H2"7V$^E7m^B^7W<!A0g]AM7PRbBCdM`:7m^ik=$gV27o"838O@6/7q$%62aVG,7h#fC;.4W7F$W;M;.=9,G#_("G@OfCH#lMQ;.NKi1.=`E6"NPQ2/>a'6"M]93Cub!;._XP6$#UgG@u1g79N2`B4uET8P)KiB5)>p$:@KD8MFdlDF76A8ju$]CdV0?8lU"NCI;3>8nrQeCI;QL8pY]!CdVfU91;]rDF8.m93+>tEC4Y595Qt7F[L4M9/AkSH:)mt9FV>#B6,pt0h"cE;0>/l2.oU(6$>ge.n*,^;0Pr,6Z5[rGBdUc86&B!B6eA_9gMK/;0mOV;(ta;B/)\?<c:`D5r)5(@;AV^G;Ee>$:JK=:ITIaF[U"\:Kg%A019c#:NU5.;abab:d\)>Cd]sG:fq?j2FKE*:igh6:dcgX;+"5ID+-lf;-?d`.n*'O;0>c)=@H%d;@Nt%GXZjG<B*lc;FaGM@;f%h;Fk^pB4Fk4BM(`_D,F5F6;)&^F%oRiGYLRpGth78GYW!B1egqg6;U-?.ofS9BMiY:7;Gn3BN%S6$:[ZB<I/=XG=GJ%<_bt^=%6;)<c*(_3C[RG=$_(6D+8;V=(4L):e#Is=#"At2F_pF=A_t,Cdp6s=E8(e;arEM=\!^M5t=FF=Ub^PBPDW[:/tFIBPV6N<E342G\p>K@UiRt;K"uoBl@E[;K+E^E&;!J;K?hKGYqpGG][[j1iHiEBQdfT5tPQZBR!HH8989ZG^<'n$:munA4UAg84ZiKA8P4#6qCm5AO^>j5tGj2ASa[k.nFeuAjpr(.nDF2Ao'da01[U3B1>fd6:j[kB5L"(77g<ABLkK[8P*#aBFP;e;b0\UAohZYGtM+/Db4Y`Gt_a?GAh4l6V_Ji2,S+4Bi'"G69&a[;c5SI964l(BiRbt<+g#U6W[A^@q0=8H!,#WCh%<qH!rK<$;,GRDF[')8kLmXDK0r6@nT*ADbt^mGY:\$D_XUp7nZfoE++$/A4pH!EC";W0hZ@rEG]uA:eQ"(E_^=jE(`&BE\LF97SH3cEt&IcBmFDd:1JB66SUo$=BT`cGr',-BN]IW6T.;*Eas5NBfKm%0lM5N;_L[80/RlJ<'kY#92TmgH::b,<H!+pC.C0VAk@8@C.`4M$;GJ\Gqh]]:/*EFH=hJ!1efVl0M?^iCedSZ0JZ$r<)-FI0kbl86V_5I1/<.!Gtr?91,`*ACJHWN1N#Tm=AM7\1fZqX9i"Jr2%9mZ<,=ot=?&0]6uFkXC0<H*6udKJFZ;<R<-3.V2K(N47!ENF7o_Nf7!`TE;b8uP<&/,`AO.h<6oAUREBu*36o\jV1.<j7C+j91$;j/c6!?]ED,F)>6;(<JED^.h68r[OG>W6M6Zc=%1JrI;6tTFq5uL!D78bg<92\JA7R_)n<`3+?7Peg_Bi8eY7r^4lG>``f8.>o;0P3UL5upQU0POE`:1Qsf<GZDK@;JOq7;jt\DD=e/7<;1%0htDZCNaDk6Z>b0CO%g;;+aS^CGJjgA9^mB<AenuEb&!476*sL$</lX:bu-<DH04s;0=T^7o`SV;Je-ZD,k=?;eAKm86'n0<*1kNEE+Yq<DdR2:f^>5<_Gn_0ihdV=%"cH@odSc=#i!G7929<=:GTo7V?mG8247m0l(3!=);&_7W1h!Cg(7dCiV730NMY!<d&:]6rmf2CjK/b;e0EM7PdY=BQ.Nl7Q*8/G<'8<<\&K!5uqW!1.-$j$<^2MBN-`WBj#%KBiA)+@p*tAC/H`^=BR.rCJdT#<E`17Cf"27;d*aCD,=;B;d+<WDGXDG<*CegDbr3'=(+mLE)AB-@:<b;E=E7R7r`-LG%>Vm13IJC00+)S13n%P;.t&S7kur2BM*DU1,hX2GVsYU7k[bM6ZdNcDFA,I<,d(u=@dXGCNOi@DG<H-0emus85W@r$=l[o0R?8iDe*!O0f3!8.qEU@1+Pn+=(F6b1dtM[F_+9l2+qh(8nDRE2H"F4Ch7fg2d%q[6Y8\T3+l?>BP(763H&"V6=t(,.h)i0DE)BC1f>ta=[GYl95-^[Danb[@kpDG8P;upG#Le01f$#C68CuB8Q9G<<FnX>1g*UfDG*JS1h/IX2(M6b8SE'W9f>U<1i6D*$>F*193Oo-95/]>9PeWj3,1rZ9mLY2G\UDr:+nF]D/+,M:ekpZASXS?;.=K4=)1bc;K5<#;JU/i;`$@,:2;ds<Coe]95IF'<XfC<2-<IeC/\2O2.K9q1KR[88n^q99PI[&8o7FBApIfn8odsL0M>kq20WPJ8Sqrt2)/laA4pK28iCg0GVWlF2(pk+7r;lo91DG]$?'B^BhEA<=)W:kC1M<\D/_sQCNqa;1iQl?D+ASS9Q5/1DIRTtB5pC6Dg4oj1N?i?EC``B:iU\PEb&U%E,nEnF"g6A7<2jOFU\[O@5_e>G[Yc02aK`N86:!nE^j\_A79a^2bZS[H>.\GE`$Xp8pN-[2ciXoB1F^g@UaP'12/O$9P@UP:.I0?Ec+6eC3;FV@WQZ$$?\7<3([S)@WkXN3GLK096P5P.k`hA2Kg`U6"<VWF*C\t68UYoAp8??6s!)Z<Hpu(7='#U9R(&^7oFD;7!LCV89Qt*3I+;E8du,'F)<d[C2-C`3--j#2e#KV@sKeT<*2n;@l,reEahj?3%Hg>6uGkEF@A/C@Q.4^3D;an0N;"rFAb^c9m0Q:FBDEqCfjao:1RiD$8F&!=^"R8D_bC?=u^&31,=#r@V8G[7PdVVA496K=#4N9AT)ZME&0C*B23S:3Aa`8BR3HH<&A]?C0<&`E]$BaCG/Ib75\^6D%-hgF^o#@2K!G-F_Nfn<FTo$:N0c$F]`Zo:NeZU8Rcd1AMRaSBkhd4:H:^"3-odM:df+Z=A3rm02##!G]%hH02XD`9h[9A:fq9<$9;rZ1+P"h9.N>H1iZ?-1b3'J2HDJODC[MT3'o9D=YE]k3H]L&9J:L604JNH0/"h45t#KXCLT%kCdCQj5s[e&5s]*9@R3R_5n+/fB2M)a5ug??B2qDfB5:"(;-?LYG@sE4B4jn+6#TC`GAg,B6:"=66$H$k6$H0o5r;D,5r_Y.6;:EK6;^]NG^!UeG]R@cGW9:E$:oD$Ak7/+Ak7,784%N1:..B%=[bYC=\!.*;FXQ&Ak7/+Ak7/+Ak7/+Ak7/+Ak7/+Ak7/+Ak7/+Ak7/+Ak7/+Ak7/+Ak7/+Ado)<GW9;+GW9;+GW9;+GW9;+GW9:g3'fi!;.i1(5t+(*G=>Cq5tOs?;,'qSAhQS=@7`aN5s\%-;+3f;;+3c:5s[e&5s[e&5uC)\$:/l-7mU!<84,[Y91*nl5s]-T6pX[=6:"I;5s[e&5s[e&5s\@66U>on7RC`t8OH?n9LV656U=RD6pYH_6UGEq6pa127mV#e64F8fB2)8j5s[t3;Fu+1<^fMI1.>ne=[c=bE(=S.GZT,eBi%,rF@^(>GZnf@6W/2BG"$4EH;[^XED(R[1JgG6<DdXL2G\WoBOk*P$<fu"6niaT8P3nq8jd9)>%gN+7T+5)0NN9j<_Gc"Gr.0N757S;0NqR[7VlL70mI52CcPR#12(W8D00i.=#G/(1K#r<DIbS8=:GUV2eGT8.qUS57;,h4881Y495-5.:24\t6YePX<bu_d=`%>^@W"dnASs@uC2cgID/_CIE,fl?F)k\IG&L8E5tOF0;+X/B;,p$o$:7Tm770@86t0"^5s]0Q6pa70;b^7\7TE>]BLui?G\:2KH#I._G=G:t;D_<I6Uk*KBk)<TH:gS'6t^1A;cS*EBj!Ag6UES*;[j(/AP,C(G[sfiG@sN8BP1L@C0F(sBk2!i7TD6(EDLn)H"V(M.o:P*8lKMI9iP+M:f;+?=]\XC@TZ)SAQUZbCg([dDdc^dEahNJ$8H[41/]i;DIbS8=E$32822W,1J^GQ=^aj88Sq+71jMi2D_"4l8lo)12/-62E-5Z.=uKu.EDL@h@:=%n95SZg2L0CbE@Z2c@1<Q06$G^_;*dQ<;,'qS6o[Im<A\\S7TF+VFY@Q*20:NTE^sqA<_dXMBm!i;<Ad`f6Uu9&;_gjS=%7Bn<(9q[BJ2nN@81K*1.OV>$;=)O;e@q4@T%MPE-b#23I#UWG^<h%2)nT5=#<E$CH+"+E)8lFF@etq7oEo.C2-m2@5'u6.q^_P2E+E70h"iK;c[@%=DDYgC(1Mc7;5OuCI3#36:jpaDJaA^Bgc*4@Tmqn:N''A=$^CsAQMTB8jkLO<Cp"C85;*_@sE8rF#YsIBM3P_:el.S<+0<?92&hT=uU+($>F3t1KI@LBh:<EE&UZL8pF2n:ebkRH>cVV=);\]<&$mRC._QN9ku_..o'S3Dg>)6AN+=)H?+:7E`RErG>g7OH$F+@F>cT\6k'JX>"!IU1i$8K86TkLChl@P9Pm<mGZ8j'D,>(K<c'O2;DgCT5t"@=8jc!#2031lDDbs7H":B(:dTCs;)L@(AQ)\u9P%'W<]+Cs$<Uea<&76h<)[m]=CX']@p3Yn;f,uZ@SCff;e9E406o315tt*38n;g<2f2E;G]RP,1Ko**CeHchEFgk!1N$AdF)+rj84bR4C(1Mc1ehY+BmN<P:/u!^DGkL6<Ad[";gE"kDG+#LGr\Vu1IlV3;f-&3:KBbtGuJ-`8oAKBH;JWaD+mr#G%=Tq=D_S_<(KJY.rIid$?.Y%C/f+i7q#t=H:]ko7;PP3CbmqGAS#sa0Q)2->%(<$9fOnD2JPm,F^em,;b8i=7!NHX:NeL*Bh:X10h=!%A8jMIC.i\_=q(fq2)d3>CND7GCNXl&1.ub7<\d<jGZHRmFa-qB96GJ[1.ub7<\d<jGZHRmFa-qB95m:><bP,uH=KNc@88^jEFLUn7SPTfE-Ok^$7e\C@s;a19gpa^BM!#69kHdD:K]AS7oF8"5t=s2Cj%g@FDj!E0f2:..lB+Z1c9Ar@o#Td6t8P^;e9BJ9Q"uK7Pd>LA8a1Z;[j(*:3q/*<CK;6@s;HoB2*A]7s7Kp3AO9QGBnI46VgHI@8SsM;+";C11>*!8kq]lE,@+<2J"m`=[Pta@9.YUCIi);FAt24D)j9Z$?\co1f\*rCJehD;/U5,;DiPoF%/oI:K9DtGZn*#D,k:b6"MQH3H&>/2-FL.D+.W2=%I4L;0ko02H3Rq8msD69kS-Z.n3<W@grc!=`$';A9^aN1Gql\=(QVu2.CD[;0[Ch7R;*!1.uO^82W,JDbk[S9k.[493=o2<,$#J:/+PZD/465F_Z4XBgkBh0P*[jE-bLn$8FhCH8\rB2D\;_:2*F#H8\JWCLp(;3,*MU:H*AfH9u+d:.@lqDcKq?:bZHV@p3Ym;eKNS92'AP7;?[c:cNVX6$YD#;DV3*;[j'lC10b1<D,)*F%]5P@TdeM2_]22.q1;UC/T=GG"$1>2f;63=aFUpD,57^=@@.OCKP^r<(LanATq'M9ef:WAlViOGsODf=*7s]$7f+c6:>U)="@6H9kJ3R="d6iDc9_=EE@I1F)j]IGq`'6Gt_=DD_j:G6u?gZ6$Q-oGY1k*>%B-`:hrm.FB1AG108NqG>L\H:CRYKH#dD31h0!Q8kMTb<FJc[.ks"\7U]go3Cd1[AjoZj88h"0:I91[0PYGY@r*nnFa-qB96GJ[1.ub7<\d<jGZHRmFa-qB96GIg$<AoTFa-qB96GJ[1.ub7<\d<jGZHRmFa-qB96GJ[1.ub7<\d<jGZHRmFa-qB96GJ[1.ub7<\d<jGZHRmFa-qB96GJ[1.ub7<XfBk96GJ[1.ub7<\d<jGZJ9I9L_KA0Pb]L84RT<H?2qQ5r_eBBlR$,=DiG1Amoa]Cb]?aCLh$V=a;Y[D0Ia.De:Xg8lo%N8M;t2$?^&p3,(6^.q).\<\lC%H$2eN00r'<75&jP;Ial06$cFD;fs`N=&q1M0/dreAiOK^Ah.:a@9,0;96k\Q82"!t<%i#h9J:TU0F\@l0QM=e<bu>G:cLa\2G,WJ9Pc@>Dg65'AiN(LH$2eN030c+05FZ`07$N2;fs`N=&q1M0/dreAiN(JF]^:_8oJrn=CsO59/p\r$>);#;G\lA@s0M#7nu]p0kt\tC2l^aF>6ruE+;s.00r*38MW\%2.C)L@Ra?qBl\8q;cm.F:MsuX;+a8k0kOEgE`Z[H<`_jPD@HqaDJ<*J9m9-N;J]i&F'1JJB6cd@F_WfjE)1RW;_rQ41K@sA@SKdEEDgXq7n?Z^68MUlGXk\I9iFMp;.<FG;c>VE=BTW&7TE+k$>)28E-6%rBi?[-DfSlH0O\!:;fki'E&2`>8k1O/C3``u77^HJEDSto;c%X)=YOku00qsHEd:P90k<^+2+DjE3&"JhEcrs6C^g__;c"ubDf.3o6VM;LG=,e5@9,0;96k\Q82"!t<%i#h9J:]iC/]7.G=,DIAQ)DUEc5hK8Te,gD/)RWA1r4LEd:P9G=#D0:cL`M$>Wa;00r;d=YOl>.opIt;c"ubDf.4"F]^;6C.E)N06qVZGu?:MA48./7X6XH5u'pF9/9=i8iUTTB4c*\:+pfZBm!Ef3+5rDEX`@I9N*om@X0b.20;H+DKIa&<_?M?7oa:Z8U+9:GZJKSDItkR2b[(_3GM]:F>IoT11X?;A9T[b2+Ubk3,<,*BQ.'g.s!4DFC?m5$?9Z4FAm<<DGW8d>#%XD0/6Hr7S#=<<D$_7EcY8lBl\8qA8-(*<b,obF&lgcE\Mf!CN+<?3Cu,D6UOgVASH1-:bkpBH#Ij[C^g__=$^e:F]h1EBlZ(!3&OemH=g_t:0;XJCjJ]H0f)O";E%6`CfXPIH#Z,:D/FPg2+Dg_DIdT;G=6al2fV<36oB+0E_9D00kE6P$?SgI;bqNl:JNW;FB!KN9LLdKFtdSi<_YPG1M0L,@S1o:=`HAi=%$Y;81RhG0L]Sl2cOooD/jhp<\mN0G=uL\8N'%P:M21n.h)hC<]"u21GLb!=@=r?2,-)U:FeA&;b^=r04nlpDcq'=7T`f52b$nPEAp?h=`HAi=BTW(=>*96@5ptWEHc2611<pHGucgj;KYhG$=Rgu5t5I)G=G7t07$/K1e;mFE(Obc=$\Q:3,s%_A84#2C,]./:gnH42_Rij7V+u12g%&T2b%[fCNF_q;c@4P;cIOJ8p3($3"6462DI(&F[S]<3)3U1:cC9iCF_nI9.tTdG'5f3E-PDA;K+EL94:V3=\is<0K;%6:3],qBi.DS>!l/)3))k];Jn-R6Z@'kDD-/B$8OOn2+L7lH;\KdFY@r+<_d4+00(O=AhQ`#:b,sK@TG9<95SiFAh,NDFt[W6DD+aT:2r3GCfFMQ:bQF&1G<r<C.0d5Dg6A+Ado),EFChG0/kn60/u75=`,lY6rIc.FY>UP0f;o`G=!f9AiN)%9iNc38oJrr=CsO4@5r3ZG=+#mFuVcF7nPF\;JKW^0/u6jD0AP]$<Sf39Qi()=`,lf7o"&LDG`&\.r.%6=t`oO:1m!i>#7gHEE?=!2HF!rF^mdXC2%^0<b=m?D-/H-8NBg)2/5g"00r3+FDYi33=Q<n@o$3$F"o=><%i&`H7sS2H=h1s9K>^*@TmJ'G&K<7D)F_&<`+!Z1H8r`@9R2D3+m5IE^_s69JCL2<GcV-3DEOd:.@6T1JTq>$>!1=Cj@[01j)>`CN<u[9jqp38Q9;IC,Jn400r!"AoqK;2a^5*8O@H72-E@fBkoCg5tG$k1.Ou\<*=Bi=ZCGB7rN0\FYucW:^mbG@o$fODDFaN@R=L(1G;C<G"ZEt04K)XCKYO.:.J'!2_SuH=DUeeAoog^G<ot40/[ZmFBE-7EFChG0/kn60/u75=`,lY6rIb/$=S'12,u@g<%iG^.l1cs6$Z1(00r3KG][&"3,r@dE%cE&04K)a5rD/)07$N2@<F4\<A?@100r>`1M/:3GYfo!9k%-Z00qsEEX`A$DD-/g2_R$Y8hYKgC124!3,L<A;+XAqFa6;/9ke&i@r4t\Gr&Ao7kc_s2bIOQ<,Y)i@W>=&793#S89&rE0hP8gG=snf0257P$<L:`=F+._;e'fk14!P5DaIND6[2.9@:hED3,L0`6UaUL2.eOD1bj#P9NY7s:2Y2FDgFE@EC==m.qhdZBN@,_2H"KhC2csdGRY!]7VYFb2e>EX5rWR>10HUm:h)@P920Y31.ub7<\d<jGZHRmFa-qB96GJ[1.ub7<\d<kC3k2"06q>EEA':rCj7UYA7A;-:c<"s$8c78>$>qs;/S$[A8X&;6u=SYD-/\q2DTSJH=g&1@SV2>=`J\03-Zrc.mmiI1h:2t;fki(0h-167nH`@3AjDs12]'fG[`<_=q(g]F[f2/.s,kkFuVc_<%p!_0faAu9gVd)00sW"<b,obF&lgcEcY8lBl\8qA8-(*<b>$"C33'>0PYHF:K)R1GY0bf;c,PD01o.P$8>CX=#W#q=[@-r@VA2N1/2Lu@qJST6#^CX=DTj'10/EfA6;iOG;;-N3,hJl:-h3Z<bXrTD)jIL<bXlm:No-D7n$<oAn+k5:CRY$CgetS="cF-05Yi..oKJ0F\YRg05P)NCG.2H1bU^UAhl1sEcrs6FuVd'0/u77F\jSd=?1M!9/eLi8lmZ':cL`uEb[6n8k*D%$8OFlEcrs6Ft6NF20*FbCK<)tC/]4p.q1;M1ikrbF[e\m6[3<?68phl1b`rDA5G!JGqhZ?C3E9D>$<jn<E<jN<,Z>(0L]Mr@grc4De_aD=`HAi=BTVo:f'l002#2$E\D`/=@b)26Y'Y$9MdW]1h1Z3>&l,jDD+XnDD,ipD(et-=>j,:13uE9Al:Bn:3fB5EG/)V$<Su4:fVU2FZ2Zb0NU/GAP$tuE-bMs:,tWsGZHdX=DVqd=(F*^@9>ld8i0(I:KBk=>#\?V8jd-#<-D&,3Ak5g12^c-0lg?(BakD*<cM)9:I6a,:H:pHFa/.32J,?-@p!P>1biE:@Vn__:h`dOB/!/.6q(6O;g'f[:KDWh<%g+LC+j@'04JZpFY>UR0/ZQZD08Ya$7f"V3H\(i2_SuV00r3,00r3NC+j@'04JZpFY@r+<d#um00rBB1bX&?;HPr%:.mN!Cgo&50.UHf0/Z421,L\*Ft6U:.o\/ZEX`@j05FTA@VSh]CIg=)AQ28m1j2\h6VoWrBjkm46XskG;fce0H<4WM0iLUtFAR*u2fVQ(@812sCgeuC9JKX-@mb0\7TaqZCMQ`U$<21o;(m,[2e5rB1jDo13)a9P<HDe+:J4JCApJ<.B5q'SF]gJB;+iQF1ikr^2e.,0E,]M\AP"^Y:O#nq96GJ[1.ub7<\d<k=q(g^Gun^'7PI1hAQ;0#F)6)&1NG0A6YB1m2e56f93?+66<IB12b$nPE@Xj^9m/0U6Yg7Q0/u6l>%;/(DHD-_H7NoV85*l%@4uC*$;)ssDH\\NB/OieE,7%?.s,iW@l#fLD0f]*1.ub7<bH#%BkD0;.r@1&DK'5U2K<Y$ChZL/E_g[hB/<>-@mjHg1f7:b9f$=!A.8lICH""/0gdoh3*L5[<G?8N82*S%BMs(U1.ub7<\d<jGZHRmFa-qB95eiMFAm?C:3A752b.C;AMe-uGBlbgAl3,a68rO6EB/=S$92ZKA2JI(Ch\/o6<SD1FD"Ej78Yg.94V^-B/i:886ITDCK5ODF),GIA1LSL.lh`l00!*QFt60[B1l?I7<;I/0N<9qDf]\oB+52@G"4AW96kDXB4j.l83q8dE):h*3,3_7=CP2`6;UZU9M]RWB1k'O:2t>.G=,D5AQ!+jE`t,A=ERFjEG\Hj2_SuJ1M^)GEAD,8$92i\C+jRGC126<2-+6F7PAsQE`t,A=ERG"6#gjY@<F4\<b+'W0/doi00qs-F\jT.D,,(000r32A2Qh02KWgi8nBh42K;kTE=E74:jI:FC.WVP@9Grq0QKoaG:PLq79MBd8k`ePF>mVp8PE\j=]n=@G\Utj6<7)SF$WN$<_ZV*Bl\8qA8-'@3&l1:G=5)%2KCG[$:.C2Cj7UYA7A;-:c<#E@s(sYE[t")00qsC=tb(e=\iKe@9R8^:i^#>=ACkI>&uJkA8-(*<b,oa6nqA5A4eRP:hXi<DFS/064F9"<(U_*C+iUsEDURu<_5&"9LsG'H=L]/B5qNN@:M\aBM*#JEb6h&=CkBB.rnfHG<p%(C+jRGC126<G=,D5AQ!+jE`t,A=ERFL$7g+5:2r3GCfW?-=>+YLAiOTcC+jRGC126<2-+6F7PAsQE`t,A=ERG"6#gjY@<F4\<b+'W0/doi00qs-F\jT.D,,(000r32A.8l'7P?ZADD+Un1bUb,=Yate0gn!?AkG(0@Ve_H6W88H1GjDUH$N5013%AU:I@s$G;=2`1O;N/7Q56]EHsHQA7n@g2GQe7:igag$>:r82D7ld6!.etE[t*L>&,g(H:V0pEH>#J8jZ'Y6"Dfi:e#[g2b.dH3*&s[7TaUc2+_C=1,a/+G\LkF1i"j4E+O,o7V$4REt&IWA8-(*<b,obF&lgcEcY8lBl\8qA8-(*<b=m?D-/GW8lJPeAiN(n9m'8_<,u/]=t`lX6u70C:1ec?0/Z^M0/u6l85:[W9m/3"$>qS?D+ndsC3).>CJT1U1.ub7<\d<jGZHRmFa-qB96GJ[1.ub7<\d<k87m0gD00VLFa.Y"BQZm*@k2Y#ECO,W<C/?-1f8:>D[d%>CM,q68hr\VDddlk2In=:81Q]CEA':SDg!X':1m4%E`YS0=`HAi=BTW&7T`f52b$nPEAp?h=`HAi=BTW&7Tamm2/Fp';c$L($>(ekGr.03:NUGiDE1U):KU>40eZ*t00r30F"_`*9h8#0FA6p4DD?6M9Pl:pF#%3?:O#nq964/o0P5/qDb+[p2(NWlAT2-8D[d%>9Qs?"87t>5:L[%!6#f[U20a(?C+hGH>&S"+<d&UtG%rZr:LS<>9/eLi8m#88AiN(2@Q/0`1bU@fF(&**02"6!6n^H?3I3[p$92WW6$cRH;fs`N=B]WT00r':2f:Q20.UIP@9,0;9/fU600rBSAn*K+82#0Q0j-2NFt6TK@7W%+@Q/0`1bX&@D/r-_A1r-mEX`@s0MjDg96<1?3B1V(:011`2_SuXD.kR_="?-Y.o7lb8o])p<D7C'2)6pC0k=s:.rJ-lB4kmZDHT:q:h`dC;_r]=9jq'[BQ7Sm$?0*aE&01&3G!J+=#Fl)Ce6K71dONN5u)&e91:`l9K,g>0lhS8@<b7M13@S]F\H^6F[]J#6SEXNH=:ME6ZH![3GN%Z7Q!qE1CX[i7o*\_H#%,3GZ?GAEB-iK8k`3)E()KT<Cfu-@T+dp7R_Pm12Tm0=)^-=C-bjC<F\C=GZHRmFa-qB96GJ[1.ub7<\d<jGZHR/$;5Md<\d<kCMJ/ME)ni8Ao0J-@TPL'92B#6='&+3<CD(W:KLFK3GCluD0^@tCJe2&D+dPt0.UOE:.]RcG"j\IEG&-_H?<V"D[d%jCN+>u>$"g?D_Ek=CMkXY9kmRN3EC2\8MbHK6!A>38RuOUF&lmL88]r&G%+EsA8tIhCe7>\H?rG2ASP+A7r_O*F&$msGuI3B$;alF2b$nPEAp?h=`HAi=BTW&7T`f5DHL^2H"qA:G'[juGBA-h:1c:u0KE0I;.V[s05F3u7TaeFCeT+n=_1Yp:+L<cGWA]2;%3kGEc![*D_Pp@2`=<)G;i\p96s\nG=4bo0kjHE:G5^EE_eK103<<q3E'g)2ct<7Ap8K#:J=SCDE1a3.r["V3E@tO0P43>.rKS@$9)I+:GG[^BlS6/EcY8lBl\8qA8-(*<b,obF&lgcEcY8lBl\8qA8-'T00r!005"B@1j1iYAlVYe6"t'l2`>8DCh,%e9Jgp1<"01-F)F;t7T;lYA6!q0@Q?e/D_"XE6SDJ`0P#>b=><W+02ae\:iL#73AOQK<aoQSBLapP9QO6FBlR0b=\q(PAl^T=<%ft*0OugG$<&Hs3)=^0BR2IT3-/,'2_TA@B5'"X<c0QX=]T&dGsb7YFB<'65sndp2_Sr8=>+*(0/QWt=CsO*BeOZt0j65SD+f")2*sbc1(=S2:cLaS9ibdXG<okU0/lpL01/l^2_Sr8=>+*(0/QWt=CsO*BeMDGDD+@[EG8lQ05O[,EA'4F.qrTq12qM!7s&?&DJh*n6$Gs2$@-nj0QpDt0Qg32<CfMk<,,BS;f,0JF&lm+>!+H_D/`!:D.bnDD..'g4q.i*#mgnE4>1_cAiaaB4q.i*#mgo#061T83^IS(4q.i*#mi^IG\qC\<+pDk@W#UgCi_cL$4."F4Et^^3_aO'BkDWY@<?'E1,(CB/MK1:1,`)d2**QM3\`Bn4>1qrE&p^3A8,Y$6t(1K4q.i*#s9k]A7dkjATM@%BlJ0.Df.`J$4.#$Eb&cC6tLFLEbTK7Bl@l3Eb&cC@:F.tF?Lfl+F%a>DK@jL@m)#LFEDI_0/%9eEbm@HEb@%9@kVD0ASl!rFE9)i/ho"'4q.i*#mi_)@le4?Ec#6,5&"kBB4W`2E+NZE04\QRAoD^,@<=[B$4."F4Chq_FD5i5ANi4sA7dkgCigeED/=*23c\bC4X+Q]FDs8o06_Va/pB*(DfTJD0f_6S0/,.71,:G%A7dE7H#@_4GV*fS,9f<6Eb&cCChY#:D/;7L@;]^@,'Y\MAS,@nCigjb7S-N$9Q+Q^+A,I#4>1_cAiaaB5!1K=A7dkgCihiM$4."F4>15T3co(XCh5dmA7IZ2ATM@%BlJ0.Df.a$Eb&cC6#:WcG\q87F#n>PAj%>OFEDI_0/%NnG:n(q/oPcC0/5II3A3'A0/>:7Eb&c6F*VYF@<aAAF!Dkm4E=tE3c&LQG\q7XCgh3o4X,,&A7]@]F_l.D5"8+B+A?]dD]hYK7m&GFA7dl=Bg+X4Eb&cC6#:X,%13CJ#s9kO@le.3F(96)E-,f4DE^09Eb&cC6tLFLEbTK7Bl@lQ%13D(061T83`8@84q.i]06fO&D/a?'FC@?B$6UH6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+:956+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<V"6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<Vd6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL$6UH6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+:956+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<V"6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<Vd6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL$6UH6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+:956+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<V"6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<Vd6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL$6UH6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+:956+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<V"6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<Vd6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL$6UH6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+:956+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<V"6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<Vd6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL$6UH6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+:956+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<V"6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<Vd6+<VdL+<VdL+<VdL+?Vl5E+*6lATT&+DIbmXG:,U=s4[N@!"&r9#7(PA#RCbJ$4$tL&e,0T%2'?d&/#Nc'GM&i&J5Tc'GM?#)Aj8)+!2XL+!3'c/1`A.1,:U?1,:U?1B6)/6NIQ%$4@7M%L`aU&e5B]&ekfc%Ls0i&J5Wf&JuW,'GM5q(Ea\=)B'M8*$QRL+<i![.k)u!1,:U?1,:U?1,AmF!"fJ:V#c\\!?qLF&HMtG!WU(<*rl9@#6=i+!<E0#z!!!-*!s/Z-!!`c9$4HmP!4<@<!W`B*!X&Q/#6P)1"p/iH!Ws#;!!OMY0gSY@'4E))JJ9l%Ta)=;66j<EdGZks@dkX`K(1-S1fKR3Z=@sm2+/gUUU)ip<+L*gdc(NZK*_l%)2+5C7\mCldo@e7o&K>[eE$75FbQ*W[Dg\Xok&B%QDV+1f&lZb7os>ILR4pJa4KMK3(R.bG_h`c\B*=dpaJ3p=_W/<RAma=g$/;^3_ERjHA\/k]#ralqZ"J6*ru?C!WrH(!<E3$z!!!$"!WrQ/"pYD?$4HmP!4<C=!WiB(!sJi2"U5)8!s<B@!!3`7"<eC45m:+!@3PnqJWV^]Z1&IDdGZ<:'iJL]nM;FI6\6):;^J/JZGHifdP^#PK,7LN#RLhT)(%71)CK';<B'KDZbn1?e)U%QPbb\)eE$75FbQ*W[Dg\XogVtoG(u<[[`6n\p.&1sGDDN_\&[+`pGb]GBR#?#W49q$kkI/0=_W/<RAma=g$/;^3_ERjHA\/k]#ralqZ#7L$j-M1!YGMH!'^JMfs>;0?&?l__\mXbd!2'Z!,@2WN-;2(iK;57(m6p&RKuK&AsCi5e+lJN)][;GC5tfnCh@M"i\u$tKr5]q!dO%Yf4Gl6($VOjloPq>qo0OdAgnT_'?un&&GMMaCC-*jh%b<4&5@@g3tij-Ijiq[UBg+<o7VS;#p2=7X"a3,,\CJ,"'isZ<eg&%('Zc)rr==5O1PqhY1DkLi),6S^'>lbBq^jcAKS3W'CuHFFP.od,BaSdJN$0G"4XO*aprOT,Ae@rpn(uI1-+JTDlpsmZ6Q=DQ8SVDPGuWCifp4aOSH/MW7kN?mFB)iQ<$3"TH>:2f%Pi6ZNcFW6.Hh&:XOa"At-`2(Dd[tqq\!m4(`XpM0X!F-HDl7K+?NY#e[OhrfFn#3$4se_qa)4nf4$l1X,IcCu5nG"YJ;J<R]kG5\l3+,?)rfWuQpkI<TZ.k*b$&p)bD8(h;]_A#THS/8?!_;K/6bqV:\6BgTn"9aL`aN05MUF9pVa>5HL[8IH[,)j40]iUg[+b3h@7A@R\3EOtlIFW&Nr;rooUX%oSZ#6]Fqht7DeZa7urn;/JI#-X^,`?TNQ5KMHHI+A''h&s-,[0aZ(f5QYsR2u6\8TU#>q;cHN>q>l<=I)2EI5Pro:2KMm`YLRu:"(p3HbEKY]TgT^FY'\>X"g:C%YNu_%2[:#`fi0CRA[Ksa)*=B;Er:*Gb:97B$;tY"(7U4ZM/2srngSYLA'ER)4-N<W9dL\K=2-.LZP;Pg(_]e@4keSI>UKbqp%k+4qck24lO$m!4t.*fd+0fCtPepB$H4F2Jh$HZY%I>]/FKXX0ZE_MRtc_fW2>jc&0+kCtPepB$H4F2Jh$HZY%I>]+DT,eqg:%6Zr4aq61D9+SA]fQ'I62UCNsY!(ijLLQ<Enp=)%FAL&uWk^cNc)s0BHc2Cj#iD?ef0d1`TG4"3A?>S;W(l3\I7UT+);RAA:Hlq2llgNgg50D$e=:iBK4`X\^aTOC!!-oKt\J7+oD)fU]JYVtEP](^tW`XsP;K`%__u2@7gHnR5!.-'Z494S!9QonorS2.c`!u_D;]Ii<N:@QoU;f(&Yd7N^g?o]#Kk?4L*\)Jp1X26HKQ9>p>`)(W7=qh1-!1_r@Lg=fUi.K2NCu?L'Q.r(25R\BZG`nn8/;$miO64Jqj>nae>NB0#P*0"qSs,YG/"F0%Ad0r4)Q_Ml^h"$H[Q_m2Jh#4!YH$*+=XN%'U!a"99S^#\:AUg+\"cJQ`f3sM3("GM@m)u3^*e?_TLg-RKRg5@\UVe>f,$)#$LK5>V\FXjBC`)LtFQ"iJ(Lr=J8(P2ShjWoU>kiB!@J%$0<<N3?Jct#_q'ig^sZ\(d3+o/,*M`4YD\$-:IAtmGnohHoppPa@Dm#ZZ1E2<O"n:d4Yl`<)o=eWk+5O=+$M"bc/NQ1g,rMT0Mu#ot_C^IHI;FQF:cNAq#Uu!TM.m*p5URhM%_287fB<L07;T$4]Sg_fLD]/8VDOe$QTEh%*MF6<E?gAiS6YhHM]'r6W"ZOIA@u"cAmHK9WN'C.@$?bHU]X/D7?T!!NjlNm4%O'm=EHYubP^Rh^*_fs+Ujc'oGkCtZ'pB$He[G&5j:=(]^H'm=EHYubP^Rh^*_fs+Ujc'oGkCtZ'pB$HQ2!i40QUuJN=`;OA!hi%5fhR#N9`V[Y)WLFRoU&P+A0A\L2d/O*\([i3@VJK&ZL]."_Gg5PArqp-9@]Gj$5?]0'ir.mrXUk=!Idr;qB#OX]J)?1YN8Cp+n&>1D.]JmNoqDBcIP9P6HI2Zl^DH>UWhsT?Q8UR$;LAKM+,[ZgCtPepB$H4F2CC'F_?$)oN#m\o?e:>A&-t,uTbshUZY%0^Rl5(_fs>;0?(3`g<S=[7$7\aMl:s.dL]."_Gf<Z=@Xb[Kn&>1DDd"7Wir.mP<6^9rd/O*\([i6TBReotpP`*N2CIfXrqp-9B(_kt!.HTX0i^p"T</Y$nUC"teqa5!^Nd^t1Lbg?5OZSg`c#$&pYu/3'i`G7qU#6B^DH>V]kDoQMt`01;`7OZYc<dTLu0j#G&5j:=(]^6>[0R3"4'&bif$mmoE,h-,QLCm"*..,2.&CYp4]6J+'Y+K82Q8Iot1/EIRa#1!&NEqN6oF82B_B(qbQY[!7M4Xd\dnqCY%pqrr>SD+m>$c'`S/Ep:hRsQ>*46;TR9FM\=)#`b*1"c'pU@m+J^SY0EFo.dYip@]mtF2Ce(HZXU'?Jd=1XE(3S"S$-(%]4ol7A7](d8B.bteHt^(1(f[F,MC6mWc"b'<p8(Ogmi?lpJg.=T]XLg!kSe%c`EZV8=&cGBupt&%o6'6'Cl-n2opL2BDc^crrD155NLV1*/',=NoWaX0/^AS]"OZ;0'-fEF&mKB5M.[Ab<BLMd;L9.j#)In(D%6[i_Jj8ZOA,(Qi]Yp#Bl"aDh%)_l'I7]rr@$TqMY3T9\?lcc'pU@m+JTQYGsmbffdisOmp=3G&u&N=)+2;QBqiWFS$sI7_?8SnjYrg00/<aCf]3e;BEY5E]r4X!":3g^:D"hH^g?T,CR@N<?6V*pf14+kFK0.,>-k;lra5L'@!!\4#Up-X0ZE_MRtc_fW2>jc&0+kCtPepB$H4-/9M?D$&$m8R+ufdU%VpAk>B[2f2:#T]MZ`"?\s.I*\9MFS=;QhQ>IqSd;>VF'pOGr;q,kt^`T6/;O_:CRf^!fkKOq:C3N,Q)uTsR6;sY`gR8$Y-M*7rCp`*#`b@Tl:_D2"qe,GrF1`Z%Rl3icZ/q%p'YM*^=fM00Tob;Hp/-^D3c9eRC1mJ\,%Ch:.sra0fcImt8Su+jZj,sbQL;"0!<3%0hpWnA`uIXT`h=VS77@mjGQ9JN'o`.mJFnosouHtCJ(6[=i&r1\rGhi;"J>?_,h]G'1]@L(rrCs.+7Ml%!*&Q>JFn?couHtCJ(6ZFB#Rlup^]mp!.S7'_'f1[c2IgmrrCs.+7Ml%!*&M`Rh]Eti&r1\rGhi;"J>?_2u!nRrr@ORJ&*N2;opq6<K-qXJFn?couHtCJ(6[=i&r1\rGhi;"J>?_,h]G'1]@L(rrCs.+7Ml%!*&Q>JFn?couHtCJ(6ZFB#Rm#q%H8!"NbVuF]-=KpE2GDBkM9o!o)GK,)LUonaS!+3503/fs>;0?','dbg6(Bg]%8t>(=Z)Eab(0!6idai7n83bZ]M<\T/R;]9g'e^68'bfs>8m9A_?$!4[sc7K$>c-ZAt%?g9<0`A;&c4#Up-X0\@Bb>N,h:tmL$$Vu9_gs=_>_s#C%bS<blJ5lIba/5-!RRs.=aMlor`hs)BR:qWKW/=a1J>rcE-_LPl-/M&=A!1!&)$PF%l,-iO79R?4I_8[_2oq1U(m@dcd3jE50FJEaR-Y@@L0rk%+8u.Xrr<1oohQjdYU^Uk!!2<`!:T67pa#k>Wd2@pH9_<'j8K?LlCLSR@]X5?#G_;!^TKfZPQ%QDrr<)`rrDNRO8("#!31;kc&/cun/dYirj_t.Jku6@S,<MdrrBg:5N%b)WT9O,.`QtRH9_<'j8K?LlCMq`*fp="\GlP\:\puPCtPd+rr<)`rrDNRO8("#!31=Z^j86BqW%P]5O+h3ZXU"Kr!0"s!5G[$i04/>k5PD^kl1YOl]:fdrrB'E-I%FDQ6&rOlt$h5H/qn'1D%>DAPf-3o4GsIRl5(_k5K>42`f`M%8tseQf^IYr([i3Mtp&uf/"GkP.Q//:'\Y7h&fC/92UGj<%FEY_m1o]IdH@)73"$-;(+uq!Du?P#/Fb*a;2S9H#uO>Wu@W'M.ZbfLl@g2.dYip@]mtF2Ce(HZXU)^Rl2b_fs>.jc'pU@m+J^SY0EFo.dYip@]me%k%FU2D>sUu/O/=O\M2*Sk%FU2D>sUu/O/=O\I?7/bM:*E8U5c$fs:^Un!<tRgdV4:riB$3\,PA?ob[:1RBgiRRl5(_ABJ4+6.M3N9tH;D\_2%hCUQrKX'ItZ(R\t:!7ZLTIfk?R?^&5Ib_K!)J00atk!ubXW;cjR*.hURMlTRJhQ=p1BL`qMl,c`k*O/\Gk.l:lX'qsF,dijsV-5[]YPQGo#%1MEc'oGkCtZ'pB$He[G&5j:=(]^H'm=EHYubP^Rh^*_fs+V=c2I:,lQ=`;a3FSTTBdTNN5C<hj:D!Fn,>'qr'r'D'(Q;)a*7O`)&N8sP2$@P*c(@!d(=]ib!Qk_Ho"<JN6U0GForqcic[1n>a*[',iJ,FgWON;?7^\^j_7]hXG<2AG[#l'qU9r/)t,f#BtrPbpRGi3:qtSNrV58qc0J+'r,97.1LdE`BtrPbpRL*Ihs\S^c8.@.^XenQptpAAlV7BVDnP*d@]THA^Yb%FS/#P8l;fYH/aaSZei"h9q\;2#/D.#SFIbla9#<*s*.:-CYO\pNLYm_<MojPu6(u;/"<!c,:jVXg"7N(*pB"Wi2JcCHZY%0^OT,=)chQGQrrC8HJ'#6A@?CKhbg6(Bg]%8t>(=Z)EZ'A=Qar'hP4JP(ZXs;4h_"j.\;U;SrE,pEDuIU]l7_GA1M#Q.2Jh$HZ8(Mo'sB3Cot&`6g^t`jXWLpF?F_H.MS*^_9`2ljp1AZr/S\)#-)fS\A,`*D6X:`k.-ag^d?TCk52bC$.l*4/87Bl)N[seGchI@0n88,D*8$rhl^+74q*3flqW@Y9kPP6Spbr,]Nbh^"l^+74q*3flqW@Y9kPP6Spbr,]Nbh^"l^+74q*3flqW@Y9kPP6Spbr,]Nbh^"l^+74q*3flqW@Y9kPP6Spbr,]Nbh^"l^+74q*3flqW@Y9kPP6Spbr,]Nbh]7#.:Ks6&P5A:;tC0r!QJ4p7(6GW7WGl(n*YZ`WE[Ej7Z:-O\FE(laBmgQgb=KA.h@YNhH/$l4+*F:ShgX>$]Lb[l#0ON;])M"9!;=C"Mih2K@QgIKpgEeQ?rmo"_3*fs>.k*Llrj5Lr'&)3:9aks*``Y8N$&j2`>2*T-d*?hfXSE[BcWpQ"_A1,&Pq-+FSSC>'\_XW"=aOWo41P@krml99GZIkT`_f<%g*]-$WF9ClVo5Q4[\5P!Uengo:8=hj'*_uB]gc2Rbfa8FJO%+qTkrrA=6&,`mqr/2Zg<c@e8nG`L3F+;99rr=oe__s!^rrD.f_uB]gc2Rbfa8FJWr`/k\o%`-n/:YoI0[5KZrrDjrnG`L3F+;99rr=ogrrA=6&,`mqr/2Zg<_P;YX?Z\ar'0c-hsr=JbucI9aSL%lU.^>LkD?-rJ>dtK!i5ej-I%FT!!!!I#/CY[fs+Ujc'oGkCtZ'pA3]ZAr\uh9!:ptunnq^"A3]ZAr\uh9!:ptunnq]e?gd%D@kXXj^G]o]JC=28J*nN\!)\5H.>cgZ!-&hOMu'\Pff9PeRl2b_fs>.j^fUA%S#DD?\/%Qt,l92Yfe![Cc&/c/r.V&RX;<Y4m(lqV`jh*-X8%2+\\I3-rrALn@@J!?rrDVniVrnDk5PFDA,^5frr=PJ+8Kemq%c3WXI*V==F^7Lpj_D9^Z8Ms!1L6Db.i`2>FYU\O85h')6m3arr=PJ+8Kemq%c3WXP`TPiVrnDk5PFDA,^5bL29kFrrC3VL]1MIr^DnDX#KsWpj_D9^Z8Ms!1L3%Rh]B3!:m>PrrAAIrrA0krbBZ,0B/k\c!U7c5N]VGB#S)'WHg!lZpQFW$b4f/'QJGKWP*b5OhqA\4`dpi&'k#NG5!`K_P'lcQ';cMT\l+5+ba%,8N`9<27B/oS\K/ep.&O6)]tkmpLJ1V\!cXO,+UpQ:9M>h2&NCHF(-4r\,Llmrr>aF($(R.I4+m3p#@duIsi^@a7\IHTq$B1rStNi!/uj9!"m=j7(e*Mn_O3F`^Tn-Luc#H?(3`g<S=]j`EerkCfT/pB#S&F2JcCHZY%0^Rl5(_fs>;0?(3`g<S7o\bl7['%DVh[Vu3$N-5d?lbl7['%DVh[Vu3$N+d`):H^N"@0/(S>2IJATo&'>#^XQW@MILc/!8L$BUAh5m2GQWGB$H4F2Jh$HZY%I>]/FKXX0ZE_MRtc_fW2>jc&0+kCtPepB$H4F,6!"Q#+#I*mBki:HR_0Sr&.*KY3i>7C$oM6U0aqAn/`r;\!XS#eZZYT"`9t;+B-j^f_`*,Pig5C1n-:JWEWR-;'^ddqP3&"peYq'RXU:0nNZNrZ:gYg?9:+?dXS?J?8EA/M;c%7.0gYZARY!:,D?Qda<0jkhu%"lpl8!f/`\ls2!O+17?Uh-\5aLI3@Vb1B$He[G&5j:=(]^H'm=EHYubP^Rh^*_fs+Ujc'oGkCtZ'pB$He[G!l901I'oPDuTelC&\/[jiN6Frr=esP$]jmTW5nKP"G#:?9d$$+d_DZ\W"7co"<Y\dDkauO[c1CEYT:2,anb$%53%:ro,U((\M7)aHWK6LT79XkSX6N3=a<'2Ce&Hf(F9pRjP[cc,noYJ'>t.Gi=BFI/a0dL>'pMrR*d.rrB.9(&n8iS5kU)q4Cp%OL_u:_<@#/$9biTn&2t:CL?Yg2uFQ1r7G"'rB794bB2Y2B/f)BC]7P8rr@[2?^h`V+/cNMq/2]$%-ILOXaeN9hsb7do4"\Sl0W9c>GhE#K/p\BCL?Yg2uFQ1r7J#XqKlEG!1)lai6H8ig=Q83:&b1tE5+:\R!tXX^ZE%FpbSE3p9jo#/^o3cS1i-EVG$&'ECC&t^IqZ$k!!;,#bequkVW6?>FQ@-\@]>`IWmS1ce-=XO5l(/c&0+\*_=]4.,.[kB[Vo!i:RER:&`>E(\r9t;V\ihl6p/M)l+inPNUl=Y:#4-WYIc+"TTJA"t=IKCtKJTq8?rYpNM`W$4g+SWp4d&I83P0'g+65BY%QN%HN`L5jkmH[3Oh^D>,%/\Zi.$4ZhqY;1n-jqPOAXn``iIHMH++$-sLO^ot(#B8lFkYHp#tN:UM^ZSQ6Qo4"o01M;[<@^!*oB8lFkYHp#tN:UM^ZSQ6Qo4"o01M;[<@^!*oB8lFkYHooGrrCRJV*ESArD/&lr;P"LHr\K5k.l6WHKLrj(TteQQKQX@nO]KMLU.;2qG_!`aNN\1eDp44Q;'dI!5.0o.RY6RShB\S$IeIh".M"g?7576o<3d;XtGdA1M;[<An,oKbh;#=fW4A_"fqW`r>e,e)LYPFa'QL8J'+rgncio1mT0^kqPWW,cfoo"Ou25`Q'ZkkNM$+A:\bd@oi!i9Cb#/82Lk2K5NH#J!7acuD#XLmZ@Bs'rrB'e`3Wp.[dg^(!.N&i!$^%oWb!s?Ia!h"C4LfRk;]&L<UEb@q4%?dJ'D,q&+_aX#lamnZ\mna?I_SrRD7ZMr7.6trr=j)^lS;l33I'tm8Sl:S,NP?buq"Vo/HRQrrALoMWVlaeOY1X^YhW[eXDU"!&K,?O85h9Y&%,+:aVIMZctI:#i\0HdaN[SQ[*ZM--^n@?`nk(eu@q9r1DWFqRbpWo4"'>RBsnYYUf(ag#G3IX8gi~>endstream
+endobj
+% 'Page1': class PDFPage 
+5 0 obj
+% Page dictionary
+<< /Contents 71 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ]
+ /XObject << /FormXob.a5db95d9d563126e58d04a21799f0694 4 0 R >> >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page2': class PDFPage 
+6 0 obj
+% Page dictionary
+<< /Contents 72 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page3': class PDFPage 
+7 0 obj
+% Page dictionary
+<< /Contents 73 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'F3': class PDFType1Font 
+8 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page4': class PDFPage 
+9 0 obj
+% Page dictionary
+<< /Contents 74 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page5': class PDFPage 
+10 0 obj
+% Page dictionary
+<< /Contents 75 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page6': class PDFPage 
+11 0 obj
+% Page dictionary
+<< /Contents 76 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page7': class PDFPage 
+12 0 obj
+% Page dictionary
+<< /Contents 77 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER1': class LinkAnnotation 
+13 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 18 0 R
+ /XYZ
+ 20.17323
+ 229.2795
+ 0 ]
+ /Rect [ 284.5932
+ 88.52953
+ 335.7232
+ 100.5295 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page8': class PDFPage 
+14 0 obj
+% Page dictionary
+<< /Annots [ 13 0 R ]
+ /Contents 78 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER2': class LinkAnnotation 
+15 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 42 0 R
+ /XYZ
+ 26.17323
+ 115.7402
+ 0 ]
+ /Rect [ 339.9432
+ 160.5295
+ 344.3912
+ 172.5295 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER3': class LinkAnnotation 
+16 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 42 0 R
+ /XYZ
+ 26.17323
+ 91.74016
+ 0 ]
+ /Rect [ 258.0832
+ 142.5295
+ 262.5312
+ 154.5295 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER4': class LinkAnnotation 
+17 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 42 0 R
+ /XYZ
+ 26.17323
+ 91.74016
+ 0 ]
+ /Rect [ 315.5332
+ 124.5295
+ 319.9812
+ 136.5295 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page9': class PDFPage 
+18 0 obj
+% Page dictionary
+<< /Annots [ 15 0 R
+ 16 0 R
+ 17 0 R ]
+ /Contents 79 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page10': class PDFPage 
+19 0 obj
+% Page dictionary
+<< /Contents 80 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER5': class LinkAnnotation 
+20 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 42 0 R
+ /XYZ
+ 26.17323
+ 79.74016
+ 0 ]
+ /Rect [ 273.9932
+ 178.5295
+ 278.4412
+ 190.5295 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER6': class LinkAnnotation 
+21 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 42 0 R
+ /XYZ
+ 26.17323
+ 55.74016
+ 0 ]
+ /Rect [ 324.3732
+ 124.5295
+ 328.8212
+ 136.5295 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page11': class PDFPage 
+22 0 obj
+% Page dictionary
+<< /Annots [ 20 0 R
+ 21 0 R ]
+ /Contents 81 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page12': class PDFPage 
+23 0 obj
+% Page dictionary
+<< /Contents 82 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page13': class PDFPage 
+24 0 obj
+% Page dictionary
+<< /Contents 83 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page14': class PDFPage 
+25 0 obj
+% Page dictionary
+<< /Contents 84 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page15': class PDFPage 
+26 0 obj
+% Page dictionary
+<< /Contents 85 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page16': class PDFPage 
+27 0 obj
+% Page dictionary
+<< /Contents 86 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page17': class PDFPage 
+28 0 obj
+% Page dictionary
+<< /Contents 87 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page18': class PDFPage 
+29 0 obj
+% Page dictionary
+<< /Contents 88 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page19': class PDFPage 
+30 0 obj
+% Page dictionary
+<< /Contents 89 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page20': class PDFPage 
+31 0 obj
+% Page dictionary
+<< /Contents 90 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page21': class PDFPage 
+32 0 obj
+% Page dictionary
+<< /Contents 91 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER7': class PDFDictionary 
+33 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.gnu.org/s/screen/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 43.17323
+ 160.5295
+ 419.1969
+ 172.5295 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page22': class PDFPage 
+34 0 obj
+% Page dictionary
+<< /Annots [ 33 0 R ]
+ /Contents 92 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page23': class PDFPage 
+35 0 obj
+% Page dictionary
+<< /Contents 93 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page24': class PDFPage 
+36 0 obj
+% Page dictionary
+<< /Contents 94 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER8': class LinkAnnotation 
+37 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 18 0 R
+ /XYZ
+ 339.9432
+ 173.7795
+ 0 ]
+ /Rect [ 26.17323
+ 102.4902
+ 31.73323
+ 114.4902 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER9': class LinkAnnotation 
+38 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 18 0 R
+ /XYZ
+ 258.0832
+ 155.7795
+ 0 ]
+ /Rect [ 35.06323
+ 78.49016
+ 40.62323
+ 90.49016 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER10': class LinkAnnotation 
+39 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 18 0 R
+ /XYZ
+ 315.5332
+ 137.7795
+ 0 ]
+ /Rect [ 46.18323
+ 78.49016
+ 51.74323
+ 90.49016 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER11': class LinkAnnotation 
+40 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 22 0 R
+ /XYZ
+ 273.9932
+ 191.7795
+ 0 ]
+ /Rect [ 26.17323
+ 66.49016
+ 31.73323
+ 78.49016 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER12': class LinkAnnotation 
+41 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 22 0 R
+ /XYZ
+ 324.3732
+ 137.7795
+ 0 ]
+ /Rect [ 26.17323
+ 42.49016
+ 31.73323
+ 54.49016 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page25': class PDFPage 
+42 0 obj
+% Page dictionary
+<< /Annots [ 37 0 R
+ 38 0 R
+ 39 0 R
+ 40 0 R
+ 41 0 R ]
+ /Contents 95 0 R
+ /MediaBox [ 0
+ 0
+ 453.5433
+ 255.1181 ]
+ /Parent 70 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R43': class PDFCatalog 
+43 0 obj
+% Document Root
+<< /Outlines 45 0 R
+ /PageLabels 96 0 R
+ /PageMode /UseNone
+ /Pages 70 0 R
+ /Type /Catalog >>
+endobj
+% 'R44': class PDFInfo 
+44 0 obj
+<< /Author ()
+ /CreationDate (D:20120221095202+05'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (GNU Screen) >>
+endobj
+% 'R45': class PDFOutlines 
+45 0 obj
+<< /Count 24
+ /First 46 0 R
+ /Last 69 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+46 0 obj
+<< /Dest [ 6 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 47 0 R
+ /Parent 45 0 R
+ /Title (What Is It?) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+47 0 obj
+<< /Dest [ 7 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 48 0 R
+ /Parent 45 0 R
+ /Prev 46 0 R
+ /Title (Why Do I Want to Use It?) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+48 0 obj
+<< /Dest [ 9 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 49 0 R
+ /Parent 45 0 R
+ /Prev 47 0 R
+ /Title (Getting Started) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+49 0 obj
+<< /Dest [ 10 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 50 0 R
+ /Parent 45 0 R
+ /Prev 48 0 R
+ /Title (Getting Started \(cont\)) >>
+endobj
+% 'Outline.4': class OutlineEntryObject 
+50 0 obj
+<< /Dest [ 11 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 51 0 R
+ /Parent 45 0 R
+ /Prev 49 0 R
+ /Title (Managing Windows) >>
+endobj
+% 'Outline.5': class OutlineEntryObject 
+51 0 obj
+<< /Dest [ 12 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 52 0 R
+ /Parent 45 0 R
+ /Prev 50 0 R
+ /Title (Managing Windows \(cont\)) >>
+endobj
+% 'Outline.6': class OutlineEntryObject 
+52 0 obj
+<< /Dest [ 14 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 53 0 R
+ /Parent 45 0 R
+ /Prev 51 0 R
+ /Title (The Window Environment) >>
+endobj
+% 'Outline.7': class OutlineEntryObject 
+53 0 obj
+<< /Dest [ 18 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 54 0 R
+ /Parent 45 0 R
+ /Prev 52 0 R
+ /Title (Copy Mode) >>
+endobj
+% 'Outline.8': class OutlineEntryObject 
+54 0 obj
+<< /Dest [ 19 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 55 0 R
+ /Parent 45 0 R
+ /Prev 53 0 R
+ /Title (Copy Mode \(cont\)) >>
+endobj
+% 'Outline.9': class OutlineEntryObject 
+55 0 obj
+<< /Dest [ 22 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 56 0 R
+ /Parent 45 0 R
+ /Prev 54 0 R
+ /Title (Detach / Attach) >>
+endobj
+% 'Outline.10': class OutlineEntryObject 
+56 0 obj
+<< /Dest [ 23 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 57 0 R
+ /Parent 45 0 R
+ /Prev 55 0 R
+ /Title (Custom Keys) >>
+endobj
+% 'Outline.11': class OutlineEntryObject 
+57 0 obj
+<< /Dest [ 24 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 58 0 R
+ /Parent 45 0 R
+ /Prev 56 0 R
+ /Title (Monitoring Activity) >>
+endobj
+% 'Outline.12': class OutlineEntryObject 
+58 0 obj
+<< /Dest [ 25 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 59 0 R
+ /Parent 45 0 R
+ /Prev 57 0 R
+ /Title (Shell Support - tcsh) >>
+endobj
+% 'Outline.13': class OutlineEntryObject 
+59 0 obj
+<< /Dest [ 26 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 60 0 R
+ /Parent 45 0 R
+ /Prev 58 0 R
+ /Title (Shell Support - bash) >>
+endobj
+% 'Outline.14': class OutlineEntryObject 
+60 0 obj
+<< /Dest [ 27 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 61 0 R
+ /Parent 45 0 R
+ /Prev 59 0 R
+ /Title (Scripting Screen Startup) >>
+endobj
+% 'Outline.15': class OutlineEntryObject 
+61 0 obj
+<< /Dest [ 28 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 62 0 R
+ /Parent 45 0 R
+ /Prev 60 0 R
+ /Title (My .screenrc) >>
+endobj
+% 'Outline.16': class OutlineEntryObject 
+62 0 obj
+<< /Dest [ 29 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 63 0 R
+ /Parent 45 0 R
+ /Prev 61 0 R
+ /Title (Split Screen) >>
+endobj
+% 'Outline.17': class OutlineEntryObject 
+63 0 obj
+<< /Dest [ 30 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 64 0 R
+ /Parent 45 0 R
+ /Prev 62 0 R
+ /Title (Zombie Mode) >>
+endobj
+% 'Outline.18': class OutlineEntryObject 
+64 0 obj
+<< /Dest [ 31 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 65 0 R
+ /Parent 45 0 R
+ /Prev 63 0 R
+ /Title (Weird Stuff) >>
+endobj
+% 'Outline.19': class OutlineEntryObject 
+65 0 obj
+<< /Dest [ 32 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 66 0 R
+ /Parent 45 0 R
+ /Prev 64 0 R
+ /Title (Pitfalls) >>
+endobj
+% 'Outline.20': class OutlineEntryObject 
+66 0 obj
+<< /Dest [ 34 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 67 0 R
+ /Parent 45 0 R
+ /Prev 65 0 R
+ /Title (Moving Forward) >>
+endobj
+% 'Outline.21': class OutlineEntryObject 
+67 0 obj
+<< /Dest [ 35 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 68 0 R
+ /Parent 45 0 R
+ /Prev 66 0 R
+ /Title (Questions?) >>
+endobj
+% 'Outline.22': class OutlineEntryObject 
+68 0 obj
+<< /Dest [ 36 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Next 69 0 R
+ /Parent 45 0 R
+ /Prev 67 0 R
+ /Title (That's All Folks) >>
+endobj
+% 'Outline.23': class OutlineEntryObject 
+69 0 obj
+<< /Dest [ 42 0 R
+ /XYZ
+ 20.17323
+ 225.7795
+ 0 ]
+ /Parent 45 0 R
+ /Prev 68 0 R
+ /Title (End Matter) >>
+endobj
+% 'R70': class PDFPages 
+70 0 obj
+% page tree
+<< /Count 25
+ /Kids [ 5 0 R
+ 6 0 R
+ 7 0 R
+ 9 0 R
+ 10 0 R
+ 11 0 R
+ 12 0 R
+ 14 0 R
+ 18 0 R
+ 19 0 R
+ 22 0 R
+ 23 0 R
+ 24 0 R
+ 25 0 R
+ 26 0 R
+ 27 0 R
+ 28 0 R
+ 29 0 R
+ 30 0 R
+ 31 0 R
+ 32 0 R
+ 34 0 R
+ 35 0 R
+ 36 0 R
+ 42 0 R ]
+ /Type /Pages >>
+endobj
+% 'R71': class PDFStream 
+71 0 obj
+% page stream
+<< /Length 656 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 201.7795 cm
+q
+BT 1 0 0 1 0 4 Tm 141.1618 0 Td 24 TL /F2 20 Tf 0 0 0 rg (GNU Screen) Tj T* -141.1618 0 Td ET
+Q
+Q
+q
+1 0 0 1 20.17323 185.7795 cm
+Q
+q
+1 0 0 1 20.17323 185.7795 cm
+Q
+q
+1 0 0 1 20.17323 185.7795 cm
+Q
+q
+1 0 0 1 20.17323 185.7795 cm
+Q
+q
+1 0 0 1 20.17323 185.7795 cm
+Q
+q
+1 0 0 1 171.565 146.1795 cm
+q
+96.24 0 0 39.6 0 0 cm
+/FormXob.a5db95d9d563126e58d04a21799f0694 Do
+Q
+Q
+q
+1 0 0 1 20.17323 146.1795 cm
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R72': class PDFStream 
+72 0 obj
+% page stream
+<< /Length 714 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (What Is It?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .042726 Tw (GNU Screen, or just "screen", is a tool which gives you multiple virtual windows in a single) Tj T* 0 Tw (terminal window.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 181.6118 0 Td (What Is It?) Tj T* -181.6118 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R73': class PDFStream 
+73 0 obj
+% page stream
+<< /Length 2890 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Why Do I Want to Use It?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Reduce Window Switching) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Multiple Activities on a Remote System with a Single Connection) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Disconnect/Reconnect Session) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Multiple Connections to the Same Set of Terminal Windows) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Add Features to Existing Terminal Emulator) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 20.17323 84.77953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Works on most flavors of Unix, Linux, BSD) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 84.77953 cm
+Q
+q
+1 0 0 1 20.17323 84.77953 cm
+Q
+q
+1 0 0 1 20.17323 84.77953 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 149.1018 0 Td (Why Do I Want to Use It?) Tj T* -149.1018 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R74': class PDFStream 
+74 0 obj
+% page stream
+<< /Length 2711 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Getting Started) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 84.77953 cm
+1 1 1 rg
+n 0 108 399.0236 -18 re f*
+.878431 .878431 .878431 rg
+n 0 90 399.0236 -18 re f*
+1 1 1 rg
+n 0 72 399.0236 -18 re f*
+.878431 .878431 .878431 rg
+n 0 54 399.0236 -18 re f*
+1 1 1 rg
+n 0 36 399.0236 -18 re f*
+.878431 .878431 .878431 rg
+n 0 18 399.0236 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (screen) Tj T* ET
+Q
+Q
+q
+1 0 0 1 182.7105 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (start a new session with a shell window) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 75 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Control-A) Tj (>) Tj (<) Tj (Control-C) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 182.7105 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (create a second shell window) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 57 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Control-A) Tj (>) Tj (<) Tj (Control-A) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 182.7105 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (switch back to last window) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 39 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Control-A) Tj (>) Tj (<) Tj (Control-N) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 182.7105 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (switch to next window) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 21 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Control-A) Tj (>) Tj (<) Tj (Control-P) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 182.7105 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (switch to previous window) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (screen {program} {arg1} ...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 182.7105 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (run ") Tj /F3 10 Tf (program) Tj /F1 10 Tf (" in a window) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 90 m 399.0236 90 l S
+n 0 72 m 399.0236 72 l S
+n 0 54 m 399.0236 54 l S
+n 0 36 m 399.0236 36 l S
+n 0 18 m 399.0236 18 l S
+n 176.7105 0 m 176.7105 108 l S
+n 0 108 m 399.0236 108 l S
+n 0 0 m 399.0236 0 l S
+n 0 0 m 0 108 l S
+n 399.0236 0 m 399.0236 108 l S
+Q
+Q
+q
+1 0 0 1 20.17323 84.77953 cm
+Q
+q
+1 0 0 1 20.17323 84.77953 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 171.8818 0 Td (Getting Started) Tj T* -171.8818 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R75': class PDFStream 
+75 0 obj
+% page stream
+<< /Length 2780 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Getting Started \(cont\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 150.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 27 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Question-Mark) Tj (>) Tj /F1 10 Tf (" to get other key bindings) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 21 cm
+Q
+q
+1 0 0 1 23 21 cm
+Q
+q
+1 0 0 1 23 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (all prefixed with ") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj /F1 10 Tf (") Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 3 cm
+Q
+q
+1 0 0 1 23 3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 150.7795 cm
+Q
+q
+1 0 0 1 20.17323 150.7795 cm
+Q
+q
+1 0 0 1 20.17323 108.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 27 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 27 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Colon) Tj (>) Tj /F1 10 Tf (" to enter text commands) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 21 cm
+Q
+q
+1 0 0 1 23 21 cm
+Q
+q
+1 0 0 1 23 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (e.g., ") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Colon) Tj (>) Tj (screen bash) Tj /F1 10 Tf (") Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 3 cm
+Q
+q
+1 0 0 1 23 3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 108.7795 cm
+Q
+q
+1 0 0 1 20.17323 108.7795 cm
+Q
+q
+1 0 0 1 20.17323 90.77953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Default commands in ) Tj /F3 10 Tf (~/.screenrc ) Tj /F1 10 Tf (file) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 90.77953 cm
+Q
+q
+1 0 0 1 20.17323 90.77953 cm
+Q
+q
+1 0 0 1 20.17323 90.77953 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 157.7118 0 Td (Getting Started \(cont\)) Tj T* -157.7118 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R76': class PDFStream 
+76 0 obj
+% page stream
+<< /Length 2517 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Managing Windows) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 90.77953 cm
+1 1 1 rg
+n 0 102 399.0236 -18 re f*
+.878431 .878431 .878431 rg
+n 0 84 399.0236 -18 re f*
+1 1 1 rg
+n 0 66 399.0236 -18 re f*
+.878431 .878431 .878431 rg
+n 0 48 399.0236 -30 re f*
+1 1 1 rg
+n 0 18 399.0236 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 87 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Control-A) Tj (>) Tj (<) Tj (W) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 183.6902 87 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (list windows in status bar) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 69 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Control-A) Tj (>) Tj (<) Tj ([0-9]) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 183.6902 69 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (switch to a window with a single-digit number) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 51 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Control-A) Tj (>) Tj (<) Tj (Double-Quote) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 183.6902 51 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (get a window selection page) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 21 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Control-A) Tj (>) Tj (<) Tj (Single-Quote) Tj (>) Tj T* ({windownum|windowid}) Tj (<) Tj (Enter) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 183.6902 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (switch to a window with a longer number, or) Tj T* (with part of a window title) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Control-A) Tj (>) Tj (<) Tj (Shift-A) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 183.6902 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (retitle a window) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 84 m 399.0236 84 l S
+n 0 66 m 399.0236 66 l S
+n 0 48 m 399.0236 48 l S
+n 0 18 m 399.0236 18 l S
+n 177.6902 0 m 177.6902 102 l S
+n 0 102 m 399.0236 102 l S
+n 0 0 m 399.0236 0 l S
+n 0 0 m 0 102 l S
+n 399.0236 0 m 399.0236 102 l S
+Q
+Q
+q
+1 0 0 1 20.17323 90.77953 cm
+Q
+q
+1 0 0 1 20.17323 90.77953 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 161.8868 0 Td (Managing Windows) Tj T* -161.8868 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R77': class PDFStream 
+77 0 obj
+% page stream
+<< /Length 1976 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Managing Windows \(cont\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 144.7795 cm
+1 1 1 rg
+n 0 48 399.0236 -30 re f*
+.878431 .878431 .878431 rg
+n 0 18 399.0236 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Control-A) Tj (>) Tj (<) Tj (Colon) Tj (>) Tj (number) Tj T* ({windownum}) Tj (<) Tj (Enter) Tj (>) Tj T* ET
+Q
+Q
+q
+1 0 0 1 164.9331 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (set the number of the current window) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (screen -t title ...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 164.9331 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (start a window with the given title) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 18 m 399.0236 18 l S
+n 158.9331 0 m 158.9331 48 l S
+n 0 48 m 399.0236 48 l S
+n 0 0 m 399.0236 0 l S
+n 0 0 m 0 48 l S
+n 399.0236 0 m 399.0236 48 l S
+Q
+Q
+q
+1 0 0 1 20.17323 144.7795 cm
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (e.g., ") Tj /F3 10 Tf (screen -t filename.txt vi filename.txt) Tj /F1 10 Tf (") Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 147.7168 0 Td (Managing Windows \(cont\)) Tj T* -147.7168 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R78': class PDFStream 
+78 0 obj
+% page stream
+<< /Length 2667 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (The Window Environment) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 75 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Emulated VT100 Terminal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 69 cm
+Q
+q
+1 0 0 1 23 69 cm
+Q
+q
+1 0 0 1 23 51 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Even if you have a weird terminal, screen fixes it for you) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 51 cm
+Q
+q
+1 0 0 1 23 51 cm
+Q
+q
+1 0 0 1 23 33 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL ($TERM="screen" by default, which can confuse some operating systems) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 33 cm
+Q
+q
+1 0 0 1 23 33 cm
+Q
+q
+1 0 0 1 23 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 14 Tm 1.113057 Tw 12 TL /F1 10 Tf 0 0 0 rg (Use ") Tj /F3 10 Tf (screen -T vt100 ...) Tj /F1 10 Tf (" or ") Tj /F3 10 Tf (term vt100) Tj /F1 10 Tf (" in ) Tj /F3 10 Tf (~/.screenrc ) Tj /F1 10 Tf (to work) Tj T* 0 Tw (around the problem) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 3 cm
+Q
+q
+1 0 0 1 23 3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 20.17323 84.77953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Terminal scrollbar doesn't work right with screen - use ) Tj 0 0 .501961 rg (Copy Mode) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 84.77953 cm
+Q
+q
+1 0 0 1 20.17323 84.77953 cm
+Q
+q
+1 0 0 1 20.17323 84.77953 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 148.2718 0 Td (The Window Environment) Tj T* -148.2718 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R79': class PDFStream 
+79 0 obj
+% page stream
+<< /Length 2943 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Copy Mode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Escape) Tj (>) Tj /F1 10 Tf (" or ") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Left-Bracket) Tj (>) Tj /F1 10 Tf (" to start) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (vi-like key movements around any screen, including screen history ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (1) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Slash) Tj (>) Tj ({text}) Tj (<) Tj (Enter) Tj (>) Tj /F1 10 Tf (" to search forwards ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (2) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Question-Mark) Tj (>) Tj ({text}) Tj (<) Tj (Enter) Tj (>) Tj /F1 10 Tf (" to search backwards ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (2) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Escape) Tj (>) Tj /F1 10 Tf (" or other undefined key to leave copy mode) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 179.9468 0 Td (Copy Mode) Tj T* -179.9468 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R80': class PDFStream 
+80 0 obj
+% page stream
+<< /Length 2449 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Copy Mode \(cont\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Enter) Tj (>) Tj /F1 10 Tf (" or ") Tj /F3 10 Tf (<) Tj (Space) Tj (>) Tj /F1 10 Tf (" in Copy Mode to mark start of copy) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 144.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 14 Tm 1.234894 Tw 12 TL /F1 10 Tf 0 0 0 rg (Use vi-like movement keys, then ") Tj /F3 10 Tf (<) Tj (Enter) Tj (>) Tj /F1 10 Tf (" or ") Tj /F3 10 Tf (<) Tj (Space) Tj (>) Tj /F1 10 Tf (" to mark end of area to) Tj T* 0 Tw (copy) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 144.7795 cm
+Q
+q
+1 0 0 1 20.17323 144.7795 cm
+Q
+q
+1 0 0 1 20.17323 126.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Leaves copy mode after marking end) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 126.7795 cm
+Q
+q
+1 0 0 1 20.17323 126.7795 cm
+Q
+q
+1 0 0 1 20.17323 108.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Right-Bracket) Tj (>) Tj /F1 10 Tf (" to paste copy buffer to any window as if typed) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 108.7795 cm
+Q
+q
+1 0 0 1 20.17323 108.7795 cm
+Q
+q
+1 0 0 1 20.17323 108.7795 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 165.7768 0 Td (Copy Mode \(cont\)) Tj T* -165.7768 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R81': class PDFStream 
+81 0 obj
+% page stream
+<< /Length 2361 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Detach / Attach) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Control-D) Tj (>) Tj /F1 10 Tf (" to detach a session ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (3) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (screen -ls) Tj /F1 10 Tf (" to list existing screen sessions) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (screen -r sessionid) Tj /F1 10 Tf (" to attach to the existing session) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (screen -x sessionid) Tj /F1 10 Tf (" to attach to a non-detached screen ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (4) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 171.3268 0 Td (Detach / Attach) Tj T* -171.3268 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R82': class PDFStream 
+82 0 obj
+% page stream
+<< /Length 2577 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Custom Keys) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 162.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 14 Tm .192953 Tw 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Colon) Tj (>) Tj (bind {char} {command} {arg1} ...) Tj /F1 10 Tf (" to set a binding) Tj T* 0 Tw (for the current session) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 162.7795 cm
+Q
+q
+1 0 0 1 20.17323 162.7795 cm
+Q
+q
+1 0 0 1 20.17323 132.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 14 Tm 2.875362 Tw 12 TL /F1 10 Tf 0 0 0 rg (Add ") Tj /F3 10 Tf (bind {char} {command} {arg1} ...) Tj /F1 10 Tf (" to ) Tj /F3 10 Tf (~/.screenrc ) Tj /F1 10 Tf (to get the) Tj T* 0 Tw (bindings after a restart) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 132.7795 cm
+Q
+q
+1 0 0 1 20.17323 132.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 14 Tm 2.047402 Tw 12 TL /F3 10 Tf 0 0 0 rg (char ) Tj /F1 10 Tf (can be a single character or a caret \() Tj /F3 10 Tf (^) Tj /F1 10 Tf (\) followed by another character for) Tj T* 0 Tw (control keys) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 20.17323 84.77953 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 0 rg (command ) Tj /F1 10 Tf (can be anything that works with ) Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Colon) Tj (>) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 84.77953 cm
+Q
+q
+1 0 0 1 20.17323 84.77953 cm
+Q
+q
+1 0 0 1 20.17323 84.77953 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 175.7818 0 Td (Custom Keys) Tj T* -175.7818 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R83': class PDFStream 
+83 0 obj
+% page stream
+<< /Length 2813 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Monitoring Activity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Bell notification in status window) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Monitor for activity with ") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Shift-M) Tj (>) Tj /F1 10 Tf (", again to stop) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Monitor for silence with ") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Underscore) Tj (>) Tj /F1 10 Tf (", again to stop) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Log screen activity to a file with ") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Shift-H) Tj (>) Tj /F1 10 Tf (", again to stop) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Dump current screen to a file with ") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (H) Tj (>) Tj /F1 10 Tf (") Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 164.9468 0 Td (Monitoring Activity) Tj T* -164.9468 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R84': class PDFStream 
+84 0 obj
+% page stream
+<< /Length 1127 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Shell Support - tcsh) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 87.57953 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 397.8236 108 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 86 Tm /F3 10 Tf 12 TL (# add to .cshrc, .login, etc.) Tj T* (setenv VIM_NO_X -X) Tj T* (alias svi '\(set files=\(\\!*\) ; \\) Tj T* (            screen -t "${files:gt}" vi '${VIM_NO_X}' $files\)') Tj T* (alias sview '\(set files=\(\\!*\) ; \\) Tj T* (              screen -t "${files:gt}" less $files\)') Tj T* (alias sman 'screen -t "man \\!*" man \\!*') Tj T* (alias sssh 'screen -t "\\!*" ssh \\!*') Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 20.17323 79.57953 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 161.8818 0 Td (Shell Support - tcsh) Tj T* -161.8818 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R85': class PDFStream 
+85 0 obj
+% page stream
+<< /Length 1003 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Shell Support - bash) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 111.5795 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 397.8236 84 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F3 10 Tf 12 TL (# add to .bash_profile, .bashrc, etc.) Tj T* (VIM_NO_X=-X) Tj T* (svi \(\) { screen -t "$*" vi '${VIM_NO_X}' $*; }) Tj T* (sview \(\) { screen -t "$*" less $*; }) Tj T* (sman \(\) { screen -t "man $*" man $*; }) Tj T* (sssh \(\) { screen -t "$*" ssh $*; }) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 20.17323 103.5795 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 160.2118 0 Td (Shell Support - bash) Tj T* -160.2118 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R86': class PDFStream 
+86 0 obj
+% page stream
+<< /Length 1270 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Scripting Screen Startup) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 186.7795 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Run after starting screen:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 33.57953 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 397.8236 144 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 122 Tm /F3 10 Tf 12 TL (#!/usr/local/bin/tcsh) Tj T*  T* (alias sdir '\(cd \\!\\!:1 ; screen -t \\!\\!:2\)') Tj T* (alias srenum 'screen -p \\!\\!:1 -X number \\!\\!:2') Tj T* (alias sdirnum 'sdir \\!\\!:1 \\!\\!:2 ; srenum \\!\\!:2 \\!\\!:3') Tj T*  T* (sdirnum $repodir source 20) Tj T* (sdirnum $testdir test 21) Tj T* (svi NOTES; srenum NOTES 30) Tj T* (screen -X screen 30 python) Tj T* (screen -X select .) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 20.17323 25.57953 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 151.3218 0 Td (Scripting Screen Startup) Tj T* -151.3218 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R87': class PDFStream 
+87 0 obj
+% page stream
+<< /Length 940 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (My .screenrc) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 87.57953 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 397.8236 108 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 86 Tm /F3 10 Tf 12 TL (bind W windowlist -b) Tj T* (bind s screen -t su sudo su -) Tj T* (bind S screen saidar -d 4 -c) Tj T* (bind ^h screen htop) Tj T* (deflogin off) Tj T* (defscrollback 2000) Tj T* (defutf8 on) Tj T* (vbell on) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 20.17323 79.57953 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 176.8968 0 Td (My .screenrc) Tj T* -176.8968 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R88': class PDFStream 
+88 0 obj
+% page stream
+<< /Length 2851 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Split Screen) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Colon) Tj (>) Tj (split) Tj /F1 10 Tf (" for horizontal split) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Colon) Tj (>) Tj (split -v) Tj /F1 10 Tf (" for vertical split) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Tab) Tj (>) Tj /F1 10 Tf (" to switch split region) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Shift-X) Tj (>) Tj /F1 10 Tf (" to remove current split region) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Shift-Q) Tj (>) Tj /F1 10 Tf (" to make the current split region the only split region) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 178.5568 0 Td (Split Screen) Tj T* -178.5568 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R89': class PDFStream 
+89 0 obj
+% page stream
+<< /Length 2552 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Zombie Mode) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Colon) Tj (>) Tj (zombie QR) Tj /F1 10 Tf (") Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Windows no longer close on exit) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (Q) Tj /F1 10 Tf (" to quit, ") Tj /F3 10 Tf (R) Tj /F1 10 Tf (" to restart) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+Q
+q
+1 0 0 1 20.17323 138.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Useful for daemon screens) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 120.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Applies to all windows in a screen session) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 20.17323 102.7795 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 174.9468 0 Td (Zombie Mode) Tj T* -174.9468 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R90': class PDFStream 
+90 0 obj
+% page stream
+<< /Length 1802 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Weird Stuff) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 114.7795 cm
+1 1 1 rg
+n 0 78 399.0236 -18 re f*
+.878431 .878431 .878431 rg
+n 0 60 399.0236 -30 re f*
+1 1 1 rg
+n 0 30 399.0236 -30 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (screen /dev/ttyS0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 161.6192 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Open a window connected to a serial port) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 33 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F3 10 Tf 12 TL (screen //telnet) Tj T* ({hostname} [{port}]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 161.6192 45 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Open a window running a built-in telnet \(optional\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (<) Tj (Control-A) Tj (>) Tj (<) Tj (Colon) Tj (>) Tj (zmodem) Tj T* (catch) Tj T* ET
+Q
+Q
+q
+1 0 0 1 161.6192 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (Support zmodem transfers with connected screen) Tj T* (\(experimental\)) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 60 m 399.0236 60 l S
+n 0 30 m 399.0236 30 l S
+n 155.6192 0 m 155.6192 78 l S
+n 0 78 m 399.0236 78 l S
+n 0 0 m 399.0236 0 l S
+n 0 0 m 0 78 l S
+n 399.0236 0 m 399.0236 78 l S
+Q
+Q
+q
+1 0 0 1 20.17323 114.7795 cm
+Q
+q
+1 0 0 1 20.17323 114.7795 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 180.7818 0 Td (Weird Stuff) Tj T* -180.7818 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R91': class PDFStream 
+91 0 obj
+% page stream
+<< /Length 1958 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Pitfalls) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 114.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 63 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Environment is from session creation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 57 cm
+Q
+q
+1 0 0 1 23 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 48 cm
+Q
+q
+1 0 0 1 20 30 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (DISPLAY, DBUS_SESSION_BUS_ADDRESS, et al., may not be correct) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 14 Tm .79727 Tw 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (<) Tj (Control-A) Tj (>) Tj (<) Tj (Colon) Tj (>) Tj (setenv {var} {val}) Tj /F1 10 Tf (" works for new windows,) Tj T* 0 Tw (but not existing ones) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 23 3 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 114.7795 cm
+Q
+q
+1 0 0 1 20.17323 114.7795 cm
+Q
+q
+1 0 0 1 20.17323 114.7795 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 190.7868 0 Td (Pitfalls) Tj T* -190.7868 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R92': class PDFStream 
+92 0 obj
+% page stream
+<< /Length 1358 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Moving Forward) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 192.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (man screen) Tj /F1 10 Tf (" has all the details you need) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 174.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (GNU Screen Web Site) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 20.17323 156.7795 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 169.6718 0 Td (Moving Forward) Tj T* -169.6718 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R93': class PDFStream 
+93 0 obj
+% page stream
+<< /Length 479 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Questions?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 198.7795 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 180.2218 0 Td (Questions?) Tj T* -180.2218 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R94': class PDFStream 
+94 0 obj
+% page stream
+<< /Length 491 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (That's All Folks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 198.7795 cm
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 171.7718 0 Td (That's All Folks) Tj T* -171.7718 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R95': class PDFStream 
+95 0 obj
+% page stream
+<< /Length 1979 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 20.17323 204.7795 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (End Matter) Tj T* ET
+Q
+Q
+q
+1 0 0 1 20.17323 142.0866 cm
+Q
+q
+1 0 0 1 20.17323 113.7402 cm
+n 0 14.17323 m 399.0236 14.17323 l S
+Q
+q
+1 0 0 1 20.17323 89.74016 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 12 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 0 cm
+q
+BT 1 0 0 1 0 14 Tm 4.345709 Tw 12 TL /F1 10 Tf 0 0 0 rg (") Tj /F3 10 Tf (defscrollback {lines}) Tj /F1 10 Tf (" in ) Tj /F3 10 Tf (~/.screenrc ) Tj /F1 10 Tf (sets how much) Tj T* 0 Tw (history to keep) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 77.74016 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (2\() Tj 0 0 .501961 rg (1) Tj 0 0 0 rg (, ) Tj 0 0 .501961 rg (2) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Plain-text search, not regex) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 53.74016 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 12 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 0 cm
+q
+BT 1 0 0 1 0 14 Tm .607021 Tw 12 TL /F1 10 Tf 0 0 0 rg (Or close the terminal, log out of X, lose the remote login connection,) Tj T* 0 Tw (...) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20.17323 41.74016 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Same windows from multiple locations!) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 14.17323 237.4488 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 181.0568 0 Td (End Matter) Tj T* -181.0568 0 Td ET
+Q
+Q
+q
+1 0 0 1 14.17323 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 136.0468 0 Td (Gary Duzan - FIS, GT.M Group) Tj T* -136.0468 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R96': class PDFPageLabels 
+96 0 obj
+% Document Root
+<< /Nums [ 0
+ 97 0 R
+ 1
+ 98 0 R
+ 2
+ 99 0 R
+ 3
+ 100 0 R
+ 4
+ 101 0 R
+ 5
+ 102 0 R
+ 6
+ 103 0 R
+ 7
+ 104 0 R
+ 8
+ 105 0 R
+ 9
+ 106 0 R
+ 10
+ 107 0 R
+ 11
+ 108 0 R
+ 12
+ 109 0 R
+ 13
+ 110 0 R
+ 14
+ 111 0 R
+ 15
+ 112 0 R
+ 16
+ 113 0 R
+ 17
+ 114 0 R
+ 18
+ 115 0 R
+ 19
+ 116 0 R
+ 20
+ 117 0 R
+ 21
+ 118 0 R
+ 22
+ 119 0 R
+ 23
+ 120 0 R
+ 24
+ 121 0 R ] >>
+endobj
+% 'R97': class PDFPageLabel 
+97 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R98': class PDFPageLabel 
+98 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+% 'R99': class PDFPageLabel 
+99 0 obj
+% None
+<< /S /D
+ /St 3 >>
+endobj
+% 'R100': class PDFPageLabel 
+100 0 obj
+% None
+<< /S /D
+ /St 4 >>
+endobj
+% 'R101': class PDFPageLabel 
+101 0 obj
+% None
+<< /S /D
+ /St 5 >>
+endobj
+% 'R102': class PDFPageLabel 
+102 0 obj
+% None
+<< /S /D
+ /St 6 >>
+endobj
+% 'R103': class PDFPageLabel 
+103 0 obj
+% None
+<< /S /D
+ /St 7 >>
+endobj
+% 'R104': class PDFPageLabel 
+104 0 obj
+% None
+<< /S /D
+ /St 8 >>
+endobj
+% 'R105': class PDFPageLabel 
+105 0 obj
+% None
+<< /S /D
+ /St 9 >>
+endobj
+% 'R106': class PDFPageLabel 
+106 0 obj
+% None
+<< /S /D
+ /St 10 >>
+endobj
+% 'R107': class PDFPageLabel 
+107 0 obj
+% None
+<< /S /D
+ /St 11 >>
+endobj
+% 'R108': class PDFPageLabel 
+108 0 obj
+% None
+<< /S /D
+ /St 12 >>
+endobj
+% 'R109': class PDFPageLabel 
+109 0 obj
+% None
+<< /S /D
+ /St 13 >>
+endobj
+% 'R110': class PDFPageLabel 
+110 0 obj
+% None
+<< /S /D
+ /St 14 >>
+endobj
+% 'R111': class PDFPageLabel 
+111 0 obj
+% None
+<< /S /D
+ /St 15 >>
+endobj
+% 'R112': class PDFPageLabel 
+112 0 obj
+% None
+<< /S /D
+ /St 16 >>
+endobj
+% 'R113': class PDFPageLabel 
+113 0 obj
+% None
+<< /S /D
+ /St 17 >>
+endobj
+% 'R114': class PDFPageLabel 
+114 0 obj
+% None
+<< /S /D
+ /St 18 >>
+endobj
+% 'R115': class PDFPageLabel 
+115 0 obj
+% None
+<< /S /D
+ /St 19 >>
+endobj
+% 'R116': class PDFPageLabel 
+116 0 obj
+% None
+<< /S /D
+ /St 20 >>
+endobj
+% 'R117': class PDFPageLabel 
+117 0 obj
+% None
+<< /S /D
+ /St 21 >>
+endobj
+% 'R118': class PDFPageLabel 
+118 0 obj
+% None
+<< /S /D
+ /St 22 >>
+endobj
+% 'R119': class PDFPageLabel 
+119 0 obj
+% None
+<< /S /D
+ /St 23 >>
+endobj
+% 'R120': class PDFPageLabel 
+120 0 obj
+% None
+<< /S /D
+ /St 24 >>
+endobj
+% 'R121': class PDFPageLabel 
+121 0 obj
+% None
+<< /S /D
+ /St 25 >>
+endobj
+xref
+0 122
+0000000000 65535 f
+0000000113 00000 n
+0000000233 00000 n
+0000000398 00000 n
+0000000614 00000 n
+0000028494 00000 n
+0000028838 00000 n
+0000029117 00000 n
+0000029398 00000 n
+0000029557 00000 n
+0000029836 00000 n
+0000030116 00000 n
+0000030396 00000 n
+0000030691 00000 n
+0000030918 00000 n
+0000031234 00000 n
+0000031476 00000 n
+0000031718 00000 n
+0000031945 00000 n
+0000032265 00000 n
+0000032560 00000 n
+0000032802 00000 n
+0000033030 00000 n
+0000033341 00000 n
+0000033622 00000 n
+0000033903 00000 n
+0000034184 00000 n
+0000034465 00000 n
+0000034746 00000 n
+0000035027 00000 n
+0000035308 00000 n
+0000035589 00000 n
+0000035870 00000 n
+0000036164 00000 n
+0000036398 00000 n
+0000036700 00000 n
+0000036981 00000 n
+0000037276 00000 n
+0000037518 00000 n
+0000037761 00000 n
+0000038004 00000 n
+0000038247 00000 n
+0000038475 00000 n
+0000038813 00000 n
+0000038972 00000 n
+0000039230 00000 n
+0000039356 00000 n
+0000039527 00000 n
+0000039726 00000 n
+0000039916 00000 n
+0000040116 00000 n
+0000040308 00000 n
+0000040509 00000 n
+0000040707 00000 n
+0000040892 00000 n
+0000041086 00000 n
+0000041278 00000 n
+0000041466 00000 n
+0000041662 00000 n
+0000041859 00000 n
+0000042056 00000 n
+0000042257 00000 n
+0000042446 00000 n
+0000042635 00000 n
+0000042823 00000 n
+0000043011 00000 n
+0000043196 00000 n
+0000043387 00000 n
+0000043574 00000 n
+0000043767 00000 n
+0000043922 00000 n
+0000044243 00000 n
+0000044997 00000 n
+0000045809 00000 n
+0000048798 00000 n
+0000051608 00000 n
+0000054487 00000 n
+0000057103 00000 n
+0000059178 00000 n
+0000061944 00000 n
+0000064986 00000 n
+0000067534 00000 n
+0000069994 00000 n
+0000072670 00000 n
+0000075582 00000 n
+0000076808 00000 n
+0000077910 00000 n
+0000079279 00000 n
+0000080317 00000 n
+0000083267 00000 n
+0000085918 00000 n
+0000087819 00000 n
+0000089876 00000 n
+0000091333 00000 n
+0000091910 00000 n
+0000092499 00000 n
+0000094581 00000 n
+0000095023 00000 n
+0000095100 00000 n
+0000095177 00000 n
+0000095255 00000 n
+0000095334 00000 n
+0000095413 00000 n
+0000095492 00000 n
+0000095571 00000 n
+0000095650 00000 n
+0000095729 00000 n
+0000095809 00000 n
+0000095889 00000 n
+0000095969 00000 n
+0000096049 00000 n
+0000096129 00000 n
+0000096209 00000 n
+0000096289 00000 n
+0000096369 00000 n
+0000096449 00000 n
+0000096529 00000 n
+0000096609 00000 n
+0000096689 00000 n
+0000096769 00000 n
+0000096849 00000 n
+0000096929 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\241b\262\177N\302_/\343\016-l3|%\021) (\241b\262\177N\302_/\343\016-l3|%\021)] 
+
+ /Info 44 0 R
+ /Root 43 0 R
+ /Size 122 >>
+startxref
+96978
+%%EOF

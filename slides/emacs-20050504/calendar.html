@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Advanced Emacs Features</title>
+<link rel="stylesheet" type="text/css" href="talk.css" />
+</head>
+<body>
+<div class="top-box">
+  <div class="top-left-box">
+    <p><a href="sort.html">Prev</a></p>
+  </div>
+  <div class="top-center-box">
+    <p>Advanced Emacs Features</p>
+  </div>
+  <div class="top-right-box">
+    <p><a href="dired.html">Next</a></p>
+  </div>
+</div>
+
+<h1>Calendar mode</h1>
+
+<table class="chart">
+<tr><td><tt>M-x calendar</tt></td>            <td>Display the calendar</td></tr>
+<tr><td><tt>C-x &gt;  C-x &lt;</tt></td>      <td>Navigation by month</td></tr>
+<tr><td><tt>g d</tt></td>                     <td>Go to a specific date</td></tr>
+<tr><td><tt>.</tt></td>                       <td>Go to today</td></tr>
+<tr><td><tt>M-=</tt></td>                     <td>Number of days in region</td></tr>
+<tr><td><tt>S</tt></td>                       <td>Sunrise/sunset</td></tr>
+<tr><td><tt>M</tt></td>                       <td>Phases of the moon</td></tr>
+<tr><td><tt>t y</tt></td>                     <td>Print a year calendar</td></tr>
+<tr><td><tt>t Y</tt></td>                     <td>Print a year calendar (landscape)</td></tr>
+<tr><td><tt>t m</tt></td>                     <td>Print a month calendar</td></tr>
+<tr><td><tt>t M</tt></td>                     <td>Print a month calendar (landscape)</td></tr>
+</table>
+
+<p>How to tell emacs where you are:</p>
+<pre>
+; Calendar localization (for sunrise/sunset)
+(setq calendar-latitude 40.1)
+(setq calendar-longitude -75.1)
+(setq calendar-location-name "Abington, PA")
+(setq cal-tex-diary t)    ; print diary entries on calendar output.
+</pre>
+
+<div class="fyi">
+<b>For further information:</b>
+<ul>
+  <li><a href="http://www.gnu.org/software/emacs/manual/html_node/Calendar-Diary.html">Calendar in general</a></li>
+  <li><a href="http://www.gnu.org/software/emacs/manual/html_node/Counting-Days.html">Counting days between dates</a></li>
+  <li><a href="http://www.gnu.org/software/emacs/manual/html_node/Sunrise-Sunset.html">Sunrise / sunset</a></li>
+  <li><a href="http://www.gnu.org/software/emacs/manual/html_node/Lunar-Phases.html">Lunar phases</a></li>
+  <li><a href="http://www.gnu.org/software/emacs/manual/html_node/LaTeX-Calendar.html">Printing</a></li>
+  <li><a href="http://www.gnu.org/software/emacs/manual/html_node/Other-Calendars.html">Other calendar systems emacs understands</a></li>
+</div>
+
+<hr class="bottom" />
+</body>
+</html>

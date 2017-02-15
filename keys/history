@@ -1,0 +1,500 @@
+   41  ssh -g -L6667:irc.lightning.net:6667 chaosreigns.com
+   42  ssh -g -L6667:irc.ef.net:6667 chaosreigns.com
+   43  exit
+   44  su -
+   45  exit
+   46  telnet localhost 6667
+   47  irc Darx_ localhost
+   48  irc Darx_ localhost
+   49  exit
+   50  man ssh
+   51  exit
+   52  pico
+   53  exit
+   54  irc Darx_ localhost
+   55  exit
+   56  exit
+   57  exit
+   58  exit
+   59  exit
+   60  cat phone 
+   61  cd public_html/log
+   62  cat *.txt
+   63  tail -n 0 -f /var/log/apache/www.chaosreigns.com-access.log | ./livewebstats.pl
+   64  tail -n 0 -f /var/log/apache/www.chaosreigns.com-access.log | ./livewebstats.pl
+   65  exit
+   66  exit
+   67  ssh -g -L6667:irc.mcs.net:6667 chaosreigns.com
+   68  ssh -g -L6667:irc.east.gblx.net:6667 chaosreigns.com
+   69  ssh -g -L6667:irc.prison.net:6667 chaosreigns.com
+   70  ssh -g -L6667:irc.mcs.net:6667 chaosreigns.com
+   71  ssh -g -L6667:irc.lightning.net:6667 chaosreigns.com
+   72  exit
+   73  grep "My Lady" IrcLog
+   74  exit
+   75  irc Darx_ irc.lightning.net
+   76  ps auxww | grep -i ident
+   77  killall oidentd
+   78  whoami
+   79  irc Darx_ irc.ef.net
+   80  irc Darx_ irc.west.gblx.net
+   81  exit
+   82  irc Darx_
+   83  su - lilith
+   84  exit
+   85  su -
+   86  exit
+   87  who
+   88  write lilith
+   89  exit
+   90  irc Darx_ irc.lightning.net
+   91  su -
+   92  exit
+   93  cd dl
+   94  irc Darx_ localhost
+   95  telnet localhost 113
+   96  whoami
+   97  irc Darx_ irc.prison.net
+   98  exit
+   99  irc Darx_ irc.west.gblx.net
+  100  ps auxww | grep -i ident
+  101  netstat
+  102  exit
+  103  who
+  104  w
+  105  w
+  106  cat .bashrc
+  107  cat .cshrc
+  108  ls
+  109  exit
+  110  ps auxww | grep -i plog
+  111  dpkg -l | grep -i log | less
+  112  whoami
+  113  su -
+  114  exit
+  115  irc Darxus irc.debian.org
+  116  exit
+  117  grep Lady IrcLog
+  118  pico
+  119  exit
+  120  who
+  121  who
+  122  who
+  123  who
+  124  exit
+  125  who
+  126  exit
+  127  screen -d -r
+  128  fg
+  129  cd pub/code
+  130  cd public_html/code
+  131  ls
+  132  cd dl
+  133  ls
+  134  ./netload 3
+  135  ./netload 120
+  136  ./netload 20
+  137  ./netload 10
+  138  cd
+  139  mutt
+  140  mutt
+  141  mutt
+  142  mutt
+  143  mutt
+  144  mutt
+  145  mutt
+  146  exit
+  147  grep -i config IrcLog
+  148  exit
+  149  mailq
+  150  exit
+  151  grep -i nooo IrcLog | grep -i lilith
+  152  grep -ni nooo IrcLog | grep -i lilith
+  153  vi IrcLog
+  154  exit
+  155  cat vi.test
+  156  pico vi.test 
+  157  cat vi.test 
+  158  vi vi.test 
+  159  cat vi.test 
+  160  vi vi.test 
+  161  cat vi.test 
+  162  rm vi.test 
+  163  exit
+  164  vi .muttrc
+  165  exit
+  166  pico .muttrc
+  167  screen -d -r
+  168  exit
+  169  pico todo
+  170  cat ymca 
+  171  pico ymca
+  172  exit
+  173  mailq
+  174  exit
+  175  cat ymca
+  176  exit
+  177  screen -d -r
+  178  exit
+  179  cat ymca 
+  180  pico ymca 
+  181  pico ymca 
+  182  pico ymca 
+  183  exit
+  184  bc
+  185  cat ymca 
+  186  exit
+  187  cat ymca 
+  188  exit
+  189  cat ymca 
+  190  pico ymca 
+  191  exit
+  192  ud -d
+  193  exit
+  194  screen -d -r
+  195  screen -d -r
+  196  screen -d -r
+  197  ./weather
+  198  exit
+  199  cat ymca 
+  200  exit
+  201  screen -d -r
+  202  exit
+  203  exit
+  204  cd key
+  205  ls
+  206  cd keys
+  207  ls
+  208  gpg --import pete.asc 
+  209  gpg --keyserver wwwkeys.pgp.net --recv-keys 69350CFC
+  210  pico ~/public_html/pads/member.ids 
+  211  pico ~/public_html/pads/member.ids 
+  212  gpg --fingerprints `cat ~/public_html/pads/member.ids `
+  213  gpg --fingerprint `cat ~/public_html/pads/member.ids `
+  214  cd ~/public_html/pads
+  215  ls
+  216  mkdir tmp
+  217  cd tmp
+  218  gpg --export `cat ../member.ids ` > phillylinux.keyring
+  219  gpg --no-default-keyring --keyring ./phillylinux.keyring --list-sigs > phillylinux.sigs
+  220  cat phillylinux.sigs | ~/public_html/code/sig2dot.pl > phillylinux.dot
+  221  cat phillylinux.sigs | ~/public_html/code/sig2dot/sig2dot.pl > phillylinux.dot
+  222  neato -Tps -Gsplines=true -Gsep=.1 phillylinux.dot > phillylinux.ps
+  223  convert phillylinux.ps phillylinux.jpg
+  224  pico *.dot
+  225  neato -Tps -Gsplines=true -Gsep=.1 phillylinux.dot > phillylinux.ps
+  226  convert phillylinux.ps phillylinux.jpg
+  227  ls
+  228  convert -geometry 320x240 phillylinux.ps phillylinux.320.jpg
+  229  ls
+  230  cd ..
+  231  ls -l tmp/*keyring
+  232  mv tmp 2000-10-03-10-05
+  233  cd 2000-10-03-10-05/
+  234  ls
+  235  cd ..
+  236  scp -r 2000-10-03-10-05 plug@bigpapa.nothinbut.net:~/keys/
+  237  ls
+  238  cd 2000-10-03-10-05/
+  239  ls
+  240  gpg --no-default-keyring --keyring ./phillylinux.keyring --list-sigs
+  241  gpg --no-default-keyring --keyring ./phillylinux.keyring --list
+  242  gpg --no-default-keyring --keyring ./phillylinux.keyring --list-keys
+  243  cd
+  244  su -
+  245  exit
+  246  exit
+  247  gpg --fingerprint `cat ~/public_html/pads/member.ids `
+  248  gpg --fingerprint `cat ~/public_html/pads/member.ids ` | grep ^pub
+  249  gpg --fingerprint `cat ~/public_html/pads/member.ids ` | grep ^pub | wc -l
+  250  exit
+  251  exit
+  252  cat people/lil
+  253  cat people/andrea 
+  254  exit
+  255  cd people/
+  256  pico andrea 
+  257  exit
+  258  pico people/andrea 
+  259  exit
+  260  ssh -v darxus@dsl254-113-105-nyc1.dsl-isp.net
+  261  links dsl254-113-105-nyc1.dsl-isp.net
+  262  exit
+  263  telnet dsl254-113-105-nyc1.dsl-isp.net 80
+  264  telnet dsl254-113-105-nyc1.dsl-isp.net 80
+  265  telnet dsl254-113-105-nyc1.dsl-isp.net 80
+  266  exit
+  267  exit
+  268  telnet dsl254-113-105-nyc1.dsl-isp.net 5801
+  269  exit
+  270  exit
+  271  su -
+  272  telnet dsl254-113-105-nyc1.dsl-isp.net 5801
+  273  telnet dsl254-113-105-nyc1.dsl-isp.net 5901
+  274  whoami
+  275  vi bj-firewall 
+  276  cat bj-firewall 
+  277  whoami
+  278  cd keys
+  279  gpg --import waltman.asc 
+  280  vi ~/public_html/pads/member.ids 
+  281  gpg --list-keys `cat ~/public_html/pads/member.ids `
+  282  gpg --list-keys `cat ~/public_html/pads/member.ids ` | grep ^pub | wc -l
+  283  exit
+  284  w
+  285  exit
+  286  who
+  287  exit
+  288  pico people/vale
+  289  exit
+  290  less IrcLog
+  291  exit
+  292  gpg --fingerprint
+  293  irc Darx_ irc.lightning.net
+  294  irc Darx_ irc.mcs.net
+  295  exit
+  296  gpg -a --export
+  297  exit
+  298  who
+  299  irc Darxus irc.debian.org
+  300  exit
+  301  last
+  302  exit
+  303  dpkg -l | grep -i curses
+  304  exit
+  305  screen -d -r
+  306  exit
+  307  screen -d -r
+  308  pico phone
+  309  exit
+  310  screen -d -r
+  311  exit
+  312  cat phone 
+  313  cat phone 
+  314  exit
+  315  cd keys
+  316  ls mc*
+  317  gpg --import mcneal.asc 
+  318  pico ~/public_html/pads/member.ids 
+  319  gpg --list-keys `cat ~/public_html/pads/member.ids ` | grep ^pub | wc -l
+  320  gpg --list-keys `cat ~/public_html/pads/member.ids ` 
+  321  exit
+  322  gpg --list-keys `cat public_html/pads/member.ids `
+  323  gpg --fingerprint `cat public_html/pads/member.ids `
+  324  clear;gpg --fingerprint `cat public_html/pads/member.ids `
+  325  clear;gpg --list-sigs `cat public_html/pads/member.ids ` | less
+  326  cd bin
+  327  ls
+  328  ./recv-linux 
+  329  gpg --list-keys
+  330  gpg --list-keys | grep -i alex
+  331  gpg --list-keys
+  332  gpg --list-sigs | less
+  333  clear;gpg --list-keys `cat public_html/pads/member.ids ` | grep ^pub
+  334  clear;gpg --list-keys `cat ~/public_html/pads/member.ids ` | grep ^pub
+  335  gpg --list-sigs mct
+  336  gpg --keyserver wwwkeys.pgp.net --recv-keys 8EF833D5
+  337  exit
+  338  pico public_html/temp.html
+  339  rm public_html/temp.html 
+  340  exit
+  341  links http://www.cryslerfinancial.com
+  342  links http://www.chryslerfinancial.com
+  343  screen -d -r
+  344  who
+  345  exit
+  346  cat phone 
+  347  exit
+  348  su -
+  349  exit
+  350  finger @ftp.kernel.org
+  351  exit
+  352  screen -d -r
+  353  screen -d -r
+  354  ./weather
+  355  exit
+  356  screen -d -r
+  357  exit
+  358  cd /var/log/apache
+  359  ls
+  360  grep ^146.145.43.195 www.chaosreigns.com-access.log | more
+  361  grep ^146.145.43.195 www.chaosreigns.com-access.log 
+  362  last | less
+  363  grep ^146.145.43 www.chaosreigns.com-access.log 
+  364  nslookup 146.145.43.199
+  365  exit
+  366  vi cp -a chaosreigns.com chaosreigns.com-2000-08-31-20-07
+  367  vi chaosreigns.com-2000-08-31-20-07
+  368  vi speechio.org-2000-08-07-16-18
+  369  mkdir pz
+  370  ls pz
+  371  mv chaosreigns.com-2000-08-31-20-07 pz
+  372  mv speechio.org-2000-08-07-16-18 pz
+  373  exit
+  374  cd /var/log/apache
+  375  ls
+  376  grep resumew www.chaosreigns.com-access.log
+  377  nslookup 199.4.155.10
+  378  nslookup 216.51.54.2
+  379  nslookup 38.149.69.100
+  380  ~/web/catlogs | grep resumew | less
+  381  exit
+  382  su -
+  383  exit
+  384  cd keys
+  385  ls
+  386  gpg -a --export darxus@chaos > darxus.asc
+  387  less darxus.asc
+  388  exit
+  389  cd /var/log/apache
+  390  grep ^138.39.7.9 www.chaosreigns.com-access.log | cut -d' ' -f7 | head
+  391  grep ^138.39.7.9 www.chaosreigns.com-access.log | cut -d' ' -f7 
+  392  clear
+  393  grep ^138.39.7.9 www.chaosreigns.com-access.log | cut -d' ' -f7 
+  394  grep ^138.39.7.9 www.chaosreigns.com-access.log | cut -d' ' -f7 
+  395  clear;grep ^138.39.7.9 www.chaosreigns.com-access.log | cut -d' ' -f7 
+  396  clear;grep ^138.39.7.9 www.chaosreigns.com-access.log | cut -d' ' -f7 
+  397  clear;grep ^138.39.7.9 www.chaosreigns.com-access.log | cut -d' ' -f7 
+  398  exit
+  399  last
+  400  expire
+  401  w
+  402  exit
+  403  pico .muttrc
+  404  ls -l .muttrc
+  405  cp -a .muttrc .muttrc-2000-10-02-19-46
+  406  vi .muttrc
+  407  vi .muttrc
+  408  exit
+  409  ls sla*
+  410  ls sal*
+  411  ls darxus@*
+  412  grep sal *.idx
+  413  pico salary
+  414  exit
+  415  vi .muttrc
+  416  exit
+  417  gpg --list-keys
+  418  ~/bin/recv-linux 
+  419  cat ~/public_html/pads/member.ids 
+  420  cd bin
+  421  vi recv-linux 
+  422  ~/bin/recv-linux 
+  423  gpg --list-keys 69350CFC
+  424  gpg --list-sigs 69350CFC
+  425  gpg --keyserver wwwkeys.pgp.net --recv-keys 2C00A5F7
+  426  gpg --keyserver wwwkeys.pgp.net --send-keys `cat ~/public_html/pads/member.ids `
+  427  exit
+  428  uptime
+  429  cat boots
+  430  cat boots
+  431  exit
+  432  pico
+  433  exit
+  434  bc
+  435  exit
+  436  pico
+  437  exit
+  438  gpg --list-keys FE3821D9
+  439  gpg --keyserver wwwkeys.pgp.net --send-keys FE3821D9
+  440  gpg --keyserver seattle.keyserver.net --send-keys FE3821D9
+  441  gpg --keyserver seattle.keyserver.net --recv-keys 2608E29D
+  442  gpg --keyserver wwwkeys.pgp.net --recv-keys 2608E29D
+  443  gpg --list-keys darxus
+  444  gpg --list-keys 2608E29D
+  445  gpg --list-public-keys
+  446  gpg --list-public-keys darxus
+  447  exit
+  448  gpg --list-keys
+  449  exit
+  450  screen -d -r
+  451  who
+  452  exit
+  453  gpg --fingerprint `cat ~/public_html/pads/member.ids` nbarwell
+  454  clear
+  455  gpg --fingerprint `cat ~/public_html/pads/member.ids` nbarwell
+  456  exit
+  457  screen -d -r
+  458  exit
+  459  screen -d -r
+  460  killall mutt
+  461  su -
+  462  screen -d -r
+  463  screen -d -r
+  464  screen -d -r
+  465  screen -d -r
+  466  exit
+  467  links http://seattle.keyserver.net/en
+  468  gpg --list-sigs userdude
+  469  gpg --fingerprint
+  470  gpg --sign-keys
+  471  gpg --sign-key 80675e65 69350cfc
+  472  gpg --sign-key 80675e65 
+  473  pg --fingerprint leonard
+  474  gpg --fingerprint leonard
+  475  gpg --sign-key 80675e65 
+  476  gpg --sign-key pete
+  477  gpg --sign-key walt
+  478  gpg --sign-key george
+  479  cd public_html/
+  480  cd pads
+  481  ls
+  482  mkdir tmp
+  483  cd tmp
+  484  gpg --export `cat ../member.ids ` > phillylinux.keyring
+  485  gpg --no-default-keyring --keyring ./phillylinux.keyring | ~/public_html/code/sig2dot/sig2dot.pl > phillylinux.dot
+  486  gpg --no-default-keyring --keyring ./phillylinux.keyring --list-sigs | ~/public_html/code/sig2dot/sig2dot.pl > phillylinux.dot
+  487  ls
+  488  ls
+  489  ls ..
+  490  cat ../2000-10-03-10-05/*.dot
+  491  pico *.dot
+  492  neato -Tps -Gsplines=true -Gsep=.1 *.dot > phillylinux.ps
+  493  convert phillylinux.ps phillylinux.jpg
+  494  convert -geometry 320x240 phillylinux.ps phillylinux.320.jpg
+  495  ls
+  496  cd ..
+  497  ls -l tmp
+  498  mv tmp 2000-10-05-00-09
+  499  scp -r 2000-10-05-00-09 plug@bigpapa.nothinbut.net:~/public_html/keys/
+  500  exit
+  501  cd keys
+  502  gpg --import michael.phillylinux-200-10-5 
+  503  mv michael.phillylinux-200-10-5 mct.phillylinux-2000-10-5
+  504  cd
+  505  cd ~/public_html/
+  506  cd pads
+  507  ls
+  508  mkdir tmp
+  509  cd tmp
+  510  ls
+  511  gpg --export `cat ../member.ids ` > phillylinux.keyring
+  512  gpg --no-default-keyring --keyring ./phillylinux.keyring --list-sigs > phillylinux.sigs
+  513  cat *.sigs | ~/public_html/code/sig2dot/sig2dot.pl > phillylinux.dot
+  514  cat ../2000-10-05-00-09/*.dot
+  515  pico *.dot
+  516  neato -Tps -Gsplines=true -Gsep=.1 *.dot > phillylinux.ps
+  517  convert phillylinux.ps phillylinux.jpg
+  518  convert -geometry 320x240 phillylinux.ps phillylinux.320.jpg
+  519  ls -l *keyring
+  520  cd ..
+  521  mv tmp 2000-10-05-01-11
+  522  scp -r 2000-10-05-01-11 plug@bigpapa.nothinbut.net:~/public_html/keys/
+  523  mkdir tmp
+  524  cd tmp
+  525  gpg --export `cat ../member.ids ` > phillylinux.keyring
+  526  gpg --no-default-keyring --keyring ./phillylinux.keyring --list-sigs > phillylinux.sigs
+  527  cat phillylinux.sigs | ~/public_html/code/sig2dot/sig2dot.pl > phillylinux.dot
+  528  cat ../2000-10-05-00-09/*.dot
+  529  pico *.dot
+  530  neato -Tps -Gsplines=true -Gsep=.1 *.dot > phillylinux.ps
+  531  convert phillylinux.ps phillylinux.jpg
+  532  convert -geometry 320x240 phillylinux.ps phillylinux.320.jpg
+  533  ls
+  534  ls -l *.keyring
+  535  cd ..
+  536  ls -l tmp/*keyring
+  537  mv tmp 2000-10-05-01-26
+  538  scp -r 2000-10-05-01-26 plug@bigpapa.nothinbut.net:~/public_html/keys/
+  539  history
+  540  history > history

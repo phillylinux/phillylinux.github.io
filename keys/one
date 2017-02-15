@@ -1,0 +1,6 @@
+mkdir tmp
+cd tmp
+gpg --export `cat ../member.ids ` > phillylinux.keyring
+gpg --no-default-keyring --keyring ./phillylinux.keyring --list-sigs > phillylinux.sigs
+cat phillylinux.sigs | ~/public_html/code/sig2dot/sig2dot.pl > phillylinux.dot
+cat ../2000-10-05-00-09/*.dot

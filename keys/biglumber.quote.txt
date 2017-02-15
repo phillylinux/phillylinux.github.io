@@ -1,0 +1,44 @@
+Date: Tue, 23 Apr 2002 16:26:21 -0000
+From: "Greg Sabino Mullane" <greg@turnstep.com>
+To: plug@lists.phillylinux.org
+Subject: [PLUG] Biglumber - new key signing site
+
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+
+Since PLUG is definitely the most "crypto-aware" LUG that I know of, 
+I'd like to announce my new site here:
+
+http://www.biglumber.com/
+
+Biglumber is an attempt to centralize announcements of key signings, 
+be it by a group (such as PLUG), a one-time affair (such as USENIX), 
+or just by people who are willing to exchange keys if geographically 
+close. All feedback and comments welcome, of course, and I highly 
+encourage everyone who uses GPG to add a listing (and of course, 
+for someone *cough*Darxus*cough* to add a PLUG listing) By the way, 
+once you are logged in to the site, you can also run a trace from 
+your key to anyone else's key already listed there.
+
+Thanks,
+Greg Sabino Mullane greg@turnstep.com
+PGP Key: 0x14964AC8 200204231224
+
+-----BEGIN PGP SIGNATURE-----
+Comment: http://www.turnstep.com/pgp.html
+
+iD8DBQE8xYr0vJuQZxSWSsgRArXPAKCJYrm4P7LrfbTB/clZqZl56w/X/ACgxbQk
+SluNbo4dHWOHZj0QimuqC/w=
+=Bl2/
+-----END PGP SIGNATURE-----
+
+
+
+
+______________________________________________________________________
+Philadelphia Linux Users Group       -      http://www.phillylinux.org
+Announcements-http://lists.phillylinux.org/mail/listinfo/plug-announce
+General Discussion  -  http://lists.phillylinux.org/mail/listinfo/plug
+

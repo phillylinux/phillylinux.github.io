@@ -1,0 +1,37 @@
+DO NOT SIGN ANY KEYS THAT *YOU* DID NOT VERIFY. 
+
+
+Download http://www.phillylinux.org/keys/phillylinux.gpg
+(yes, it's updated).
+
+Do "gpg --import phillylinux.gpg"
+
+You now have the public keys of everybody who's particpated in a keysigning
+
+Do "gpg --sign-key EmailAddress-or-KeyID" for each key that YOU VERIFIED last
+night.  Like:  "gpg --sign-key darxus@chaosreigns.com".  RE-VERIFY THE
+INFORMATION - make sure that the name, email address, and fingerprint
+on your screen matches the information you initialed on that piece of
+paper at the meeting last night.
+
+Hit yes, rinse, repeat.
+
+
+When you're done, send me the all of keys you signed:
+
+Do "gpg --export 0E9FF879 5AA5BCDF 80675E65 69350CFC 67A7B584 33E3FE56
+343BB2A7 7262954A C1A6C2DC 19BC76F8 0CF9091A > signed.gpg"
+
+(the above are KeyIds - the KeyID is the last 2 sections of a key
+fingerprint. You could have typed in the EmailAddress of each person whose
+key you wished to export - either is equivalent)
+
+Then send me the file "signed.gpg". I will then import your signatures onto
+the key in the PLUG keyring. You can/should also upload your signed key to
+the keyserver that the key usually resides on (if any).
+
+If, for example, you signed a key that is resident on the keyserver
+"pgp.mit.edu", then do a 
+
+"pgp --keyserver pgp.mit.edu --send-key EmailAddress-or-KeyId-you-signed"
+

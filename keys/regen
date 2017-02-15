@@ -1,0 +1,7 @@
+gpg --export `cat /home/darxus/public_html/keys/member.ids` > phillylinux.gpg
+gpg --no-default-keyring --keyring ./phillylinux.gpg --list-sigs > phillylinux.sigs
+cat phillylinux.sigs | /var/www/code/sig2dot/sig2dot.pl > phillylinux.dot  
+neato -Tps -Gsplines=true -Gsep=.1 phillylinux.dot > phillylinux.ps
+convert phillylinux.ps phillylinux.jpg
+convert -geometry 300x300 phillylinux.ps phillylinux.300.jpg
+scp * plug@bigpapa.nothinbut.net:~/public_html/keys/

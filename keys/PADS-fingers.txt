@@ -1,0 +1,230 @@
+./phillylinux.gpg
+-----------------
+pub  1024D/0CF9091A 2001-07-23 gabriel rosenkoetter <gr@eclipsed.net>
+     Key fingerprint = 1175 C547 F847 8340 AC62  6C20 F5E8 5A70 0CF9 091A
+uid                            gabriel rosenkoetter <rosenkoetter@pobox.com>
+uid                            gabriel rosenkoetter <gr@cs.swarthmore.edu>
+sub  1024g/E2AD2F4B 2001-07-23
+
+pub  1024D/0E9FF879 2000-09-05 Darxus <Darxus@ChaosReigns.com>
+     Key fingerprint = DE37 8846 3B06 B97C F661  D68F 7FB5 B0BE 0E9F F879
+sub  1024g/2EEAB976 2000-09-05
+
+pub  1024D/116F0CBD 2000-12-17 Bill Jonas <bill@billjonas.com>
+     Key fingerprint = 4220 E226 EACE F094 1F70  C854 7661 DC53 116F 0CBD
+sub  2048g/40FCFB52 2000-12-17
+
+pub  1024D/19BC76F8 2001-07-31 ian reinhart geiser (KDE Developer) <geiseri@kde.org>
+     Key fingerprint = D6A6 7E16 13A9 B5A7 9E18  D1A7 3F2E B64D 19BC 76F8
+uid                            Ian Reinhart Geiser (geiseri) <geiseri@yahoo.com>
+uid                            Ian Reinhart Geiser <ian@geiseri.com>
+uid                            Ian Reinhart Geiser <geiseri@sourcexteme.com>
+sub  1024g/ACE8A58C 2001-07-31
+
+pub  1024D/225B5E12 2002-05-01 Brian P. Mohr <brian@bpmohr.com>
+     Key fingerprint = 3751 81F0 53C0 35DB 2F9D  4303 D4F0 C2A9 225B 5E12
+sub  1024g/24CEE440 2002-05-01
+
+pub  1024D/2682BC80 2002-03-26 Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+     Key fingerprint = 7028 C4DD 3FC1 5C5C E177  D66A E296 6EE6 2682 BC80
+sub  1536g/02AEFAC3 2002-03-26
+
+pub  1024D/2AB165F9 2002-02-21 Paul L. Snyder <pls@littleraven.com>
+     Key fingerprint = 97EB 267C C9BE AC58 6FC4  B4F0 048B F867 2AB1 65F9
+sub  2048g/D49D2C52 2002-02-21 [expires: 2004-02-21]
+
+pub  1024D/2BA48C46 2002-03-29 John J Lavin Jr. <jlavin@wayreth.net>
+     Key fingerprint = B0AA 4A33 D43F BA67 E524  22F3 DA3B F8C8 2BA4 8C46
+uid                            John J Lavin Jr <jlavin@ccil.org>
+sub  1024g/4B96499A 2002-03-29
+
+pub  1024D/343BB2A7 2001-07-11 Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+     Key fingerprint = 9058 FE0D 4EB1 880A 6CB7  6E1C 9438 351F 343B B2A7
+sub  1024g/17B81CE3 2001-07-11 [expires: 2003-07-11]
+
+pub  1024D/52AC566B 2000-02-10 Michael C. Toren (MCT) <mct@toren.net>
+     Key fingerprint = 2FB7 80E0 BBF9 3E62 F4C8  13A9 D674 2149 52AC 566B
+uid                            Michael C. Toren (MCT) <michael@toren.net>
+uid                            Michael C. Toren (MCT) <mct@netaxs.com>
+uid                            Michael C. Toren (MCT) <mct@netisland.net>
+sub  2048g/5818771B 2000-02-10
+
+pub  1024D/55FF8CEF 2001-12-07 Kristin Hill <pinkee@cavegirl.org>
+     Key fingerprint = 02FE 86BB 9F88 677F 1E02  B85F 8256 0640 55FF 8CEF
+uid                            Kristin Hill <AbominableGoofball@cavegirl.org>
+sub  1024g/CD3FB7B1 2001-12-07
+
+pub  1024D/56C84DC3 2002-04-16 Elizabeth Krumbach <lyz@princessleia.com>
+     Key fingerprint = 291D 3DB9 6693 78AC 509B  5420 5678 1CBC 56C8 4DC3
+sub  2048g/117DBDC6 2002-04-16 [expires: 2003-04-16]
+
+pub  1024D/5AA5BCDF 2000-07-18 Michael J. Leone <userdude@yahoo.com>
+     Key fingerprint = 0AA8 DC47 CB63 AE3F C739  6BF9 9AB4 1EF6 5AA5 BCDF
+uid                            Michael J. Leone <turgon@mike-leone.com>
+uid                            Michael J. Leone (Social Director, RA) <mike@rogue-admins.com>
+sub  2048g/BA1876EE 2000-07-18
+
+pub  1024D/64715094 2002-04-22 Michael Hunter <mike.h@acm.org>
+     Key fingerprint = FC8D A93E 54F9 CF59 F735  22E7 8874 9FC0 6471 5094
+uid                            mike.h <mike.h@stemik.com>
+sub  2048g/88FB0BDE 2002-04-22
+
+pub  1024D/67A7B584 1999-10-20 Walter C. Mankowski <waltman@pobox.com>
+     Key fingerprint = 77D4 D81D C47D 68FA 9E9E  6A7C 5DF1 9E2B 67A7 B584
+uid                            Walter C. Mankowski <waltman@netaxs.com>
+sub  1024g/DAF38732 1999-10-20
+
+pub  1024D/742B67FE 2001-04-17 Eric Allan Lucas <eric@lucii.org>
+     Key fingerprint = 6DC6 3E5B 7CD1 D32C 0A39  1A59 DAC1 A9BD 742B 67FE
+sub  2048g/0579C20D 2001-04-17
+
+pub  1024D/80675E65 1997-07-30 Leonard D. Rosenthol <leonardr@rogue-admins.com>
+     Key fingerprint = C76E 0497 C459 182D 0C6B  AB6B CA10 B4DF 8067 5E65
+uid                            Leonard D. Rosenthol <leonardr@lazerware.com>
+uid                            Leonard D. Rosenthol <leonardr@life-online.org>
+uid                            Leonard D. Rosenthol <leonardr@digapp.com>
+uid                            Leonard D. Rosenthol <leonardr@westcodesoft.com>
+uid                            Leonard D. Rosenthol <leonardr@appligent.com>
+uid                            Leonard D. Rosenthol <leonardr@pdfsages.com>
+sub  2048g/FD56CD08 1997-07-30
+
+pub  1024D/8477626F 2002-04-18 Mike Joseph <mjoseph@netaxs.com>
+     Key fingerprint = 4A8D 1F0B 9240 E64E C7CE  1BA1 8295 F229 8477 626F
+uid                            Mike Joseph <mj@doze.net>
+sub  2048g/DEDD5F0B 2002-04-18
+
+pub  1024D/8DAC6BEA 2001-02-04 Kevin Mudrick (darkspur) <kevin@furhurts.com>
+     Key fingerprint = 5E00 FCDF 79E4 2FEB 629C  AA16 2E0B B526 8DAC 6BEA
+sub  2048g/1628A2E1 2001-02-04
+
+pub  1024D/B0701F68 2002-02-10 Jesse P. Schultz <jpschultzyh@yahoo.com>
+     Key fingerprint = 1162 8CBF F2B4 37CC 9151  E457 90A9 593C B070 1F68
+sub  2048g/AFAAD0D4 2002-02-10 [expires: 2003-02-10]
+
+pub  1024D/C0630296 2002-02-10 Jesse P. Schu;tz <schultj@netaxs.com>
+     Key fingerprint = 3891 6986 E822 2EF3 E5E9  D131 2B72 861C C063 0296
+sub  2048g/4750C50E 2002-02-10 [expires: 2003-02-10]
+
+pub  1024D/CBAC94EA 2002-04-16 Michael Bevilacqua <michael@clockbot.net>
+     Key fingerprint = 4A48 006B ACB8 D94D CC2D  A25E 4463 AD89 CBAC 94EA
+uid                            Michael Bevilacqua (Time) <time@clockbot.net>
+sub  2048g/390749B3 2002-04-16 [expires: 2003-04-16]
+
+pub  1024D/D72CB41E 2001-07-08 Christophe Barbe <christophe@debian.org>
+     Key fingerprint = E0F6 FADF 2A5C F072 6AF8  F67A 8F45 2F1E D72C B41E
+uid                            Christophe Barbe <christophe.barbe@online.fr>
+uid                            Christophe Barbe <christophe.barbe@ufies.org>
+sub  1024g/C5C1ECF8 2001-07-08
+
+pub  1024D/DB7F41B4 2001-03-02 Brian Epstein <ep@epiary.org>
+     Key fingerprint = F9C8 A715 933E 6A64 C220  482B 02CF B6C8 DB7F 41B4
+uid                            Brian Epstein (ep) <ep@apiary.dhs.org>
+sub  1024g/EA059DC4 2001-03-02
+
+pub  1024D/F0A0A919 2002-02-20 Jason Nocks <jason@nocks.com>
+     Key fingerprint = DA2C 2542 90E2 A566 012E  F441 DC2A F22D F0A0 A919
+sub  1024g/ABACEDA6 2002-02-20
+
+pub  1024D/FE4BC82F 2002-04-18 Danita M. Fries <nita@digitalsylph.com>
+     Key fingerprint = BE70 6868 984C 804B A58E  BAE7 8E96 ADF3 FE4B C82F
+sub  2048g/5DBD06D0 2002-04-18
+
+pub  1024D/8060510A 2000-12-01 Chris Beggy <chrisb@kippona.com>
+     Key fingerprint = 6012 F8F8 29B3 67E4 0604  BCD2 F882 88AE 8060 510A
+uid                            Chris Beggy <chrisb@beggy.org>
+uid                            Chris Beggy <chrisb@kippona.net>
+sub  1024g/C96975FF 2000-12-01 [expires: 2006-06-30]
+
+pub  1024D/1ADE9739 2002-05-31 Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+     Key fingerprint = 5A8C C869 23A5 A155 0267  D250 C8F5 38C1 1ADE 9739
+sub  1024g/6A27DFEA 2002-05-31 [expires: 2004-05-30]
+
+pub  1024D/D7595A9B 2002-06-12 Dave Kufta (Amateur Radio) <n3meq@n3meq.ampr.org>
+     Key fingerprint = 4E3B 0E78 E6BC C435 764E  8558 E69F 80D7 D759 5A9B
+uid                            Dave Kufta ([ N3MEQ ]) <n3meq@n3meq.dynip.com>
+sub  1024g/57034878 2002-06-12
+
+pub  1024D/54065FA3 2002-06-17 Charles F. Peters II (Chuck Peters) <cp@linuxtech.com>
+     Key fingerprint = 8CC5 4372 1A78 D82D A225  CC2A 7146 FED4 5406 5FA3
+sub  2048g/EBFA5624 2002-06-17
+
+pub  1024D/0D1DAE4B 2002-05-02 Jeff Abrahamson <jeff@purple.com>
+     Key fingerprint = 1A1A BA95 D082 A558 A276  63C6 16BF 8C4C 0D1D AE4B
+sub  2048g/29595FCD 2002-05-02
+
+pub  1024D/7BE02C99 2002-12-11 Michael D. Bevilacqua <Michael@Bevilacqua.us>
+     Key fingerprint = C747 CB2E 51EA 07CF 4E14  D64E 5DDB 6DC6 7BE0 2C99
+sub  4096g/8F7ED797 2002-12-11
+
+pub  1024D/2795714B 2002-11-26 Kristina Clair <kclair@serve.com>
+     Key fingerprint = 6B2F AB26 A8A9 DE4D 91FD  8E93 7A6B 387A 2795 714B
+sub  1024g/3A94566F 2002-11-26
+
+pub  4096R/99242560 2002-01-28 David M. Shaw <dshaw@jabberwocky.com>
+     Key fingerprint = 7D92 FD31 3AB6 F373 4CC5  9CA1 DB69 8D71 9924 2560
+sub  2048g/1643B926 2002-01-28 [expires: 2012-01-26]
+
+pub  1024D/A7EDFD2F 2002-12-17 T. Eugene Smiley <eugene@esmiley.net>
+     Key fingerprint = 5B8F E97F 9E56 077A 17A9  3B9A E903 ED02 A7ED FD2F
+uid                            T. Eugene Smiley (Webmaster) <esmiley@esmiley.net>
+uid                            [image of size 3121]
+sub  4096g/D453CBF4 2002-12-17
+
+pub  1024D/B3EA8E22 1999-09-15 Chris Fearnley (President) <cjf@AdminForce.net>
+     Key fingerprint = 91C9 D2CB AB50 FB01 86B7  2D5E B586 4017 B3EA 8E22
+uid                            Chris Fearnley (Dare to be Naïve) <Chris@CJFearnley.com>
+uid                            Chris Fearnley (Chief Technology Officer) <cjf@LinuxForce.net>
+sub  1024g/55D53FE3 1999-09-15
+
+pub  1024D/8501AFEA 2003-01-03 LeRoy D. Cressy (ldc) <ldc@lrcressy.com>
+     Key fingerprint = 62DE 6CAB CEE1 B1B3 359A  81D8 3FEF E6DA 8501 AFEA
+uid                            LeRoy D. Cressy (ldc) <leroy@lrcressy.com>
+uid                            LeRoy d. Cressy (ldc) <ldc@lrcressy.com>
+sub  2048g/B16A47D6 2003-01-03
+
+pub  1024D/BCDCEEF1 2002-12-30 Rita J. Cressy (rita) <rita@lrcressy.com>
+     Key fingerprint = 207B D4C9 FA91 4744 8621  9A86 8716 3B69 BCDC EEF1
+sub  1024g/543285DB 2002-12-30
+
+pub  1024D/A1694E46 2000-08-04 The SANS Institute <sans@sans.org>
+     Key fingerprint = AF19 FA27 2F94 998D FDB5  DE3D F8B5 06E4 A169 4E46
+sub  1024g/CD2A20C4 2000-08-04
+
+pub  1024R/D9513B39 2002-09-17 CERT Coordination Center <cert@cert.org>
+     Key fingerprint = E0 1E DF F5 FC 76 00 32  77 8F 25 F7 B0 2E 2C 27
+
+pub  2048R/3103F52B 2000-01-22 Microsoft Security Response Center <secure@microsoft.com>
+     Key fingerprint = 5E 39 06 33 D6 B3 97 88  F7 76 D9 80 AB 7A 94 32
+
+pub  1024D/9ABD96F6 2002-01-13 Chris Hedemark (http://yonderway.com/chris) <chris@yonderway.com>
+     Key fingerprint = 984D 9A88 3D60 016F BE01  1506 60FB 85E1 9ABD 96F6
+uid                            Chris Hedemark <hedemark@duke.edu>
+uid                            Chris Hedemark (Work) <chedemark@cc3.com>
+uid                            Chris Hedemark (Work) <chrish@easternrad.com>
+uid                            Chris Hedemark (http://trilug.org) <chrish@trilug.org>
+uid                            Thunder Bear (Upchuckee Nation) <thunderbear@yonderway.com>
+sub  2048g/B72FEADE 2002-01-13 [expires: 2006-02-28]
+
+pub  1024D/EA59038E 2002-09-26 Stephen Gran <sgran@debian.org>
+     Key fingerprint = F343 8FD5 0F2E AAF9 2155  02DE 4982 0C1C EA59 038E
+uid                            Stephen Gran <steve@lobefin.net>
+sub  1024g/894FB242 2002-09-26
+
+pub  1024D/67BFBBBB 1998-12-11 Jeffrey M. Vinocur <vinocur@mail.med.upenn.edu>
+     Key fingerprint = A63C A61C 2230 66A8 715D  DA07 EAC2 DEC8 67BF BBBB
+uid                            Jeffrey M. Vinocur <jmv16@cornell.edu>
+uid                            Jeffrey M. Vinocur <jeff@litech.org>
+sub  2048g/203018A0 1998-12-11
+
+pub  1024D/1E4CD1E8 1999-05-28 Eric J. Roode <sdn@comcast.net>
+     Key fingerprint = 2BD6 2F83 6E74 2AA7 4B37  EBDF 63DE A2E2 1E4C D1E8
+uid                            Eric J. Roode <sdn>
+uid                            [image of size 4574]
+uid                            Eric J. Roode <eric@myxa.com>
+sub  2048g/51A56839 1999-05-28
+
+pub  2048R/297CEA5B 2002-11-14 Morgon Kanter <morgon@surgo.net>
+     Key fingerprint = DCC4 7376 3106 D505 AC43  2BB0 0F9A AA9D 297C EA5B
+uid                            Morgon Kanter <admin@surgo.net>
+sub  2048g/E95F33E3 2002-11-14
+

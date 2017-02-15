@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Advanced Emacs Features</title>
+<link rel="stylesheet" type="text/css" href="talk.css" />
+</head>
+<body>
+<div class="top-box">
+  <div class="top-left-box">
+    <p><a href="notation.html">Prev</a></p>
+  </div>
+  <div class="top-center-box">
+    <p>Advanced Emacs Features</p>
+  </div>
+  <div class="top-right-box">
+    <p><a href="macros.html">Next</a></p>
+  </div>
+</div>
+
+<h1>ediff</h1>
+
+<p><tt>ediff</tt> compares the text in two (or three) buffers.</p>
+
+<table class="chart">
+<tr><td><tt>M-x ediff</tt></td>    <td>Enter <tt>ediff</tt> mode</td></tr>
+<tr><td><tt>a</tt></td>            <td>Copy file A's region to file B's. (<b>A</b> wins)</td></tr>
+<tr><td><tt>b</tt></td>            <td>Copy file B's region to file A's. (<b>B</b> wins)</td></tr>
+<tr><td><tt>?</tt></td>            <td>Help</td></tr>
+<tr><td><tt>n</tt></td>            <td>Move to <b>n</b>ext difference region</td></tr>
+<tr><td><tt>p</tt></td>            <td>Move to <b>p</b>revious difference region</td></tr>
+<tr><td><tt>ra</tt></td>           <td>Restore <b>A</b>'s region (after a <b>b</b> operation)</td></tr>
+<tr><td><tt>rb</tt></td>           <td>Restore <b>B</b>'s region (after an <b>a</b> operation)</td></tr>
+<tr><td><tt>A</tt></td>            <td>Make buffer <b>A</b> read-only</td></tr>
+<tr><td><tt>B</tt></td>            <td>Make buffer <b>B</b> read-only</td></tr>
+<tr><td><tt>q</tt></td>            <td><b>Q</b>uit <tt>ediff</tt></td></tr>
+</table>
+
+<h2>Related commands</h2>
+<p>ediff3</p>
+<p>ediff-revision</p>
+<p>emerge</p>
+
+<div class="fyi">
+<b>For further information:</b>
+<ul>
+  <li><a href="http://www.xemacs.org/Documentation/packages/html/ediff.html">Ediff User's Manual</a></li>
+</div>
+
+
+<hr class="bottom" />
+</body>
+</html>

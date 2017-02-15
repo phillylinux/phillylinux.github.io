@@ -1,0 +1,1468 @@
+./inactive.gpg
+--------------
+pub  1024D/0FCC27C6 1999-06-01 David Coe <davidc@debian.org>
+sig        0FCC27C6 2000-05-14  David Coe <davidc@debian.org>
+sig        E4642C01 2000-07-20  [User id not found]
+sig        52AC566B 2000-07-20  Michael C. Toren (MCT) <mct@toren.net>
+uid                            David L. Coe <david.coe@someotherplace.org>
+sig        0FCC27C6 1999-06-01  David Coe <davidc@debian.org>
+sig        31B70821 1999-10-01  [User id not found]
+sig        788A3F4C 1999-11-21  [User id not found]
+sig        E4642C01 2000-07-20  [User id not found]
+sig        52AC566B 2000-07-20  Michael C. Toren (MCT) <mct@toren.net>
+uid                            David Coe <david.coe@someotherplace.org>
+sig        0FCC27C6 1999-10-25  David Coe <davidc@debian.org>
+sig        5AA5BCDF 2000-07-21  Michael J. Leone <userdude@yahoo.com>
+sig        E4642C01 2000-07-20  [User id not found]
+uid                            David L. Coe <davidc@debian.org>
+sig        0FCC27C6 2000-05-14  David Coe <davidc@debian.org>
+sig        5AA5BCDF 2000-07-21  Michael J. Leone <userdude@yahoo.com>
+sig        E4642C01 2000-07-20  [User id not found]
+sig        52AC566B 2000-07-20  Michael C. Toren (MCT) <mct@toren.net>
+sub  2048g/ADBFA039 1999-06-01
+sig        0FCC27C6 1999-06-01  David Coe <davidc@debian.org>
+
+pub  1024D/33E3FE56 2001-07-10 David M. Turner <novalis@novalis.org>
+sig        33E3FE56 2001-07-10  David M. Turner <novalis@novalis.org>
+sig        0E9FF879 2001-08-02  Darxus <Darxus@ChaosReigns.com>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        67A7B584 2001-07-17  Walter C. Mankowski <waltman@pobox.com>
+sig        5AA5BCDF 2001-08-04  Michael J. Leone <userdude@yahoo.com>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        80675E65 2001-08-08  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        343BB2A7 2001-08-14  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        1E4CD1E8 2001-11-20  [User id not found]
+sub  2048g/C1DB44FB 2001-07-10
+sig        33E3FE56 2001-07-10  David M. Turner <novalis@novalis.org>
+
+pub  1024D/52703839 2000-12-30 Mike Phillips <phillim2@home.com>
+sig        52703839 2001-01-05  Mike Phillips <phillim2@home.com>
+uid                            Mike Phillips <mike_phillips@urscorp.com>
+sig        52703839 2000-12-30  Mike Phillips <phillim2@home.com>
+sig        0E9FF879 2001-01-04  Darxus <Darxus@ChaosReigns.com>
+sig        8060510A 2001-01-04  Chris Beggy <chrisb@kippona.com>
+sig        80675E65 2001-01-04  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        67A7B584 2001-01-04  Walter C. Mankowski <waltman@pobox.com>
+sig        7994A571 2001-01-05  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        5AA5BCDF 2001-01-08  Michael J. Leone <userdude@yahoo.com>
+sig        54DA9506 2001-01-16  Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+uid                            Mike Phillips (Linux Token Ring Project) <mikep@linuxtr.net>
+sig        52703839 2001-01-05  Mike Phillips <phillim2@home.com>
+sub  1024g/033A7D2B 2000-12-30
+sig        52703839 2000-12-30  Mike Phillips <phillim2@home.com>
+
+pub  1024D/54DA9506 2000-12-15 Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+sig        54DA9506 2000-12-15  Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+sig        0E9FF879 2001-01-04  Darxus <Darxus@ChaosReigns.com>
+sig        8060510A 2001-01-04  Chris Beggy <chrisb@kippona.com>
+sig        80675E65 2001-01-04  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        67A7B584 2001-01-04  Walter C. Mankowski <waltman@pobox.com>
+sig        52703839 2001-01-04  Mike Phillips <phillim2@home.com>
+sig        5AA5BCDF 2001-01-08  Michael J. Leone <userdude@yahoo.com>
+sub  1024g/32940FA3 2000-12-15
+sig        54DA9506 2000-12-15  Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+
+pub  1024D/69350CFC 2000-09-14 Pete Foley <pete@lynchman.net>
+sig        69350CFC 2001-08-01  Pete Foley <pete@lynchman.net>
+sig        33E3FE56 2001-08-02  David M. Turner <novalis@novalis.org>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        67A7B584 2001-08-03  Walter C. Mankowski <waltman@pobox.com>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        343BB2A7 2001-08-14  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+uid                            Pete Foley <lynchman@speakeasy.org>
+sig        69350CFC 2000-09-14  Pete Foley <pete@lynchman.net>
+sig        2C00A5F7 2000-09-29  [User id not found]
+sig        0E9FF879 2000-10-05  Darxus <Darxus@ChaosReigns.com>
+sig        52AC566B 2000-10-05  Michael C. Toren (MCT) <mct@toren.net>
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        80675E65 2000-10-05  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        D9367DD8 2000-10-05  George E McNeal Jr (george) <gmcneal@op.net>
+sig        5AA5BCDF 2000-10-05  Michael J. Leone <userdude@yahoo.com>
+sig        33E3FE56 2001-08-02  David M. Turner <novalis@novalis.org>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        343BB2A7 2001-08-14  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+uid                            Pete Foley <pfoley@ecal.com>
+sig        69350CFC 2000-09-28  Pete Foley <pete@lynchman.net>
+sig        2C00A5F7 2000-09-29  [User id not found]
+sig        0E9FF879 2000-10-05  Darxus <Darxus@ChaosReigns.com>
+sig        52AC566B 2000-10-05  Michael C. Toren (MCT) <mct@toren.net>
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        80675E65 2000-10-05  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        5AA5BCDF 2000-10-05  Michael J. Leone <userdude@yahoo.com>
+sig        33E3FE56 2001-08-02  David M. Turner <novalis@novalis.org>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        343BB2A7 2001-08-14  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  1024g/01F4B2E5 2000-09-14
+sig        69350CFC 2000-09-14  Pete Foley <pete@lynchman.net>
+
+pub  1024D/7262954A 2001-07-18 John Beck <jbeck@jbwd.net>
+sig        7262954A 2001-07-18  John Beck <jbeck@jbwd.net>
+sig        0E9FF879 2001-08-02  Darxus <Darxus@ChaosReigns.com>
+sig        33E3FE56 2001-08-02  David M. Turner <novalis@novalis.org>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        67A7B584 2001-08-03  Walter C. Mankowski <waltman@pobox.com>
+sig        5AA5BCDF 2001-08-04  Michael J. Leone <userdude@yahoo.com>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        80675E65 2001-08-08  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        343BB2A7 2001-08-14  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  2048g/9FED315F 2001-07-18
+sig        7262954A 2001-07-18  John Beck <jbeck@jbwd.net>
+
+pub  1024D/7994A571 2000-12-04 [revoked]
+rev        7994A571 2000-12-04  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+uid                            Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        7994A571 2000-12-04  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        0E9FF879 2000-12-07  Darxus <Darxus@ChaosReigns.com>
+sig        8060510A 2000-12-08  Chris Beggy <chrisb@kippona.com>
+sig        5AA5BCDF 2000-12-09  Michael J. Leone <userdude@yahoo.com>
+sig        80675E65 2000-12-11  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        5AA5BCDF 2000-12-10  Michael J. Leone <userdude@yahoo.com>
+sig        67A7B584 2001-01-04  Walter C. Mankowski <waltman@pobox.com>
+sig        52703839 2001-01-04  Mike Phillips <phillim2@home.com>
+uid                            Tony Dominello (Beldon) <beldon@speakeasy.org>
+sig        7994A571 2000-12-04  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        0E9FF879 2000-12-07  Darxus <Darxus@ChaosReigns.com>
+sig        8060510A 2000-12-08  Chris Beggy <chrisb@kippona.com>
+sig        5AA5BCDF 2000-12-09  Michael J. Leone <userdude@yahoo.com>
+sig        80675E65 2000-12-11  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        5AA5BCDF 2000-12-10  Michael J. Leone <userdude@yahoo.com>
+sig        67A7B584 2001-01-04  Walter C. Mankowski <waltman@pobox.com>
+sig        52703839 2001-01-04  Mike Phillips <phillim2@home.com>
+sub  1024g/EA95FD25 2000-12-04
+sig        7994A571 2000-12-04  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+
+pub  1024D/B3EA8E22 1999-09-15 Chris Fearnley (Dare to be Naïve) <Chris@CJFearnley.com>
+sig        B3EA8E22 1999-09-15  Chris Fearnley (Dare to be Naïve) <Chris@CJFearnley.com>
+sig        5AA5BCDF 2000-07-21  Michael J. Leone <userdude@yahoo.com>
+sig        0FCC27C6 1999-09-30  David Coe <davidc@debian.org>
+sig        E4642C01 2000-07-20  [User id not found]
+sig        52AC566B 2000-07-20  Michael C. Toren (MCT) <mct@toren.net>
+sig        EB281E23 2000-09-21  Alexander Shinn <foof@debian.org>
+sig        80675E65 2000-10-05  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sub  1024g/55D53FE3 1999-09-15
+sig        B3EA8E22 1999-09-15  Chris Fearnley (Dare to be Naïve) <Chris@CJFearnley.com>
+
+pub  1024D/C1A6C2DC 2001-07-12 Zachary C Whitley <zachary@whitley.org>
+sig        C1A6C2DC 2001-07-12  Zachary C Whitley <zachary@whitley.org>
+sig        0E9FF879 2001-08-02  Darxus <Darxus@ChaosReigns.com>
+sig        33E3FE56 2001-08-02  David M. Turner <novalis@novalis.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        67A7B584 2001-08-03  Walter C. Mankowski <waltman@pobox.com>
+sig        5AA5BCDF 2001-08-04  Michael J. Leone <userdude@yahoo.com>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        80675E65 2001-08-08  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        343BB2A7 2001-08-14  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  1024g/FCB3677A 2001-07-12
+sig        C1A6C2DC 2001-07-12  Zachary C Whitley <zachary@whitley.org>
+
+pub  1024D/D9367DD8 2000-10-03 George E McNeal Jr (george) <gmcneal@op.net>
+sig        D9367DD8 2000-10-03  George E McNeal Jr (george) <gmcneal@op.net>
+sig        0E9FF879 2000-10-05  Darxus <Darxus@ChaosReigns.com>
+sig        52AC566B 2000-10-05  Michael C. Toren (MCT) <mct@toren.net>
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        69350CFC 2000-10-05  Pete Foley <pete@lynchman.net>
+sig        80675E65 2000-10-05  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        5AA5BCDF 2000-10-05  Michael J. Leone <userdude@yahoo.com>
+sig        5AA5BCDF 2000-10-07  Michael J. Leone <userdude@yahoo.com>
+sub  1024g/4C6B7663 2000-10-03
+sig        D9367DD8 2000-10-03  George E McNeal Jr (george) <gmcneal@op.net>
+
+pub  1024D/EB281E23 1999-03-12 Alexander Shinn <foof@debian.org>
+sig        EB281E23 1999-12-08  Alexander Shinn <foof@debian.org>
+sig        D31DE851 2000-09-21  [User id not found]
+sig        0E9FF879 2000-09-21  Darxus <Darxus@ChaosReigns.com>
+sig        52AC566B 2000-09-21  Michael C. Toren (MCT) <mct@toren.net>
+sig        5AA5BCDF 2000-09-21  Michael J. Leone <userdude@yahoo.com>
+sig        5AA5BCDF 2000-09-27  Michael J. Leone <userdude@yahoo.com>
+uid                            Alexander M. Shinn (f00f) <ashinn1@umbc.edu>
+sig        EB281E23 1999-03-12  Alexander Shinn <foof@debian.org>
+sig        D31DE851 2000-09-21  [User id not found]
+sig        0E9FF879 2000-09-21  Darxus <Darxus@ChaosReigns.com>
+sig        52AC566B 2000-09-21  Michael C. Toren (MCT) <mct@toren.net>
+sig        5AA5BCDF 2000-09-21  Michael J. Leone <userdude@yahoo.com>
+sig        5AA5BCDF 2000-09-27  Michael J. Leone <userdude@yahoo.com>
+sub  2016g/7018A653 1999-03-12
+sig        EB281E23 1999-03-12  Alexander Shinn <foof@debian.org>
+
+pub  1024D/F1AE6BBC 2001-02-17 M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        F1AE6BBC 2001-07-13  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        80675E65 2001-08-01  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+uid                            M. Jackson Wilkinson <jackw@jounce.net>
+sig        F1AE6BBC 2001-02-17  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        0E9FF879 2001-07-12  Darxus <Darxus@ChaosReigns.com>
+sig        DB7F41B4 2001-07-12  Brian Epstein <ep@epiary.org>
+sig        67A7B584 2001-07-13  Walter C. Mankowski <waltman@pobox.com>
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        F1AE6BBC 2001-07-13  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        DC29C735 2001-07-13  [User id not found]
+sig        5AA5BCDF 2001-07-14  Michael J. Leone <userdude@yahoo.com>
+sig        80675E65 2001-08-01  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+uid                            M. Jackson Wilkinson <mwilkins@bowdoin.edu>
+sig        F1AE6BBC 2001-07-13  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        80675E65 2001-08-01  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sub  1024g/3B5621EC 2001-02-17
+sig        F1AE6BBC 2001-02-17  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        F1AE6BBC 2001-07-13  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+
+./phillylinux.gpg
+-----------------
+pub  1024D/0CF9091A 2001-07-23 gabriel rosenkoetter <gr@eclipsed.net>
+sig        0CF9091A 2001-07-23  gabriel rosenkoetter <gr@eclipsed.net>
+sig        0E9FF879 2001-08-02  Darxus <Darxus@ChaosReigns.com>
+sig        33E3FE56 2001-08-02  David M. Turner <novalis@novalis.org>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        67A7B584 2001-08-03  Walter C. Mankowski <waltman@pobox.com>
+sig        5AA5BCDF 2001-08-04  Michael J. Leone <userdude@yahoo.com>
+sig        80675E65 2001-08-08  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        343BB2A7 2001-08-14  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        0CF9091A 2001-09-07  gabriel rosenkoetter <gr@eclipsed.net>
+sig        5D7E0EFC 2001-09-12  [User id not found]
+sig        330C4A75 2001-09-15  [User id not found]
+sig        DB7F41B4 2002-01-10  Brian Epstein <ep@epiary.org>
+sig        D72CB41E 2002-01-22  Christophe Barbe <christophe@debian.org>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        5DE04A21 2002-03-28  [User id not found]
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        C0630296 2002-06-08  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        B0701F68 2002-06-08  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        FEB9DE7F 2002-06-25  [User id not found]
+sig        8060510A 2002-06-06  Chris Beggy <chrisb@kippona.com>
+uid                            gabriel rosenkoetter <rosenkoetter@pobox.com>
+sig        0CF9091A 2001-09-05  gabriel rosenkoetter <gr@eclipsed.net>
+sig        5D7E0EFC 2001-09-12  [User id not found]
+sig        330C4A75 2001-09-15  [User id not found]
+sig        5AA5BCDF 2001-12-04  Michael J. Leone <userdude@yahoo.com>
+sig        DB7F41B4 2002-01-10  Brian Epstein <ep@epiary.org>
+sig        67A7B584 2002-01-10  Walter C. Mankowski <waltman@pobox.com>
+sig        19BC76F8 2002-01-14  Ian Reinhart Geiser <ian@geiseri.com>
+sig        D72CB41E 2002-01-22  Christophe Barbe <christophe@debian.org>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        5DE04A21 2002-03-28  [User id not found]
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        C0630296 2002-06-08  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        B0701F68 2002-06-08  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        FEB9DE7F 2002-06-25  [User id not found]
+sig        8060510A 2002-06-06  Chris Beggy <chrisb@kippona.com>
+uid                            gabriel rosenkoetter <gr@cs.swarthmore.edu>
+sig        0CF9091A 2001-09-07  gabriel rosenkoetter <gr@eclipsed.net>
+sig        5D7E0EFC 2001-09-12  [User id not found]
+sig        330C4A75 2001-09-15  [User id not found]
+sig        5AA5BCDF 2001-12-04  Michael J. Leone <userdude@yahoo.com>
+sig        DB7F41B4 2002-01-10  Brian Epstein <ep@epiary.org>
+sig        67A7B584 2002-01-10  Walter C. Mankowski <waltman@pobox.com>
+sig        19BC76F8 2002-01-14  Ian Reinhart Geiser <ian@geiseri.com>
+sig        D72CB41E 2002-01-22  Christophe Barbe <christophe@debian.org>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        5DE04A21 2002-03-28  [User id not found]
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        C0630296 2002-06-08  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        B0701F68 2002-06-08  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        FEB9DE7F 2002-06-25  [User id not found]
+sig        8060510A 2002-06-06  Chris Beggy <chrisb@kippona.com>
+sub  1024g/E2AD2F4B 2001-07-23
+sig        0CF9091A 2001-07-23  gabriel rosenkoetter <gr@eclipsed.net>
+
+pub  1024D/0E9FF879 2000-09-05 Darxus <Darxus@ChaosReigns.com>
+sig        0E9FF879 2000-09-05  Darxus <Darxus@ChaosReigns.com>
+sig        FE3821D9 2000-09-11  [User id not found]
+sig        D31DE851 2000-09-11  [User id not found]
+sig        69350CFC 2000-10-05  Pete Foley <pete@lynchman.net>
+sig        EB281E23 2000-09-21  Alexander Shinn <foof@debian.org>
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        D9367DD8 2000-10-05  George E McNeal Jr (george) <gmcneal@op.net>
+sig        5AA5BCDF 2000-09-21  Michael J. Leone <userdude@yahoo.com>
+sig        80675E65 2000-09-22  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        E4642C01 2000-09-28  [User id not found]
+sig        140BF9C1 2000-11-22  [User id not found]
+sig        70210CAA 2000-11-30  [User id not found]
+sig        8060510A 2000-12-08  Chris Beggy <chrisb@kippona.com>
+sig        7994A571 2000-12-09  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        0C3F6A8E 2000-12-11  [User id not found]
+sig        7EC535F3 2000-12-17  [User id not found]
+sig        116F0CBD 2000-12-17  Bill Jonas <bill@billjonas.com>
+sig        52703839 2001-01-04  Mike Phillips <phillim2@home.com>
+sig        E57369CC 2001-06-07  [User id not found]
+sig        54DA9506 2001-01-08  Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+sig        0E9FF879 2000-10-09  Darxus <Darxus@ChaosReigns.com>
+sig        DB7F41B4 2001-07-12  Brian Epstein <ep@epiary.org>
+sig        F1AE6BBC 2001-06-19  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        0E6FC266 2000-09-09  [User id not found]
+sig        5D8EB927 2001-07-18  [User id not found]
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        52AC566B 2001-02-16  Michael C. Toren (MCT) <mct@toren.net>
+sig        2AB165F9 2002-02-23  Paul L. Snyder <pls@littleraven.com>
+sig        55FF8CEF 2001-12-09  Kristin Hill <pinkee@cavegirl.org>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        56C84DC3 2002-04-17  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2001-06-08  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        FE4BC82F 2002-04-19  Danita M. Fries <nita@digitalsylph.com>
+sig        D72CB41E 2002-04-25  Christophe Barbe <christophe@debian.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sub  1024g/2EEAB976 2000-09-05
+sig        0E9FF879 2000-09-05  Darxus <Darxus@ChaosReigns.com>
+sig        0E9FF879 2000-10-09  Darxus <Darxus@ChaosReigns.com>
+
+pub  1024D/116F0CBD 2000-12-17 Bill Jonas <bill@billjonas.com>
+sig        116F0CBD 2000-12-17  Bill Jonas <bill@billjonas.com>
+sig        E4642C01 2000-12-17  [User id not found]
+sig        0E9FF879 2000-12-17  Darxus <Darxus@ChaosReigns.com>
+sig        67A7B584 2002-02-22  Walter C. Mankowski <waltman@pobox.com>
+sig        52AC566B 2002-02-22  Michael C. Toren (MCT) <mct@toren.net>
+sig        2AB165F9 2002-02-23  Paul L. Snyder <pls@littleraven.com>
+sig        343BB2A7 2002-03-07  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-17  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2001-12-09  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-19  Danita M. Fries <nita@digitalsylph.com>
+sig        D72CB41E 2002-04-25  Christophe Barbe <christophe@debian.org>
+sig        330C4A75 2002-04-21  [User id not found]
+sub  2048g/40FCFB52 2000-12-17
+sig        116F0CBD 2000-12-17  Bill Jonas <bill@billjonas.com>
+
+pub  1024D/19BC76F8 2001-07-31 Ian Reinhart Geiser <ian@geiseri.com>
+sig        19BC76F8 2002-04-25  Ian Reinhart Geiser <ian@geiseri.com>
+sig        F0A0A919 2002-06-06  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-06-06  John J Lavin Jr <jlavin@ccil.org>
+sig        FE4BC82F 2002-06-06  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        B0701F68 2002-06-08  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        C0630296 2002-06-08  Jesse P. Schu;tz <schultj@netaxs.com>
+uid                            Ian Reinhart Geiser (geiseri) <geiseri@yahoo.com>
+sig        19BC76F8 2001-07-31  Ian Reinhart Geiser <ian@geiseri.com>
+sig        0E9FF879 2001-08-02  Darxus <Darxus@ChaosReigns.com>
+sig        33E3FE56 2001-08-02  David M. Turner <novalis@novalis.org>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        67A7B584 2001-08-03  Walter C. Mankowski <waltman@pobox.com>
+sig        5AA5BCDF 2001-08-04  Michael J. Leone <userdude@yahoo.com>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        80675E65 2001-08-08  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        343BB2A7 2001-08-14  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        DB7F41B4 2002-01-10  Brian Epstein <ep@epiary.org>
+sig        116F0CBD 2002-05-10  Bill Jonas <bill@billjonas.com>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-06-06  John J Lavin Jr <jlavin@ccil.org>
+sig        FE4BC82F 2002-06-06  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        B0701F68 2002-06-08  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        C0630296 2002-06-08  Jesse P. Schu;tz <schultj@netaxs.com>
+sub  1024g/ACE8A58C 2001-07-31
+sig        19BC76F8 2001-07-31  Ian Reinhart Geiser <ian@geiseri.com>
+
+pub  1024D/225B5E12 2002-05-01 Brian P. Mohr <brian@bpmohr.com>
+sig        225B5E12 2002-05-01  Brian P. Mohr <brian@bpmohr.com>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        55FF8CEF 2002-05-02  Kristin Hill <pinkee@cavegirl.org>
+sig        5AA5BCDF 2002-05-02  Michael J. Leone <userdude@yahoo.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-05-03  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        0CF9091A 2002-06-06  gabriel rosenkoetter <gr@eclipsed.net>
+sig        19BC76F8 2002-06-06  Ian Reinhart Geiser <ian@geiseri.com>
+sig        FE4BC82F 2002-06-06  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        80675E65 2002-07-04  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sub  1024g/24CEE440 2002-05-01
+sig        225B5E12 2002-05-01  Brian P. Mohr <brian@bpmohr.com>
+
+pub  1024D/2682BC80 2002-03-26 Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        2682BC80 2002-03-26  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        55FF8CEF 2002-05-02  Kristin Hill <pinkee@cavegirl.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        5AA5BCDF 2002-05-02  Michael J. Leone <userdude@yahoo.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-05-03  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        0CF9091A 2002-06-06  gabriel rosenkoetter <gr@eclipsed.net>
+sig        19BC76F8 2002-06-06  Ian Reinhart Geiser <ian@geiseri.com>
+sig        2BA48C46 2002-06-06  John J Lavin Jr <jlavin@ccil.org>
+sig        FE4BC82F 2002-06-06  Danita M. Fries <nita@digitalsylph.com>
+sig        80675E65 2002-07-07  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sub  1536g/02AEFAC3 2002-03-26
+sig        2682BC80 2002-03-26  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+
+pub  1024D/2AB165F9 2002-02-21 Paul L. Snyder <pls@littleraven.com>
+sig        2AB165F9 2002-02-21  Paul L. Snyder <pls@littleraven.com>
+sig        67A7B584 2002-02-22  Walter C. Mankowski <waltman@pobox.com>
+sig        52AC566B 2002-02-22  Michael C. Toren (MCT) <mct@toren.net>
+sig        0E9FF879 2002-02-22  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        F0A0A919 2002-02-24  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-03-07  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  2048g/D49D2C52 2002-02-21 [expires: 2004-02-21]
+sig        2AB165F9 2002-02-21  Paul L. Snyder <pls@littleraven.com>
+
+pub  1024D/2BA48C46 2002-03-29 John J Lavin Jr <jlavin@ccil.org>
+sig        2BA48C46 2002-03-29  John J Lavin Jr <jlavin@ccil.org>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        19BC76F8 2002-06-06  Ian Reinhart Geiser <ian@geiseri.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        B0701F68 2002-06-08  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        C0630296 2002-06-08  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        54065FA3 2002-06-20  Charles F. Peters II (Chuck Peters) <cp@linuxtech.com>
+sig        8060510A 2002-06-06  Chris Beggy <chrisb@kippona.com>
+sig        80675E65 2002-07-07  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sub  1024g/4B96499A 2002-03-29
+sig        2BA48C46 2002-03-29  John J Lavin Jr <jlavin@ccil.org>
+
+pub  1024D/343BB2A7 2001-07-11 Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        343BB2A7 2001-07-11  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        0E9FF879 2001-07-12  Darxus <Darxus@ChaosReigns.com>
+sig        DB7F41B4 2001-07-12  Brian Epstein <ep@epiary.org>
+sig        F1AE6BBC 2001-07-12  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        67A7B584 2001-07-13  Walter C. Mankowski <waltman@pobox.com>
+sig        5AA5BCDF 2001-07-14  Michael J. Leone <userdude@yahoo.com>
+sig        80675E65 2001-08-01  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        33E3FE56 2001-08-02  David M. Turner <novalis@novalis.org>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        52AC566B 2002-02-22  Michael C. Toren (MCT) <mct@toren.net>
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  Paul L. Snyder <pls@littleraven.com>
+sig        F0A0A919 2002-02-24  Jason Nocks <jason@nocks.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sub  1024g/17B81CE3 2001-07-11 [expires: 2003-07-11]
+sig        343BB2A7 2001-07-11  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+
+pub  1024D/52AC566B 2000-02-10 Michael C. Toren (MCT) <mct@toren.net>
+sig        52AC566B 2001-06-07  Michael C. Toren (MCT) <mct@toren.net>
+sig        E57369CC 2001-06-07  [User id not found]
+sig        8DAC6BEA 2001-06-08  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        52AC566B 2001-06-17  Michael C. Toren (MCT) <mct@toren.net>
+sig        67A7B584 2002-02-22  Walter C. Mankowski <waltman@pobox.com>
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  Paul L. Snyder <pls@littleraven.com>
+sig        F0A0A919 2002-02-24  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-03-07  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-17  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        55FF8CEF 2001-12-09  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-18  Danita M. Fries <nita@digitalsylph.com>
+uid                            Michael C. Toren (MCT) <michael@toren.net>
+sig        52AC566B 2000-02-10  Michael C. Toren (MCT) <mct@toren.net>
+sig        8EF833D5 2000-07-19  [User id not found]
+sig        E4642C01 2000-07-20  [User id not found]
+sig        9F2FAA83 2000-07-21  [User id not found]
+sig        D31DE851 2000-09-21  [User id not found]
+sig        0E9FF879 2000-09-21  Darxus <Darxus@ChaosReigns.com>
+sig        EB281E23 2000-09-21  Alexander Shinn <foof@debian.org>
+sig        5AA5BCDF 2000-09-21  Michael J. Leone <userdude@yahoo.com>
+sig        80675E65 2000-09-22  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        69350CFC 2000-10-05  Pete Foley <pete@lynchman.net>
+sig        D9367DD8 2000-10-05  George E McNeal Jr (george) <gmcneal@op.net>
+sig        E57369CC 2001-06-07  [User id not found]
+sig        8DAC6BEA 2001-06-08  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        C9269C8B 2001-07-11  [User id not found]
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  Paul L. Snyder <pls@littleraven.com>
+sig        F0A0A919 2002-02-24  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-03-07  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-17  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        55FF8CEF 2001-12-09  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-18  Danita M. Fries <nita@digitalsylph.com>
+uid                            Michael C. Toren (MCT) <mct@netaxs.com>
+sig        52AC566B 2000-07-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        E4642C01 2000-07-20  [User id not found]
+sig        9F2FAA83 2000-07-21  [User id not found]
+sig        8EF833D5 2000-07-21  [User id not found]
+sig        5AA5BCDF 2000-08-19  Michael J. Leone <userdude@yahoo.com>
+sig        D31DE851 2000-09-21  [User id not found]
+sig        0E9FF879 2000-09-21  Darxus <Darxus@ChaosReigns.com>
+sig        EB281E23 2000-09-21  Alexander Shinn <foof@debian.org>
+sig        80675E65 2000-09-22  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        69350CFC 2000-10-05  Pete Foley <pete@lynchman.net>
+sig        E57369CC 2001-06-07  [User id not found]
+sig        8DAC6BEA 2001-06-08  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        C9269C8B 2001-07-11  [User id not found]
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  Paul L. Snyder <pls@littleraven.com>
+sig        F0A0A919 2002-02-24  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-03-07  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-17  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        55FF8CEF 2001-12-09  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-18  Danita M. Fries <nita@digitalsylph.com>
+uid                            Michael C. Toren (MCT) <mct@netisland.net>
+sig        52AC566B 2000-07-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        E4642C01 2000-07-20  [User id not found]
+sig        9F2FAA83 2000-07-21  [User id not found]
+sig        8EF833D5 2000-07-21  [User id not found]
+sig        D31DE851 2000-09-21  [User id not found]
+sig        0E9FF879 2000-09-21  Darxus <Darxus@ChaosReigns.com>
+sig        EB281E23 2000-09-21  Alexander Shinn <foof@debian.org>
+sig        5AA5BCDF 2000-09-21  Michael J. Leone <userdude@yahoo.com>
+sig        80675E65 2000-09-22  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        69350CFC 2000-10-05  Pete Foley <pete@lynchman.net>
+sig        E57369CC 2001-06-07  [User id not found]
+sig        8DAC6BEA 2001-06-08  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        C9269C8B 2001-07-11  [User id not found]
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  Paul L. Snyder <pls@littleraven.com>
+sig        F0A0A919 2002-02-24  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-03-07  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-17  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        55FF8CEF 2001-12-09  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-18  Danita M. Fries <nita@digitalsylph.com>
+sub  2048g/5818771B 2000-02-10
+sig        52AC566B 2000-02-10  Michael C. Toren (MCT) <mct@toren.net>
+
+pub  1024D/55FF8CEF 2001-12-07 Kristin Hill <pinkee@cavegirl.org>
+sig        55FF8CEF 2001-12-07  Kristin Hill <pinkee@cavegirl.org>
+sig        0E9FF879 2002-02-23  Darxus <Darxus@ChaosReigns.com>
+sig        5AA5BCDF 2002-01-04  Michael J. Leone <userdude@yahoo.com>
+sig        116F0CBD 2002-03-20  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        FE4BC82F 2002-04-19  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        D72CB41E 2002-04-25  Christophe Barbe <christophe@debian.org>
+sig        58E3630D 2001-12-08  [User id not found]
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        80675E65 2002-07-07  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sub  1024g/CD3FB7B1 2001-12-07
+sig        55FF8CEF 2001-12-07  Kristin Hill <pinkee@cavegirl.org>
+
+pub  1024D/56C84DC3 2002-04-16 Elizabeth Krumbach <lyz@princessleia.com>
+sig        56C84DC3 2002-04-16  Elizabeth Krumbach <lyz@princessleia.com>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        CBAC94EA 2002-04-16  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-20  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  2048g/117DBDC6 2002-04-16 [expires: 2003-04-16]
+sig        56C84DC3 2002-04-16  Elizabeth Krumbach <lyz@princessleia.com>
+
+pub  1024D/5AA5BCDF 2000-07-18 Michael J. Leone <userdude@yahoo.com>
+sig        5AA5BCDF 2000-07-18  Michael J. Leone <userdude@yahoo.com>
+sig        E4642C01 2000-07-20  [User id not found]
+sig        52AC566B 2000-07-20  Michael C. Toren (MCT) <mct@toren.net>
+sig        D31DE851 2000-09-21  [User id not found]
+sig        0E9FF879 2000-09-21  Darxus <Darxus@ChaosReigns.com>
+sig        EB281E23 2000-09-21  Alexander Shinn <foof@debian.org>
+sig        80675E65 2000-09-22  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        69350CFC 2000-10-05  Pete Foley <pete@lynchman.net>
+sig        D9367DD8 2000-10-05  George E McNeal Jr (george) <gmcneal@op.net>
+sig        8060510A 2000-12-08  Chris Beggy <chrisb@kippona.com>
+sig        7994A571 2000-12-09  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        52703839 2001-01-04  Mike Phillips <phillim2@home.com>
+sig        E57369CC 2001-06-07  [User id not found]
+sig        8DAC6BEA 2001-06-08  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        54DA9506 2001-01-08  Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+sig        DB7F41B4 2001-07-12  Brian Epstein <ep@epiary.org>
+sig        F1AE6BBC 2001-07-12  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        33E3FE56 2001-08-02  David M. Turner <novalis@novalis.org>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        0D19602D 2001-09-16  [User id not found]
+sig        55FF8CEF 2002-02-23  Kristin Hill <pinkee@cavegirl.org>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        2BA48C46 2002-06-06  John J Lavin Jr <jlavin@ccil.org>
+sig        FE4BC82F 2002-06-06  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+uid                            Michael J. Leone <turgon@mike-leone.com>
+sig        5AA5BCDF 2000-11-14  Michael J. Leone <userdude@yahoo.com>
+sig        8060510A 2000-12-08  Chris Beggy <chrisb@kippona.com>
+sig        7994A571 2000-12-09  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        67A7B584 2001-01-04  Walter C. Mankowski <waltman@pobox.com>
+sig        52703839 2001-01-04  Mike Phillips <phillim2@home.com>
+sig        E57369CC 2001-06-07  [User id not found]
+sig        8DAC6BEA 2001-06-08  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        54DA9506 2001-01-08  Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+sig        DB7F41B4 2001-07-12  Brian Epstein <ep@epiary.org>
+sig        F1AE6BBC 2001-07-12  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        33E3FE56 2001-08-02  David M. Turner <novalis@novalis.org>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        0D19602D 2001-09-16  [User id not found]
+sig        55FF8CEF 2002-02-23  Kristin Hill <pinkee@cavegirl.org>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        2BA48C46 2002-06-06  John J Lavin Jr <jlavin@ccil.org>
+sig        FE4BC82F 2002-06-06  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+uid                            Michael J. Leone (Social Director, RA) <mike@rogue-admins.com>
+sig        5AA5BCDF 2002-01-02  Michael J. Leone <userdude@yahoo.com>
+sig        0CF9091A 2002-01-10  gabriel rosenkoetter <gr@eclipsed.net>
+sig        67A7B584 2002-01-10  Walter C. Mankowski <waltman@pobox.com>
+sig        19BC76F8 2002-01-14  Ian Reinhart Geiser <ian@geiseri.com>
+sig        55FF8CEF 2002-02-23  Kristin Hill <pinkee@cavegirl.org>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        2BA48C46 2002-06-06  John J Lavin Jr <jlavin@ccil.org>
+sig        FE4BC82F 2002-06-06  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        8060510A 2002-06-06  Chris Beggy <chrisb@kippona.com>
+sub  2048g/BA1876EE 2000-07-18
+sig        5AA5BCDF 2000-07-18  Michael J. Leone <userdude@yahoo.com>
+
+pub  1024D/64715094 2002-04-22 Michael Hunter <mike.h@acm.org>
+sig        64715094 2002-04-25  Michael Hunter <mike.h@acm.org>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        55FF8CEF 2002-05-02  Kristin Hill <pinkee@cavegirl.org>
+sig        0E9FF879 2002-05-02  Darxus <Darxus@ChaosReigns.com>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        5AA5BCDF 2002-05-02  Michael J. Leone <userdude@yahoo.com>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-05-03  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        0CF9091A 2002-06-06  gabriel rosenkoetter <gr@eclipsed.net>
+sig        19BC76F8 2002-06-06  Ian Reinhart Geiser <ian@geiseri.com>
+sig        2BA48C46 2002-06-06  John J Lavin Jr <jlavin@ccil.org>
+sig        FE4BC82F 2002-06-06  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+uid                            mike.h <mike.h@stemik.com>
+sig        64715094 2002-04-22  Michael Hunter <mike.h@acm.org>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        55FF8CEF 2002-05-02  Kristin Hill <pinkee@cavegirl.org>
+sig        0E9FF879 2002-05-02  Darxus <Darxus@ChaosReigns.com>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        5AA5BCDF 2002-05-02  Michael J. Leone <userdude@yahoo.com>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-05-03  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        0CF9091A 2002-06-06  gabriel rosenkoetter <gr@eclipsed.net>
+sig        19BC76F8 2002-06-06  Ian Reinhart Geiser <ian@geiseri.com>
+sig        2BA48C46 2002-06-06  John J Lavin Jr <jlavin@ccil.org>
+sig        FE4BC82F 2002-06-06  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        80675E65 2002-07-07  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sub  2048g/88FB0BDE 2002-04-22
+sig        64715094 2002-04-22  Michael Hunter <mike.h@acm.org>
+
+pub  1024D/67A7B584 1999-10-20 Walter C. Mankowski <waltman@pobox.com>
+sig        67A7B584 2001-07-05  Walter C. Mankowski <waltman@pobox.com>
+sig        F1AE6BBC 2001-07-12  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        33E3FE56 2001-07-18  David M. Turner <novalis@novalis.org>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        1E4CD1E8 2001-11-21  [User id not found]
+sig        52AC566B 2002-02-22  Michael C. Toren (MCT) <mct@toren.net>
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  Paul L. Snyder <pls@littleraven.com>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-19  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        C0630296 2002-06-08  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-06-08  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        8060510A 2002-06-06  Chris Beggy <chrisb@kippona.com>
+uid                            Walter C. Mankowski <waltman@netaxs.com>
+sig        67A7B584 1999-10-20  Walter C. Mankowski <waltman@pobox.com>
+sig        0E9FF879 2000-10-05  Darxus <Darxus@ChaosReigns.com>
+sig        52AC566B 2000-10-05  Michael C. Toren (MCT) <mct@toren.net>
+sig        69350CFC 2000-10-05  Pete Foley <pete@lynchman.net>
+sig        80675E65 2000-10-05  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        D9367DD8 2000-10-05  George E McNeal Jr (george) <gmcneal@op.net>
+sig        5AA5BCDF 2000-10-05  Michael J. Leone <userdude@yahoo.com>
+sig        5AA5BCDF 2000-10-07  Michael J. Leone <userdude@yahoo.com>
+sig        8060510A 2001-01-04  Chris Beggy <chrisb@kippona.com>
+sig        52703839 2001-01-04  Mike Phillips <phillim2@home.com>
+sig        7994A571 2001-01-05  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        E57369CC 2001-06-07  [User id not found]
+sig        8DAC6BEA 2001-06-08  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        54DA9506 2001-01-08  Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+sig        DB7F41B4 2001-07-12  Brian Epstein <ep@epiary.org>
+sig        F1AE6BBC 2001-07-12  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        33E3FE56 2001-07-18  David M. Turner <novalis@novalis.org>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        1E4CD1E8 2001-11-20  [User id not found]
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  Paul L. Snyder <pls@littleraven.com>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-19  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        C0630296 2002-06-08  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-06-08  Jesse P. Schultz <jpschultzyh@yahoo.com>
+uid                            [revoked] Walter C. Mankowski <walt@myxa.com>
+sig        67A7B584 2001-07-05  Walter C. Mankowski <waltman@pobox.com>
+sig        F1AE6BBC 2001-07-12  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        33E3FE56 2001-07-18  David M. Turner <novalis@novalis.org>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        1E4CD1E8 2001-11-21  [User id not found]
+sig        52AC566B 2002-02-22  Michael C. Toren (MCT) <mct@toren.net>
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  Paul L. Snyder <pls@littleraven.com>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+rev        67A7B584 2002-04-17  Walter C. Mankowski <waltman@pobox.com>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-19  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        C0630296 2002-06-08  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-06-08  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        8060510A 2002-06-06  Chris Beggy <chrisb@kippona.com>
+sub  1024g/DAF38732 1999-10-20
+sig        67A7B584 1999-10-20  Walter C. Mankowski <waltman@pobox.com>
+
+pub  1024D/742B67FE 2001-04-17 Eric Allan Lucas <eric@lucii.org>
+sig        742B67FE 2001-04-17  Eric Allan Lucas <eric@lucii.org>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  2048g/0579C20D 2001-04-17
+sig        742B67FE 2001-04-17  Eric Allan Lucas <eric@lucii.org>
+
+pub  1024D/80675E65 1997-07-30 Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        80675E65 2002-01-02  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        5AA5BCDF 2002-01-02  Michael J. Leone <userdude@yahoo.com>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        55FF8CEF 2002-05-02  Kristin Hill <pinkee@cavegirl.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        2BA48C46 2002-07-04  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-07-05  Walter C. Mankowski <waltman@pobox.com>
+sig        8060510A 2002-07-05  Chris Beggy <chrisb@kippona.com>
+uid                            Leonard D. Rosenthol <leonardr@lazerware.com>
+sig        80675E65 1997-07-30  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        38D916D5 1997-07-30  [User id not found]
+sig        CD36816B 1998-06-22  [User id not found]
+sig        9E22EA50 1997-07-31  [User id not found]
+sig        26FAD302 1998-06-20  [User id not found]
+sig        A489C9FE 1998-09-10  [User id not found]
+sig        9AA17B80 1998-09-13  [User id not found]
+sig        DCC31628 1998-09-13  [User id not found]
+sig        8BF1C1AA 1999-05-23  [User id not found]
+sig        0ADCF437 1999-05-23  [User id not found]
+sig        A7834644 1999-06-26  [User id not found]
+sig        F6F83318 1999-06-26  [User id not found]
+sig        25D6F1AD 1999-06-26  [User id not found]
+sig        28E3EB7C 1999-06-26  [User id not found]
+sig        DC60654E 1999-06-26  [User id not found]
+sig        22412C62 1999-06-26  [User id not found]
+sig        E57C68B1 1999-06-26  [User id not found]
+sig        EE7826B9 1999-06-25  [User id not found]
+sig        A502A8ED 1999-06-29  [User id not found]
+sig        5AA5BCDF 2000-07-18  Michael J. Leone <userdude@yahoo.com>
+sig        52AC566B 2000-07-20  Michael C. Toren (MCT) <mct@toren.net>
+sig        5AA5BCDF 2000-07-21  Michael J. Leone <userdude@yahoo.com>
+sig        E4642C01 2000-07-20  [User id not found]
+sig        0E9FF879 2000-10-05  Darxus <Darxus@ChaosReigns.com>
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        69350CFC 2000-10-05  Pete Foley <pete@lynchman.net>
+sig        D9367DD8 2000-10-05  George E McNeal Jr (george) <gmcneal@op.net>
+sig        8060510A 2000-12-08  Chris Beggy <chrisb@kippona.com>
+sig        7994A571 2000-12-09  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        52703839 2001-01-04  Mike Phillips <phillim2@home.com>
+sig        54DA9506 2001-01-08  Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+sig        DB7F41B4 2001-07-12  Brian Epstein <ep@epiary.org>
+sig        F1AE6BBC 2001-07-12  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        33E3FE56 2001-08-02  David M. Turner <novalis@novalis.org>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        55FF8CEF 2002-05-02  Kristin Hill <pinkee@cavegirl.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        2BA48C46 2002-07-04  John J Lavin Jr <jlavin@ccil.org>
+uid                            Leonard D. Rosenthol <leonardr@life-online.org>
+sig        80675E65 1998-09-08  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        A489C9FE 1998-09-10  [User id not found]
+sig        9AA17B80 1998-09-13  [User id not found]
+sig        DCC31628 1998-09-13  [User id not found]
+sig        8BF1C1AA 1999-05-23  [User id not found]
+sig        0ADCF437 1999-05-23  [User id not found]
+sig        DC60654E 1999-06-26  [User id not found]
+rev        DC60654E 1999-06-26  [User id not found]
+sig        52AC566B 2000-07-20  Michael C. Toren (MCT) <mct@toren.net>
+sig        5AA5BCDF 2000-07-21  Michael J. Leone <userdude@yahoo.com>
+sig        E4642C01 2000-07-20  [User id not found]
+sig        0E9FF879 2000-10-05  Darxus <Darxus@ChaosReigns.com>
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        69350CFC 2000-10-05  Pete Foley <pete@lynchman.net>
+sig        8060510A 2000-12-08  Chris Beggy <chrisb@kippona.com>
+sig        7994A571 2000-12-09  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        52703839 2001-01-04  Mike Phillips <phillim2@home.com>
+sig        54DA9506 2001-01-08  Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+sig        DB7F41B4 2001-07-12  Brian Epstein <ep@epiary.org>
+sig        F1AE6BBC 2001-07-12  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        33E3FE56 2001-08-02  David M. Turner <novalis@novalis.org>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        55FF8CEF 2002-05-02  Kristin Hill <pinkee@cavegirl.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        2BA48C46 2002-07-04  John J Lavin Jr <jlavin@ccil.org>
+uid                            Leonard D. Rosenthol <leonardr@digapp.com>
+sig        80675E65 1999-02-26  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        DC60654E 1999-06-26  [User id not found]
+sig        52AC566B 2000-07-20  Michael C. Toren (MCT) <mct@toren.net>
+sig        5AA5BCDF 2000-09-21  Michael J. Leone <userdude@yahoo.com>
+sig        5AA5BCDF 2000-07-21  Michael J. Leone <userdude@yahoo.com>
+sig        E4642C01 2000-07-20  [User id not found]
+sig        0E9FF879 2000-10-05  Darxus <Darxus@ChaosReigns.com>
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        69350CFC 2000-10-05  Pete Foley <pete@lynchman.net>
+rev        5AA5BCDF 2000-10-10  Michael J. Leone <userdude@yahoo.com>
+sig        8060510A 2000-12-08  Chris Beggy <chrisb@kippona.com>
+sig        7994A571 2000-12-09  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        52703839 2001-01-04  Mike Phillips <phillim2@home.com>
+sig        54DA9506 2001-01-08  Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+sig        DB7F41B4 2001-07-12  Brian Epstein <ep@epiary.org>
+sig        F1AE6BBC 2001-07-12  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        33E3FE56 2001-08-02  David M. Turner <novalis@novalis.org>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        55FF8CEF 2002-05-02  Kristin Hill <pinkee@cavegirl.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        2BA48C46 2002-07-04  John J Lavin Jr <jlavin@ccil.org>
+uid                            Leonard D. Rosenthol <leonardr@westcodesoft.com>
+sig        80675E65 1999-03-01  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        DC60654E 1999-06-26  [User id not found]
+sig        52AC566B 2000-07-20  Michael C. Toren (MCT) <mct@toren.net>
+sig        5AA5BCDF 2000-07-21  Michael J. Leone <userdude@yahoo.com>
+sig        E4642C01 2000-07-20  [User id not found]
+sig        0E9FF879 2000-10-05  Darxus <Darxus@ChaosReigns.com>
+sig        67A7B584 2000-10-05  Walter C. Mankowski <waltman@pobox.com>
+sig        69350CFC 2000-10-05  Pete Foley <pete@lynchman.net>
+sig        8060510A 2000-12-08  Chris Beggy <chrisb@kippona.com>
+sig        7994A571 2000-12-09  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        52703839 2001-01-04  Mike Phillips <phillim2@home.com>
+sig        54DA9506 2001-01-08  Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+sig        DB7F41B4 2001-07-12  Brian Epstein <ep@epiary.org>
+sig        F1AE6BBC 2001-07-12  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        33E3FE56 2001-08-02  David M. Turner <novalis@novalis.org>
+sig        19BC76F8 2001-08-02  Ian Reinhart Geiser <ian@geiseri.com>
+sig        C1A6C2DC 2001-08-02  Zachary C Whitley <zachary@whitley.org>
+sig        7262954A 2001-08-02  John Beck <jbeck@jbwd.net>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        55FF8CEF 2002-05-02  Kristin Hill <pinkee@cavegirl.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        2BA48C46 2002-07-04  John J Lavin Jr <jlavin@ccil.org>
+uid                            Leonard D. Rosenthol <leonardr@appligent.com>
+sig        80675E65 2001-04-18  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        67A7B584 2001-08-03  Walter C. Mankowski <waltman@pobox.com>
+sig        0CF9091A 2001-08-08  gabriel rosenkoetter <gr@eclipsed.net>
+sig        343BB2A7 2001-08-14  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        55FF8CEF 2002-05-02  Kristin Hill <pinkee@cavegirl.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        2BA48C46 2002-07-04  John J Lavin Jr <jlavin@ccil.org>
+sig        8060510A 2002-07-05  Chris Beggy <chrisb@kippona.com>
+uid                            Leonard D. Rosenthol <leonardr@pdfsages.com>
+sig        80675E65 2001-12-27  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        5AA5BCDF 2002-01-02  Michael J. Leone <userdude@yahoo.com>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        55FF8CEF 2002-05-02  Kristin Hill <pinkee@cavegirl.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        2BA48C46 2002-07-04  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-07-05  Walter C. Mankowski <waltman@pobox.com>
+sig        8060510A 2002-07-05  Chris Beggy <chrisb@kippona.com>
+sub  2048g/FD56CD08 1997-07-30
+sig        80675E65 1997-07-30  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+
+pub  1024D/8477626F 2002-04-18 Mike Joseph <mjoseph@netaxs.com>
+sig        8477626F 2002-04-18  Mike Joseph <mjoseph@netaxs.com>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+uid                            Mike Joseph <mj@doze.net>
+sig        8477626F 2002-04-18  Mike Joseph <mjoseph@netaxs.com>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  2048g/DEDD5F0B 2002-04-18
+sig        8477626F 2002-04-18  Mike Joseph <mjoseph@netaxs.com>
+
+pub  1024D/8DAC6BEA 2001-02-04 Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        8DAC6BEA 2001-02-04  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        0E9FF879 2001-06-07  Darxus <Darxus@ChaosReigns.com>
+sig        52AC566B 2001-06-07  Michael C. Toren (MCT) <mct@toren.net>
+sig        E57369CC 2001-06-07  [User id not found]
+sig        67A7B584 2001-06-08  Walter C. Mankowski <waltman@pobox.com>
+sig        5AA5BCDF 2001-06-13  Michael J. Leone <userdude@yahoo.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-11  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        80675E65 2002-07-07  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sub  2048g/1628A2E1 2001-02-04
+sig        8DAC6BEA 2001-02-04  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+
+pub  1024D/B0701F68 2002-02-10 Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        B0701F68 2002-02-10  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        C0630296 2002-02-10  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        55FF8CEF 2002-05-02  Kristin Hill <pinkee@cavegirl.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        5AA5BCDF 2002-05-02  Michael J. Leone <userdude@yahoo.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-05-03  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        0CF9091A 2002-06-06  gabriel rosenkoetter <gr@eclipsed.net>
+sig        2BA48C46 2002-06-06  John J Lavin Jr <jlavin@ccil.org>
+sig        80675E65 2002-07-07  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sub  2048g/AFAAD0D4 2002-02-10 [expires: 2003-02-10]
+sig        B0701F68 2002-02-10  Jesse P. Schultz <jpschultzyh@yahoo.com>
+
+pub  1024D/C0630296 2002-02-10 Jesse P. Schu;tz <schultj@netaxs.com>
+sig        C0630296 2002-02-10  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-02-10  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        55FF8CEF 2002-05-02  Kristin Hill <pinkee@cavegirl.org>
+sig        0E9FF879 2002-05-02  Darxus <Darxus@ChaosReigns.com>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        5AA5BCDF 2002-05-02  Michael J. Leone <userdude@yahoo.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-05-03  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        0CF9091A 2002-06-06  gabriel rosenkoetter <gr@eclipsed.net>
+sig        19BC76F8 2002-06-06  Ian Reinhart Geiser <ian@geiseri.com>
+sig        FE4BC82F 2002-06-06  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        80675E65 2002-07-07  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sub  2048g/4750C50E 2002-02-10 [expires: 2003-02-10]
+sig        C0630296 2002-02-10  Jesse P. Schu;tz <schultj@netaxs.com>
+
+pub  1024D/CBAC94EA 2002-04-16 Michael Bevilacqua <michael@clockbot.net>
+sig        CBAC94EA 2002-04-16  Michael Bevilacqua <michael@clockbot.net>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-16  Elizabeth Krumbach <lyz@princessleia.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+uid                            Michael Bevilacqua (Time) <time@clockbot.net>
+sig        CBAC94EA 2002-04-16  Michael Bevilacqua <michael@clockbot.net>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-16  Elizabeth Krumbach <lyz@princessleia.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        52AC566B 2002-04-19  Michael C. Toren (MCT) <mct@toren.net>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sub  2048g/390749B3 2002-04-16 [expires: 2003-04-16]
+sig        CBAC94EA 2002-04-16  Michael Bevilacqua <michael@clockbot.net>
+
+pub  1024D/D72CB41E 2001-07-08 Christophe Barbe <christophe@debian.org>
+sig        D72CB41E 2002-04-24  Christophe Barbe <christophe@debian.org>
+sig        55FF8CEF 2002-04-26  Kristin Hill <pinkee@cavegirl.org>
+sig        116F0CBD 2002-04-26  Bill Jonas <bill@billjonas.com>
+sig        0E9FF879 2002-05-02  Darxus <Darxus@ChaosReigns.com>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        5AA5BCDF 2002-05-02  Michael J. Leone <userdude@yahoo.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-05-03  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        80675E65 2002-07-04  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+uid                            Christophe Barbe <christophe.barbe@online.fr>
+sig        D72CB41E 2001-07-08  Christophe Barbe <christophe@debian.org>
+sig        0CF9091A 2002-01-22  gabriel rosenkoetter <gr@eclipsed.net>
+sig        330C4A75 2002-01-22  [User id not found]
+sig        EE6DC66A 2002-02-01  [User id not found]
+sig        788A3F4C 2002-02-05  [User id not found]
+sig        55FF8CEF 2002-04-26  Kristin Hill <pinkee@cavegirl.org>
+sig        116F0CBD 2002-04-25  Bill Jonas <bill@billjonas.com>
+sig        0E9FF879 2002-05-02  Darxus <Darxus@ChaosReigns.com>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        5AA5BCDF 2002-05-02  Michael J. Leone <userdude@yahoo.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-05-03  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        80675E65 2002-07-04  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+uid                            Christophe Barbe <christophe.barbe@ufies.org>
+sig        D72CB41E 2001-10-07  Christophe Barbe <christophe@debian.org>
+sig        0CF9091A 2002-01-22  gabriel rosenkoetter <gr@eclipsed.net>
+sig        330C4A75 2002-01-22  [User id not found]
+sig        AB963370 2002-01-31  [User id not found]
+sig        EE6DC66A 2002-02-01  [User id not found]
+sig        F0D7D44A 2002-02-04  [User id not found]
+sig        788A3F4C 2002-02-05  [User id not found]
+sig        0E9FF879 2002-04-26  Darxus <Darxus@ChaosReigns.com>
+sig        55FF8CEF 2002-04-26  Kristin Hill <pinkee@cavegirl.org>
+sig        116F0CBD 2002-04-25  Bill Jonas <bill@billjonas.com>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        5AA5BCDF 2002-05-02  Michael J. Leone <userdude@yahoo.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        F0A0A919 2002-05-02  Jason Nocks <jason@nocks.com>
+sig        343BB2A7 2002-05-03  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        80675E65 2002-07-04  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sub  1024g/C5C1ECF8 2001-07-08
+sig        D72CB41E 2001-07-08  Christophe Barbe <christophe@debian.org>
+
+pub  1024D/DB7F41B4 2001-03-02 Brian Epstein <ep@epiary.org>
+sig        DB7F41B4 2001-12-24  Brian Epstein <ep@epiary.org>
+sig        0CF9091A 2002-01-10  gabriel rosenkoetter <gr@eclipsed.net>
+sig        67A7B584 2002-01-10  Walter C. Mankowski <waltman@pobox.com>
+sig        19BC76F8 2002-01-14  Ian Reinhart Geiser <ian@geiseri.com>
+uid                            Brian Epstein (ep) <ep@apiary.dhs.org>
+sig        DB7F41B4 2001-03-02  Brian Epstein <ep@epiary.org>
+sig        0E9FF879 2001-07-12  Darxus <Darxus@ChaosReigns.com>
+sig        F1AE6BBC 2001-07-12  M. Jackson Wilkinson <mjwilkin@bowdoin.edu>
+sig        67A7B584 2001-07-13  Walter C. Mankowski <waltman@pobox.com>
+sig        343BB2A7 2001-07-13  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        5AA5BCDF 2001-07-14  Michael J. Leone <userdude@yahoo.com>
+sig        2449E375 2001-05-08  [User id not found]
+sig        80675E65 2001-08-01  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        0CF9091A 2002-01-10  gabriel rosenkoetter <gr@eclipsed.net>
+sig        19BC76F8 2002-01-14  Ian Reinhart Geiser <ian@geiseri.com>
+sub  1024g/EA059DC4 2001-03-02
+sig        DB7F41B4 2001-03-02  Brian Epstein <ep@epiary.org>
+
+pub  1024D/F0A0A919 2002-02-20 Jason Nocks <jason@nocks.com>
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+sig        52AC566B 2002-02-22  Michael C. Toren (MCT) <mct@toren.net>
+sig        0E9FF879 2002-02-22  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-02-22  Bill Jonas <bill@billjonas.com>
+sig        2AB165F9 2002-02-23  Paul L. Snyder <pls@littleraven.com>
+sig        67A7B584 2002-02-23  Walter C. Mankowski <waltman@pobox.com>
+sig        343BB2A7 2002-03-07  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        FE4BC82F 2002-04-20  Danita M. Fries <nita@digitalsylph.com>
+sig        D72CB41E 2002-05-02  Christophe Barbe <christophe@debian.org>
+sig        225B5E12 2002-05-02  Brian P. Mohr <brian@bpmohr.com>
+sig        5AA5BCDF 2002-05-02  Michael J. Leone <userdude@yahoo.com>
+sig        64715094 2002-05-02  Michael Hunter <mike.h@acm.org>
+sig        C0630296 2002-05-04  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-05-04  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-05-04  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        8060510A 2002-06-06  Chris Beggy <chrisb@kippona.com>
+sig        80675E65 2002-07-07  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sub  1024g/ABACEDA6 2002-02-20
+sig        F0A0A919 2002-02-20  Jason Nocks <jason@nocks.com>
+
+pub  1024D/FE4BC82F 2002-04-18 Danita M. Fries <nita@digitalsylph.com>
+sig        FE4BC82F 2002-04-18  Danita M. Fries <nita@digitalsylph.com>
+sig        52AC566B 2002-04-18  Michael C. Toren (MCT) <mct@toren.net>
+sig        0E9FF879 2002-04-19  Darxus <Darxus@ChaosReigns.com>
+sig        116F0CBD 2002-04-19  Bill Jonas <bill@billjonas.com>
+sig        8477626F 2002-04-19  Mike Joseph <mjoseph@netaxs.com>
+sig        0CF9091A 2002-04-19  gabriel rosenkoetter <gr@eclipsed.net>
+sig        56C84DC3 2002-04-19  Elizabeth Krumbach <lyz@princessleia.com>
+sig        CBAC94EA 2002-04-19  Michael Bevilacqua <michael@clockbot.net>
+sig        8DAC6BEA 2002-04-19  Kevin Mudrick (darkspur) <kevin@furhurts.com>
+sig        742B67FE 2002-04-19  Eric Allan Lucas <eric@lucii.org>
+sig        F0A0A919 2002-04-19  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-04-19  John J Lavin Jr <jlavin@ccil.org>
+sig        67A7B584 2002-04-19  Walter C. Mankowski <waltman@pobox.com>
+sig        55FF8CEF 2002-04-19  Kristin Hill <pinkee@cavegirl.org>
+sig        343BB2A7 2002-04-20  Adam Schaible (aka kb3edk) <taxindeath@yahoo.com>
+sig        19BC76F8 2002-06-06  Ian Reinhart Geiser <ian@geiseri.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        5AA5BCDF 2002-06-08  Michael J. Leone <userdude@yahoo.com>
+sig        C0630296 2002-06-08  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-06-08  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sub  2048g/5DBD06D0 2002-04-18
+sig        FE4BC82F 2002-04-18  Danita M. Fries <nita@digitalsylph.com>
+
+pub  1024D/8060510A 2000-12-01 Chris Beggy <chrisb@kippona.com>
+sig        8060510A 2000-12-01  Chris Beggy <chrisb@kippona.com>
+sig        0E9FF879 2000-12-07  Darxus <Darxus@ChaosReigns.com>
+sig        7994A571 2000-12-09  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        5AA5BCDF 2000-12-09  Michael J. Leone <userdude@yahoo.com>
+sig        80675E65 2000-12-11  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sig        67A7B584 2001-01-04  Walter C. Mankowski <waltman@pobox.com>
+sig        52703839 2001-01-04  Mike Phillips <phillim2@home.com>
+sig        54DA9506 2001-01-16  Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+sig        0CF9091A 2002-06-06  gabriel rosenkoetter <gr@eclipsed.net>
+sig        19BC76F8 2002-06-06  Ian Reinhart Geiser <ian@geiseri.com>
+sig        F0A0A919 2002-06-06  Jason Nocks <jason@nocks.com>
+sig        FE4BC82F 2002-06-06  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        B0701F68 2002-06-08  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        C0630296 2002-06-08  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        8060510A 2002-07-01  Chris Beggy <chrisb@kippona.com>
+uid                            [revoked] Chris Beggy <chrisb@eden.com>
+sig        8060510A 2000-12-01  Chris Beggy <chrisb@kippona.com>
+sig        7994A571 2000-12-09  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        5AA5BCDF 2000-12-09  Michael J. Leone <userdude@yahoo.com>
+sig        5AA5BCDF 2000-12-10  Michael J. Leone <userdude@yahoo.com>
+sig        67A7B584 2001-01-04  Walter C. Mankowski <waltman@pobox.com>
+sig        52703839 2001-01-04  Mike Phillips <phillim2@home.com>
+sig        54DA9506 2001-01-16  Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+sig        0CF9091A 2002-06-06  gabriel rosenkoetter <gr@eclipsed.net>
+sig        19BC76F8 2002-06-06  Ian Reinhart Geiser <ian@geiseri.com>
+sig        F0A0A919 2002-06-06  Jason Nocks <jason@nocks.com>
+sig        FE4BC82F 2002-06-06  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        B0701F68 2002-06-08  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        C0630296 2002-06-08  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+rev        8060510A 2002-07-01  Chris Beggy <chrisb@kippona.com>
+sig        8060510A 2002-07-01  Chris Beggy <chrisb@kippona.com>
+uid                            Chris Beggy <chrisb@beggy.org>
+sig        8060510A 2000-12-01  Chris Beggy <chrisb@kippona.com>
+sig        7994A571 2000-12-09  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        5AA5BCDF 2000-12-09  Michael J. Leone <userdude@yahoo.com>
+sig        5AA5BCDF 2000-12-10  Michael J. Leone <userdude@yahoo.com>
+sig        67A7B584 2001-01-04  Walter C. Mankowski <waltman@pobox.com>
+sig        52703839 2001-01-04  Mike Phillips <phillim2@home.com>
+sig        54DA9506 2001-01-16  Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+sig        0CF9091A 2002-06-06  gabriel rosenkoetter <gr@eclipsed.net>
+sig        19BC76F8 2002-06-06  Ian Reinhart Geiser <ian@geiseri.com>
+sig        F0A0A919 2002-06-06  Jason Nocks <jason@nocks.com>
+sig        FE4BC82F 2002-06-06  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        B0701F68 2002-06-08  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        C0630296 2002-06-08  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        8060510A 2002-07-01  Chris Beggy <chrisb@kippona.com>
+uid                            Chris Beggy <chrisb@kippona.net>
+sig        8060510A 2000-12-01  Chris Beggy <chrisb@kippona.com>
+sig        7994A571 2000-12-09  Tony Dominello (Tony) <tony_dominello@yahoo.com>
+sig        5AA5BCDF 2000-12-09  Michael J. Leone <userdude@yahoo.com>
+sig        5AA5BCDF 2000-12-10  Michael J. Leone <userdude@yahoo.com>
+sig        67A7B584 2001-01-04  Walter C. Mankowski <waltman@pobox.com>
+sig        52703839 2001-01-04  Mike Phillips <phillim2@home.com>
+sig        54DA9506 2001-01-16  Joseph B. Welsh (Work E-Mail) <JWelsh@ConsecoDirect.com>
+sig        0CF9091A 2002-06-06  gabriel rosenkoetter <gr@eclipsed.net>
+sig        19BC76F8 2002-06-06  Ian Reinhart Geiser <ian@geiseri.com>
+sig        F0A0A919 2002-06-06  Jason Nocks <jason@nocks.com>
+sig        FE4BC82F 2002-06-06  Danita M. Fries <nita@digitalsylph.com>
+sig        1ADE9739 2002-06-07  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        B0701F68 2002-06-08  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        C0630296 2002-06-08  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sig        8060510A 2002-07-01  Chris Beggy <chrisb@kippona.com>
+sub  1024g/C96975FF 2000-12-01 [expires: 2006-06-30]
+sig        8060510A 2000-12-01  Chris Beggy <chrisb@kippona.com>
+sig        8060510A 2002-07-01  Chris Beggy <chrisb@kippona.com>
+
+pub  1024D/1ADE9739 2002-05-31 Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        1ADE9739 2002-05-31  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+sig        0CF9091A 2002-06-06  gabriel rosenkoetter <gr@eclipsed.net>
+sig        19BC76F8 2002-06-06  Ian Reinhart Geiser <ian@geiseri.com>
+sig        F0A0A919 2002-06-06  Jason Nocks <jason@nocks.com>
+sig        2BA48C46 2002-06-06  John J Lavin Jr <jlavin@ccil.org>
+sig        FE4BC82F 2002-06-06  Danita M. Fries <nita@digitalsylph.com>
+sig        5AA5BCDF 2002-06-08  Michael J. Leone <userdude@yahoo.com>
+sig        C0630296 2002-06-08  Jesse P. Schu;tz <schultj@netaxs.com>
+sig        B0701F68 2002-06-08  Jesse P. Schultz <jpschultzyh@yahoo.com>
+sig        2682BC80 2002-06-08  Jesse Paul Schultz (JPSchultz Consulting) <jpschultz@jpschultz.com>
+sub  1024g/6A27DFEA 2002-05-31 [expires: 2004-05-30]
+sig        1ADE9739 2002-05-31  Kam Salisbury (Network Alchemist) <kam@salsolutions.net>
+
+pub  1024D/D7595A9B 2002-06-12 Dave Kufta ([ N3MEQ ]) <n3meq@n3meq.dynip.com>
+sig        D7595A9B 2002-06-12  Dave Kufta ([ N3MEQ ]) <n3meq@n3meq.dynip.com>
+sub  1024g/57034878 2002-06-12
+sig        D7595A9B 2002-06-12  Dave Kufta ([ N3MEQ ]) <n3meq@n3meq.dynip.com>
+
+pub  1024D/54065FA3 2002-06-17 Charles F. Peters II (Chuck Peters) <cp@linuxtech.com>
+sig        54065FA3 2002-06-17  Charles F. Peters II (Chuck Peters) <cp@linuxtech.com>
+sig        2BA48C46 2002-06-18  John J Lavin Jr <jlavin@ccil.org>
+sig        0E9FF879 2002-07-04  Darxus <Darxus@ChaosReigns.com>
+sig        0CF9091A 2002-07-04  gabriel rosenkoetter <gr@eclipsed.net>
+sig        67A7B584 2002-07-05  Walter C. Mankowski <waltman@pobox.com>
+sig        F0A0A919 2002-07-05  Jason Nocks <jason@nocks.com>
+sig        8060510A 2002-07-05  Chris Beggy <chrisb@kippona.com>
+sig        5AA5BCDF 2002-07-05  Michael J. Leone <userdude@yahoo.com>
+sig        80675E65 2002-07-04  Leonard D. Rosenthol <leonardr@rogue-admins.com>
+sub  2048g/EBFA5624 2002-06-17
+sig        54065FA3 2002-06-17  Charles F. Peters II (Chuck Peters) <cp@linuxtech.com>
+

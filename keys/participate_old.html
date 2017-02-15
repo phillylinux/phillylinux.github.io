@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head><title>Philadelphia Linux Web of Trust / GPG Keyring</title></head>
+<body>
+
+<p><b><font size="+1" color="#ff0000">This page is for historical reference only, the information is out of date and not to be used for our current keysignings. Please see <a href="/keys/">PLUG Keysigning</a> for current instructions.</font></b></p>
+
+<hr><h2>To Participate</h2>
+
+<ul>
+
+<li><a href="http://www.gnupg.org/download.html">Download</a> and install gpg.
+
+<li><a href="http://www.cryptnet.net/fdp/crypto/gpg-party.html#ss3.5">Generate
+your key pair</a> (gpg --gen-key) (I suggest leaving the "comment" field blank).
+
+<li>Email your public key to <a
+href="mailto:mct/at/phillylinux/dot/org">Michael Toren</a> (preferably at least a week before a meeting).
+
+<li>Print out, verify and initial a copy of your fingerprint (gpg
+--fingerprint). You will bring copies of your fingerprint with you to the
+keysigning, and hand them out to everyone you wish to keysign with.
+
+<li>(<b>optionally</b>) <a href="secrets.html">email a secret/password to each participant.</a>
+
+<li>Bring photo ID (drivers licence / passport) and verified
+fingerprint to a <a href="http://www.PhillyLinux.org">PLUG</a> or <a
+href="http://www.cjfearnley.com/pads/">PADS</a> meeting.
+
+</ul>
+
+<p>To get your public key into a file to email me, do something like
+"<kbd>gpg -a --export &gt; file</kbd>".  This will write all public keys
+you have to "<kbd>file</kbd>" -- you can specify your email address to
+only write your own key.
+
+<p>To get a copy of your fingerprint to print (or write) out &amp;
+verify to bring to the meeting, do "<kbd>gpg --fingerprint</kbd>".
+It should look something like this (the part you need to verify is in bold):
+
+<pre>
+pub  1024D/0E9FF879 2000-09-05 Darxus &lt;Darxus@ChaosReigns.com&gt;
+     Key fingerprint = <b>DE37 8846 3B06 B97C F661  D68F 7FB5 B0BE 0E9F F879</b>
+sub  1024g/2EEAB976 2000-09-05 </pre>
+
+<p>Be sure to print out enough slips with your own fingerprint information
+on them, to exchange with whomever you wish to keysign with.
+
+<p>It would be a good idea to make sure that you get an email
+responce from me to be sure I didn't miss your email.  Ideally,
+you should verify that your key has been added to the <a
+href="http://www.phillylinux.org/keys/phillylinux.gpg">keyring</a>
+by doing the following, using your email address instead of mine:
+<p><tt>
+wget http://www.phillylinux.org/keys/phillylinux.gpg<br>
+gpg --no-default-keyring --keyring ./temp.gpg --import phillylinux.gpg<br>
+gpg --no-default-keyring --keyring ./temp.gpg --list-keys darxus@chaosreigns.com<br>
+</tt>
+
+<p>If it lists your key, something like this, then it worked:<br><tt>
+pub  1024D/0E9FF879 2000-09-05 Darxus &lt;Darxus@ChaosReigns.com&gt;<br>
+sub  1024g/2EEAB976 2000-09-05<br></tt>
+
+<p>If you get something like "<tt>gpg: error reading key: public key not found</tt>", then your key has not been imported and you need to talk to me.
+
+<hr>
+
+<h2>After the Meeting</h2>
+After verifying identities at the meeting, you will recieve an email with directions on how to sign the keys you verified and send them back to me.  (<a href="keysigning.followup.txt">example directions</a>).
+
+<p><b><font size="+1" color="#ff0000">This page is for historical reference only, the information is out of date and not to be used for our current keysignings. Please see <a href="/keys/">PLUG Keysigning</a> for current instructions.</font></b></p>
+
+<p><hr>
+If you believe any of the information on this site to be inaccurate, please email <a
+href="mailto:mct/at/phillylinux/dot/org">Michael Toren</a>.
+<hr>
+<a href="/keys/">Return to PLUG Keyring Index</a><br>
+<a href="/">Return to PLUG Index.</a>

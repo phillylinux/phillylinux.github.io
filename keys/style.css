@@ -1,0 +1,161 @@
+body.article
+	{
+		font-family: sans-serif;
+	}
+code.command
+	{
+		font-weight: bold;
+	}
+code.field
+	{
+		font-style: oblique;
+	}
+code.filename
+	{
+		
+	}
+code.option
+	{
+		
+	}
+code.package
+	{
+		
+	}
+	
+div.abstract
+	{
+		
+	}
+div.figure
+	{
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+div.infobox
+	{
+		background-color: WhiteSmoke;
+		border: medium groove DimGray;
+		padding: 0 1em;
+		margin-left: auto;
+		margin-right: auto;
+		width: 85%;
+	}
+div.note
+	{
+		background: url(images/note.png); 
+		background-position: top left; 
+		background-repeat: no-repeat; 
+		font-size: small; 
+		font-weight: bold; 
+		margin-left: 2.5%;
+		padding-bottom: 1px; 
+		padding-left: 48px; 
+	}
+div.procedure
+	{
+	
+	}
+div.section
+	{
+		border-top: medium ridge;
+		margin-top: 1ex;
+	}
+div.tip
+	{
+		background: url(images/tip.png);
+		background-position:top left;
+		background-repeat:no-repeat;
+		font-size: small;
+		margin-left: 5%;
+		padding-bottom: 1px;
+		padding-left:48px;
+	}
+div.titlepage
+	{
+		
+	}
+div.toc
+	{
+		
+	}
+
+dt.toc
+	{
+		
+	}
+
+h2
+	{
+		counter-reset: step;
+	}
+h3
+	{
+		border-bottom: thin ridge;
+		text-align: center;
+	}
+h4:before
+	{
+		content: "Step " counter(step)": ";
+		counter-increment: step;
+	}
+h5
+	{
+		text-align: center;
+	}
+
+li
+	{
+		padding: 0.1ex 0;
+	}
+
+ol.instruction
+	{
+		
+	}
+ol.instruction2
+	{
+		list-style-type: lower-roman;
+	}
+
+pre.terminal:before
+	{
+		float: left;
+		margin-left: -48px;
+	}
+pre.terminal
+	{
+		background-color:Black;
+		color:White;
+		font-weight: bold;
+		line-height: 150%;
+		margin-left: 48px;
+		padding: 0.5ex;
+		width:100ex;
+	}
+pre.textsnippet
+	{
+		background-color:Gainsboro;
+		border: thin dashed Gray;
+		display: compact;
+		padding: 0.25ex;
+	}
+
+span.character
+	{
+		
+	}
+span.example
+	{
+		color: #09f;
+		font-style: normal;
+		text-decoration: underline;
+	}
+span.option
+	{
+		
+	}
+span.productname
+	{
+		
+	}

@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head><title>Philadelphia Linux Web of Trust / GPG Keyring</title></head>
+<body>
+
+<a href="phillylinux.famous.jpg"><img src="phillylinux.famous.300.jpg"
+Alt="phillylinux.famous.320.jpg" border=0 width=300 height=253 align=right></a>
+<h2>Results</h2>
+As a result of signatures from these keysinging parties, I can now
+trace signature paths between us and a number of famous people using <a
+href="http://www.chaosreigns.com/code/sigtrace/">sigtrace</a>, and I've <a
+href="phillylinux.famous.jpg">graphed
+them</a> using <a
+href="http://www.chaosreigns.com/code/sig2dot/">sig2dot</a>.
+<p>Example output from sigtrace:
+<pre>
+$ cat mysigs.5.sigs | ./sigtrace.pl FAEBD5FC 0E9FF879 mysigs.5
+Data loaded, tracing....
+level:0 keys:1
+level:1 keys:17
+level:2 keys:112
+level:3 keys:136
+level:4 keys:1
+4 hop path: FAEBD5FC 51DBA39C 9E22EA50 80675E65 0E9FF879
+pub  1024D/FAEBD5FC 1997-04-07 <a href="http://web.mit.edu/prz/">Philip R. Zimmermann</a> &lt;prz@pgp.com&gt;
+pub  1024D/51DBA39C 1997-05-21 Noah Dibner Salzman &lt;noah@pgp.com&gt;
+pub  1024D/9E22EA50 1997-06-07 tim holmes &lt;shortstop@apple.com&gt;
+pub  1024D/80675E65 1997-07-30 Leonard D. Rosenthol &lt;leonardr@lazerware.com&gt;
+pub  1024D/0E9FF879 2000-09-05 Darxus &lt;Darxus@ChaosReigns.com&gt;
+Checked 267 keys.
+</pre>
+
+<p><a href="phillylinux.famous.jpg">This graph</a> shows paths connecting us to the
+following:
+<table border=1>
+<tr><td><a href="http://www.kernel.org/signature.html">Linux Kernel Archives</a>
+<tr><td><a href="http://www.cs.helsinki.fi/~torvalds">Linus Torvalds</a><td>Creator of <a href="http://www.linux.org">Linux</a>
+<tr><td><a href="http://www.wi.leidenuniv.nl/~wichert/">Wichert Akkerman</a><td>Major <a href="http://www.debian.org">Debian</a> guy
+<tr><td><a href="http://www.woz.com">Steve Wozniak</a><td><a href="http://www.apple.com">Apple</a>
+<tr><td><a href="http://web.mit.edu/prz/">Philip R. Zimmermann</a><td>Creator of <a href="http://www.pgp.com">PGP</a>
+<tr><td><a href="http://www.tuxedo.org/~esr/">Eric S. Raymond</a><td>open-source evangelist
+<tr><td><a href="http://www.cert.org">CERT</a><td>Internet security stuff
+<tr><td><a href="http://www.gnupg.org">Werner Koch</a><td>Creator of <a href="http://www.gnupg.org">GPG</a>
+<tr><td><a href="http://thunk.org/tytso/">Theodore Y. Ts'o</a><td>ext2 (Linux) filesystem<td>(Found by Bill Jonas)
+</table>
+
+
+<p><hr>
+If you believe any of the information on this site to be inaccurate, please email <a
+href="mailto:Darxus@ChaosReigns.com">Darxus@ChaosReigns.com</a>.
+<hr>
+<a href="/keys">PLUG Keyring Index</a>
+<a href="/">Return to PLUG Index.</a>
+<br>
+Fri Apr 19 23:56:55 EDT 2002
+<br><a href="http://validator.w3.org/check/referer">Valid HTML 3.2 &amp; 4.0</a>.
+<br><address><a href="mailto:Darxus@ChaosReigns.com">Darxus@ChaosReigns.com</a></address>

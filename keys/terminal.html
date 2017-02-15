@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head lang="en" xml:lang="en">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Keysigning with the GNU/Linux Terminal</title>
+		<meta name="description" content="This is a quick guide to participating in a keysigning party using the gpg command line program on Linux." />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body lang="en" xml:lang="en">
+		<div class="titlepage">
+			<h1 id="title">Keysigning with the GNU/Linux Terminal</h1>
+			<div class="abstract">
+				<h2>Abstract</h2>
+				<p>This is a quick guide to participating in a key-signing party using the <code class="command">gpg</code> command line program on GNU/Linux.</p>
+			</div>
+		</div>
+		<div class="toc">
+			<h2 id="toc">Table of Contents</h2>
+			<dl>
+				<dt class="toc"><a href="#before">Before the Party</a></dt>
+				<dt class="toc"><a href="#after">After the Party</a></dt>
+				<dt class="toc"><a href="#resources">Additional Resources</a></dt>
+			</dl>
+		</div>
+		<div class="section">
+			<h2 id="before">Before the Party</h2>
+			<div class="procedure">
+				<h4>Create your key</h4>
+				<p>Before you can participate in a keysigning party, you need a key.</p>
+				<ol class="instruction">
+					<li>
+						<p>Generate a key pair:</p>
+						<pre class="terminal">gpg --gen-key</pre>
+						<ol class="instruction2">
+							<li>
+								<p>Choose the default (DSA and Elgamal)</p>
+							</li>
+							<li>
+								<p>Since you want your key pair to be safe, it is a good idea to choose the largest possible key size (4096)</p>
+							</li>
+							<li>
+								<p>You don't really need to set a key expiry period, so choose the default (0)</p>
+							</li>
+							<li>
+								<p>Enter your full name, preferably just as it appears on your proof of ID</p>
+							</li>
+							<li>
+								<p>Enter your email address, this must be your real email address!</p>
+								<div class="tip">
+									<p>If you have more than one email address, choose the one you prefer to use, others email addresses can be associated with this key pair later.</p>
+								</div>
+							</li>
+							<li>
+								<p>Choose a strong passphrase!</p>
+								<div class="tip">
+									<p>For some help on choosing a strong passphrase, see <a href="http://en.wikipedia.org/wiki/Password_strength#Strong_passwords">Wikipedia: Password Strength</a></p>
+								</div>
+							</li>
+						</ol>
+						<p><acronym>GPG</acronym> will now generate your key pair.  During this process, it needs random data to make it truly unique.  Random data is gathered from keyboard input, mouse movement, and other actions, so do something else with your computer for a moment.  After a short time, <acronym>GPG</acronym> will have finished creating your key.</p>
+					</li>
+				</ol>
+			</div>
+			<div class="infobox">
+				<h3>Important information about keys</h3>
+				<p><acronym>GPG</acronym> stores its keys in keyring files, typically one public and one private keyring.</p>
+					<ul>
+						<li>
+							<p>Your public keys are stored in <code class="filename">~/.gnupg/pubring.gpg</code></p>
+						</li>
+						<li>
+							<p>Your secret keys are stored in <code class="filename">~/.gnupg/secring.gpg</code></p>
+						</li>
+					</ul>
+				<p>To find information about all the keys in your keyrings:</p>
+				<pre class="terminal">gpg --list-keys --fingerprint</pre>
+				<p>To find information about only your keys:</p>
+				<pre class="terminal">gpg --list-secret-keys --fingerprint</pre>
+				<div class="figure">
+					<h5>An example key</h5>
+					<pre class="textsnippet">
+<span style="background-color:#FFFF9F;">pub</span>   <span style="background-color:#FF9F9F;">1024D</span>/<span style="background-color:#A0FFFF;">01234567</span> <span style="background-color:#9FFF9F;">1996-06-10</span>
+Key fingerprint = <span style="background-color:#FF9FFF;">0995 ECD6 3843 CBB3 C050  28CA E103 6EED 0123 4567</span>
+<span style="background-color:#9F9FFF;">uid                  Tux T. Penguin &#060;tux@kernel.org&#062;</span>
+<span style="background-color:#FFCF9F;">sub   4096g/FEDCBA98 1996-06-10</span></pre>
+					<ul>
+						<li>
+							<span style="background-color:#FFFF9F;">This is a public key</span>
+						</li>
+						<li>
+							<span style="background-color:#FF9F9F;">This is a 1024-bit DSA key</span>
+						</li>
+						<li>
+							<span style="background-color:#A0FFFF;">This eight digit hexadecimal number is the ID number of your key</span>
+						</li>
+						<li>
+							<span style="background-color:#9FFF9F;">This is the date on which your key was created</span>
+						</li>
+						<li>
+							<span style="background-color:#FF9FFF;">This is the fingerprint of your key, used to verify its identity</span>
+						</li>
+						<li>
+							<span style="background-color:#9F9FFF;">This is the user ID information associated with your key</span>
+						</li>
+						<li>
+							<span style="background-color:#FFCF9F;">Your key may have one or more subkeys</span>
+						</li>
+					</ul>
+					<div class="note">
+						<p>This key will represent your key in following examples, replace its values with those from your key.</p>
+					</div>
+				</div>
+				<div class="tip">
+				<p>Make sure you keep your private key and passphrase safe!</p>
+					<ul>
+						<li>
+							<p>Never write down or tell anyone your key password.</p>
+						</li>
+						<li>
+							<p>Remember your passphrase and don't lose your private key.  You will not be able to access your encrypted data without both of them!</p>
+						</li>
+						<li>
+							<p>Make sure the permissions of your private keyring file prevent all access by other users.</p>
+						</li>
+						<li>
+							<p>If you have a safe or lock-box, consider printing out a copy of your public and private keys and storing it there, but commit your passphrase to memory.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="procedure">
+				<h4>Share your public key</h4>
+				<p>In order for other people to send you encrypted data or verify your signatures, you must share your public key with the world.  There are several keyservers you may use for this at no cost.</p>
+				<ol class="instruction">
+					<li>
+						<p>Specify a default keyserver:</p>
+						<ol class="instruction2">
+<!--optional-->							<li>
+								<p>If it does not already exist, create the file <code class="filename">~/.gnupg/gpg.conf</code></p>
+							</li>
+							<li>
+								<p>Add the line of text:</p>
+								<pre class="textsnippet">keyserver	hkp://subkeys.pgp.net</pre>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<p>Send your public key to the keyserver:</p>
+						<pre class="terminal">gpg --send-keys <span class="example">01234567</span></pre>
+						<div class="tip">
+							<p>All the keyservers periodically synchronize with each other, so you only need to send your key to one of them.  It is therefore best to send your key to the keyserver several days ahead of the signing party so it will have propagated to every keyserver.</p>
+						</div>
+					</li>
+				</ol>
+			</div>
+			<div class="procedure">
+				<h4>Print copies of your public key</h4>
+				<ol class="instruction">
+					<li>
+						<p>Make a text file containing information about your public key:</p>
+						<pre class="terminal">gpg --fingerprint <span class="example">01234567</span> &gt;&gt; <code class="filename"><span class="example">key.txt</span></code></pre>
+					</li>
+					<li>
+						<p>Repeat this command or use a text editor to add enough copies of your key information to this file to fill one page.</p>
+						<div class="tip">
+							<p>By default, 6 lines of text are printed on an inch of paper, so you can usually fit 12 copies of your key information per page of US Letter paper.</p>
+						</div>
+					</li>
+					<li>
+						<p>Print the file:</p>
+						<pre class="terminal">lp <code class="filename"><span class="example">key.txt</span></code></pre>
+						<div class="tip">
+							<p>Print as many pages as you will need to give one copy of your key information to each participant.</p>
+						</div>
+					</li>
+					<li>
+						<p>Cut the pages into strips, with one full set of key information on each strip.</p>
+						<div class="tip">
+							<p>If you have your own business cards, consider having your key ID printed on them.</p>
+						</div>
+					</li>
+				</ol>
+				<div class="note">
+					<p>For the party, you will need these strips and an official photo ID, such as a driver's license or passport.</p>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<h2 id="after">After the Party</h2>
+			<div class="procedure">
+				<h4>Get other people's keys</h4>
+				<p>You now have the printed public key information from the other participants.</p>
+				<div class="note">
+					<p>Example key IDs for the other participants will be <span class="example">E4758D1D</span>, <span class="example">C27659A2</span>, and <span class="example">09026E7B</span>. Replace these IDs with the key IDs you received from the other participants.</p>
+				</div>
+				<ol class="instruction">
+					<li>
+						<p>Find the key ID numbers on each printout and get the public keys from the keyservers:</p>
+						<pre class="terminal">gpg --recv-keys <span class="example">E4758D1D</span> <span class="example">C27659A2</span> <span class="example">09026E7B</span></pre>
+					</li>
+				</ol>
+			</div>
+			<div class="procedure">
+				<h4>Sign the keys</h4>
+				<ol class="instruction">
+					<li>
+						<p>Sign a key:</p>
+						<pre class="terminal">gpg --sign-key <span class="example">E4758D1D</span></pre>
+						<ol class="instruction2">
+<!--optional-->							<li>
+								<p>If a key has multiple user IDs, <acronym>GPG</acronym> will ask if you want to sign all of them. Unless they seem suspicious to you, It is usually alright to sign all of the user IDs.</p>
+							</li>
+							<li>
+								<p>Compare <strong>all</strong> of the information displayed by <acronym>GPG</acronym> with the information on the paper, only sign the key if it matches <strong>exactly</strong>.</p>
+							</li>
+							<li>
+								<p><acronym>GPG</acronym> will ask for the passphrase for your secret key, enter it and <acronym>GPG</acronym> will sign the other person's key with yours.</p>
+							</li>
+						</ol>
+					</li>
+					<li>
+						<p>Repeat this procedure with the other keys.</p>
+						<pre class="terminal">
+gpg --sign-key <span class="example">C27659A2</span>
+gpg --sign-key <span class="example">09026E7B</span></pre>
+					</li>
+				</ol>
+			</div>
+			<div class="procedure">
+				<h4>Send the signatures</h4>
+				<p>Instead of sending the signed keys back to the keyserver, send each key to its owner via email.</p>
+				<ol class="instruction">
+					<li>
+						<p>Export each key signature:</p>
+						<pre class="terminal">
+gpg --armor --output <code class="filename"><span class="example">E4758D1D.signed-by.01234567</span></code>.asc --export E4758D1D
+gpg --armor --output <code class="filename"><span class="example">C27659A2.signed-by.01234567</span></code>.asc --export C27659A2
+gpg --armor --output <code class="filename"><span class="example">09026E7B.signed-by.01234567</span></code>.asc --export 09026E7B</pre>
+					</li>
+					<li>
+						<p>Use your preferred email program to compose messages to the email address from each key's user ID and attach the corresponding signature file.</p>
+						<div class="tip">
+							<p>If possible, have your email program encrypt these messages with the corresponding keys.</p>
+						</div>
+					</li>
+				</ol>
+			</div>
+			<div class="procedure">
+				<h4>Share your signed key</h4>
+				<ol class="instruction">
+					<li>
+						<p>Once you have received signature files from the other participants, import them into your keyring:</p>
+						<pre class="terminal">
+gpg --import <code class="filename"><span class="example">01234567.signed-by.E4758D1D</span></code>.asc
+gpg --import <code class="filename"><span class="example">01234567.signed-by.C27659A2</span></code>.asc
+gpg --import <code class="filename"><span class="example">01234567.signed-by.09026E7B</span></code>.asc</pre>
+					</li>
+<!--optional-->					<li>
+						<p>You should see the signatures with:</p>
+						<pre class="terminal">gpg --list-sigs <span class="example">01234567</span></pre>
+					</li>
+					<li>
+						<p>Send your key to the keyserver:</p>
+						<pre class="terminal">gpg --send-keys <span class="example">01234567</span></pre>
+					</li>
+				</ol>
+			</div>
+			<p>That's it, your key is now signed and you have enlarged your web of trust.</p>
+		</div>
+		<div class="section">
+			<h2 id="resources">Additional Resources</h2>
+			<p><acronym>GPG</acronym> comes with a manual page, which describes how to use it.  View it with:</p>
+			<pre class="terminal">man gpg</pre>
+			<p>For more information on keysigning parties, see <a href="http://cryptnet.net/fdp/crypto/keysigning_party/en/keysigning_party.html">The Keysigning Party HOWTO</a></p>
+			<p>For more information on <acronym>GPG</acronym>, see <a href="http://www.gnupg.org/documentation/index.html">The GnuPG Documentation</a></p>
+		</div>
+	</body>
+</html>
