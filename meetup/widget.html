@@ -31,33 +31,6 @@
         addImage = function(src, alt) {
            return src == "" ? '' : '<div class="mup-img-wrap"><img src="'+src+'" width="'+($parameters.width - 50)+'" alt="'+alt+'" class="mup-img"/></div>';
         },
-                addStarRating = function(rating) {
-                        var base_url = 'https://a248.e.akamai.net/secure.meetupstatic.com/img/03784007994490629714917/star_';
-                        var starlink = '';
-                        if (rating == 0) {
-                            return 'Not Yet Rated';
-                        }else if (rating < 1.25) {
-                            starlink = "100.png";
-                        }else if (rating < 1.75) {
-                            starlink = "150.png";
-                        }else if (rating < 2.25) {
-                            starlink = "200.png";
-                        }else if (rating < 2.75) {
-                            starlink = "250.png";
-                        }else if (rating < 3.25) {
-                            starlink = "300.png";
-                        }else if (rating < 3.75) {
-                            starlink = "350.png";
-                        }else if (rating < 4.25) {
-                            starlink = "400.png";
-                        }else if (rating < 4.75) {
-                            starlink = "450.png";
-                        }else {
-                            starlink = "500.png";
-                        }
-                        return '<img src="'+base_url+starlink+'" alt="'+rating+'" />';
-
-                    },
 				addLeadingZero = function( num ) {
 						return (num < 10) ? ('0' + num) : num;
 					},
@@ -100,14 +73,11 @@
 				'<div class="mup-widget">\
 					<div class="mup-bd">\
 						<h3>' + addLink(group.name, group.link) + '</h3>\
-            <h4> <div style="padding-top:5px;"><span class="mup-tlabel">EST. '+ getFormattedDate(group.created)+'</span></div></h4>\
-						<span class="mup-stats">' + addImage(group["group_photo"] ? group.group_photo.photo_link : "", group.name) + numberFormat(group.members) + '<span class="mup-tlabel"> '+ group.who+'</span></span>\
             <span class="mup-stats"><div class="next-event"></div></span>\
             <h4><span class="mup-button">'+ addLink('JOIN',group.link)+'</span></h4>\
 					</div>\
 					<div class="mup-ft">\
-						<div class="mup-logo"><div style="float:left;">'+addLink('<img src="https://a248.e.akamai.net/secure.meetupstatic.com/img/84869143793177372874/birddog/everywhere_widget.png">','http://www.meetup.com')+'</div><div style="float:right;"><div style="float:right;">'+addStarRating(group.rating)+'</div><br><div style="float:right;"><span class="mup-tlabel">Group Rating</span></div></div></div>\
-						<div class="mup-getwdgt">' + addLink('ADD THIS TO YOUR SITE', 'http://www.meetup.com/meetup_api/foundry/#'+$parameters._name.toLowerCase().replace(/ /g,"-")) + '</div>\
+						<div class="mup-logo"><div style="float:left;">'+addLink('<img src="https://a248.e.akamai.net/secure.meetupstatic.com/img/84869143793177372874/birddog/everywhere_widget.png">','http://www.meetup.com')+'</div><div style="float:right;"></div></div>\
 					</div>\
 				</div>'
 				);
