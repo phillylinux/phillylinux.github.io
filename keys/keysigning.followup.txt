@@ -1,7 +1,7 @@
 DO NOT SIGN ANY KEYS THAT *YOU* DID NOT VERIFY. 
 
 
-Download http://www.phillylinux.org/keys/phillylinux.gpg
+Download https://www.phillylinux.org/keys/phillylinux.gpg
 (yes, it's updated).
 
 Do "gpg --import phillylinux.gpg"
